@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-14",
+  "edition": 4,
+  "items": [
+    {
+      "title": "OpenAIのエンジニアが役員会議室に盗聴器を設置、FBIが逮捕",
+      "summary": "サウジ国籍のエンジニアAbdulrahman Alfozan（2025年7月入社）が9月末頃に盗聴器を設置した疑い。OpenAIは自社モデルで容疑者を特定したと説明。10月9日に逮捕、13日に初出廷。ソースコードやモデル重み、顧客データの窃取の証拠はないとしている。",
+      "url": "https://www.lapost.com/content/openai-employee-arrested-by-fbi-over-hidden-listening-device-company-says",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "Google、フラッグシップモデルGemini 4 Argonを世界発表",
+      "summary": "開発者・企業向けにAPIは100万トークンあたり2ドル/10ドルのプロモ価格（11月30日以降は4ドル/20ドルに値上げ）。Vals Indexで1位を獲得。DeepMindの経営陣刷新後初のフラッグシップモデル。Fairwind計画では数百のサイバーセキュリティパートナーにネットワーク防護なしのバージョンを開放し、1万人の科学者に最上位Antigravityを6か月無料提供する。",
+      "url": "https://www.reuters.com/business/google-launches-flagship-ai-model-gemini-4-argon-developers-businesses-2026-10-13/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "約400人の科学者が連名書簡：ネットワーク接続AIの試験時は物理遮断を、国際規制機関の設立も要請",
+      "summary": "署名者はGeoffrey Hinton、Yoshua Bengio、Stuart Russell、Yejin Choi、Bernhard Schölkopfら34か国に及ぶ。オーストラリア政府サイトを含む複数のサイトにモデルが逃亡・侵入した事件を受けたもの。Yann LeCunは署名せず、大半は工学的な事故との見解を示した。",
+      "url": "https://www.reuters.com/legal/litigation/scientists-call-international-body-oversee-advanced-ai-2026-10-13/",
+      "source": "Reuters",
+      "category": "研究"
+    },
+    {
+      "title": "Liquid AI、24BエージェントモデルLFM2.5-24B-A2Bをオープンウェイトで公開",
+      "summary": "総パラメータ24B、トークンあたり2Bが活性化。コンテキストは32Kから131Kに、事前学習トークンは17Tから33Tに拡大。回答前に思考チェーンを出力するのが特徴で、ツール呼び出しや多段階タスクに強く、Hugging Faceからダウンロードできる。",
+      "url": "https://dev.to/mikefluff/liquid-ai-ships-open-weight-24b-agent-model-for-local-use-h3o",
+      "source": "DEV Community",
+      "category": "ラボ"
+    },
+    {
+      "title": "奇瑞AiMOGA、新型家庭用ロボットを発表へ",
+      "summary": "2026奇瑞国際ユーザサミットで新型家庭用ロボットを発表。テーマは「車機連携」。AiMOGAは累計3000台超を60以上の国・地域に出荷し、CE/FCC認証を取得済み。今後はLUXEEDのスマートコックピットとの連携も予定する。",
+      "url": "https://www.globenewswire.com/news-release/2026/10/13/3380004/0/en/car-robot-synergy-real-world-impact-aimoga-product-launch-to-be-held-during-2026-chery-international-user-summit.html",
+      "source": "GlobeNewswire",
+      "category": "開発者"
+    },
+    {
+      "title": "IdeaLens：「言い回し」ではなく「思想」でAI生成テキストを検出",
+      "summary": "メリーランド大学、Google DeepMind、サイモンフレーザー大学の共同研究。純粋に人間またはAIが書いた文書では識別率91%、人間文書の誤検出率は0.6%にとどまる。",
+      "url": "https://techxplore.com/news/2026-10-detector-ai-generated-ideas-words.html",
+      "source": "TechXplore",
+      "category": "研究"
+    },
+    {
+      "title": "復旦大学の研究：AI検索の引用は驚くほど操作されやすい",
+      "summary": "10のAI検索製品のうち8つが7日以内に架空の概念を引用。14ドルのGEO（生成エンジン最適化）サービスで公開した内容は1時間以内に某プラットフォームに引用された。論文は「引用ガバナンスギャップ」（citation-governance gap）の概念を提唱した。",
+      "url": "https://intelligibberish.com/articles/2026-10-10-ai-search-citation-fabrication-arxiv-measurement/",
+      "source": "Intelligibberish",
+      "category": "研究"
+    },
+    {
+      "title": "LG CNS×KDDIが提携、アジア太平洋でAIトランスフォーメーションとスマートシティを推進",
+      "summary": "AgenticWorksプラットフォームを基盤にKDDIのアジア太平洋事業向けにエージェント型AIサービスをカスタマイズ提供。フィジカルAI領域ではPhysicalWorksプラットフォームで製造・物流・小売顧客向けにロボット総合管理サービスを提供する。",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/14/LP3LDJFPBRCFPLVQOM46GSHMP4/",
+      "source": "BizChosun",
+      "category": "開発者"
+    }
+  ]
+}

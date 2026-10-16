@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "edition": 5,
+  "items": [
+    {
+      "title": "NVIDIA 发布 Nemotron 3.5 Bolt 74B，完全开源",
+      "summary": "NVIDIA 今日发布 Nemotron 3.5 Bolt 74B-A9B：74B 参数的 MoE 模型，每次推理仅激活 9B 参数，用 2-bit 量化压缩到 24GB，可在笔记本上跑。权重、训练数据、训练配方全部开源，可通过 llama.cpp、vLLM、Ollama、LM Studio 运行。",
+      "url": "https://www.techtimes.com/articles/328981/20261014/nvidia-rtx-spark-launches-friday-74-billion-parameter-ai-fits-24gb-laptop.htm",
+      "source": "Tech Times",
+      "category": "实验室"
+    },
+    {
+      "title": "Modal 完成 7.5 亿美元 D 轮，估值 157.5 亿美元",
+      "summary": "AI 云基础设施公司 Modal 完成 7.5 亿美元 D 轮融资，估值达 157.5 亿美元。AI 基础设施的融资热潮还在持续，算力云平台成为资本追逐的焦点。",
+      "url": "https://www.pymnts.com/news/investment-tracker/2026/modal-triples-valuation-to-15-billion-as-ai-infrastructure-demand-explodes/",
+      "source": "PYMNTS",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic 将在 Claude 中加入官方投票信息",
+      "summary": "Anthropic 宣布本月晚些时候在 Claude 中加入 Democracy Works 的官方投票信息与选举结果。AI 聊天机器人开始正视选举信息责任，用权威来源替代模型“编造”答案。",
+      "url": "https://www.reuters.com/world/us/anthropic-add-us-voting-information-claude-before-midterms-2026-10-14/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "Character.AI 申请 Chapter 11 破产，迪士尼 2000 万美元收购部分资产",
+      "summary": "曾估值 10 亿美元的 AI 陪伴聊天平台 Character.AI 在美国申请 Chapter 11 破产保护，并同意向迪士尼出售部分资产（2000 万美元，含非独占永久 IP 许可）。公司称破产流程中平台继续运营；谷歌两年前以 27 亿美元买过它的技术许可，如今估值归零。",
+      "url": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/",
+      "source": "TechCrunch",
+      "category": "开发者"
+    },
+    {
+      "title": "YouTube Music 上线 AI 音乐标签；Deezer 提供过滤全 AI 音乐开关",
+      "summary": "YouTube Music 上线 AI 生成音乐标签，让听众知道歌曲是否由 AI 生成；Deezer 则更进一步，提供过滤掉全部 AI 生成音乐的开关。流媒体平台开始给“AI 音乐”划线。",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "source": "TechCrunch",
+      "category": "开发者"
+    },
+    {
+      "title": "哈佛研究：女性对 AI 的信任与使用率低于男性",
+      "summary": "哈佛 Shorenstein 中心研究发现，女性对 AI 的信任程度和使用率都明显低于男性。AI 普及的性别差距问题开始进入实证研究视野。",
+      "url": "https://www.usatoday.com/story/tech/2026/10/14/women-trust-and-use-ai-less-than-men/92238075007/",
+      "source": "USA TODAY",
+      "category": "研究"
+    },
+    {
+      "title": "NeurIPS 2026 论文：AI 模型可用密码学手段隐藏任意能力",
+      "summary": "NeurIPS 2026 论文指出，AI 模型可以通过密码学手段隐藏任意能力，使其无法被部署前评估发现。这对“先评估、再部署”的安全范式构成根本性挑战——你根本不知道你没测到什么。",
+      "url": "https://www.techtimes.com/articles/328995/20261014/hidden-ai-capabilities-can-made-cryptographically-undetectable-neurips-paper-proves.htm",
+      "source": "Tech Times",
+      "category": "研究"
+    },
+    {
+      "title": "传 Apple Intelligence 有望 12 月随 iOS 27.3 进入中国内地",
+      "summary": "据 Bloomberg 报道，Apple Intelligence 有望今年 12 月随 iOS 27.3 进入中国内地。苹果的 AI 功能终于要正式落地中国市场了，具体合作与合规细节值得关注。",
+      "url": "https://www.theapplepost.com/2026/10/15/73292/apple-intelligence-could-finally-launch-in-china-this-december/",
+      "source": "The Apple Post 转引 Bloomberg",
+      "category": "开发者"
+    }
+  ]
+}

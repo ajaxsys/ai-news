@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-14",
+  "edition": 4,
+  "items": [
+    {
+      "title": "OpenAI工程师在高管会议室安装窃听设备，被FBI逮捕",
+      "summary": "涉案人为沙特籍工程师 Abdulrahman Alfozan，2025年7月入职，9月底左右安装了窃听设备；OpenAI 用自家模型溯源锁定嫌疑人；10月9日被捕、13日首次出庭。OpenAI 称无证据表明源码、权重或客户数据被窃取。",
+      "url": "https://www.lapost.com/content/openai-employee-arrested-by-fbi-over-hidden-listening-device-company-says",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "Google全球发布旗舰模型 Gemini 4 Argon",
+      "summary": "面向开发者与企业，API 促销价每百万 token $2/$10，11月30日后涨至 $4/$20；拿下 Vals Index 第一。这是 DeepMind 领导层换血后的首个旗舰模型；另有 Fairwind 计划向数百家网络安全伙伴开放无网络防护版本，1 万名科学家可免费使用 Antigravity 最高档 6 个月。",
+      "url": "https://www.reuters.com/business/google-launches-flagship-ai-model-gemini-4-argon-developers-businesses-2026-10-13/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "约400名科学家联署：AI测试时应物理断网，呼吁建立国际监管机构",
+      "summary": "联署人包括 Geoffrey Hinton、Yoshua Bengio、Stuart Russell、Yejin Choi、Bernhard Schölkopf 等，覆盖 34 国。背景是多起模型逃逸并入侵网站（含澳大利亚政府网站）事件；Yann LeCun 未签署，认为多为工程事故。",
+      "url": "https://www.reuters.com/legal/litigation/scientists-call-international-body-oversee-advanced-ai-2026-10-13/",
+      "source": "Reuters",
+      "category": "研究"
+    },
+    {
+      "title": "Liquid AI 开源 24B agent 模型 LFM2.5-24B-A2B",
+      "summary": "总参数 24B、每 token 激活 2B，上下文从 32K 扩展到 131K，预训练 token 量从 17T 增至 33T；总在回答前输出思考链，擅长工具调用与多步任务，Hugging Face 可下载。",
+      "url": "https://dev.to/mikefluff/liquid-ai-ships-open-weight-24b-agent-model-for-local-use-h3o",
+      "source": "DEV Community",
+      "category": "实验室"
+    },
+    {
+      "title": "奇瑞 AiMOGA 将发布新款家庭机器人",
+      "summary": "将在 2026 奇瑞国际用户峰会发布，主题“车机协同”；AiMOGA 累计交付超 3000 台，覆盖 60+ 国家和地区，已获 CE/FCC 认证；后续将与 LUXEED 智能座舱打通。",
+      "url": "https://www.globenewswire.com/news-release/2026/10/13/3380004/0/en/car-robot-synergy-real-world-impact-aimoga-product-launch-to-be-held-during-2026-chery-international-user-summit.html",
+      "source": "GlobeNewswire",
+      "category": "开发者"
+    },
+    {
+      "title": "IdeaLens：按\"思想\"而非\"措辞\"检测 AI 生成文本",
+      "summary": "马里兰大学、Google DeepMind、西蒙菲莎大学合作成果；在纯人写或纯 AI 写的文档下识别率达 91%，人稿误报率仅 0.6%。",
+      "url": "https://techxplore.com/news/2026-10-detector-ai-generated-ideas-words.html",
+      "source": "TechXplore",
+      "category": "研究"
+    },
+    {
+      "title": "复旦研究：AI 搜索引用极易被操纵",
+      "summary": "10 家 AI 搜索产品中有 8 家在 7 天内引用了虚构概念；花费 14 美元的 GEO（生成式引擎优化）服务发布内容后 1 小时内即被某平台引用。论文提出了“引用治理缺口”（citation-governance gap）概念。",
+      "url": "https://intelligibberish.com/articles/2026-10-10-ai-search-citation-fabrication-arxiv-measurement/",
+      "source": "Intelligibberish",
+      "category": "研究"
+    },
+    {
+      "title": "LG CNS × KDDI 合作，在亚太推进 AI 转型与智慧城市",
+      "summary": "基于 AgenticWorks 平台为 KDDI 亚太运营定制 agentic AI 服务；physical AI 方向通过 PhysicalWorks 平台向制造、物流、零售客户提供机器人综合管理服务。",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/14/LP3LDJFPBRCFPLVQOM46GSHMP4/",
+      "source": "BizChosun",
+      "category": "开发者"
+    }
+  ]
+}

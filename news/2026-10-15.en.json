@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "edition": 5,
+  "items": [
+    {
+      "title": "NVIDIA releases Nemotron 3.5 Bolt 74B, fully open source",
+      "summary": "NVIDIA released Nemotron 3.5 Bolt 74B-A9B today: a 74B-parameter MoE model that activates only 9B parameters per inference, compressed with 2-bit quantization to 24GB so it can run on a laptop. Weights, training data and the training recipe are all open source, runnable via llama.cpp, vLLM, Ollama and LM Studio.",
+      "url": "https://www.techtimes.com/articles/328981/20261014/nvidia-rtx-spark-launches-friday-74-billion-parameter-ai-fits-24gb-laptop.htm",
+      "source": "Tech Times",
+      "category": "Labs"
+    },
+    {
+      "title": "Modal raises $750M Series D at $15.75B valuation",
+      "summary": "AI cloud infrastructure company Modal closed a $750M Series D round at a $15.75B valuation. The funding boom in AI infrastructure continues, with compute cloud platforms a top target for capital.",
+      "url": "https://www.pymnts.com/news/investment-tracker/2026/modal-triples-valuation-to-15-billion-as-ai-infrastructure-demand-explodes/",
+      "source": "PYMNTS",
+      "category": "Developers"
+    },
+    {
+      "title": "Anthropic to add official voting information to Claude",
+      "summary": "Anthropic announced that Claude will add official voting information and election results from Democracy Works later this month. AI chatbots are starting to take election-information responsibility seriously, replacing model-fabricated answers with authoritative sources.",
+      "url": "https://www.reuters.com/world/us/anthropic-add-us-voting-information-claude-before-midterms-2026-10-14/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "Character.AI files for Chapter 11; Disney to buy some assets for $20M",
+      "summary": "Character.AI, the AI companion chat platform once valued at $1B, has filed for Chapter 11 bankruptcy protection in the US and agreed to sell some assets to Disney ($20M, including a non-exclusive perpetual IP license). The company says the platform keeps running during bankruptcy; Google paid $2.7B for a technology license two years ago — now valued at zero.",
+      "url": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/",
+      "source": "TechCrunch",
+      "category": "Developers"
+    },
+    {
+      "title": "YouTube Music adds AI music labels; Deezer offers a filter for all-AI music",
+      "summary": "YouTube Music is rolling out labels for AI-generated music so listeners know whether a song was AI-generated; Deezer goes further with a switch to filter out all fully AI-generated music. Streaming platforms are starting to draw a line around 'AI music'.",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "source": "TechCrunch",
+      "category": "Developers"
+    },
+    {
+      "title": "Harvard study: women trust and use AI less than men",
+      "summary": "A Harvard Shorenstein Center study found women trust AI significantly less than men and use it less. The gender gap in AI adoption is entering the empirical research spotlight.",
+      "url": "https://www.usatoday.com/story/tech/2026/10/14/women-trust-and-use-ai-less-than-men/92238075007/",
+      "source": "USA TODAY",
+      "category": "Research"
+    },
+    {
+      "title": "NeurIPS 2026 paper: AI models can hide arbitrary capabilities with cryptography",
+      "summary": "A NeurIPS 2026 paper shows AI models can use cryptographic techniques to hide arbitrary capabilities so pre-deployment evaluations cannot detect them. That is a fundamental challenge to the 'evaluate first, deploy later' safety paradigm — you have no idea what you failed to measure.",
+      "url": "https://www.techtimes.com/articles/328995/20261014/hidden-ai-capabilities-can-made-cryptographically-undetectable-neurips-paper-proves.htm",
+      "source": "Tech Times",
+      "category": "Research"
+    },
+    {
+      "title": "Apple Intelligence reportedly coming to mainland China in December with iOS 27.3",
+      "summary": "Per Bloomberg, Apple Intelligence is expected to arrive in mainland China in December with iOS 27.3. Apple's AI features are finally set to land officially in the Chinese market; the partnership and compliance details are worth watching.",
+      "url": "https://www.theapplepost.com/2026/10/15/73292/apple-intelligence-could-finally-launch-in-china-this-december/",
+      "source": "The Apple Post 转引 Bloomberg",
+      "category": "Developers"
+    }
+  ]
+}

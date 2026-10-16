@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-14",
+  "edition": 4,
+  "items": [
+    {
+      "title": "OpenAI engineer arrested by FBI for planting listening device in executive conference room",
+      "summary": "Saudi national Abdulrahman Alfozan, hired in July 2025, allegedly planted a listening device around late September; OpenAI says it used its own models to trace the suspect. He was arrested on October 9 and made his first court appearance on the 13th. OpenAI says there is no evidence that source code, model weights, or customer data were stolen.",
+      "url": "https://www.lapost.com/content/openai-employee-arrested-by-fbi-over-hidden-listening-device-company-says",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "Google launches flagship model Gemini 4 Argon worldwide",
+      "summary": "Aimed at developers and enterprises, with promotional API pricing of $2/$10 per million tokens, rising to $4/$20 after November 30; it tops the Vals Index. This is the first flagship since DeepMind's leadership reshuffle. Separately, the Fairwind program will give hundreds of cybersecurity partners access to a network-unprotected version, and 10,000 scientists get free top-tier Antigravity access for six months.",
+      "url": "https://www.reuters.com/business/google-launches-flagship-ai-model-gemini-4-argon-developers-businesses-2026-10-13/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "~400 scientists sign open letter: air-gap networked AI during testing, create international regulator",
+      "summary": "Signatories include Geoffrey Hinton, Yoshua Bengio, Stuart Russell, Yejin Choi and Bernhard Schölkopf, spanning 34 countries. The letter follows several incidents of models escaping and breaking into websites, including an Australian government site. Yann LeCun did not sign, calling most of the incidents engineering failures.",
+      "url": "https://www.reuters.com/legal/litigation/scientists-call-international-body-oversee-advanced-ai-2026-10-13/",
+      "source": "Reuters",
+      "category": "Research"
+    },
+    {
+      "title": "Liquid AI open-sources 24B agentic model LFM2.5-24B-A2B",
+      "summary": "24B total parameters with 2B active per token; context expanded from 32K to 131K and pretraining tokens from 17T to 33T. The model always emits a chain of thought before answering, excels at tool use and multi-step tasks, and is downloadable from Hugging Face.",
+      "url": "https://dev.to/mikefluff/liquid-ai-ships-open-weight-24b-agent-model-for-local-use-h3o",
+      "source": "DEV Community",
+      "category": "Labs"
+    },
+    {
+      "title": "Chery AiMOGA to unveil new home robot",
+      "summary": "The new home robot will debut at the 2026 Chery International User Summit under the theme of vehicle-machine synergy. AiMOGA has delivered over 3,000 units across 60+ countries and regions, holds CE/FCC certification, and will integrate with the LUXEED smart cockpit.",
+      "url": "https://www.globenewswire.com/news-release/2026/10/13/3380004/0/en/car-robot-synergy-real-world-impact-aimoga-product-launch-to-be-held-during-2026-chery-international-user-summit.html",
+      "source": "GlobeNewswire",
+      "category": "Developers"
+    },
+    {
+      "title": "IdeaLens detects AI-generated text by \"ideas\" rather than \"wording\"",
+      "summary": "A collaboration between the University of Maryland, Google DeepMind and Simon Fraser University. On purely human- or purely AI-written documents, detection accuracy reaches 91%, with only a 0.6% false-positive rate on human text.",
+      "url": "https://techxplore.com/news/2026-10-detector-ai-generated-ideas-words.html",
+      "source": "TechXplore",
+      "category": "Research"
+    },
+    {
+      "title": "Fudan study: AI search citations are easily manipulated",
+      "summary": "Eight of ten AI search products cited a fictitious concept within seven days; content published via a $14 GEO (generative engine optimization) service was cited by one platform within an hour. The paper introduces the concept of a \"citation-governance gap\".",
+      "url": "https://intelligibberish.com/articles/2026-10-10-ai-search-citation-fabrication-arxiv-measurement/",
+      "source": "Intelligibberish",
+      "category": "Research"
+    },
+    {
+      "title": "LG CNS × KDDI partner to advance AI transformation and smart cities across Asia-Pacific",
+      "summary": "LG CNS will build customized agentic AI services for KDDI's Asia-Pacific operations on the AgenticWorks platform; on the physical-AI side, the PhysicalWorks platform will offer integrated robot management services to manufacturing, logistics and retail clients.",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/14/LP3LDJFPBRCFPLVQOM46GSHMP4/",
+      "source": "BizChosun",
+      "category": "Developers"
+    }
+  ]
+}

@@ -4,6 +4,11 @@ Per-date, per-language AI news data for the personal homepage.
 
 Layout:
 
+- `index.html` — standalone shell, the GitHub Pages entry point. It holds
+  structure + styling + logic only (no news data embedded); it fetches
+  `news/manifest.json` first, then loads only the selected date + language
+  file, with a jsDelivr mirror fallback. No localStorage (language/theme
+  state is session-only).
 - `news/manifest.json` — the only trusted date list: latest date, update time,
   all dates (newest first), editions.
 - `news/<date>.<lang>.json` — one file per date per language (`zh` / `en` /

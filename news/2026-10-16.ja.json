@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-16",
+  "edition": 6,
+  "items": [
+    {
+      "title": "Meta、Muse Spark Openを公開：816Bパラメータのオープンウェイトモデル、コーディングとエージェント向け",
+      "summary": "MetaはMuse Spark Openの重みを公開。総パラメータ816B、トークンあたり42Bが活性化、マルチモーダルで100万トークンのコンテキストウィンドウを備え、コーディングと長時間のエージェント作業向けに設計。M5 Ultra搭載Mac Studio 2台でローカル実行できる。",
+      "url": "https://www.macrumors.com/2026/10/15/meta-muse-spark-open-mac-studio/",
+      "source": "MacRumors",
+      "category": "ラボ"
+    },
+    {
+      "title": "Black Forest Labs、FLUX 3 Image Kleinを公開：5.6Bパラメータのオープンウェイト画像モデル",
+      "summary": "FLUX 3 Image Kleinは5.6Bパラメータのオープンウェイト画像モデルで、テキストから画像生成、画像編集、複数参照画像による生成に対応し、ネイティブ4K出力を備える。INT8版は8GB VRAMの民生GPUで動作し、年収500万ドル未満の事業者は無料で商用利用できる。",
+      "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+      "source": "VentureBeat",
+      "category": "ラボ"
+    },
+    {
+      "title": "MiniCPM-V 4.7発表：35BマルチモーダルMoEが約3GBメモリでスマホ動作",
+      "summary": "ModelBestとOpenBMBはMiniCPM-V 4.7を発表。35B-A3B版はトークンあたり約3Bパラメータのみを活性化し、大半のエキスパートはSSDに置いて必要時に読み込むため、約3GBメモリでスマホやタブレット上でマルチモーダル理解が動く。軽量デバイス向けの1B版もある。",
+      "url": "https://www.prnewswire.com/news-releases/modelbest-and-openbmb-launch-minicpm-v-4-7--bringing-a-35b-multimodal-moe-model-to-phones-and-tablets-with-about-3-gb-of-memory-302909881.html",
+      "source": "PR Newswire",
+      "category": "ラボ"
+    },
+    {
+      "title": "Sakana AI、第三世代Agentic Scientistを発表、証拠検証を内蔵",
+      "summary": "Sakana AIは第三世代のAgentic Scientistを発表。複数のコーディングエージェントを調整して研究タスクを遂行し、自動ベースラインとアブレーション実験で結果の妥当性を検証する。コードはApache 2.0で公開、論文はarXivに投稿済みで、最終判断は研究者が担う。",
+      "url": "https://runtimewire.com/article/sakana-ai-agentic-scientist-v3",
+      "source": "Runtime Wire",
+      "category": "研究"
+    },
+    {
+      "title": "Google、AI検索の回答でウェブサイトのリンクをより目立たせる",
+      "summary": "GoogleはAI生成の検索回答でウェブサイトのリンクをより頻繁に、より上部に表示し、AI Overviews下のリンクカルーセルを世界展開する。AI要約による紹介トラフィックの大幅減を訴える出版社の声を受けた対応だ。",
+      "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/16/google-moves-links-higher-in-ai-answers-as-news-publishers-report-40pc-traffic-plunge/239259",
+      "source": "Malay Mail / AFP",
+      "category": "開発者"
+    },
+    {
+      "title": "バイトダンスSeed、Alignment & Preparedness安全チームを設立、世界で研究員10名を採用",
+      "summary": "バイトダンスのAI研究部門SeedはAlignment & Preparednessチームを設立し、世界で研究員10名の採用を開始、AI安全への長期投資を表明した。研究は開発各段階の安全学習、脆弱性の自動テスト、行動の監視・説明ツールなどをカバーし、拠点は北京・上海・サンノゼ。",
+      "url": "https://www.reuters.com/business/media-telecom/chinas-bytedance-sets-up-ai-safety-team-launches-global-hiring-drive-2026-10-15/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "米財務省、国際パートナーにAIを「スーパーインテリジェンス」と改称するよう働きかけ",
+      "summary": "米財務省高官は、米国がIMF株主など国際パートナーと交渉し、公式文書で「人工知能」に代わり「スーパーインテリジェンス」を使うよう求めていると語った。新名称の方が技術をより的確に表すという。先月トランプ大統領が連邦機関に改称を指示した流れを受けたものだ。",
+      "url": "https://www.reuters.com/world/us-treasury-pushes-global-partners-rename-ai-super-intelligence-2026-10-15/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "Amazon、Beeウェアラブルを発表　デバイス責任者は「次世代はアプリを使わない」と発言",
+      "summary": "Amazon傘下のBeeは2種類のウェアラブルを発表。リストバンドやペンダントとして使えるBee Frontier（74.99ドル）と、スマホ背面に磁石で付くカード型Bee Eclipse（99.99ドル）で、一日中会話を聞き取りToDoやリマインダーに変換する。デバイス責任者のPanos Panay氏はTechCrunch Disruptで、次世代デバイスはアプリに頼らずAIがタスクをこなすと述べた。",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "source": "TechCrunch",
+      "category": "開発者"
+    }
+  ]
+}

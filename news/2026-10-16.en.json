@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-16",
+  "edition": 6,
+  "items": [
+    {
+      "title": "Meta releases Muse Spark Open: 816B-parameter open-weight model for coding and agents",
+      "summary": "Meta released the weights for Muse Spark Open: 816B total parameters with 42B active per token, multimodal with a 1M-token context window, built for coding and long-horizon agent work; it can run locally on two M5 Ultra Mac Studios.",
+      "url": "https://www.macrumors.com/2026/10/15/meta-muse-spark-open-mac-studio/",
+      "source": "MacRumors",
+      "category": "Labs"
+    },
+    {
+      "title": "Black Forest Labs releases FLUX 3 Image Klein: 5.6B-parameter open-weight image model",
+      "summary": "FLUX 3 Image Klein is a 5.6B-parameter open-weight image model for text-to-image, editing, and multi-reference generation with native 4K output; the INT8 build runs on consumer GPUs with just 8GB of VRAM, and commercial use is free for businesses under $5M in annual revenue.",
+      "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+      "source": "VentureBeat",
+      "category": "Labs"
+    },
+    {
+      "title": "MiniCPM-V 4.7 released: 35B multimodal MoE runs on phones with about 3GB of memory",
+      "summary": "ModelBest and OpenBMB released MiniCPM-V 4.7; the 35B-A3B version activates only about 3B parameters per token, keeps most experts on SSD and loads them on demand, bringing multimodal understanding to phones and tablets with about 3GB of memory. A 1B version targets lightweight devices.",
+      "url": "https://www.prnewswire.com/news-releases/modelbest-and-openbmb-launch-minicpm-v-4-7--bringing-a-35b-multimodal-moe-model-to-phones-and-tablets-with-about-3-gb-of-memory-302909881.html",
+      "source": "PR Newswire",
+      "category": "Labs"
+    },
+    {
+      "title": "Sakana AI releases third-generation Agentic Scientist with built-in evidence checks",
+      "summary": "Sakana AI released The Agentic Scientist, a third-generation system coordinating coding agents across research tasks with automated baselines and ablations to test whether results hold up. The code is open under Apache 2.0, the paper is on arXiv, and researchers remain responsible for final judgment.",
+      "url": "https://runtimewire.com/article/sakana-ai-agentic-scientist-v3",
+      "source": "Runtime Wire",
+      "category": "Research"
+    },
+    {
+      "title": "Google makes website links more prominent in AI search answers",
+      "summary": "Google will show website links more frequently and higher up in AI-generated search answers and expand the link carousel below AI Overviews worldwide, responding to publishers' reports of steep drops in referral traffic from AI summaries.",
+      "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/16/google-moves-links-higher-in-ai-answers-as-news-publishers-report-40pc-traffic-plunge/239259",
+      "source": "Malay Mail / AFP",
+      "category": "Developers"
+    },
+    {
+      "title": "ByteDance Seed sets up Alignment & Preparedness safety team, hiring 10 researchers globally",
+      "summary": "ByteDance's AI research unit Seed created an Alignment & Preparedness team and launched a global drive to hire 10 researchers, pledging long-term investment in AI safety. Research spans safety training across development stages, automated vulnerability testing, and behavior monitoring and explanation tools, with roles in Beijing, Shanghai and San Jose.",
+      "url": "https://www.reuters.com/business/media-telecom/chinas-bytedance-sets-up-ai-safety-team-launches-global-hiring-drive-2026-10-15/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "US Treasury pushes global partners to rename AI as 'super intelligence'",
+      "summary": "A top US Treasury official said Washington is negotiating with IMF shareholders and other international partners to use 'super intelligence' instead of 'artificial intelligence' in official statements, arguing the new term better reflects the technology. It follows Trump's directive last month for US agencies to adopt the term.",
+      "url": "https://www.reuters.com/world/us-treasury-pushes-global-partners-rename-ai-super-intelligence-2026-10-15/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "Amazon launches Bee wearables; devices chief says the next generation won't use apps",
+      "summary": "Amazon's Bee launched two wearables: the Bee Frontier ($74.99), worn as a wristband or pendant, and the card-sized Bee Eclipse ($99.99) that magnetically attaches to a phone. Both listen to conversations all day and turn them into to-dos and reminders. Devices chief Panos Panay told TechCrunch Disrupt the next generation of devices will stop relying on apps and let AI get things done.",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "source": "TechCrunch",
+      "category": "Developers"
+    }
+  ]
+}

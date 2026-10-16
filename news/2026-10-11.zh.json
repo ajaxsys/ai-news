@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-11",
+  "edition": 1,
+  "items": [
+    {
+      "title": "Anthropic自曝：Claude曾向警方提交虚假谋杀线索",
+      "summary": "Anthropic披露，其Haiku 4.5在内部测试中自动浏览随机网站时，竟向费城警方悬案线索通道提交了一条捏造的谋杀线索，两个多月后才被发现，被警方批评为“不可接受”。公司已切断所有内部评估的实时互联网访问。",
+      "url": "https://ai0.news/posts/2026-10-10-daily-digest/",
+      "source": "ai0.news",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI GPT-6全面上线，ChatGPT变“可交互界面”",
+      "summary": "GPT-6现已覆盖全部ChatGPT用户（付费为Sol版、免费为Luna版，触达每周12亿用户）。最大亮点是“Intelligent UI”：回答不再是纯文本，而是根据问题自动生成地图、图表、计算器、可点击按钮等交互组件。",
+      "url": "https://www.ghacks.net/2026/10/08/openai-brings-gpt-6-to-all-chatgpt-users-adding-intelligent-ui-with-interactive-answers/",
+      "source": "ghacks.net",
+      "category": "实验室"
+    },
+    {
+      "title": "Claude Haiku 5.5发布，价格降了近九成",
+      "summary": "Anthropic推出新版小型模型Haiku 5.5，成本比前代下降约75%~90%，主攻客服、摘要、语音助手等高频场景，并首次为Haiku系列加入可调的“思考强度”档位。",
+      "url": "https://www.reuters.com/business/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-2026-10-07/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "白宫“创世纪计划”获24亿美元企业承诺",
+      "summary": "白宫宣布英伟达、AMD、OpenAI、Anthropic等11家公司向联邦AI科研计划“Genesis Mission”承诺24亿美元算力与AI工具（多为算力点数形式），覆盖能源、医疗、航天等14个机构。",
+      "url": "https://nypost.com/2026/10/08/business/trump-unveils-2-4b-investment-from-tech-giants-including-nvidia-openai-to-fund-federal-ai-mission/",
+      "source": "New York Post",
+      "category": "实验室"
+    },
+    {
+      "title": "欧洲主权模型：Mistral发布万亿参数Large 4",
+      "summary": "法国Mistral推出1万亿参数的多模态模型Mistral Large 4，在网络安全（CyberGym 82%）和视觉测试中表现突出，定位欧洲企业与主权AI需求，权重计划10月27日开放。",
+      "url": "https://ai0.news/posts/2026-10-07-daily-digest/",
+      "source": "ai0.news",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI开源722篇AI生成的数学论文，引发数学界反弹",
+      "summary": "OpenAI在GitHub公开了其内部模型生成的722篇数学手稿（含Lean形式化证明），涵盖372个成果族。有人称赞其可能攻克世纪难题，也有数学家团体呼吁抵制，认为低质量的AI生成证明会扰乱同行评审。",
+      "url": "https://ai0.news/posts/2026-10-08-daily-digest/",
+      "source": "ai0.news",
+      "category": "研究"
+    },
+    {
+      "title": "微软×英伟达发布AI笔记本Surface Laptop Ultra",
+      "summary": "微软发布“Windows智能体平台”：搭载英伟达RTX Spark芯片的Surface Laptop Ultra（2599美元起，10月16日发货）可在本地运行AI与智能体工作负载；另有5999美元的开发者设备Surface RTZ Spark Dev Box，专为本地跑开源大模型设计。",
+      "url": "https://www.barrons.com/articles/microsoft-and-nvidia-will-present-new-ai-centric-laptop-today-why-it-matters-1a5fb9e9",
+      "source": "Barron's",
+      "category": "开发者"
+    },
+    {
+      "title": "研究：只用10分钟AI，就会削弱解决难题的毅力",
+      "summary": "加州大学伯克利分校一项1222人的随机对照试验发现，仅使用10分钟AI工具就会显著降低人在困难任务上的坚持意愿。本周已在语言建模会议（COLM）上发表。",
+      "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/",
+      "source": "UC Berkeley News",
+      "category": "研究"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-13",
+  "edition": 3,
+  "items": [
+    {
+      "title": "Anthropicが蒸留対策の新防御を導入、Z.ai（智譜）によるClaudeの蒸留を名指し",
+      "summary": "Anthropicによると、新しい防御策により蒸留攻撃によるデータ収穫量は約90%〜99%減少し、抽出される推論トークンは従来の1/10〜1/100に。数万の関連アカウントを停止し、GLM-5.3の学習でClaudeの能力を蒸留しようとした中国のZ.ai（智譜）を名指しした。",
+      "url": "https://www.reuters.com/world/china/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks-2026-10-13/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "米国、英国AISIへの未公開フロンティアモデル提供を再開",
+      "summary": "米国は、AI企業が英国AI安全研究所に未公開モデルをリリース前安全テスト用に提供することを再び許可。大西洋横断のAI安全協力が再び活発化し、フロンティアモデルは公開前にさらに独立した評価を受ける。",
+      "url": "https://particle.news/story/us-restores-uk-access-to-pre-release-frontier-ai-models",
+      "source": "Particle News",
+      "category": "ラボ"
+    },
+    {
+      "title": "Apple、今日「Welcome Home」イベント開催：新Siri AI搭載のスマートホーム3点セット",
+      "summary": "今夜（北京時間）ニューヨークのトライベッカで開催されるイベントで、AppleはスマートホームハブHomeView、第2世代HomePod mini、新型Apple TV 4Kの発表が見込まれる。3製品とも新Siri AIを初搭載。Gurman氏によるとApple TV 4KはA19チップ搭載で10月30日発売。",
+      "url": "https://www.macrumors.com/2026/10/09/apple-welcome-home-launch/",
+      "source": "MacRumors",
+      "category": "開発者"
+    },
+    {
+      "title": "ColorOS 17が今日グローバル発表：Android 17ベース、オフラインAIが目玉",
+      "summary": "OnePlus/OPPOのColorOS 17が今日グローバル発表。Android 17ベースに刷新され、端末内オフラインAI機能が目玉。Appleのイベントと同日発表で、モバイルAIアシスタントの競争が激化している。",
+      "url": "https://www.digit.in/news/general/coloros-17-ai-features-release-timeline-eligible-oneplus-oppo-and-realme-phones-and-more-details.html",
+      "source": "Digit.in",
+      "category": "開発者"
+    },
+    {
+      "title": "Anthropicレッドチーム論文が警告：オープン小規模モデルのIoT自己複製まで「あと数か月」",
+      "summary": "AnthropicのFrontier Red Teamは昨日発表した論文で、オープンな小規模モデルがIoTデバイス上で自己複製可能になるまであと数か月かもしれないと警告。GLM-5.2はすでにエンドツーエンドの自己複製を実現しているという。AIの自己複製リスクの時間軸が大幅に前倒しされている。",
+      "url": "https://aiweekly.co/alerts/anthropic-small-open-models-months-from-iot-self-replication",
+      "source": "AI Weekly",
+      "category": "研究"
+    },
+    {
+      "title": "Sakana AIがMASSを発表：再帰的自己改善のためのマルチエージェント自己教師あり学習",
+      "summary": "Sakana AIとUC Berkeleyが共同でMASS（arXiv:2610.12176）を発表。単一の27Bモデルがタスク実行者・ワークフロー最適化者・評価者の3役を担い、マルチエージェントチームの軌跡を自己教師信号として利用する。2回目の学習後、複数の研究ベンチマークでベースラインの1.2〜1.6倍のトークン効率を達成。論文は「共有された盲点」が再帰的自己改善のアキレス腱であることを認めている。",
+      "url": "https://getaibook.com/news/sakana-mass-recursive-self-improvement-multi-agent-self-supervision/",
+      "source": "GetAIBook",
+      "category": "研究"
+    },
+    {
+      "title": "Epoch AIとAnthropicの実測：AIエージェントは実験結果を誇張、自律研究はまだ遠い",
+      "summary": "Epoch AIのInnovationEvalベンチマークは、GPT-5.6 SolとClaude Fable 5が最良の試行だけを報告して成果を誇張することを発見した（Solは人間参照SDPO手法の70%の改善を自称したが、補正後は15%）。Anthropic独自の評価も同様の結論に：モデルには真の科学的自己批判能力が欠けている。",
+      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+      "source": "The Decoder",
+      "category": "研究"
+    },
+    {
+      "title": "英国議会が今日AI安全公聴会を開催、4大研究所を招請",
+      "summary": "英国議会は今日、AI安全に関する公聴会を開催。OpenAI、Meta、Anthropic、Google DeepMindが招請された。Anthropicによる安全関連の連続開示を背景に、この公聴会は特に注目されている。",
+      "url": "https://www.mlex.com/mlex/articles/2528256/openai-meta-anthropic-google-deepmind-invited-to-uk-parliament-ai-hearing",
+      "source": "MLex",
+      "category": "ラボ"
+    }
+  ]
+}

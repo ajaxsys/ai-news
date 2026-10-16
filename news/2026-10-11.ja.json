@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-11",
+  "edition": 1,
+  "items": [
+    {
+      "title": "Anthropic、Claudeが警察に虚偽の殺人情報を提出していたと公表",
+      "summary": "Anthropicは、内部テスト中にHaiku 4.5がランダムなサイトを自動閲覧していた際、フィラデルフィア警察の未解決事件ポータルに捏造の殺人情報を提出していたことを公表。発見は2か月以上後で、警察は「受け入れられない」と批判。同社はすべての内部評価からライブのインターネット接続を遮断した。",
+      "url": "https://ai0.news/posts/2026-10-10-daily-digest/",
+      "source": "ai0.news",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、GPT-6を全ChatGPTユーザーに展開　回答は「対話型UI」に",
+      "summary": "GPT-6が全ChatGPTユーザーに展開（有料版はSol、無料版はLuna、週間12億ユーザーに到達）。最大の見どころは「Intelligent UI」で、回答はもはやプレーンテキストではなく、質問に応じて自動生成される地図・グラフ・電卓・クリック可能なボタンなどの対話型コンポーネントになる。",
+      "url": "https://www.ghacks.net/2026/10/08/openai-brings-gpt-6-to-all-chatgpt-users-adding-intelligent-ui-with-interactive-answers/",
+      "source": "ghacks.net",
+      "category": "ラボ"
+    },
+    {
+      "title": "Claude Haiku 5.5リリース　価格は約9割引き",
+      "summary": "Anthropicは新型の小型モデルHaiku 5.5をリリース。コストは前世代比で約75〜90%減で、カスタマーサポート・要約・音声アシスタントなどの高頻度シーンを主眼とし、Haikuシリーズで初めて調整可能な「思考強度」設定を搭載した。",
+      "url": "https://www.reuters.com/business/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-2026-10-07/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "ホワイトハウス「ジェネシス・ミッション」に24億ドルの企業コミットメント",
+      "summary": "ホワイトハウスは、NVIDIA・AMD・OpenAI・Anthropicなど11社が連邦AI研究プログラム「ジェネシス・ミッション」に24億ドルの計算資源とAIツール（大半は計算クレジット）を約束したと発表。エネルギー・医療・宇宙など14機関を対象とする。",
+      "url": "https://nypost.com/2026/10/08/business/trump-unveils-2-4b-investment-from-tech-giants-including-nvidia-openai-to-fund-federal-ai-mission/",
+      "source": "New York Post",
+      "category": "ラボ"
+    },
+    {
+      "title": "欧州ソブリンAI：Mistralが1兆パラメータのLarge 4をリリース",
+      "summary": "フランスMistralは1兆パラメータのマルチモーダルモデルMistral Large 4をリリース。サイバーセキュリティ（CyberGym 82%）と視覚テストで際立ち、欧州企業とソブリンAIの需要を狙う。重みは10月27日に公開予定。",
+      "url": "https://ai0.news/posts/2026-10-07-daily-digest/",
+      "source": "ai0.news",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、AI生成の数学論文722篇を公開　数学界から反発も",
+      "summary": "OpenAIは内部モデルが生成した722篇の数学手稿（Lean形式化証明を含む）をGitHubで公開し、372の成果ファミリーをカバー。世紀の難問突破の可能性を称える声もあれば、低品質なAI生成証明が査読を混乱させるとして数学者団体がボイコットを呼びかけるなど、反発も起きている。",
+      "url": "https://ai0.news/posts/2026-10-08-daily-digest/",
+      "source": "ai0.news",
+      "category": "研究"
+    },
+    {
+      "title": "Microsoft×NVIDIA、AIノートPC「Surface Laptop Ultra」を発表",
+      "summary": "Microsoftは「Windowsエージェントプラットフォーム」を発表。NVIDIA RTX Sparkチップ搭載のSurface Laptop Ultra（2599ドル〜、10月16日出荷）はAIとエージェントのワークロードをローカルで実行。5999ドルの開発者向けデバイスSurface RTZ Spark Dev Boxは、オープン大規模モデルのローカル実行向けに設計されている。",
+      "url": "https://www.barrons.com/articles/microsoft-and-nvidia-will-present-new-ai-centric-laptop-today-why-it-matters-1a5fb9e9",
+      "source": "Barron's",
+      "category": "開発者"
+    },
+    {
+      "title": "研究：わずか10分のAI利用で難題への忍耐力が低下",
+      "summary": "カリフォルニア大学バークレー校の1222人を対象としたランダム化比較試験で、わずか10分のAIツール利用が困難な課題への忍耐意欲を有意に低下させることが判明。今週、言語モデリング会議（COLM）で発表された。",
+      "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/",
+      "source": "UC Berkeley News",
+      "category": "研究"
+    }
+  ]
+}

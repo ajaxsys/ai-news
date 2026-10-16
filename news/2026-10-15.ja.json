@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "edition": 5,
+  "items": [
+    {
+      "title": "NVIDIA、Nemotron 3.5 Bolt 74Bを完全オープンソースで公開",
+      "summary": "NVIDIAは本日、Nemotron 3.5 Bolt 74B-A9Bを発表。74BパラメータのMoEモデルで、推論ごとに活性化するのは9Bパラメータのみ。2ビット量子化で24GBに圧縮され、ノートPCでも動作する。重み・学習データ・学習レシピはすべてオープンソースで、llama.cpp、vLLM、Ollama、LM Studioで実行できる。",
+      "url": "https://www.techtimes.com/articles/328981/20261014/nvidia-rtx-spark-launches-friday-74-billion-parameter-ai-fits-24gb-laptop.htm",
+      "source": "Tech Times",
+      "category": "ラボ"
+    },
+    {
+      "title": "Modal、7.5億ドルのシリーズDで評価額157.5億ドルに",
+      "summary": "AIクラウドインフラ企業Modalが7.5億ドルのシリーズDを完了し、評価額は157.5億ドルに。AIインフラへの資金流入の勢いは続き、計算資源クラウドプラットフォームが資本の注目を集めている。",
+      "url": "https://www.pymnts.com/news/investment-tracker/2026/modal-triples-valuation-to-15-billion-as-ai-infrastructure-demand-explodes/",
+      "source": "PYMNTS",
+      "category": "開発者"
+    },
+    {
+      "title": "Anthropic、Claudeに公式の投票情報を追加へ",
+      "summary": "Anthropicは今月後半、ClaudeにDemocracy Worksの公式投票情報と選挙結果を追加すると発表。AIチャットボットが選挙情報の責任を真剣に受け止め始め、モデルによる「でっち上げ」の回答を権威ある情報源で置き換える動きだ。",
+      "url": "https://www.reuters.com/world/us/anthropic-add-us-voting-information-claude-before-midterms-2026-10-14/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "Character.AIがChapter 11を申請、ディズニーが一部資産を2000万ドルで買収",
+      "summary": "かつて評価額10億ドルだったAIコンパニオンチャットプラットフォームCharacter.AIが、米国でChapter 11の破産保護を申請し、一部資産をディズニーに売却（2000万ドル、非独占の永久IPライセンスを含む）することで合意。破産手続き中もプラットフォームは継続運営するという。2年前、Googleは27億ドルで技術ライセンスを買ったが、今や評価額はゼロだ。",
+      "url": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/",
+      "source": "TechCrunch",
+      "category": "開発者"
+    },
+    {
+      "title": "YouTube MusicがAI音楽ラベルを開始、Deezerは全AI音楽のフィルタを提供",
+      "summary": "YouTube MusicはAI生成音楽のラベル表示を開始し、楽曲がAIで生成されたものかリスナーが分かるようにする。Deezerはさらに一歩進み、完全にAI生成された音楽をすべて除外するスイッチを提供。ストリーミングプラットフォームが「AI音楽」に線を引き始めている。",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "source": "TechCrunch",
+      "category": "開発者"
+    },
+    {
+      "title": "ハーバードの研究：女性は男性よりAIへの信頼と利用率が低い",
+      "summary": "ハーバード大学ショーレンスタインセンターの研究によると、女性は男性に比べてAIへの信頼度も利用率も明確に低い。AI普及における男女格差が実証研究の対象になり始めている。",
+      "url": "https://www.usatoday.com/story/tech/2026/10/14/women-trust-and-use-ai-less-than-men/92238075007/",
+      "source": "USA TODAY",
+      "category": "研究"
+    },
+    {
+      "title": "NeurIPS 2026論文：AIモデルは暗号技術で任意の能力を隠蔽できる",
+      "summary": "NeurIPS 2026の論文によると、AIモデルは暗号技術を使って任意の能力を隠蔽でき、デプロイ前評価では発見できない。「まず評価してからデプロイする」という安全パラダイムへの根本的な挑戦だ——自分が何を測り損ねたのかすら分からない。",
+      "url": "https://www.techtimes.com/articles/328995/20261014/hidden-ai-capabilities-can-made-cryptographically-undetectable-neurips-paper-proves.htm",
+      "source": "Tech Times",
+      "category": "研究"
+    },
+    {
+      "title": "Apple Intelligence、12月にiOS 27.3とともに中国本土へか",
+      "summary": "Bloombergの報道によると、Apple Intelligenceは今年12月、iOS 27.3とともに中国本土に上陸する見通し。AppleのAI機能がついに中国市場に正式展開される。提携とコンプライアンスの詳細が注目される。",
+      "url": "https://www.theapplepost.com/2026/10/15/73292/apple-intelligence-could-finally-launch-in-china-this-december/",
+      "source": "The Apple Post 转引 Bloomberg",
+      "category": "開発者"
+    }
+  ]
+}

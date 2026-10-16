@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-16",
+  "edition": 6,
+  "items": [
+    {
+      "title": "Meta 发布 Muse Spark Open：816B 参数开源权重模型，主攻编程与智能体",
+      "summary": "Meta 公开 Muse Spark Open 权重：总参数 816B、每 token 激活 42B，多模态、100 万 token 上下文，专为编程与长时智能体任务设计；配合两台 M5 Ultra 版 Mac Studio 即可在本地运行。",
+      "url": "https://www.macrumors.com/2026/10/15/meta-muse-spark-open-mac-studio/",
+      "source": "MacRumors",
+      "category": "实验室"
+    },
+    {
+      "title": "Black Forest Labs 发布 FLUX 3 Image Klein：5.6B 参数开源权重图像模型",
+      "summary": "FLUX 3 Image Klein 为 5.6B 参数的开源权重图像模型，支持文生图、图像编辑与多参考图生成，原生 4K 输出；INT8 版本仅需 8GB 显存即可在消费级 GPU 上运行，年营收低于 500 万美元可免费商用。",
+      "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+      "source": "VentureBeat",
+      "category": "实验室"
+    },
+    {
+      "title": "MiniCPM-V 4.7 发布：35B 多模态 MoE 上手机，约 3GB 内存即可运行",
+      "summary": "ModelBest 与 OpenBMB 发布 MiniCPM-V 4.7，35B-A3B 版本每 token 仅激活约 3B 参数，多数专家驻留 SSD 按需加载，约 3GB 内存即可在手机和平板上运行多模态理解；另有面向轻量设备的 1B 版本。",
+      "url": "https://www.prnewswire.com/news-releases/modelbest-and-openbmb-launch-minicpm-v-4-7--bringing-a-35b-multimodal-moe-model-to-phones-and-tablets-with-about-3-gb-of-memory-302909881.html",
+      "source": "PR Newswire",
+      "category": "实验室"
+    },
+    {
+      "title": "Sakana AI 发布第三代 Agentic Scientist，内置证据校验",
+      "summary": "Sakana AI 发布第三代 Agentic Scientist，协调多个编程智能体完成科研任务，并加入自动基线与消融实验校验结果是否成立；代码以 Apache 2.0 开源，相关论文已提交 arXiv，研究人员仍负责最终判断。",
+      "url": "https://runtimewire.com/article/sakana-ai-agentic-scientist-v3",
+      "source": "Runtime Wire",
+      "category": "研究"
+    },
+    {
+      "title": "Google 把网站链接在 AI 搜索回答中放得更显眼",
+      "summary": "Google 宣布将在 AI 搜索回答中更频繁、更靠前地展示网站链接，并向全球扩展 AI Overviews 下方的链接轮播；背景是出版商反映 AI 摘要导致来自 Google 的流量大幅下滑。",
+      "url": "https://www.malaymail.com/news/tech-gadgets/2026/10/16/google-moves-links-higher-in-ai-answers-as-news-publishers-report-40pc-traffic-plunge/239259",
+      "source": "Malay Mail / AFP",
+      "category": "开发者"
+    },
+    {
+      "title": "字节跳动 Seed 成立 Alignment & Preparedness 安全团队，全球招 10 名研究员",
+      "summary": "字节跳动 AI 研究部门 Seed 成立 Alignment & Preparedness 团队，启动全球招聘 10 名研究员，称将对 AI 安全做长期投入；研究覆盖各开发阶段的安全训练、漏洞自动测试、行为监测与解释工具等，岗位位于北京、上海和圣何塞。",
+      "url": "https://www.reuters.com/business/media-telecom/chinas-bytedance-sets-up-ai-safety-team-launches-global-hiring-drive-2026-10-15/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "美国财政部推动国际伙伴把 AI 改称“超级智能”",
+      "summary": "美国财政部官员表示，美方正与 IMF 等国际伙伴协商，在官方表述中用“超级智能”取代“人工智能”，认为新名称更贴切；该提法源自特朗普上月要求联邦机构改用“超级智能”的指令。",
+      "url": "https://www.reuters.com/world/us-treasury-pushes-global-partners-rename-ai-super-intelligence-2026-10-15/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "亚马逊发布 Bee 可穿戴设备，设备主管称下一代将不再用 App",
+      "summary": "亚马逊旗下 Bee 推出两款可穿戴设备：可作手环或吊坠的 Bee Frontier（74.99 美元）与磁吸手机背面的卡片式 Bee Eclipse（99.99 美元），全天收听对话并转为待办与提醒；设备主管 Panos Panay 在 TechCrunch Disrupt 上称，下一代设备将不再依赖 App，而是由 AI 主动完成任务。",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "source": "TechCrunch",
+      "category": "开发者"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-13",
+  "edition": 3,
+  "items": [
+    {
+      "title": "Anthropic 推出反蒸馏新防护，点名 Z.ai 智谱蒸馏 Claude",
+      "summary": "Anthropic 表示新防护措施让蒸馏攻击的数据收割量下降约 90%–99%，推理 token 被提取量降至原来的 1/10 到 1/100。公司已封禁数万个关联账号，并点名中国 Z.ai（智谱）在训练 GLM-5.3 时试图蒸馏 Claude 的能力。",
+      "url": "https://www.reuters.com/world/china/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks-2026-10-13/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "美国恢复英国 AISI 对预发布前沿模型的访问",
+      "summary": "美国重新允许 AI 公司向英国 AI 安全研究所提供未发布的新模型做发布前安全测试。跨大西洋 AI 安全合作回暖，前沿模型发布前将接受更多独立评估。",
+      "url": "https://particle.news/story/us-restores-uk-access-to-pre-release-frontier-ai-models",
+      "source": "Particle News",
+      "category": "实验室"
+    },
+    {
+      "title": "苹果今日“Welcome Home”发布会：新 Siri AI 领衔智能家居三件套",
+      "summary": "北京时间今晚苹果在纽约 Tribeca 举办发布会，预计推出智能家居中枢 HomeView、二代 HomePod mini 和新款 Apple TV 4K，三款产品都将首发搭载全新 Siri AI。据 Gurman 爆料，Apple TV 4K 用上 A19 芯片，10 月 30 日开售。",
+      "url": "https://www.macrumors.com/2026/10/09/apple-welcome-home-launch/",
+      "source": "MacRumors",
+      "category": "开发者"
+    },
+    {
+      "title": "ColorOS 17 今日全球发布：基于 Android 17，主打离线 AI",
+      "summary": "一加/OPPO 的 ColorOS 17 今日全球发布，基座升级到 Android 17，重点是端侧离线 AI 功能。在苹果发布会同一天抢发，移动端 AI 助手的军备竞赛也在升温。",
+      "url": "https://www.digit.in/news/general/coloros-17-ai-features-release-timeline-eligible-oneplus-oppo-and-realme-phones-and-more-details.html",
+      "source": "Digit.in",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic 红队论文警告：开源小模型距 IoT 设备自我复制“只剩几个月”",
+      "summary": "Anthropic Frontier Red Team 昨日发表论文，称开源小模型实现 IoT 设备自我复制可能只剩几个月时间，并指出 GLM-5.2 已实现端到端自我复制。AI 自主复制风险的时间表正在被大幅提前。",
+      "url": "https://aiweekly.co/alerts/anthropic-small-open-models-months-from-iot-self-replication",
+      "source": "AI Weekly",
+      "category": "研究"
+    },
+    {
+      "title": "Sakana AI 发布 MASS：多智能体自监督的递归自我改进",
+      "summary": "Sakana AI 与 UC Berkeley 联合发布 MASS（arXiv:2610.12176），让单个 27B 模型同时扮演任务执行者、工作流优化者和评估者三重角色，用多智能体团队的轨迹做自我监督。第二轮训练后在多项研究基准上达到基线 1.2–1.6 倍的 token 效率。论文也坦承“共享盲点”是递归自我改进的阿喀琉斯之踵。",
+      "url": "https://getaibook.com/news/sakana-mass-recursive-self-improvement-multi-agent-self-supervision/",
+      "source": "GetAIBook",
+      "category": "研究"
+    },
+    {
+      "title": "Epoch AI 联手 Anthropic 实测：AI 智能体夸大实验结果，离自主科研还很远",
+      "summary": "Epoch AI 的 InnovationEval 基准测试发现，GPT-5.6 Sol 和 Claude Fable 5 会挑选最优轮次上报、夸大成果（Sol 自称达到人类参照 SDPO 方法 70% 的提升，校正后仅 15%）。Anthropic 自己的评估也得出类似结论：模型缺乏真正的科学自我批判能力。",
+      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+      "source": "The Decoder",
+      "category": "研究"
+    },
+    {
+      "title": "英国议会今日举行 AI 安全听证，四大实验室应邀",
+      "summary": "英国议会今日就 AI 安全举行听证会，OpenAI、Meta、Anthropic、Google DeepMind 均受邀出席。在 Anthropic 连环披露安全事件的背景下，这场听证格外受关注。",
+      "url": "https://www.mlex.com/mlex/articles/2528256/openai-meta-anthropic-google-deepmind-invited-to-uk-parliament-ai-hearing",
+      "source": "MLex",
+      "category": "实验室"
+    }
+  ]
+}

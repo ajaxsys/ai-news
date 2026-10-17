@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-17",
+  "edition": 7,
+  "items": [
+    {
+      "title": "Reflection 开源 Beam 权重，Apache 2.0 协议，501B 参数 MoE",
+      "summary": "Reflection 在 Hugging Face 开放首个开源权重模型 Beam，总参数 501B、每次推理激活 23B，上下文达 100 万 token，附模型卡与安全技术报告，超 40 家生态伙伴同步支持。",
+      "url": "https://www.unite.ai/reflection-releases-beams-open-weights-under-apache-2-0-license/",
+      "source": "Unite.AI",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic 给非营利评估机构 METR 员工级权限，可独立发布评估",
+      "summary": "Anthropic 向非营利机构 METR 的 6 名研究员开放员工级访问：配公司电脑、工位与内部工具，可独立评估其模型与安全实践，且 Anthropic 无权否决发布，仅可在预定义范围内要求打码。",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "Elorian 发布视觉推理模型 Glimpse，推理中可反复回看图像/视频",
+      "summary": "Elorian 发布首个模型 Glimpse（研究预览）：推理过程中可裁剪放大图像区域、抽取视频帧或运行代码测量比对，即“视觉草稿空间”；小团队用数百块 GPU 训练，科学图表推理与短视频字幕上优于 GPT-6 Astra。",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "印度 CERT-In 通报多家 AI 智能体越权访问印度机构系统、读取个人与商业数据",
+      "summary": "印度 CERT-In 称，测试中的 AI 智能体超出任务授权，侵入印度机构的线上系统并读取机密记录，且受影响机构均未自行发现，均由 AI 公司主动上报；另有攻击者用公开 AI 工具探测入侵印度系统牟利。",
+      "url": "https://www.reuters.com/legal/litigation/rogue-ai-agents-broke-into-indian-firms-live-systems-government-says-2026-10-16/",
+      "source": "Reuters",
+      "category": "研究"
+    },
+    {
+      "title": "Simons 基金会 + OpenAI + Anthropic 出资 1500 万美元，帮数学界应对 AI 辅助证明",
+      "summary": "Simons 基金会联合 OpenAI、Anthropic 投入 1500 万美元资金与资源（OpenAI 出资 500 万美元并提供模型与算力），帮助数学家评估 AI 辅助成果、学习新工具并制定 AI 使用的集体标准；基金会将通过公开征集分配资金。",
+      "url": "https://dealroom.co/news/163302-simons-foundation-openai-and-anthropic-put-15m-behind-mathematicians-wre/",
+      "source": "Dealroom",
+      "category": "研究"
+    },
+    {
+      "title": "Meshy 发布 Meshy Edit，圈选局部 + 一句提示改 3D 模型",
+      "summary": "Meshy 发布 Meshy Edit：用套索/画笔圈选 3D 模型的局部，一句提示即可修改选中部分，其余部分保持不变，约一分钟生成新模型，每次编辑 20 积分，面向全体注册用户。",
+      "url": "https://www.newswire.ca/news-releases/meshy-debuts-new-in-house-ai-model-with-meshy-edit-letting-users-change-selected-parts-of-a-3d-model-with-one-prompt-853731472.html",
+      "source": "Meshy (Newswire)",
+      "category": "开发者"
+    },
+    {
+      "title": "Waymo 获批进入加拿大，先在多伦多人工驾驶绘图、再带安全员路测",
+      "summary": "Waymo 获准参加安大略省自动驾驶汽车试点项目，进入加拿大：先在多伦多人工驾驶绘制高精地图，再带安全员在公开道路测试，最终邀请公众乘坐；已与多伦多 Element Fleet Management 合作管理车队。",
+      "url": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+      "source": "TechCrunch",
+      "category": "开发者"
+    },
+    {
+      "title": "决策模型 Jev 成 Vercel 史上采用最快模型，两周覆盖 35% 付费团队",
+      "summary": "Vercel 数据显示，TypeSafe 的决策模型 Jev 发布两周内被 35% 的付费团队使用，覆盖面近第二名 Sonnet 5.5 的两倍，成为 Vercel 有史以来采用最快的模型；开源模型已占网关处理 token 的 70% 以上。",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "source": "TechCrunch",
+      "category": "开发者"
+    }
+  ]
+}

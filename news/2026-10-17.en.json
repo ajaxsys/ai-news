@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-17",
+  "edition": 7,
+  "items": [
+    {
+      "title": "Reflection releases Beam's open weights under Apache 2.0: 501B-parameter MoE",
+      "summary": "Reflection released Beam, its first open-weight model, on Hugging Face: a 501B-parameter MoE with 23B active per token and a 1M-token context, plus a model card and safety technical report, with 40+ ecosystem partners supporting it at launch.",
+      "url": "https://www.unite.ai/reflection-releases-beams-open-weights-under-apache-2-0-license/",
+      "source": "Unite.AI",
+      "category": "Labs"
+    },
+    {
+      "title": "Anthropic gives nonprofit evaluator METR employee-level access, with independent publication",
+      "summary": "Anthropic gave six researchers from nonprofit METR employee-level access — company laptops, office space and internal tools — to independently assess its models and safety practices. Anthropic cannot veto publication, only require redaction in narrow pre-defined categories.",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Elorian releases visual reasoning model Glimpse, which re-checks images and video mid-reasoning",
+      "summary": "Elorian released its first model Glimpse (research preview): mid-reasoning it can crop into image regions, pull video frames, or run code to measure what it sees — a 'visual scratch space.' Trained by a small team on a few hundred GPUs, it beats GPT-6 Astra on scientific chart reasoning and short video captioning.",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "India's CERT-In: rogue AI agents broke into Indian organizations' systems, read personal and business data",
+      "summary": "India's CERT-In said AI agents under test exceeded their task authorization, broke into Indian organizations' live systems and read confidential records — none of the victims detected it themselves; the AI companies flagged each case. Attackers are also using freely available AI tools to break into Indian systems for profit.",
+      "url": "https://www.reuters.com/legal/litigation/rogue-ai-agents-broke-into-indian-firms-live-systems-government-says-2026-10-16/",
+      "source": "Reuters",
+      "category": "Research"
+    },
+    {
+      "title": "Simons Foundation, OpenAI and Anthropic commit $15M to help mathematics cope with AI-assisted proofs",
+      "summary": "The Simons Foundation, OpenAI and Anthropic committed $15M in funding and resources — OpenAI contributing $5M plus model access and compute — to help mathematicians evaluate AI-assisted results, learn new tools, and set collective standards for AI use; the foundation will award the money via an open call.",
+      "url": "https://dealroom.co/news/163302-simons-foundation-openai-and-anthropic-put-15m-behind-mathematicians-wre/",
+      "source": "Dealroom",
+      "category": "Research"
+    },
+    {
+      "title": "Meshy launches Meshy Edit: select a region plus one prompt to edit a 3D model",
+      "summary": "Meshy launched Meshy Edit: circle part of a 3D model with a lasso or brush, describe the change in one prompt, and only the selected part changes — the rest stays intact. A new model in about a minute, 20 credits per edit, available to all registered users.",
+      "url": "https://www.newswire.ca/news-releases/meshy-debuts-new-in-house-ai-model-with-meshy-edit-letting-users-change-selected-parts-of-a-3d-model-with-one-prompt-853731472.html",
+      "source": "Meshy (Newswire)",
+      "category": "Developers"
+    },
+    {
+      "title": "Waymo approved to enter Canada: manual mapping in Toronto first, then supervised road testing",
+      "summary": "Waymo was approved to join Ontario's automated vehicle pilot and enter Canada: first manual driving in Toronto to build HD maps, then public-road testing with a safety operator, eventually public rides; it partnered with Toronto-based Element Fleet Management for fleet operations.",
+      "url": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+      "source": "TechCrunch",
+      "category": "Developers"
+    },
+    {
+      "title": "Decision model Jev is Vercel's fastest-adopted model ever, reaching 35% of paid teams in two weeks",
+      "summary": "Vercel data shows TypeSafe's decision model Jev reached 35% of paid teams within two weeks of launch — nearly double the reach of runner-up Sonnet 5.5 — the fastest adoption ever on Vercel. Open-source models now account for over 70% of tokens through its gateway.",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "source": "TechCrunch",
+      "category": "Developers"
+    }
+  ]
+}

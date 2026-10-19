@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-19",
+  "edition": 9,
+  "items": [
+    {
+      "title": "Anthropic、新設の公益ファンドに5%の株式拠出を約束　評価額50%増ごとに2%追加も",
+      "summary": "Anthropicは新設のAnthropic Public Benefit Fund LLC（同社の100%子会社）に5%の株式を拠出すると発表。評価額が50%上昇するごとに、取締役会の判断でさらに2%を追加できる。創業者の既存の寄付約束や従業員マッチングと合わせ、約20%の株式が公益目的に充てられる。資金はロビー活動や政治献金には使われない。Musk氏はXで「株式を直接国民に渡せ」とコメントした。",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、人型ロボットの自社開発を確認　Altman氏「We will」、2027年にデモ",
+      "summary": "SourcesポッドキャストでOpenAIが人型ロボットを作るか問われたAltman氏は「We will」と回答。理由は世界が人間の身体に合わせて設計されていること。難しいのは身体ではなく、ロボットを動かす「頭脳」だと強調した。Fortuneのインタビューでは2027年にデモを出す見通しを示したが、商用化はさらに数年先との見解。OpenAIは現在、カスタムアクチュエータや製造サプライチェーンを含むロボット系27職種を募集中。",
+      "url": "https://www.livemint.com/ai/artificial-intelligence/we-will-have-a-cool-demo-in-2027-what-sam-altman-said-about-openais-humanoid-robot-and-the-challenges-11792290751495.html",
+      "source": "Livemint（整理 Engadget/Fortune）",
+      "category": "ラボ"
+    },
+    {
+      "title": "AIインフラに信用警報：CoreWeaveのCDSスプレッドが1000bpを突破、ディストレス圏に",
+      "summary": "CoreWeaveの株価は1週間で約25%下落、債券利回りは15〜16%に迫り、5年CDSスプレッドは1000bpを突破して「ディストレス」圏に。市場が織り込む5年以内のデフォルト確率は約63%。OracleやSoftBankのCDSスプレッドも過去最高を更新した。計画中の米国データセンターのうち信用できるのは約3分の1との分析もあり、今年は47以上の大型プロジェクトが延期・撤回・否決されている。",
+      "url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/",
+      "source": "Reuters",
+      "category": "開発者"
+    },
+    {
+      "title": "SoftBankのオハイオ10GW「Flagship」AIデータセンター、PJMの正式な系統連系調査に",
+      "summary": "PJMは連邦エネルギー規制委員会に調査協定を提出し、オハイオ州パイク郡の約10GW級「Flagship」AIデータセンター複合施設の系統連系評価を正式に開始。SB Energyが電力・送電資産（約10.2GWの新規ガス火力発電を2032年まで段階的に）を投建し、地域の料金保護条項も含む。今後はPJMの調査結果と系統接続の承認スケジュールが焦点に。",
+      "url": "https://www.utilitydive.com/news/pjm-softbank-ohio-ai-flagship-state-agreement-approach/832962/",
+      "source": "Utility Dive",
+      "category": "開発者"
+    },
+    {
+      "title": "vLLM v0.32.0リリース：/v1/systemone構造化意思決定エンドポイントを追加",
+      "summary": "vLLM v0.32.0がリリース（814コミット、363人の貢献者）。新しいPOST /v1/systemoneエンドポイントで、choice・真偽値・スコアリングなどの判断を推論エンジン内で直接実行。ルーティングのためのHTTP往復が不要になり、KVキャッシュも保持される。NVFP4低精度KV、3件のモデル推論セキュリティ修正、CORS強化も含む。",
+      "url": "https://reidmarlow.com/why-vllm-baked-decision-routing-into-the-engine/",
+      "source": "reidmarlow 博客",
+      "category": "開発者"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash、第三者評価で好調：Codeforces表で3471の首位",
+      "summary": "benchlm.aiが更新したCodeforcesリーダーボードで、DeepSeek V4.1 Flash 1017が3471で首位。自社のV4 Pro 0813（3206）を上回る（ベンダー自己申告の整理で、独立検証なし）。OpenRouterのトラフィックでも実運用で最も使われるモデルのひとつとなっている。",
+      "url": "https://benchlm.ai/benchmarks/codeforces",
+      "source": "benchlm.ai",
+      "category": "ラボ"
+    },
+    {
+      "title": "研究：新ベンチマークFormalTCS、大規模モデルは「説明できる≠研究できる」を示唆",
+      "summary": "新ベンチマークFormalTCS（STOC/FOCS/SODA/COLT 2025〜2026の143論文事例）は、大規模モデルが理論計算機科学を自然言語で解説できても、機械検証可能な数学証明に変換すると著しく躓くことを示した。自動形式化は最良モデルでも11.2、形式定理を人間が与えれば証明生成は最大28.7 Pass@8。「説明できること」と「研究できること」は別、という示唆だ。",
+      "url": "https://developinglight.com/studies/formaltcs-benchmarking-end-to-end-frontier-formal-theoretical-computer-s-6a36f0bb03",
+      "source": "developinglight",
+      "category": "研究"
+    }
+  ]
+}

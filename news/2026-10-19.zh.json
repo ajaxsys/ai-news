@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-19",
+  "edition": 9,
+  "items": [
+    {
+      "title": "Anthropic 承诺 5% 股权注入新设公益基金，估值每涨 50% 董事会可再加 2%",
+      "summary": "Anthropic 宣布将 5% 股份注入新设的 Anthropic Public Benefit Fund LLC（公司全资子公司），公司估值每涨 50% 董事会可再追加 2%。叠加创始人早期捐赠承诺与员工配捐，约 20% 股份已用于公益；资金不用于游说和政治捐款。Musk 在 X 上评论建议「直接把股份给公众」。",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 确认自研人形机器人：Altman 在播客中称 \"We will\"，2027 年出 demo",
+      "summary": "Altman 在 Sources 播客中被问及 OpenAI 是否会做人形机器人，回答 \"We will\"。理由是世界为人类身体设计；他强调关键难点是「大脑」而非身体。Fortune 采访中他给出 2027 年出 demo 的时间表，但认为商用还要再等数年。OpenAI 正在招聘 27 个机器人岗位，覆盖定制执行器与制造供应链。",
+      "url": "https://www.livemint.com/ai/artificial-intelligence/we-will-have-a-cool-demo-in-2027-what-sam-altman-said-about-openais-humanoid-robot-and-the-challenges-11792290751495.html",
+      "source": "Livemint（整理 Engadget/Fortune）",
+      "category": "实验室"
+    },
+    {
+      "title": "AI 基建信贷警报：CoreWeave CDS 利差破 1000bp 进入「困境」区间",
+      "summary": "CoreWeave 股价一周跌近 25%，债券收益率逼近 15%–16%，五年期 CDS 利差突破 1000 基点进入「困境」区间，市场隐含的未来五年违约概率约 63%。Oracle、SoftBank 的 CDS 利差也创新高。分析称仅约三分之一的美国数据中心规划可信，今年已有 47+ 大型项目延期、撤回或被否。",
+      "url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/",
+      "source": "Reuters",
+      "category": "开发者"
+    },
+    {
+      "title": "SoftBank 俄亥俄 10GW \"Flagship\" AI 数据中心进入 PJM 正式互联研究",
+      "summary": "PJM 已向联邦能源监管委员会提交研究协议，正式对 SoftBank 俄亥俄州 Pike County 的 10GW 级 \"Flagship\" AI 数据中心综合体开展互联评估：SB Energy 负责投建电力与输电资产（含约 10.2GW 新建燃气发电、分阶段至 2032 年），并含本地费率保护条款。下一步看 PJM 研究结论与并网审批时间表。",
+      "url": "https://www.utilitydive.com/news/pjm-softbank-ohio-ai-flagship-state-agreement-approach/832962/",
+      "source": "Utility Dive",
+      "category": "开发者"
+    },
+    {
+      "title": "vLLM v0.32.0 发布：新增 /v1/systemone 结构化决策端点",
+      "summary": "vLLM v0.32.0 发布（814 个 commits、363 位贡献者）：新增 POST /v1/systemone 结构化决策端点，choice/布尔/打分等判断直接在推理引擎内执行，避免为路由再走一次 HTTP、不必丢掉 KV cache。同时加入 NVFP4 低精度 KV、3 项模型推理安全修复与 CORS 加固。",
+      "url": "https://reidmarlow.com/why-vllm-baked-decision-routing-into-the-engine/",
+      "source": "reidmarlow 博客",
+      "category": "开发者"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 第三方评测走强：Codeforces 表 3471 居首",
+      "summary": "benchlm.ai 更新的 Codeforces 榜单显示，DeepSeek V4.1 Flash 1017 以 3471 居首，超过自家 V4 Pro 0813 的 3206（数据为厂商自报整理，未独立验证）。在 OpenRouter 流量口径上，它也是实际生产调用最多的模型之一。",
+      "url": "https://benchlm.ai/benchmarks/codeforces",
+      "source": "benchlm.ai",
+      "category": "实验室"
+    },
+    {
+      "title": "研究：FormalTCS 新 benchmark 显示大模型「会解释 ≠ 会做研究」",
+      "summary": "新 benchmark FormalTCS（STOC/FOCS/SODA/COLT 2025–2026 的 143 篇论文实例）显示：大模型能用自然语言讲清理论计算机科学，但转成机器可验证的数学证明时显著掉链子——自动形式化环节最佳模型仅 11.2 分，人类给定形式化定理后证明生成最高 28.7 Pass@8。提示「会解释 ≠ 会做研究」。",
+      "url": "https://developinglight.com/studies/formaltcs-benchmarking-end-to-end-frontier-formal-theoretical-computer-s-6a36f0bb03",
+      "source": "developinglight",
+      "category": "研究"
+    }
+  ]
+}

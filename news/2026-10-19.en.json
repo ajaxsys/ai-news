@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-19",
+  "edition": 9,
+  "items": [
+    {
+      "title": "Anthropic pledges 5% of equity to new public benefit fund, +2% per 50% valuation gain",
+      "summary": "Anthropic will commit 5% of its shares to the newly created Anthropic Public Benefit Fund LLC, a wholly-owned entity, with the board able to add 2% more for every 50% increase in company value. Combined with the founders' earlier giving pledges and employee matching, roughly 20% of shares are now dedicated to public-benefit purposes; the money cannot be used for lobbying or political donations. Musk replied on X suggesting the shares be given 'directly to the public'.",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI confirms in-house humanoid robot; Altman says 'We will', demo in 2027",
+      "summary": "Asked on the Sources podcast whether OpenAI would build a humanoid robot, Altman answered 'We will' — reasoning that the world is very much designed for people. He stressed the hard problem is the 'brain' that makes the robot work, not the body. In a Fortune interview he gave a 2027 demo timeline but said commercial use is still years away. OpenAI is hiring for 27 robotics roles covering custom actuators and manufacturing supply chain.",
+      "url": "https://www.livemint.com/ai/artificial-intelligence/we-will-have-a-cool-demo-in-2027-what-sam-altman-said-about-openais-humanoid-robot-and-the-challenges-11792290751495.html",
+      "source": "Livemint（整理 Engadget/Fortune）",
+      "category": "Labs"
+    },
+    {
+      "title": "AI infrastructure credit alarm: CoreWeave CDS spreads break 1,000 bps into 'distressed' territory",
+      "summary": "CoreWeave's stock fell nearly 25% in a week, bond yields approached 15%–16%, and five-year CDS spreads blew past 1,000 bps into 'distressed' territory, implying roughly a 63% chance of default over five years. CDS spreads for Oracle and SoftBank also hit records. Analysts say only about a third of planned US data centers look credible, with 47+ large projects delayed, withdrawn or rejected this year.",
+      "url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/",
+      "source": "Reuters",
+      "category": "Developers"
+    },
+    {
+      "title": "SoftBank's 10GW 'Flagship' Ohio AI data center enters formal PJM interconnection study",
+      "summary": "PJM filed a study agreement with FERC to formally assess SoftBank's roughly 10GW 'Flagship' AI data center complex in Pike County, Ohio: SB Energy will build the power and transmission assets (including ~10.2GW of new gas-fired generation, phased through 2032), with local ratepayer-protection provisions. Next steps hinge on PJM's study conclusions and the grid-connection approval timeline.",
+      "url": "https://www.utilitydive.com/news/pjm-softbank-ohio-ai-flagship-state-agreement-approach/832962/",
+      "source": "Utility Dive",
+      "category": "Developers"
+    },
+    {
+      "title": "vLLM v0.32.0 released: new /v1/systemone structured-decision endpoint",
+      "summary": "vLLM v0.32.0 shipped (814 commits, 363 contributors) with a new POST /v1/systemone endpoint for structured decisions: choice, boolean and scoring questions are evaluated directly inside the inference engine, avoiding a second HTTP hop for routing and keeping the KV cache intact. Also new: NVFP4 low-precision KV, three model-inference security fixes and CORS hardening.",
+      "url": "https://reidmarlow.com/why-vllm-baked-decision-routing-into-the-engine/",
+      "source": "reidmarlow 博客",
+      "category": "Developers"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash shines in third-party benchmarks: 3471 tops the Codeforces table",
+      "summary": "BenchLM's updated Codeforces leaderboard puts DeepSeek V4.1 Flash 1017 first at 3471, ahead of its own V4 Pro 0813 at 3206 (figures compiled from vendor self-reports, not independently verified). By OpenRouter traffic it is also among the most-used models in production.",
+      "url": "https://benchlm.ai/benchmarks/codeforces",
+      "source": "benchlm.ai",
+      "category": "Labs"
+    },
+    {
+      "title": "Study: new FormalTCS benchmark shows LLMs can explain theory, not prove it",
+      "summary": "The new FormalTCS benchmark (143 instances from STOC/FOCS/SODA/COLT 2025–2026 papers) shows LLMs can explain theoretical computer science in natural language, but stumble when turning it into machine-verifiable proofs: autoformalization tops out at 11.2 for the best model, vs 28.7 Pass@8 when a human supplies the formal theorem. Explanation ≠ research ability.",
+      "url": "https://developinglight.com/studies/formaltcs-benchmarking-end-to-end-frontier-formal-theoretical-computer-s-6a36f0bb03",
+      "source": "developinglight",
+      "category": "Research"
+    }
+  ]
+}

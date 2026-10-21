@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-21",
+  "edition": 11,
+  "items": [
+    {
+      "title": "OpenAI 收购生物科技 AI 初创 Orchestra Bio，补强生命科学模型 Rosalind",
+      "summary": "10 月 20 日 OpenAI 宣布收购成立四年的 Orchestra Bio（此前从 a16z、Atria、8VC 等处获约 2000 万美元融资，条款未披露），其团队与技术将并入生命科学模型 Rosalind 及配套工具 Rosalind Workbench，用于药物研发流程中的 AI 智能体。OpenAI 称 Moderna、诺和诺德已是 Rosalind 客户（未获对方证实）——大厂从通用聊天机器人转向嵌入医药等高门槛行业的垂直工作流。",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+      "source": "TechCrunch",
+      "category": "开发者"
+    },
+    {
+      "title": "MiniMax 发布 M3.1 Flash：API 价格大降 70%",
+      "summary": "10 月 21 日，港股上市公司 MiniMax 推出文本模型 M3.1 Flash，称可把用户总体使用成本降低 70%，这是其四个月来首个文本模型发布。中国 AI 厂商纷纷推出低价“Flash”模型抢用户——算力成本上行、股价承压背景下的价格战。",
+      "url": "https://www.caixinglobal.com/2026-10-21/minimax-cuts-api-prices-with-new-flash-ai-model-102495436.html",
+      "source": "Caixin Global",
+      "category": "实验室"
+    },
+    {
+      "title": "DeepSeek 开源 DeepInfer：每天扛 155 万亿 token 的生产推理栈",
+      "summary": "10 月 20 日 DeepSeek 在 GitHub 开源 DeepInfer——即其每天服务 155 万亿 token 的生产推理引擎（基于 vLLM 改造），Apache 2.0 许可。目前仅支持 DeepSeek-V4.1-Flash 离线推理，但罕见地同时支持英伟达 Blackwell（SM100）GPU 与华为 Ascend 950 NPU，被视作前沿实验室首次给华为芯片做生产级背书，对托管推理价格是直接冲击。",
+      "url": "https://siliconangle.com/2026/10/20/deepseek-open-sources-deepinfer-the-inference-framework-behind-its-production-services/",
+      "source": "SiliconANGLE",
+      "category": "开发者"
+    },
+    {
+      "title": "日本启动医疗影像 AI 项目：富士胶片×北大×LSTC，用 Rapidus 2nm 芯片",
+      "summary": "日本先进半导体技术中心（LSTC）与富士胶片、北海道大学 10 月 20 日宣布共同开发医疗影像 AI 实时处理系统：采用 Rapidus 量产的 2 纳米芯片，影像处理速度为传统 GPU 的 5 倍以上、能效高 10 倍以上。富士负责影像诊断/超声 AI，北大负责 AI 设计评估，半导体设计由 LSTC（成员含 Rapidus）承担。",
+      "url": "https://www.japantimes.co.jp/news/2026/10/21/japan/medical-ai-advanced-chips/",
+      "source": "The Japan Times",
+      "category": "实验室"
+    },
+    {
+      "title": "Eka Robotics 融资 1.5 亿美元：“有力觉”的机器手抓取成功率超 95%",
+      "summary": "MIT 系灵巧操作初创 Eka 10 月 20 日宣布 1.5 亿美元 A 轮融资（估值 14.5 亿美元）。其“视觉-力-动作”模型把夹爪力传感器数据与图像一起输入模型，抓握中途打滑可自动调整力度；对训练数据外的物体每小时 1500 次操作（人类基准约 600 次），抓取成功率超 95%。夹爪成本不到 1000 美元，现额定 500 万次循环、目标 2000 万次。",
+      "url": "https://siliconangle.com/2026/10/20/eka-robotics-nets-150m-at-a-1-45b-valuation-for-robot-hands-that-sense-force/",
+      "source": "SiliconANGLE",
+      "category": "实验室"
+    },
+    {
+      "title": "ASI 融资 3.25 亿美元（估值 30 亿美元）：给电网、空管、军队做“预见未来”的物理资产 AI",
+      "summary": "波士顿初创 ASI 10 月 20 日宣布 3.25 亿美元 C 轮融资（Spark Capital 领投），估值 30 亿美元。ASI 不做文本生成，专注用 AI 仿真预测电网、空管、军事行动等复杂系统数小时到数周后的故障；已手握美国陆军 5 年 9900 万美元、FAA 12 年 8.75 亿美元两份合同——物理世界 AI 的资本热仍在升温。",
+      "url": "https://www.channelnewsasia.com/business/ai-startup-asi-valued-3-billion-in-latest-funding-round-6476266",
+      "source": "Reuters（via CNA）",
+      "category": "实验室"
+    },
+    {
+      "title": "Rehearsals 联合 DeepMind、Kaggle 发布 Human Behavior Bench：测 AI“懂不懂人”",
+      "summary": "10 月 20 日，营销模拟平台 Rehearsals 与 Google DeepMind、Kaggle 联合发布首个“人类行为基准”：用 1244 名美国成年人、750 个类别、9.5 万次访谈数据（80% 隐藏集）测试模型预测真实人类偏好与行为的能力。结果有趣：自研 Engram 1.0 得分 94.1，而 Gemini 4 Argon（80.6）、GPT-5.6 Sol（79.5）、Claude Opus 5.5（79.3）等前沿模型在健康、习惯、决策、价值观类别上集体丢分。基准同时托管在 Kaggle 供公开评测。",
+      "url": "https://www.finanzwire.com/press-release/rehearsals-launches-human-behavior-bench-with-google-deepmind-and-kaggle-to-measure-how-well-ai-models-understand-humanity-v0RfaCiv4sr",
+      "source": "FinanceWire（官方通稿）",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAI 开发者平台上线 Decisions API 测试界面，GA 临近",
+      "summary": "据 TestingCatalog 发现，OpenAI 开发者平台 10 月 20 日上线了 Decisions API 的测试界面：支持 Predicate（判断条件概率）、Choice（选项选择）、Score（按标准打分）三种模式。官方文档显示 API 仍为公共 Beta、仅支持 gpt-6-luna，输入 $0.10/百万 token、输出免费——OpenAI 的决策模型产品线正从开放 Beta 走向正式 GA，决策模型品类战争进入产品成熟阶段。",
+      "url": "https://www.panews.io/articles/01a1576c-d359-7124-9b66-0c0d61cd0498",
+      "source": "PANews English",
+      "category": "开发者"
+    }
+  ]
+}

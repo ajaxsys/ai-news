@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-21",
+  "edition": 11,
+  "items": [
+    {
+      "title": "OpenAI acquires AI biotech startup Orchestra Bio to beef up life-sciences model Rosalind",
+      "summary": "On Oct 20, OpenAI announced the acquisition of four-year-old Orchestra Bio (reportedly ~$20M raised from a16z, Atria and 8VC; terms undisclosed); its team and technology will join the Rosalind life-sciences model and the Rosalind Workbench agent tooling for drug-discovery operations. OpenAI names Moderna and Novo Nordisk as Rosalind customers (unconfirmed by them) — another big lab embedding itself into pharma's high-barrier vertical workflows.",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+      "source": "TechCrunch",
+      "category": "Developers"
+    },
+    {
+      "title": "MiniMax releases M3.1 Flash, cutting API prices by 70%",
+      "summary": "On Oct 21, Hong Kong-listed MiniMax launched the text model M3.1 Flash, claiming it cuts overall user costs by 70% — its first text-model release in four months. Chinese AI vendors are racing to ship cheap \"Flash\" models to win users as compute costs rise and share prices weaken.",
+      "url": "https://www.caixinglobal.com/2026-10-21/minimax-cuts-api-prices-with-new-flash-ai-model-102495436.html",
+      "source": "Caixin Global",
+      "category": "Labs"
+    },
+    {
+      "title": "DeepSeek open-sources DeepInfer, the inference stack behind its production services",
+      "summary": "On Oct 20, DeepSeek open-sourced DeepInfer on GitHub — the production inference stack serving 155 trillion tokens a day (a vLLM fork), under the Apache 2.0 license. It currently supports offline inference for DeepSeek-V4.1-Flash only, but notably supports both Nvidia Blackwell (SM100) GPUs and Huawei Ascend 950 NPUs — seen as a frontier lab's first production-grade endorsement of Huawei silicon, a direct shot at hosted inference pricing.",
+      "url": "https://siliconangle.com/2026/10/20/deepseek-open-sources-deepinfer-the-inference-framework-behind-its-production-services/",
+      "source": "SiliconANGLE",
+      "category": "Developers"
+    },
+    {
+      "title": "Japan kicks off medical-imaging AI project with Rapidus 2nm chips",
+      "summary": "Japan's Leading-edge Semiconductor Technology Center (LSTC), Fujifilm and Hokkaido University announced on Oct 20 a joint project to build an AI-based medical image-processing system using 2nm chips mass-produced by Rapidus — targeting more than 5x the image-processing speed of conventional GPUs at over 10x energy efficiency. Fujifilm handles imaging-test and ultrasound AI, Hokkaido University AI design and evaluation, and LSTC (whose members include Rapidus) the semiconductor design.",
+      "url": "https://www.japantimes.co.jp/news/2026/10/21/japan/medical-ai-advanced-chips/",
+      "source": "The Japan Times",
+      "category": "Labs"
+    },
+    {
+      "title": "Eka Robotics raises $150M for force-sensing robot hands at $1.45B valuation",
+      "summary": "MIT-spinoff dexterity startup Eka announced a $150M Series A raise on Oct 20 at a $1.45B valuation. Its vision-force-action model feeds gripper force-sensor data into the model alongside images, adjusting grip mid-task if an object slips; it picks out-of-distribution objects at about 1,500 operations per hour (human baseline ~600) with over 95% success. The gripper costs under $1,000, currently rated for 5 million duty cycles with a 20 million target.",
+      "url": "https://siliconangle.com/2026/10/20/eka-robotics-nets-150m-at-a-1-45b-valuation-for-robot-hands-that-sense-force/",
+      "source": "SiliconANGLE",
+      "category": "Labs"
+    },
+    {
+      "title": "ASI raises $325M at $3B valuation for AI that forecasts physical-system failures",
+      "summary": "Boston startup ASI announced a $325M Series C on Oct 20 (led by Spark Capital), valuing it at $3B. ASI skips text generation, using AI simulation to forecast disruptions hours to weeks ahead across air traffic, power grids and military operations — with a five-year $99M US Army contract and a 12-year $875M FAA contract already in hand. Capital heat for physical-world AI keeps rising.",
+      "url": "https://www.channelnewsasia.com/business/ai-startup-asi-valued-3-billion-in-latest-funding-round-6476266",
+      "source": "Reuters（via CNA）",
+      "category": "Labs"
+    },
+    {
+      "title": "Rehearsals, DeepMind and Kaggle launch Human Behavior Bench to test whether AI 'gets' people",
+      "summary": "On Oct 20, Rehearsals launched Human Behavior Bench with Google DeepMind and Kaggle — the first public benchmark testing how well models predict real human preferences and behavior, built from 95,000 interviews of 1,244 US adults across 750 categories (80% private holdout). Curious result: Rehearsals' own Engram 1.0 scored 94.1, while frontier models like Gemini 4 Argon (80.6), GPT-5.6 Sol (79.5) and Claude Opus 5.5 (79.3) all lost ground on health, habits, decision-making and values. The benchmark is hosted on Kaggle for public scoring.",
+      "url": "https://www.finanzwire.com/press-release/rehearsals-launches-human-behavior-bench-with-google-deepmind-and-kaggle-to-measure-how-well-ai-models-understand-humanity-v0RfaCiv4sr",
+      "source": "FinanceWire（官方通稿）",
+      "category": "Research"
+    },
+    {
+      "title": "[Issue 03 tracking update] OpenAI adds Decisions API testing interface to its developer platform, GA approaching",
+      "summary": "Spotted by TestingCatalog: OpenAI's developer platform added a Decisions API testing interface on Oct 20, supporting Predicate (condition probability), Choice (option selection) and Score (criterion scoring) modes. Official docs show the API still in public beta, supporting only gpt-6-luna at $0.10 per million input tokens with free output — OpenAI's decision-model line is moving from open beta toward GA, and the decision-model category war is entering product maturity.",
+      "url": "https://www.panews.io/articles/01a1576c-d359-7124-9b66-0c0d61cd0498",
+      "source": "PANews English",
+      "category": "Developers"
+    }
+  ]
+}

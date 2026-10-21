@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-21",
+  "edition": 11,
+  "items": [
+    {
+      "title": "OpenAI が AI バイオテック Orchestra Bio を買収、生命科学モデル Rosalind を強化",
+      "summary": "OpenAI は 10 月 20 日、創業 4 年の Orchestra Bio の買収を発表（a16z、Atria、8VC などから約 2000 万ドルを調達、条件は非開示）。チームと技術は生命科学モデル Rosalind と Rosalind Workbench に統合され、創薬業務の AI エージェントに活用する。OpenAI は Moderna と Novo Nordisk を Rosalind の顧客としている（相手の確認なし）——汎用チャットボットから製薬など参入障壁の高い業界ワークフローへの組み込みが進む。",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+      "source": "TechCrunch",
+      "category": "開発者"
+    },
+    {
+      "title": "MiniMax が M3.1 Flash を発表、API 価格を大幅値下げ",
+      "summary": "香港上場の MiniMax は 10 月 21 日、テキストモデル M3.1 Flash を発表し、利用者の総コストを 70% 削減するとした。4 か月ぶりのテキストモデル発表。中国 AI 企業が、低価格「Flash」モデルでユーザーを奪い合う価格競争を激化させている。",
+      "url": "https://www.caixinglobal.com/2026-10-21/minimax-cuts-api-prices-with-new-flash-ai-model-102495436.html",
+      "source": "Caixin Global",
+      "category": "ラボ"
+    },
+    {
+      "title": "DeepSeek が DeepInfer をオープンソース化：自社の本番推論スタック",
+      "summary": "DeepSeek は 10 月 20 日、自社の本番サービス（1 日 155 兆トークン）を支える推論エンジン DeepInfer（vLLM フォーク）を GitHub で公開、Apache 2.0 ライセンス。現状は DeepSeek-V4.1-Flash のオフライン推論のみだが、NVIDIA Blackwell（SM100）GPU と Huawei Ascend 950 NPU の両方をサポート——最先端ラボとして初めて Huawei チップに本番レベルのお墨付きを与えたとみられ、ホステッド推論の価格に直接的な圧力となる。",
+      "url": "https://siliconangle.com/2026/10/20/deepseek-open-sources-deepinfer-the-inference-framework-behind-its-production-services/",
+      "source": "SiliconANGLE",
+      "category": "開発者"
+    },
+    {
+      "title": "日本、Rapidus の 2nm チップで医療画像 AI プロジェクト始動",
+      "summary": "先端半導体技術センター（LSTC）、富士フイルム、北海道大学は 10 月 20 日、医療画像処理 AI システムの共同開発を発表。Rapidus が量産する 2nm 半導体を用い、従来 GPU の 5 倍以上の処理速度と 10 倍以上の電力効率を狙う。富士フイルムが画像検査・超音波 AI、北大が AI 設計・評価、LSTC（Rapidus 参加）が半導体設計を担当する。",
+      "url": "https://www.japantimes.co.jp/news/2026/10/21/japan/medical-ai-advanced-chips/",
+      "source": "The Japan Times",
+      "category": "ラボ"
+    },
+    {
+      "title": "Eka Robotics が 1.5 億ドル調達：「力覚」付きロボットハンド、掴み成功率 95% 超",
+      "summary": "MIT 系の巧緻操作スタートアップ Eka は 10 月 20 日、1.5 億ドルのシリーズ A 調達（評価額 14.5 億ドル）を発表。「視覚-力-動作」モデルはグリッパーの力覚センサーデータを画像と共に入力し、把持中の滑りを検知して把持力を調整する。学習外の物体も毎時約 1500 回操作（人間基準約 600 回）、把持成功率 95% 超。グリッパーは 1000 ドル以下、現行 500 万サイクル定格で 2000 万サイクルを目指す。",
+      "url": "https://siliconangle.com/2026/10/20/eka-robotics-nets-150m-at-a-1-45b-valuation-for-robot-hands-that-sense-force/",
+      "source": "SiliconANGLE",
+      "category": "ラボ"
+    },
+    {
+      "title": "ASI が 3.25 億ドル調達（評価額 30 億ドル）：電力網・空管・軍の「未来予測」AI",
+      "summary": "ボストンのスタートアップ ASI は 10 月 20 日、シリーズ C で 3.25 億ドル調達（Spark Capital 主導、評価額 30 億ドル）を発表。テキスト生成は行わず、AI シミュレーションで空管・電力網・軍事作戦など複雑システムの数時間〜数週間先の故障を予測する。米陸軍との 5 年 9900 万ドル、FAA との 12 年 8.75 億ドルの契約を既に保有。物理世界 AI への資本流入は続く。",
+      "url": "https://www.channelnewsasia.com/business/ai-startup-asi-valued-3-billion-in-latest-funding-round-6476266",
+      "source": "Reuters（via CNA）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Rehearsals が DeepMind・Kaggle と Human Behavior Bench を発表：AI は「人を理解しているか」",
+      "summary": "10 月 20 日、Rehearsals は Google DeepMind、Kaggle と共同で初の「人間行動ベンチマーク」を発表。米国成人 1244 人、750 カテゴリ、9.5 万件のインタビュー（80% 非公開）でモデルの人間行動予測力を測定する。興味深い結果：自社 Engram 1.0 が 94.1 点に対し、Gemini 4 Argon（80.6）、GPT-5.6 Sol（79.5）、Claude Opus 5.5（79.3）など最先端モデルは健康・習慣・意思決定・価値観カテゴリで軒並み失点。Kaggle でも公開評価できる。",
+      "url": "https://www.finanzwire.com/press-release/rehearsals-launches-human-behavior-bench-with-google-deepmind-and-kaggle-to-measure-how-well-ai-models-understand-humanity-v0RfaCiv4sr",
+      "source": "FinanceWire（官方通稿）",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAI 開発者プラットフォームに Decisions API のテスト UI 追加、GA 近づく",
+      "summary": "TestingCatalog の発見によると、OpenAI 開発者プラットフォームは 10 月 20 日、Decisions API のテスト UI を追加。Predicate（条件確率）、Choice（選択）、Score（採点）の 3 モードをサポートする。公式ドキュメントでは API は依然パブリックベータ、対応モデルは gpt-6-luna のみ、入力 100 万トークンあたり $0.10、出力無料——OpenAI の意思決定モデルはオープンベータから正式 GA へ向かい、意思決定モデル競争は製品成熟期に入る。",
+      "url": "https://www.panews.io/articles/01a1576c-d359-7124-9b66-0c0d61cd0498",
+      "source": "PANews English",
+      "category": "開発者"
+    }
+  ]
+}

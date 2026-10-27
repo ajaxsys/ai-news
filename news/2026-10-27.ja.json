@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-27",
+  "edition": 13,
+  "items": [
+    {
+      "title": "OpenAI、GPT-6.1 Terra を発表：半額の中位モデル、コンピュータ操作は3倍高速に",
+      "summary": "視覚推論とコンピュータ操作に特化した新中位モデル。API料金は100万トークンあたり入力1ドル・出力5ドルで前世代とSolの半額。Terminal-Benchは21.5%から50.3%へ上昇し、ChatGPT Work、Codex、APIで利用可能。",
+      "url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900",
+      "source": "OpenAI（官方社区公告）",
+      "category": "開発者"
+    },
+    {
+      "title": "OpenAI、自社モデルが3つの難問を解決と発表：ETH反証、局所平滑化予想、QCD存在証明",
+      "summary": "OpenAIは内部モデルが数学・計算機科学・物理学で3つの成果を出したと発表。指数時間仮説（ETH）の反証と局所平滑化予想の全次元証明を含み、Leanによる形式化証明を公開して外部検証を募る。物理学論文は未公開で、結論は学界の検証待ち。",
+      "url": "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/",
+      "source": "Unite.AI",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic、IPO目論見書を公開：安全上の理由で1か月超の学習停止とサンドボックス脱出を明かす",
+      "summary": "目論見書によると、Anthropicはモデル重みの窃取懸念から次世代フラッグシップの事前学習を1か月以上延期。テスト中のエージェント4台が設定ミスでインターネットに接続され、実在の外部システムに10〜34時間アクセスしたことも判明。報道ではIPOの目標評価額は最大2兆ドルとされる。",
+      "url": "https://wnflsports.com/2026/10/26/anthropic-discloses-month-long-training-pause-ai-security-breaches-in-ipo-filing/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "Meta、350億ドルの株式売却を開始、さらに最大600億ドルをAI基盤に投入へ",
+      "summary": "Metaはフォワード売却と強制転換優先株で約350億ドルの資金調達を開始。2027年初に取引開始予定の無議決権C種株を使い、最大600億ドルの時価発行プログラムも計画する。2026年の設備投資見通しは1350億〜1450億ドルに引き上げられ、NVIDIA、AMD、Broadcomが最大50億ドルの購入意向（非拘束）を示した。",
+      "url": "https://www.morningstar.com/news/dow-jones/202610262815/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan",
+      "source": "Morningstar（道琼斯）",
+      "category": "ラボ"
+    },
+    {
+      "title": "モデル値下げ競争が激化：OpenAIのLunaは80%値下げ、AnthropicのOpus 5.5は2割安く",
+      "summary": "OpenAIはGPT-5.6 Lunaを80%値下げし、100万トークンあたり入力0.20ドル・出力1.20ドルに、Terraも20%下げた。AnthropicのOpus 5.5は4/20ドルでOpus 5より20%安く、典型的なワークロードでは約40%安い。フロンティアの価格競争はフラッグシップから大容量層へ移っている。",
+      "url": "https://steadyvane.com/brief/2026-10-26/",
+      "source": "SteadyVane",
+      "category": "開発者"
+    },
+    {
+      "title": "豪州年次報告：AIはサイバー脅威の「決定的な力」に",
+      "summary": "オーストラリア信号局の年次サイバー脅威報告は、AIにより攻撃者が脆弱性をより速く安く発見・悪用できるようになり、パッチ公開から48時間以内に悪用された例もあると指摘。過去1年で1500件超のインシデントに対応し、悪意ある活動の警告は4400件超で、前年比それぞれ20%・80%増。",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/27/australia-warns-of-unprecedented-ai-threat",
+      "source": "Free Malaysia Today",
+      "category": "ラボ"
+    },
+    {
+      "title": "ROKAE、人型力制御アーム1万台目を出荷、実体AIが量産段階へ",
+      "summary": "珞石機器人（ROKAE）の人型力制御アームが1万台目を出荷。同製品は40か国以上に出荷され、80社超の産業パートナーが生産ラインに統合。シェフラーのライトハウス工場では同アーム搭載の車輪型人型ロボット5台が部品ラインで搬送・組立・検査を担う。",
+      "url": "https://www.manilatimes.net/2026/10/27/tmt-newswire/pr-newswire/rokae-delivers-its-10000th-humanoid-force-controlled-arm/2454283",
+      "source": "PR Newswire（经 Manila Times）",
+      "category": "開発者"
+    },
+    {
+      "title": "AIがDNA配列を設計し、ゲノムを狙った立体構造に折りたたむ",
+      "summary": "『Genome Biology』の新研究Akita Semifreddoは、DNA配列を直接最適化し、ゲノムを狙った立体構造に折りたたむ。配列が空間構造をどう符号化するかの解明や人工的な制御環境の構築に道を開くが、現段階はモデル予測で実験室での検証はこれから。",
+      "url": "https://bioengineer.org/ai-tool-designs-dna-sequences-to-fold-genomes-in-desired-3d-patterns/",
+      "source": "Bioengineer.org",
+      "category": "研究"
+    }
+  ]
+}

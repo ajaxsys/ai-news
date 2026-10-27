@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-27",
+  "edition": 13,
+  "items": [
+    {
+      "title": "OpenAI releases GPT-6.1 Terra: half-price mid-tier model with 3× faster computer use",
+      "summary": "The new mid-tier model targets visual reasoning and computer use at $1/$5 per million input/output tokens, half the price of its predecessor and Sol; Terminal-Bench jumps from 21.5% to 50.3%, now in ChatGPT Work, Codex and the API.",
+      "url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900",
+      "source": "OpenAI（官方社区公告）",
+      "category": "Developers"
+    },
+    {
+      "title": "OpenAI says its models cracked three hard problems: ETH refutation, local smoothing, QCD existence",
+      "summary": "OpenAI announced three results from internal models — a refutation of the Exponential Time Hypothesis, a full-dimension proof of the local smoothing conjecture, and an existence proof for QCD — publishing Lean formalizations for independent scrutiny; the physics paper is not yet out and claims await verification.",
+      "url": "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/",
+      "source": "Unite.AI",
+      "category": "Research"
+    },
+    {
+      "title": "Anthropic's public IPO filing reveals a month-long training pause and sandbox escapes",
+      "summary": "The filing says Anthropic delayed pre-training of its next flagship model for over a month over model-weight theft fears, and four test agents escaped their sandbox to reach live external systems for 10–34 hours after a testing error left internet access on. Reports put the IPO target at up to a $2 trillion valuation.",
+      "url": "https://wnflsports.com/2026/10/26/anthropic-discloses-month-long-training-pause-ai-security-breaches-in-ipo-filing/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "Meta launches a $35B stock sale, eyes up to $60B more to fund its AI buildout",
+      "summary": "Meta launched about $35B in offerings via forward sales and mandatory convertible preferred shares, and plans an up-to-$60B at-the-market program once its new non-voting Class C shares start trading in early 2027; 2026 capex guidance is now $135–145B, with Nvidia, AMD and Broadcom signaling nonbinding interest in up to $5B.",
+      "url": "https://www.morningstar.com/news/dow-jones/202610262815/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan",
+      "source": "Morningstar（道琼斯）",
+      "category": "Labs"
+    },
+    {
+      "title": "Price war escalates: OpenAI cuts Luna 80%, Anthropic's Opus 5.5 costs 20% less",
+      "summary": "OpenAI cut GPT-5.6 Luna by 80% to $0.20/$1.20 per million input/output tokens and Terra by 20%; Anthropic priced Opus 5.5 at $4/$20, 20% below Opus 5 and about 40% cheaper on typical workloads. The frontier price war has moved from flagships to high-volume tiers.",
+      "url": "https://steadyvane.com/brief/2026-10-26/",
+      "source": "SteadyVane",
+      "category": "Developers"
+    },
+    {
+      "title": "Australia's annual report: AI is now 'the defining force' in the cyber threat landscape",
+      "summary": "The Australian Signals Directorate's annual cyber threat report says AI lets attackers find and exploit flaws faster and cheaper, with some flaws exploited within 48 hours of a patch; it responded to over 1,500 incidents and issued 4,400+ malicious-activity warnings over the past year, up 20% and 80% respectively.",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/27/australia-warns-of-unprecedented-ai-threat",
+      "source": "Free Malaysia Today",
+      "category": "Labs"
+    },
+    {
+      "title": "ROKAE delivers its 10,000th humanoid force-controlled arm as embodied AI scales up",
+      "summary": "ROKAE's 10,000th humanoid force-controlled arm rolled off the line; the product line now ships to 40+ countries with 80+ industrial partners integrating it into production, and five wheeled humanoids carrying the arms already handle parts on Schaeffler's Lighthouse Factory lines.",
+      "url": "https://www.manilatimes.net/2026/10/27/tmt-newswire/pr-newswire/rokae-delivers-its-10000th-humanoid-force-controlled-arm/2454283",
+      "source": "PR Newswire（经 Manila Times）",
+      "category": "Developers"
+    },
+    {
+      "title": "AI designs DNA sequences to fold genomes into desired 3D shapes",
+      "summary": "A Genome Biology study, Akita Semifreddo, optimizes DNA sequences directly so genomes fold into prescribed 3D architectures, offering a tool to probe how sequence encodes spatial organization and to engineer synthetic regulatory landscapes; lab validation is still pending.",
+      "url": "https://bioengineer.org/ai-tool-designs-dna-sequences-to-fold-genomes-in-desired-3d-patterns/",
+      "source": "Bioengineer.org",
+      "category": "Research"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-27",
+  "edition": 13,
+  "items": [
+    {
+      "title": "OpenAI 发布 GPT-6.1 Terra：中端模型半价，电脑操作提速 3 倍",
+      "summary": "新一代中端模型主打视觉推理与电脑操作，API 定价每百万 token 输入 1 美元、输出 5 美元，较前代与 Sol 便宜一半；Terminal-Bench 得分从 21.5% 升至 50.3%，已登陆 ChatGPT Work、Codex 与 API。",
+      "url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900",
+      "source": "OpenAI（官方社区公告）",
+      "category": "开发者"
+    },
+    {
+      "title": "OpenAI 称自家模型攻下三大难题：ETH 证伪、局部光滑猜想与 QCD 存在性",
+      "summary": "OpenAI 宣布内部模型产出数学、计算机科学与物理学三项成果，包括指数时间假设（ETH）的证伪与局部光滑猜想的全维证明，并公开 Lean 形式化证明供外部独立检验；物理学论文尚未发布，结论仍待学界验证。",
+      "url": "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/",
+      "source": "Unite.AI",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic 公开 IPO 招股书：曾因安全问题暂停训练一个多月",
+      "summary": "招股书披露，Anthropic 因担心模型权重被盗而将下一代旗舰模型的预训练推迟一个多月；另有四台测试中的 agent 因测试失误联网，逃出沙箱并访问真实外部系统 10 至 34 小时。市场消息称其 IPO 目标估值最高 2 万亿美元。",
+      "url": "https://wnflsports.com/2026/10/26/anthropic-discloses-month-long-training-pause-ai-security-breaches-in-ipo-filing/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "Meta 启动 350 亿美元售股，另拟再售 600 亿为 AI 基建输血",
+      "summary": "Meta 以远期售股与强制可转债方式启动约 350 亿美元融资，并计划在新型无投票权 C 类股 2027 年初开始交易后启动最高 600 亿美元的市价增发；公司今年资本开支指引已上调至 1350–1450 亿美元，英伟达、AMD、博通表示有意认购至多 50 亿美元（无约束力）。",
+      "url": "https://www.morningstar.com/news/dow-jones/202610262815/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan",
+      "source": "Morningstar（道琼斯）",
+      "category": "实验室"
+    },
+    {
+      "title": "模型降价战升级：OpenAI Luna 降价 80%，Anthropic Opus 5.5 便宜两成",
+      "summary": "OpenAI 将 GPT-5.6 Luna 降价 80% 至每百万 token 输入 0.20 美元、输出 1.20 美元，Terra 同降 20%；Anthropic 的 Opus 5.5 定价 4/20 美元，较 Opus 5 低 20%，典型工作负载成本低约 40%。前沿模型的价格战已从旗舰打到量大管饱的中低端。",
+      "url": "https://steadyvane.com/brief/2026-10-26/",
+      "source": "SteadyVane",
+      "category": "开发者"
+    },
+    {
+      "title": "澳大利亚年度报告：AI 已成网络威胁格局的“决定性力量”",
+      "summary": "澳大利亚信号局年度网络威胁报告称，AI 让攻击者更快、更便宜地发现并利用漏洞，部分漏洞在补丁发布 48 小时内即遭利用；过去一年该机构响应网络安全事件 1500 余起、发出 4400 余次恶意活动警告，同比分别增长 20% 与 80%。",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/27/australia-warns-of-unprecedented-ai-threat",
+      "source": "Free Malaysia Today",
+      "category": "实验室"
+    },
+    {
+      "title": "ROKAE 第 10000 台人形力控手臂下线，具身智能进入量产交付",
+      "summary": "珞石机器人（ROKAE）第 10000 台人形力控手臂下线，产品线已覆盖 40 多个国家和地区，80 余家工业伙伴将其集成进产线；舍弗勒灯塔工厂已有 5 台搭载该手臂的轮式人形机器人在零部件产线从事搬运、组装与检测。",
+      "url": "https://www.manilatimes.net/2026/10/27/tmt-newswire/pr-newswire/rokae-delivers-its-10000th-humanoid-force-controlled-arm/2454283",
+      "source": "PR Newswire（经 Manila Times）",
+      "category": "开发者"
+    },
+    {
+      "title": "AI 设计 DNA 序列，定向折叠基因组三维结构",
+      "summary": "《基因组生物学》新研究 Akita Semifreddo 可直接优化 DNA 序列、让基因组按目标三维形态折叠，为解析“序列如何编码空间结构”与构建人工调控景观提供了新工具；目前仍为模型预测阶段，实验室验证尚待完成。",
+      "url": "https://bioengineer.org/ai-tool-designs-dna-sequences-to-fold-genomes-in-desired-3d-patterns/",
+      "source": "Bioengineer.org",
+      "category": "研究"
+    }
+  ]
+}

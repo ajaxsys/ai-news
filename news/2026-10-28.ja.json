@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "edition": 14,
+  "items": [
+    {
+      "title": "OpenAI、Google の AI チップ購入を計画　競合が計算資源の供給元に",
+      "summary": "The Information によると、OpenAI は Google の TPU を直接購入する計画で、Alphabet との関係を深める。2025年6月から TPU を借りてきた経緯がある。金額は非公開で、各社がデータセンターの計算資源確保を急ぐ中での動きだ。",
+      "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "DeepMind、Genie 4 を発表：話しかけられ、リアルタイムで書き換えられるワールドモデル",
+      "summary": "Genie 4 はリアルタイムの世界シミュレーションに音楽・環境音・キャラクターの対話をネイティブに生成し、実行中に自然言語で天候やカメラ、人物を変更できる。まず信頼できるテスター向けのリサーチプレビューとして公開され、その後 Google AI Ultra 加入者と Gemini API の早期アクセスパートナーに提供される。",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind（官方）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Apple、M6 搭載 MacBook Pro と iMac を発表　オンデバイス AI を高速化",
+      "summary": "新型 14 インチ MacBook Pro は 1,999 ドルから、iMac は 1,499 ドルからで、11月6日に発売される。Apple によると、M6 は M5 比でグラフィックス最大約30%、AI 最大約25%高速で、iMac のオンデバイス AI は M4 モデル比で最大5倍速い。",
+      "url": "https://www.reuters.com/business/retail-consumer/apple-launches-m6-macbook-pro-imac-pitches-faster-on-device-ai-2026-10-27/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "Apple、Creator Studio の11月アップデートを発表：iWork アシスタントと MCP、外部エージェントが文書を読み書き可能に",
+      "summary": "Pages、Keynote、Numbers は11月のアップデートで文書の文脈を理解するベータ版インテリジェントアシスタントを得て、macOS 27 上で外部 AI エージェントが読み取り・編集・自動化できる MCP 対応も加わる。アシスタントはベータ版で米国英語のみ。",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+      "source": "Apple（官方）",
+      "category": "開発者"
+    },
+    {
+      "title": "Anthropic、カリフォルニア州知事に書簡：裁判所による高リスクモデルの停止権限を支持",
+      "summary": "Politico によると、Anthropic はモデルが近い将来の壊滅的危害リスクをもたらす場合、州司法長官が裁判所に展開・社内利用・開発の停止を申し立てられるよう提案した。前沿開発者による少なくとも半年ごとのリスク報告と、社内への独立した安全評価者の配置も支持している。",
+      "url": "https://dailyaibrief.com/news/anthropic-backs-court-power-to-block-risky-ai-models-SdqZ94sv",
+      "source": "Daily AI Brief（引述 Politico）",
+      "category": "ラボ"
+    },
+    {
+      "title": "SKハイニックス、第3四半期は過去最高益　AI メモリーのスーパーサイクルで営業利益率80%超",
+      "summary": "第3四半期の売上高は104.61兆ウォン、営業利益は83.33兆ウォンでいずれも過去最高となり、6四半期連続の記録更新となった。同社は AI メモリー需要が2030年まで供給を上回ると見込み、第6世代 HBM4 が第4四半期から主力製品になるとしている。",
+      "url": "https://m-en.yna.co.kr/view/AEN20261028001652320?section=economy-finance/economy",
+      "source": "Yonhap News Agency",
+      "category": "ラボ"
+    },
+    {
+      "title": "Akamai、推論サービスとエージェントサンドボックスをベータ公開：エージェントが書くコードに境界を",
+      "summary": "Akamai Inference は OpenAI 互換 API で12のオープンウェイトモデルを提供し、Agent Sandbox は WebAssembly による隔離でエージェントが書き実行するコードの計算資源・メモリ・外部接続を制限する。いずれもベータ版で、価格は公表されていない。",
+      "url": "https://letsdatascience.com/news/akamai-launches-agent-sandbox-and-inference-service-in-beta-5a536583",
+      "source": "LetsDataScience（引述 Akamai 发布）",
+      "category": "開発者"
+    },
+    {
+      "title": "新論文：AI モデルは任意の能力を証明可能に隠せる、重み全公開でも発見困難",
+      "summary": "10月9日提出・14日改訂の arXiv プレプリントによると、暗号化されたバックドアネットワークをホストモデルの重みに隠し、秘密のトリガーでのみ復号・実行できる。暗号学的仮定の下では、重みをすべて入手しても評価者がその隠れた能力を確実に引き出したり解釈したりすることは困難だと著者は主張し、引き出し中心の能力監査に課題を投げかける。",
+      "url": "https://letsdatascience.com/news/paper-shows-ai-models-can-provably-hide-arbitrary-capabiliti-5dd6a887",
+      "source": "LetsDataScience（引述 arXiv 论文）",
+      "category": "研究"
+    }
+  ]
+}

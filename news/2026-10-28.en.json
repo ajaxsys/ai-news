@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "edition": 14,
+  "items": [
+    {
+      "title": "OpenAI plans to buy Google's AI chips, turning a rival into a compute supplier",
+      "summary": "The Information reports OpenAI plans to buy Google TPUs directly, deepening ties with Alphabet; OpenAI has rented TPUs since June 2025. Terms were not disclosed as labs race to secure data-centre compute.",
+      "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "DeepMind launches Genie 4: a world model that talks back and can be rewritten live",
+      "summary": "Genie 4 natively generates music, ambient sound and character dialogue for real-time simulated worlds, and scenes can be edited mid-run with natural-language prompts. It starts as a research preview for trusted testers, then reaches Google AI Ultra subscribers and Gemini API early-access partners.",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind（官方）",
+      "category": "Labs"
+    },
+    {
+      "title": "Apple launches M6 MacBook Pro and iMac, pitching faster on-device AI",
+      "summary": "The new 14-inch MacBook Pro starts at $1,999 and the iMac at $1,499, available from November 6. Apple says the M6 offers up to 30% faster graphics and 25% faster AI than the M5, while the iMac's on-device AI is up to 5× faster than the M4 model.",
+      "url": "https://www.reuters.com/business/retail-consumer/apple-launches-m6-macbook-pro-imac-pitches-faster-on-device-ai-2026-10-27/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "Apple's Creator Studio November update: iWork assistants plus MCP, so outside agents can read and edit documents",
+      "summary": "Pages, Keynote and Numbers gain beta assistants that understand document context in the November update, plus MCP support letting external AI agents read, edit and automate the apps on macOS 27. The assistants are beta and US English only.",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+      "source": "Apple（官方）",
+      "category": "Developers"
+    },
+    {
+      "title": "Anthropic tells California's governor: give courts power to block risky models",
+      "summary": "Per Politico, Anthropic proposes that when a model poses a near-term risk of catastrophic harm, the state attorney general could seek a court order suspending its deployment, internal use or further development. It also backs risk reports at least every six months and independent safety evaluators inside labs.",
+      "url": "https://dailyaibrief.com/news/anthropic-backs-court-power-to-block-risky-ai-models-SdqZ94sv",
+      "source": "Daily AI Brief（引述 Politico）",
+      "category": "Labs"
+    },
+    {
+      "title": "SK hynix posts record Q3 profit as the AI memory supercycle pushes its operating margin past 80%",
+      "summary": "Q3 revenue hit 104.61 trillion won and operating profit 83.33 trillion won, both records and the sixth straight record quarter. The company expects AI memory demand to outstrip supply through 2030, with sixth-generation HBM4 becoming its main product from Q4.",
+      "url": "https://m-en.yna.co.kr/view/AEN20261028001652320?section=economy-finance/economy",
+      "source": "Yonhap News Agency",
+      "category": "Labs"
+    },
+    {
+      "title": "Akamai launches inference service and agent sandbox in beta: a boundary for code agents write",
+      "summary": "Akamai Inference serves 12 open-weight models through OpenAI-compatible APIs, while Agent Sandbox uses WebAssembly isolation for code agents write and run, limiting compute, memory and outbound connections. Both are in beta and pricing was not disclosed.",
+      "url": "https://letsdatascience.com/news/akamai-launches-agent-sandbox-and-inference-service-in-beta-5a536583",
+      "source": "LetsDataScience（引述 Akamai 发布）",
+      "category": "Developers"
+    },
+    {
+      "title": "New paper: AI models can provably hide arbitrary capabilities, even with weights fully open",
+      "summary": "An arXiv preprint submitted October 9 and revised October 14 shows encrypted backdoor networks can hide inside a host model's weights, decrypting only on a secret trigger. Under cryptographic assumptions, the authors argue evaluators cannot reliably elicit or interpret the hidden capability even with full weight access, challenging elicitation-based capability audits.",
+      "url": "https://letsdatascience.com/news/paper-shows-ai-models-can-provably-hide-arbitrary-capabiliti-5dd6a887",
+      "source": "LetsDataScience（引述 arXiv 论文）",
+      "category": "Research"
+    }
+  ]
+}

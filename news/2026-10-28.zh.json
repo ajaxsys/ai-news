@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "edition": 14,
+  "items": [
+    {
+      "title": "OpenAI 拟采购谷歌 AI 芯片，竞争对手变算力供应商",
+      "summary": "据 The Information 报道，OpenAI 计划直接购买谷歌 TPU，深化与 Alphabet 的合作；此前 OpenAI 已于 2025 年 6 月起租用 TPU。交易金额未披露，正值各家为数据中心算力加码之际。",
+      "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "DeepMind 推出 Genie 4：会说话、可实时改写的世界模型",
+      "summary": "Genie 4 首次为实时世界模拟原生生成音乐、环境音与角色对话，并可在运行中用自然语言改天气、换机位、加人物；先以研究预览开放给受信测试者，随后向 Google AI Ultra 订阅者与 Gemini API 早期伙伴开放。",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind（官方）",
+      "category": "实验室"
+    },
+    {
+      "title": "苹果发布 M6 MacBook Pro 与 iMac，主打端侧 AI 提速",
+      "summary": "新款 14 英寸 MacBook Pro 起价 1999 美元、iMac 起价 1499 美元，11 月 6 日起发售；苹果称 M6 的图形与 AI 性能较 M5 分别提升约 30% 与 25%，iMac 端侧 AI 较 M4 机型快至 5 倍。",
+      "url": "https://www.reuters.com/business/retail-consumer/apple-launches-m6-macbook-pro-imac-pitches-faster-on-device-ai-2026-10-27/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "苹果 Creator Studio 11 月更新：iWork 助手 + MCP，外部 agent 可读写文档",
+      "summary": "Pages、Keynote、Numbers 将在 11 月更新中获得理解文档上下文的测试版智能助手，并新增 MCP 支持，让外部 AI agent 在 macOS 27 上读写与自动化操作这些应用；助手仅限美式英语测试版。",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+      "source": "Apple（官方）",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic 致信加州州长：支持法院叫停高风险模型",
+      "summary": "据 Politico 报道，Anthropic 建议：当模型构成近期灾难性伤害风险时，州总检察长可向法院申请暂停其部署、内部使用或继续开发；同时要求前沿开发者至少每半年发布风险报告，并引入独立安全评估员。",
+      "url": "https://dailyaibrief.com/news/anthropic-backs-court-power-to-block-risky-ai-models-SdqZ94sv",
+      "source": "Daily AI Brief（引述 Politico）",
+      "category": "实验室"
+    },
+    {
+      "title": "SK 海力士三季度利润创纪录：AI 内存超级周期，营业利润率破 80%",
+      "summary": "三季度营收 104.61 万亿韩元、营业利润 83.33 万亿韩元，均创纪录，连续六个季度刷新纪录；公司称 AI 内存需求将持续超过供给至 2030 年，第六代 HBM4 将从四季度起成为主力产品。",
+      "url": "https://m-en.yna.co.kr/view/AEN20261028001652320?section=economy-finance/economy",
+      "source": "Yonhap News Agency",
+      "category": "实验室"
+    },
+    {
+      "title": "Akamai 推出推理服务与 Agent 沙箱测试版：给 agent 写的代码划边界",
+      "summary": "Akamai Inference 通过兼容 OpenAI 的 API 提供 12 款开源权重模型，Agent Sandbox 则用 WebAssembly 隔离 agent 编写并运行的代码，限制算力、内存与出站连接；两者均处于测试版，定价未公布。",
+      "url": "https://letsdatascience.com/news/akamai-launches-agent-sandbox-and-inference-service-in-beta-5a536583",
+      "source": "LetsDataScience（引述 Akamai 发布）",
+      "category": "开发者"
+    },
+    {
+      "title": "新论文：AI 模型可被证明能藏起任意能力，权重全公开也难发现",
+      "summary": "10 月 9 日提交、14 日修订的 arXiv 预印本指出，加密后门网络可藏进宿主模型权重，仅在秘密触发下解密执行；作者称在密码学假设下，即使拿到全部权重，评估者也难以可靠 elicitation 或解读这部分能力，挑战了以 elicitation 为主的能力审计。",
+      "url": "https://letsdatascience.com/news/paper-shows-ai-models-can-provably-hide-arbitrary-capabiliti-5dd6a887",
+      "source": "LetsDataScience（引述 arXiv 论文）",
+      "category": "研究"
+    }
+  ]
+}

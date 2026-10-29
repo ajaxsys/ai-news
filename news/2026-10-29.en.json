@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "edition": 15,
+  "items": [
+    {
+      "title": "Google unveils Gemini 4 Carbon, its strongest cybersecurity model — defenders first",
+      "summary": "Two weeks after Argon, Google launches Gemini 4 Carbon for cybersecurity and long-horizon work: 88.2% on SEC-bench Pro for finding flaws and 71.0% on CWE-bench for patching, topping the Artificial Analysis Intelligence Index at 59. Priced like Argon's launch ($2 in / $10 out per million tokens), it first goes only to a subset of cyber defenders via the Fairwind Program, with no date yet for developers or consumers.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "source": "Google DeepMind（官方）",
+      "category": "Labs"
+    },
+    {
+      "title": "Anthropic: an unreleased Claude chained flaws into 5 working exploit chains",
+      "summary": "Anthropic's Frontier Red Team says an unreleased internal Claude research model autonomously found flaws and chained them into five working exploits over several months: Chrome (one-click sandbox escape), Safari, a Pixel 9 lock-screen bypass, Windows, and a zero-click remote-root Linux chain (CVE-2026-98432). Every flaw was disclosed to vendors and patched first; Chrome alone accounts for 62 CVEs — a warning for defenders and a marker that models can now 'prove' novel vulnerabilities.",
+      "url": "https://cybersecuritynews.com/claude-ai-builds-exploit/",
+      "source": "Cybersecurity News（引述 Anthropic 研究）",
+      "category": "Research"
+    },
+    {
+      "title": "Microsoft: Azure jumps 48% to $33.2B, disclosed in dollars for the first time",
+      "summary": "Microsoft's fiscal Q1 2027 revenue hit $92.3B (+19%) with adjusted EPS of $4.89, both beating estimates; Azure revenue reached $33.2B, accelerating from 42% to 48% growth — the first time Microsoft has disclosed Azure revenue in dollars. Microsoft Cloud revenue was $63.9B (+30%) and contracted backlog jumped 73% to $677B: AI infrastructure spending is converting into sales.",
+      "url": "https://www.geekwire.com/2026/microsoft-azure-revenue-surges-48-to-33-2b-beating-expectations-as-cloud-and-ai-demand-grows/",
+      "source": "GeekWire",
+      "category": "Labs"
+    },
+    {
+      "title": "Alphabet Q3: Cloud doubles to $30.7B, yet the miss still sank shares after hours",
+      "summary": "Alphabet's Q3 revenue reached $127.6B (+25%), just below the $128.2B consensus, while EPS of $2.12 missed badly on securities-investment losses; shares fell over 8% after hours. The bright spot was Cloud: revenue doubled to $30.7B (+103%) and operating income tripled to $11.1B, with TPU sales now contributing — AI demand is not the problem; the pace of spending and portfolio swings are.",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/29/XHWY6IZ4K5FCTGTH3FP4TMQPZU/",
+      "source": "Chosun Biz",
+      "category": "Labs"
+    },
+    {
+      "title": "Nvidia open-sources Nemotron 3.5 Transcribe: 40 languages, runnable on a single chip",
+      "summary": "Nvidia released Nemotron 3.5 Transcribe, a free open-weight model (30B parameters) transcribing up to 40 languages, translating 31 languages to and from English, handling recordings up to an hour long and separating up to eight speakers — claimed to top Hugging Face's Open ASR Leaderboard — alongside version 2 of its open Granary speech dataset. Aimed at meeting and medical transcription, it runs on a single chip (Jetson AGX Thor to Blackwell), but handles recorded audio only, not livestreams.",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "source": "TechCrunch",
+      "category": "Developers"
+    },
+    {
+      "title": "GitHub previews code scanning for AI apps: flagging agent-specific risks",
+      "summary": "GitHub launched a public preview of code scanning for AI applications: it traces how untrusted content can reach models with access to tools or data, flagging agent-specific risks such as indirect prompt injection, sensitive-information disclosure and excessive agency, with mitigation guidance right in the pull request. It requires GitHub Advanced Security and is not yet on GitHub Enterprise Server — a PR-gate check for the trust boundary of what an agent reads and what it can touch.",
+      "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+      "source": "GitHub（官方）",
+      "category": "Developers"
+    },
+    {
+      "title": "DeepSeek code shows V5 identifiers: deployment groundwork, not a launch",
+      "summary": "Users spotted DeepSeek-V5, V5-open and V5-next identifiers in DeepSeek's official Harness code: V5-open carries no client-version requirement while V5-next requires a client upgrade, meaning a future launch could be switched on server-side without users updating the app. Note: this is placeholder groundwork, not a launch, and there are no performance figures; an November release is speculation, and DeepSeek has made no official V5 announcement.",
+      "url": "https://www.kucoin.com/news/flash/deepseek-v5-model-code-appears-suggesting-november-launch",
+      "source": "KuCoin（引述 AIBase）",
+      "category": "Labs"
+    }
+  ]
+}

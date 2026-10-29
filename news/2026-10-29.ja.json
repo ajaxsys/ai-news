@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "edition": 15,
+  "items": [
+    {
+      "title": "Google、Gemini 4 Carbonを発表：最強のサイバーセキュリティモデル、まず防御側へ",
+      "summary": "Argonの2週間後に登場したGemini 4 Carbonは、サイバーセキュリティと長期タスク向けのモデル。脆弱性発見88.2%（SEC-bench Pro）、パッチ適用71.0%（CWE-bench）で、Artificial Analysisの知能指数59で首位。価格はArgonの導入価格と同じ（入力$2／出力$10 per 100万トークン）だが、当面はFairwindプログラム経由で一部の防御側のみに提供され、開発者・一般向けの時期は未定。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "source": "Google DeepMind（官方）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Anthropic：未公開のClaudeが脆弱性を自力で見つけ、5本の攻撃チェーンを構築",
+      "summary": "AnthropicのFrontier Red Teamによると、未公開の社内Claude研究モデルが数か月かけて脆弱性を自律的に発見し、5本の実証可能な攻撃チェーンを構築した。Chrome（ワンクリックのサンドボックス脱出）、Safari、Pixel 9のロック画面回避、Windows、Linuxカーネル（ゼロクリックのリモートroot、CVE-2026-98432）を網羅する。全て事前にベンダーへ開示・修正済みで、Chromeだけで62件のCVEに相当する。防御側への警告であると同時に、モデルが新脆弱性を自ら「証明」できる時代の到来を示す。",
+      "url": "https://cybersecuritynews.com/claude-ai-builds-exploit/",
+      "source": "Cybersecurity News（引述 Anthropic 研究）",
+      "category": "研究"
+    },
+    {
+      "title": "Microsoft：Azureが48%増の332億ドル、金額で初開示",
+      "summary": "Microsoftの2027年度第1四半期は売上923億ドル（前年比+19%）、調整後EPS $4.89で予想を上回った。Azureは332億ドルで、成長率が前期42%から48%へ加速し、金額での開示は今回が初めて。Microsoft Cloudは639億ドル（+30%）、受注残高は73%増の6770億ドルに達し、AIインフラ投資が着実に売上へ転換している。",
+      "url": "https://www.geekwire.com/2026/microsoft-azure-revenue-surges-48-to-33-2b-beating-expectations-as-cloud-and-ai-demand-grows/",
+      "source": "GeekWire",
+      "category": "ラボ"
+    },
+    {
+      "title": "Alphabet第3四半期：クラウドは2倍の307億ドル、しかし予想未達で時間外に急落",
+      "summary": "Alphabetの第3四半期は売上1276億ドル（前年比+25%）で予想の1282億ドルにわずかに届かず、EPSは$2.12と大幅に予想を下回った。主因は有価証券の投資損失で、時間外株価は一時8%超下落した。明るい材料はクラウドで、売上は307億ドルと2倍（+103%）、営業利益は36億ドルから111億ドルへ3倍超となり、TPU販売も寄与し始めた。AI需要自体は堅調で、課題は支出ペースと投資の振れにある。",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/29/XHWY6IZ4K5FCTGTH3FP4TMQPZU/",
+      "source": "Chosun Biz",
+      "category": "ラボ"
+    },
+    {
+      "title": "NVIDIA、Nemotron 3.5 Transcribeをオープン化：40言語対応、1チップで動作",
+      "summary": "NVIDIAは無料のオープンウェイト転写モデルNemotron 3.5 Transcribe（300億パラメータ）を公開した。40言語の転写、31言語と英語の相互翻訳、最大1時間の録音、最大8人の話者分離に対応し、Hugging FaceのOpen ASR Leaderboardで首位をうたう。オープンなGranary音声データセット第2版も同時公開された。会議・医療転写が狙いで、Jetson AGX ThorからBlackwellまで1チップで動作するが、対象は録音のみでライブ配信には非対応。",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "source": "TechCrunch",
+      "category": "開発者"
+    },
+    {
+      "title": "GitHub、AIアプリ向けコードスキャンを公開プレビュー：エージェント特有のリスクを検出",
+      "summary": "GitHubはAIアプリ向けコードスキャンの公開プレビューを開始した。信頼できないコンテンツがツールやデータにアクセスできるモデルへどう流れるかを追跡し、間接プロンプトインジェクション、機密情報の漏洩、過剰な権限などエージェント特有のリスクを検出し、PR内で修正指針を提示する。GitHub Advanced Securityが必要で、GitHub Enterprise Serverには未対応。エージェントが「何を読み、何を操作できるか」という信頼境界に、PRゲート水準の検査が加わった。",
+      "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+      "source": "GitHub（官方）",
+      "category": "開発者"
+    },
+    {
+      "title": "DeepSeekのコードにV5の識別子：公開ではなく展開の地ならし",
+      "summary": "DeepSeek公式のHarnessコード内にDeepSeek-V5、V5-open、V5-nextの3つの新識別子が見つかった。V5-openはクライアントのバージョン要件なし、V5-nextはアップグレード必須で、将来はサーバー側の設定変更だけで公開でき、ユーザーのアプリ更新は不要になる仕組みだ。ただしこれはプレースホルダーの地ならしであり、公開でも性能データでもない。11月公開説は憶測で、DeepSeekからの公式発表はまだない。",
+      "url": "https://www.kucoin.com/news/flash/deepseek-v5-model-code-appears-suggesting-november-launch",
+      "source": "KuCoin（引述 AIBase）",
+      "category": "ラボ"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "edition": 15,
+  "items": [
+    {
+      "title": "谷歌发布 Gemini 4 Carbon：最强网络安全模型，先给防守方用",
+      "summary": "Argon 发布仅两周后，谷歌又推出 Gemini 4 新模型 Carbon，主打网络安全与长时程任务：找漏洞 88.2%（SEC-bench Pro）、打补丁 71.0%（CWE-bench），Artificial Analysis 智能指数 59 分登顶。价格与 Argon 首发价相同（输入 $2 / 百万 token、输出 $10），但本周起只先开放给部分网络安全防守方（Fairwind 计划），开发者与普通用户暂无时间表。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "source": "Google DeepMind（官方）",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic：未发布的 Claude 自己找出漏洞、串成 5 条可用攻击链",
+      "summary": "Anthropic Frontier Red Team 披露：一个未发布的内部 Claude 研究模型在数月内自主发现漏洞并串成 5 条可验证的攻击链，覆盖 Chrome（一键沙箱逃逸）、Safari、Pixel 9 锁屏、Windows 与 Linux 内核（零点击远程 root，CVE-2026-98432）。所有漏洞均已先通报厂商并打补丁，Chrome 一项就对应 62 个 CVE——这既是防守方的警示，也是“模型能自己证明新漏洞”的分水岭。",
+      "url": "https://cybersecuritynews.com/claude-ai-builds-exploit/",
+      "source": "Cybersecurity News（引述 Anthropic 研究）",
+      "category": "研究"
+    },
+    {
+      "title": "微软财报：Azure 暴涨 48% 至 332 亿美元，首次公布绝对值",
+      "summary": "微软 2027 财年一季度营收 923 亿美元（+19%）、调整后 EPS $4.89，均超预期；Azure 收入 332 亿美元、增速从上季 42% 加速到 48%，且是微软首次直接公布 Azure 的美元收入。微软云总收入 639 亿美元（+30%），在手订单大增 73% 至 6770 亿美元——AI 基建投入开始结结实实地变成销售额。",
+      "url": "https://www.geekwire.com/2026/microsoft-azure-revenue-surges-48-to-33-2b-beating-expectations-as-cloud-and-ai-demand-grows/",
+      "source": "GeekWire",
+      "category": "实验室"
+    },
+    {
+      "title": "Alphabet 三季度：云翻倍至 307 亿美元，但仍没达到预期、盘后大跌",
+      "summary": "Alphabet 三季度营收 1276 亿美元（+25%）、略低于预期的 1282 亿，EPS $2.12 大幅低于预期，主因证券投资亏损；盘后股价一度跌超 8%。亮点仍在云：Google Cloud 营收 307 亿美元、同比翻倍（+103%），营业利润从 36 亿增至 111 亿美元，TPU 销售也开始贡献——AI 需求没问题，问题是花钱的速度和投资账面波动。",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/29/XHWY6IZ4K5FCTGTH3FP4TMQPZU/",
+      "source": "Chosun Biz",
+      "category": "实验室"
+    },
+    {
+      "title": "英伟达开源 Nemotron 3.5 转录模型：40 种语言、单卡可跑",
+      "summary": "英伟达发布免费开源权重转录模型 Nemotron 3.5 Transcribe（300 亿参数），支持 40 种语言转录、31 种语言与英语互译，最长 1 小时录音、最多区分 8 位说话人，号称登顶 Hugging Face Open ASR 榜；同时开源了第二代 Granary 语音数据集。目标是会议与医疗转录场景，单芯片即可运行（从 Jetson AGX Thor 到 Blackwell），但目前只处理录音、不支持直播流。",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "source": "TechCrunch",
+      "category": "开发者"
+    },
+    {
+      "title": "GitHub 公开预览“AI 应用代码扫描”：专查 agent 特有的风险",
+      "summary": "GitHub 推出针对 AI 应用的代码扫描公开预览：追踪不可信内容如何流向能调用工具、数据的模型，标记间接提示注入、敏感信息泄露、过度授权等 agent 特有风险，并在 PR 里直接给出修复建议。需 GitHub Advanced Security，暂不上 GitHub Enterprise Server——对“agent 读什么、能动什么”这条信任边界，终于有了 PR 门禁级别的检查。",
+      "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+      "source": "GitHub（官方）",
+      "category": "开发者"
+    },
+    {
+      "title": "DeepSeek 代码里出现 V5 标识：只是部署预埋，不是发布",
+      "summary": "网友在 DeepSeek 官方 Harness 代码中发现 DeepSeek-V5、V5-open、V5-next 三个新标识：V5-open 不限客户端版本、V5-next 要求升级客户端，意味着未来只需服务端改配置即可上线、无需用户更新 App。注意：这只是占位预埋，不等于 V5 已发布、更无性能数据；外界猜测 11 月发布，但官方至今没有任何 V5 公告。",
+      "url": "https://www.kucoin.com/news/flash/deepseek-v5-model-code-appears-suggesting-november-launch",
+      "source": "KuCoin（引述 AIBase）",
+      "category": "实验室"
+    }
+  ]
+}

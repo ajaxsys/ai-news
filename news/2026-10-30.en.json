@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-30",
+  "edition": 16,
+  "items": [
+    {
+      "title": "Amazon Q3: AWS grows 39%, its fastest in nearly five years, yet free cash flow turns negative and shares fall",
+      "summary": "AWS revenue hit $46 billion, up 39%, an annualized run rate of $184 billion; but EPS of $1.89 missed expectations and trailing-12-month free cash flow swung to a $42.4 billion outflow. The CEO said 2027 capex will be “meaningfully more” than this year’s ~$220 billion, with an AWS backlog of $578 billion.",
+      "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/",
+      "source": "GeekWire",
+      "category": "Labs"
+    },
+    {
+      "title": "New York signs among the strictest US AI companion laws: no pretending to have feelings in front of minors",
+      "summary": "Governor Hochul signed a law requiring chatbot operators to verify users’ ages; for users under 18, bots may not imply they are human, have emotions, hold a personal relationship, or offer “personal opinions.” It takes effect January 1, 2027, with enforcement by the state attorney general.",
+      "url": "https://www.malaymail.com/news/world/2026/10/29/new-york-law-targets-ai-chatbots-that-mimic-relationships-with-minors-sparking-tech-industry-backlash/241118",
+      "source": "法新社（经 Malay Mail）",
+      "category": "Labs"
+    },
+    {
+      "title": "Mistral releases Large 4 “Le Chonk”: trillion-parameter open weights land, tuned for cybersecurity",
+      "summary": "The natively multimodal flagship is on Hugging Face under a modified MIT open-weight license for self-hosting. Mistral calls it the strongest open model for coding, citing a 96.6% refusal rate on malicious cyber requests, the highest it measured among open models.",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mistral-touts-cyber-capabilities-chonk-ai-model/",
+      "source": "PYMNTS",
+      "category": "Developers"
+    },
+    {
+      "title": "Deepgram acquires Daily: voice-agent framework Pipecat stays open source, with an independent foundation planned",
+      "summary": "Announced at Deepgram’s first Speak event, the deal keeps Pipecat free under its BSD V2 license and vendor-neutral, with an independent Pipecat Foundation to be set up with the community; Daily’s real-time network will underpin Deepgram’s new Voice Agent Platform.",
+      "url": "https://www.unite.ai/deepgram-acquires-daily-commits-to-keeping-pipecat-open-source/",
+      "source": "Unite.AI",
+      "category": "Developers"
+    },
+    {
+      "title": "Rime launches Prism voice model: enterprises can review the reply before it is spoken, first audio in 0.57s",
+      "summary": "The customer-service speech-to-speech model listens to raw audio, including hesitation and emotion cues, but generates a text draft that company rules can inspect or rewrite before it is spoken, creating an audit trail. It scored 56.6 on the τ-Voice benchmark and supports private-cloud or on-premises deployment with client-data fine-tuning.",
+      "url": "https://dealroom.co/news/167796-voice-ai-startup-rime-launches-prism-after-24m-series-a/",
+      "source": "Dealroom",
+      "category": "Developers"
+    },
+    {
+      "title": "Anthropic adds a management dashboard to Claude Enterprise: usage reports, staff surveys and shared budgets",
+      "summary": "The new Smart Reports feature generates visual charts of team usage and cost in one click (first 10 reports a month free), joined by in-app employee surveys and pooled team budgets. Anthropic says the reports are not designed for individual performance evaluation or personnel decisions.",
+      "url": "https://www.gadgets360.com/ai/news/claude-enterprise-users-get-smart-reports-surveys-and-shared-budgets-12254407/amp",
+      "source": "Gadgets360",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI-backed Thrive Holdings buys security giant ADT for $7.6 billion, moving into smart-home security",
+      "summary": "At $10 a share, the deal is worth about $7.6 billion in equity and $15.3 billion in enterprise value; ADT becomes the foundation of Thrive’s smart-home security business, with OpenAI supplying models, technology and forward-deployed engineers as partner, though no specific AI security products were announced.",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Meta quietly launches AI fashion app Style Sketch: it builds outfits from the closet in your Instagram photos",
+      "summary": "The app can connect to Instagram to build a virtual closet from photos already posted, or accept items added manually by photo or video, then suggest outfits matched to the user’s style. It is currently available on iOS and Android only in Indonesia, Singapore and Thailand, and Meta has not said whether it will launch more widely.",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    }
+  ]
+}

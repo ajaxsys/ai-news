@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-30",
+  "edition": 16,
+  "items": [
+    {
+      "title": "亚马逊三季度：AWS 增速 39% 创近五年最快，但自由现金流转负、股价照跌",
+      "summary": "AWS 营收 460 亿美元、同比增 39%，还创下 1840 亿美元年化收入规模；但每股收益 1.89 美元不及预期，过去 12 个月自由现金流为 -424 亿美元。CEO 称 2027 年资本开支将“显著高于”今年约 2200 亿美元，AWS 在手订单 5780 亿美元。",
+      "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/",
+      "source": "GeekWire",
+      "category": "实验室"
+    },
+    {
+      "title": "纽约州签署全美最严 AI 伴侣法：未成年人面前不得假装“有感情”",
+      "summary": "州长 Hochul 签署的新法要求聊天机器人运营方核验用户年龄；面向 18 岁以下用户时，禁止让其相信机器人是真人、有感情、有私人关系或发表“个人意见”，2027 年 1 月 1 日生效，违者可被州总检察长起诉。",
+      "url": "https://www.malaymail.com/news/world/2026/10/29/new-york-law-targets-ai-chatbots-that-mimic-relationships-with-minors-sparking-tech-industry-backlash/241118",
+      "source": "法新社（经 Malay Mail）",
+      "category": "实验室"
+    },
+    {
+      "title": "Mistral 发布 Large 4“Le Chonk”：万亿参数开源权重上架，专打网络安全",
+      "summary": "这款原生多模态旗舰模型以改良版 MIT 开源权重协议在 Hugging Face 上架，可自托管。Mistral 称其为最强的开源编码模型，面对恶意网络请求拒绝率达 96.6%，为所测开源模型中最高。",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mistral-touts-cyber-capabilities-chonk-ai-model/",
+      "source": "PYMNTS",
+      "category": "开发者"
+    },
+    {
+      "title": "Deepgram 收购 Daily：语音 agent 框架 Pipecat 承诺永久开源，还要成立独立基金会",
+      "summary": "Deepgram 在首届 Speak 大会上宣布收购 Daily，Pipecat 继续按 BSD V2 协议免费开源、保持厂商中立，双方还将与社区共建独立的 Pipecat 基金会；Daily 的实时网络将支撑 Deepgram 新的语音 Agent 平台。",
+      "url": "https://www.unite.ai/deepgram-acquires-daily-commits-to-keeping-pipecat-open-source/",
+      "source": "Unite.AI",
+      "category": "开发者"
+    },
+    {
+      "title": "Rime 推出 Prism 语音模型：开口前先给企业“审一遍台词”，0.57 秒出声",
+      "summary": "这款面向客服场景的 speech-to-speech 模型直接听原声（含迟疑、情绪等线索），但在出声前生成一段可供企业规则检查、改写的文本，形成审计记录；τ-Voice 客服基准得分 56.6，支持私有云与本地部署、可按客户数据微调。",
+      "url": "https://dealroom.co/news/167796-voice-ai-startup-rime-launches-prism-after-24m-series-a/",
+      "source": "Dealroom",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic 给 Claude 企业版加“管理仪表盘”：用量报告、员工调研与共享预算齐上",
+      "summary": "新功能 Smart Reports 可一键生成团队用量与成本的可视化图表（每月前 10 份免费），另有应用内员工调研与团队共享预算池；Anthropic 明确表示报告不用于个人绩效评估或人事决策。",
+      "url": "https://www.gadgets360.com/ai/news/claude-enterprise-users-get-smart-reports-surveys-and-shared-budgets-12254407/amp",
+      "source": "Gadgets360",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 背书的 Thrive Holdings 以 76 亿美元收购安防巨头 ADT，进军智能家居安防",
+      "summary": "按每股 10 美元计股权价值约 76 亿美元、企业价值 153 亿美元；ADT 将成为 Thrive 智能家居安防业务的基础，OpenAI 作为合作方提供模型、技术与前置部署工程师，但双方未公布具体的 AI 安防新品计划。",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "Meta 低调上线 AI 穿搭应用 Style Sketch：从 Ins 照片里翻出你的衣柜来搭配",
+      "summary": "该应用可连接 Instagram 从已发布照片中建立虚拟衣柜，也可手动拍照添加单品，再按个人风格推荐穿搭；目前仅在印尼、新加坡、泰国上架 iOS 与 Android，Meta 未回应是否会更广泛推出。",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    }
+  ]
+}

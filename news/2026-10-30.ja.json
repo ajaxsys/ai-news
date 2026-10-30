@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-30",
+  "edition": 16,
+  "items": [
+    {
+      "title": "Amazon第3四半期：AWSは39%増で約5年ぶりの高成長、しかしフリーキャッシュフローはマイナス転落で株価は下落",
+      "summary": "AWSの売上は460億ドルで前年比39%増、年換算1,840億ドル規模に。しかし1株利益1.89ドルは予想を下回り、過去12か月のフリーキャッシュフローは424億ドルの流出に転じた。CEOは2027年の設備投資が今年の約2,200億ドルを「大幅に上回る」とし、AWSの受注残は5,780億ドルと述べた。",
+      "url": "https://www.geekwire.com/2026/aws-growth-hits-39-its-fastest-in-nearly-five-years-as-amazon-misses-on-earnings/",
+      "source": "GeekWire",
+      "category": "ラボ"
+    },
+    {
+      "title": "ニューヨーク州、米最厳格級のAIコンパニオン法に署名：未成年の前で「感情がある」ふりは禁止",
+      "summary": "ホークル知事が署名した新法は、チャットボット事業者に年齢確認を義務付ける。18歳未満の相手には、人間である、感情がある、私的な関係がある、「個人的意見」を述べるといった印象を与えることが禁止され、2027年1月1日に施行、違反は州司法長官が提訴できる。",
+      "url": "https://www.malaymail.com/news/world/2026/10/29/new-york-law-targets-ai-chatbots-that-mimic-relationships-with-minors-sparking-tech-industry-backlash/241118",
+      "source": "法新社（经 Malay Mail）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Mistral、Large 4「Le Chonk」を公開：1兆パラメータのオープンウェイト、サイバーセキュリティ特化",
+      "summary": "ネイティブなマルチモーダルのフラッグシップモデルが、改変MITオープンウェイトライセンスでHugging Faceに公開され、セルフホストが可能に。Mistralは最強のオープンなコーディングモデルとし、悪意あるサイバー要求への拒否率は96.6%で、測定したオープンモデルで最高だとする。",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mistral-touts-cyber-capabilities-chonk-ai-model/",
+      "source": "PYMNTS",
+      "category": "開発者"
+    },
+    {
+      "title": "DeepgramがDailyを買収：音声エージェント基盤Pipecatはオープンソースを維持、独立財団も設立へ",
+      "summary": "Deepgram初のSpeakイベントで発表された買収により、PipecatはBSD V2ライセンスで無料・ベンダー中立のまま維持され、コミュニティとともに独立したPipecat財団が設立される。DailyのリアルタイムネットワークはDeepgramの新Voice Agent Platformを支える。",
+      "url": "https://www.unite.ai/deepgram-acquires-daily-commits-to-keeping-pipecat-open-source/",
+      "source": "Unite.AI",
+      "category": "開発者"
+    },
+    {
+      "title": "Rime、音声モデルPrismを発表：話す前に企業が返答を確認可能、0.57秒で発話開始",
+      "summary": "カスタマーサービス向けのspeech-to-speechモデルは、ためらいや感情などの手がかりを含む生音声を直接聞きつつ、発話前に企業ルールが確認・修正できるテキスト案を生成し、監査記録を残す。τ-Voiceベンチマークで56.6を記録し、プライベートクラウドやオンプレミスでの展開と顧客データでの微調整に対応する。",
+      "url": "https://dealroom.co/news/167796-voice-ai-startup-rime-launches-prism-after-24m-series-a/",
+      "source": "Dealroom",
+      "category": "開発者"
+    },
+    {
+      "title": "Anthropic、Claude Enterpriseに管理ダッシュボードを追加：利用レポート、従業員調査、共有予算",
+      "summary": "新機能Smart Reportsはチームの利用状況とコストの可視化チャートをワンクリックで生成（月10件まで無料）し、アプリ内従業員調査とチーム共有予算も追加された。Anthropicは、レポートが個人の業績評価や人事判断を目的としないと明言している。",
+      "url": "https://www.gadgets360.com/ai/news/claude-enterprise-users-get-smart-reports-surveys-and-shared-budgets-12254407/amp",
+      "source": "Gadgets360",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAIが出資するThrive Holdings、警備大手ADTを76億ドルで買収しスマートホーム警備へ",
+      "summary": "1株10ドルで株式価値約76億ドル、企業価値153億ドルの買収。ADTはThriveのスマートホーム警備事業の基盤となり、OpenAIはパートナーとしてモデルや技術、前方展開エンジニアを提供するが、具体的なAI警備製品は発表されていない。",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "Meta、AIファッションアプリStyle Sketchをひっそり公開：Instagram写真からワードローブを再現してコーデ提案",
+      "summary": "このアプリはInstagramと連携して投稿済み写真から仮想ワードローブを構築したり、写真や動画で手動追加したりして、個人のスタイルに合うコーデを提案する。現在はインドネシア、シンガポール、タイでのみiOSとAndroidで提供され、Metaはより広い展開についてコメントしていない。",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    }
+  ]
+}

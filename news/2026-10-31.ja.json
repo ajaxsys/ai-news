@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-31",
+  "edition": 17,
+  "items": [
+    {
+      "title": "4大研究所が連携：robots.txtの1行で全社のAI学習から除外可能に",
+      "summary": "OpenAI、Google、Microsoft、Anthropicは10月30日、IETF草案の共通ポリシートークン __usage_ai-training を共同で支持した。robots.txtに1行書くだけで、4社のクローラーすべてに「学習に使わないでほしい」と伝えられる。Anthropicは実装を開始済み、OpenAIは数か月以内、Microsoftは2027年2月1日、Googleは2027年中を予定。対象は学習のみで検索インデックスには影響せず、既存の学習データには遡及しない。",
+      "url": "https://aiweekly.co/alerts/openai-google-microsoft-anthropic-back-one-ai-opt-out-token",
+      "source": "The Verge（经 AI Weekly）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Anthropic上場前夜：S-1が巨額の計算資源コストを露呈、630億ドルのチップ調達に「ジャンク」格付けの影",
+      "summary": "草案S-1によると、Anthropicの上半期売上は163億ドル（前年同期は12億ドル）だが、純損失は807億ドル（大半は転換社債の公正価値変動による非現金費用）。計算資源・インフラ支出は89億ドル、固定の計算資源コミットメントは2656億ドルに達する。Broadcom主導の630億ドルTPU調達スキームはSPVが機器を購入してAnthropicにリースする仕組みだが、Blackstoneは上場後も投機的格付けにとどまる可能性を投資家に伝えており、調達コストが重荷になる。報道される目標評価額は1.5〜2兆ドル、11月中旬の上場が見込まれる。",
+      "url": "https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-october-b1d",
+      "source": "AI to ROI（据 WSJ、FT 与 S-1 草案）",
+      "category": "ラボ"
+    },
+    {
+      "title": "DeepSeek、約158億ドルの2回目資金調達を完了　国有資本比率は2%から27%へ",
+      "summary": "The Informationによると、DeepSeekの2回目の外部調達は約1055億元（約158億ドル）で、プレマネー評価額は約5000億元（約740億ドル）で変わらず、当初目標の2倍超。約30社の投資家が参加し、騰訊（テンセント）と寧徳時代（CATL）が引き続き最大の出資者。国有資本の比率は初回の2%から27%に上昇した。同社は科創板上場に向け中信証券を起用済みとされる。",
+      "url": "https://aiweekly.co/alerts/deepseek-closes-16b-second-round-at-74-billion-pre-money",
+      "source": "The Information（经 AI Weekly）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Pika、H3 Flexを公開：オープンウェイト動画モデル、50ステップを6ステップに圧縮",
+      "summary": "10月29日公開のH3 FlexはMiniMax H3を後学習したモデルで、サンプリングを50ステップから6ステップに圧縮。15秒・768pクリップのTransformer計算時間は最短約7秒（エンドツーエンドの遅延ではない）で、最大12件の参照入力と同期ステレオ音声に対応。API価格は出力1秒あたり0.01ドルから。生成アダプターと推論コードは公開され、11月2日にPikaの制作プロダクトへ搭載される。",
+      "url": "https://pika.art/blog/pika-h3-flex",
+      "source": "Pika 官方",
+      "category": "開発者"
+    },
+    {
+      "title": "EMBRACE開示：5大AIコーディングツールの内蔵ブラウザが全破り、CodexとVS Codeは開示時点で未修正",
+      "summary": "Forever Securityが10月29日に開示したEMBRACEは、Cursor、GitHub Copilot、Codex、VS Code、Claude Desktopを対象とする。Cursorは悪意あるページから指示を注入されてコマンド実行が可能（10月1日に修正済み）、Copilotはアドレスバーの偽装が可能（1.1.29で修正済み）だったが、CodexとVS Codeのローカルファイル越境読み取りは開示時点で未修正で、SSH鍵や.env、トークンの窃取が可能だった。教訓：アシスタントのために追加されたブラウザ特権が、ブラウザ自体の安全境界を迂回している。",
+      "url": "https://cybernoz.com/embrace-flaws-in-5-ai-coding-tools-enable-code-execution-and-file-theft/",
+      "source": "Forever Security（经 Cybernoz / The Register）",
+      "category": "開発者"
+    },
+    {
+      "title": "英国予算、4000万ポンドで「国家エージェント安全部門」を新設　暴走エージェント事故を調査",
+      "summary": "英国予算は、暴走エージェント事件の調査・対応を担う国家エージェント安全部門（National Agentic Security Unit）に4000万ポンドを計上。GovAI部門に3500万ポンド、2年間の変革資金5000万ポンド、エージェント型サイバーシールド初段階に6000万ポンドも含む。いずれも発表された配分であり稼働中のサービスではない。真のシグナルは、エージェント導入と事故対応を一体で計画すべきということだ。",
+      "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-10-30",
+      "source": "Precise Impact（据 PublicTechnology）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Meta、AI学習の新利用規約を11月20日に延期　出版社・広告主の反発を受け",
+      "summary": "報道機関と広告主の反対、EU・英国の独占禁止当局への申立てを受け、MetaはAI学習でのコンテンツ利用範囲を広げる改定商業規約の施行日を10月30日から11月20日に延期した。同日の4研究所による共通オプトアウト信号と対照すると、プラットフォームのデータルールは綱引きの最中にある。",
+      "url": "https://www.marketingprofs.com/opinions/2026/56256/ai-update-october-30-2026-ai-news-and-views-from-the-past-week",
+      "source": "MarketingProfs",
+      "category": "開発者"
+    },
+    {
+      "title": "ElevenLabs、SFX v3を公開：1つのプロンプトで場面全体の音を配置",
+      "summary": "10月29日公開のSFX v3は、音楽やボーカルを含む複数の音を1つのプロンプトで組み合わせられ、映画・ゲームの場面音響制作を狙う。サウンドエフェクトツール、Flows、Studio、音楽エディター、モバイルアプリ、APIで利用可能。効果音生成は「1回1音」から「1回の指示で場面全体」へ移りつつある。",
+      "url": "https://opentools.ai/news/elevenlabs-sfx-v3-multi-sound-scene-brief-listening-access",
+      "source": "ElevenLabs（经 OpenTools）",
+      "category": "開発者"
+    }
+  ]
+}

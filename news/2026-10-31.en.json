@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-31",
+  "edition": 17,
+  "items": [
+    {
+      "title": "Four labs unite: one robots.txt signal opts content out of all AI training",
+      "summary": "On October 30, OpenAI, Google, Microsoft and Anthropic jointly backed a unified policy token, __usage_ai-training, in an IETF draft: one line in robots.txt tells all four crawlers not to use a site's content for training. Anthropic has started implementing it, OpenAI says within months, Microsoft targets February 1, 2027, and Google says within 2027. The signal covers training only — not search indexing — and does not remove content already in training sets.",
+      "url": "https://aiweekly.co/alerts/openai-google-microsoft-anthropic-back-one-ai-opt-out-token",
+      "source": "The Verge（经 AI Weekly）",
+      "category": "Labs"
+    },
+    {
+      "title": "Anthropic pre-IPO: S-1 exposes a huge compute bill, and its $63B chip financing faces a 'junk' rating shadow",
+      "summary": "The draft S-1 shows Anthropic's first-half revenue at $16.3 billion (versus $1.2 billion a year earlier), but a net loss of $80.7 billion, mostly non-cash charges from convertible-note fair-value changes; compute and infrastructure spending reached $8.9 billion, with fixed compute commitments of $265.6 billion. A Broadcom-led $63 billion TPU financing vehicle will buy chips through an SPV and lease them to Anthropic, while Blackstone has told investors the post-IPO rating may stay speculative-grade, pressuring funding costs. Reported target valuation: $1.5–2 trillion, listing in mid-November.",
+      "url": "https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-october-b1d",
+      "source": "AI to ROI（据 WSJ、FT 与 S-1 草案）",
+      "category": "Labs"
+    },
+    {
+      "title": "DeepSeek closes a ~$15.8B second round; state capital share jumps from 2% to 27%",
+      "summary": "Per The Information, DeepSeek's second external round totals about 105.5 billion yuan (~$15.8 billion) at an unchanged pre-money valuation of about 500 billion yuan (~$74 billion) — more than double its original target. Nearly 30 investors joined, with Tencent and CATL still the largest backers, while state-owned investors' share rose from 2% in the first round to 27%. The company has hired CITIC Securities to prepare for a STAR Market listing.",
+      "url": "https://aiweekly.co/alerts/deepseek-closes-16b-second-round-at-74-billion-pre-money",
+      "source": "The Information（经 AI Weekly）",
+      "category": "Labs"
+    },
+    {
+      "title": "Pika releases H3 Flex: open-weight video model distilled from 50 steps to 6",
+      "summary": "Released October 29, H3 Flex is Pika's post-trained version of MiniMax H3, distilled from 50 sampling steps to 6. A 15-second 768p clip takes as little as ~7 seconds of Transformer compute (not end-to-end latency), with up to 12 reference inputs and synchronized stereo audio; API pricing starts at $0.01 per output second. The generator adapters and inference code are open, and the model reaches Pika's creation product on November 2.",
+      "url": "https://pika.art/blog/pika-h3-flex",
+      "source": "Pika 官方",
+      "category": "Developers"
+    },
+    {
+      "title": "EMBRACE disclosure: embedded browsers in five AI coding tools broken; Codex and VS Code unpatched at disclosure",
+      "summary": "Forever Security's October 29 EMBRACE disclosure covers Cursor, GitHub Copilot, Codex, VS Code and Claude Desktop: Cursor could be injected with instructions from a malicious page and made to execute commands (fixed October 1), Copilot's address bar could be spoofed (fixed in 1.1.29), while Codex and VS Code local-file escapes were still unpatched at disclosure and could exfiltrate SSH keys, .env files and tokens. The lesson: browser privileges added for assistants are bypassing the browser's own security boundaries.",
+      "url": "https://cybernoz.com/embrace-flaws-in-5-ai-coding-tools-enable-code-execution-and-file-theft/",
+      "source": "Forever Security（经 Cybernoz / The Register）",
+      "category": "Developers"
+    },
+    {
+      "title": "UK Budget funds a £40m National Agentic Security Unit to investigate rogue-agent incidents",
+      "summary": "The UK Budget allocates £40 million for a National Agentic Security Unit to investigate and respond to rogue-agent incidents, plus £35 million for a GovAI unit, £50 million in transformation funding over two years, and £60 million for the first phase of an agentic Cyber Shield. These are announced allocations, not live services — the real signal is that agent deployment and incident response must be planned together.",
+      "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-10-30",
+      "source": "Precise Impact（据 PublicTechnology）",
+      "category": "Labs"
+    },
+    {
+      "title": "Meta delays new AI-training terms to November 20 after publisher and advertiser pushback",
+      "summary": "After objections from news publishers and advertisers — including complaints to EU and UK antitrust authorities — Meta postponed the effective date of revised commercial terms expanding permitted content use for AI training, from October 30 to November 20. Read against the same day's unified opt-out signal from the four labs, platform data rules are clearly in a tug-of-war.",
+      "url": "https://www.marketingprofs.com/opinions/2026/56256/ai-update-october-30-2026-ai-news-and-views-from-the-past-week",
+      "source": "MarketingProfs",
+      "category": "Developers"
+    },
+    {
+      "title": "ElevenLabs releases SFX v3: one prompt lays out a whole scene's sounds",
+      "summary": "Released October 29, SFX v3 lets creators combine multiple sounds — including music and vocals — in a single prompt, aimed at film and game scene sound design. It is available in the Sound Effects tool, Flows, Studio, Music Editor, the mobile app and the API. Sound-effects generation is moving from 'one sound at a time' to 'a whole scene in one brief'.",
+      "url": "https://opentools.ai/news/elevenlabs-sfx-v3-multi-sound-scene-brief-listening-access",
+      "source": "ElevenLabs（经 OpenTools）",
+      "category": "Developers"
+    }
+  ]
+}

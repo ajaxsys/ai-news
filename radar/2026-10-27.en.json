@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "title": "Agensh: multi-agent orchestration with no central scheduler",
+      "summary": "An open-source (MIT) multi-agent framework from Microsoft, released October 24, 2026: instead of a central orchestrator, agents organize the work among themselves.",
+      "url": "https://github.com/microsoft/Agensh",
+      "source": "GitHub · microsoft",
+      "outside": false
+    },
+    {
+      "title": "Cursor Computer Use: agents operate desktop apps and test their own work",
+      "summary": "Released on October 23, 2026, Cursor's Computer Use lets agents directly operate desktop applications and the iOS simulator — testing the features they just built instead of only writing code.",
+      "url": "https://theaipin.com/trends/cursor-agents-computer-use-desktop-apps-ios-simulator",
+      "source": "theaipin.com",
+      "outside": false
+    }
+  ]
+}

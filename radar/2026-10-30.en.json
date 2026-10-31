@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "title": "Quiver 1.1.1: manage many coding agents, control them from your phone",
+      "summary": "A command-line tool that manages multiple coding agents on one machine. Version 1.1.1 adds remote control: from a phone web page or iOS app you can watch sessions, send instructions, approve actions, interrupt or start new sessions, and a second machine can join as a satellite node. The hub binds only to your machine's Tailscale address (or loopback via tailscale serve) — no public ports. The desktop app requires macOS 26 and Apple Silicon.",
+      "url": "https://github.com/c-wenlong/quiver",
+      "source": "GitHub · c-wenlong",
+      "outside": false
+    },
+    {
+      "title": "Alex Relay: project-local handoffs between agents",
+      "summary": "Alex Relay writes an agent's progress as checkpoints inside the project itself — a .alex/ folder with state.json and HANDOFF.md — so the next agent can pick up exactly where the last one stopped, without any vendor chat history and without a cloud service. Public alpha; repository created October 23, 2026.",
+      "url": "https://github.com/kobayakawa-ai/alex-skills",
+      "source": "GitHub · kobayakawa-ai",
+      "outside": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "title": "Mika：开源安卓手机 agent，在后台屏上替你操作 App",
+      "summary": "2026 年 10 月 29 日开源的安卓手机 agent（Apache-2.0，两天收获 2000 多星）：用一句话交代任务，它在一块看不见的后台屏上操作手机 App、上网、跑定时任务，用户照常使用手机不受打扰。电脑上的 agent 还能通过 MCP 反过来给手机派任务、查进度、取结果。仅支持安卓，公开测试阶段。",
+      "url": "https://github.com/wangzan101/Mika",
+      "source": "GitHub · wangzan101",
+      "outside": false
+    },
+    {
+      "title": "GitHub Agentic Workflows 正式可用：用 Markdown 写仓库自动化",
+      "summary": "2026 年 10 月 28 日正式可用：用自然语言 Markdown 描述自动化，编译成标准 GitHub Actions 工作流，在 Actions 里运行编程 agent 做 Issue 分流、CI 失败分析、文档更新、补测试等工作。默认只读权限、带沙箱与防火墙，改动先过威胁检测；支持自托管 ARC Runner、Docker-in-Docker 与微虚拟机隔离。",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "source": "GitHub Blog",
+      "outside": false
+    }
+  ]
+}

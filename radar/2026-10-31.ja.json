@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "title": "Mika：裏側の画面でアプリを操作するオープンソースのAndroidエージェント",
+      "summary": "2026年10月29日に公開されたAndroid向けエージェント（Apache-2.0、公開2日で2000超のスター）。一言でタスクを渡すと、見えない裏側の画面でアプリ操作やウェブ閲覧、定時タスクをこなし、ユーザーは普段どおりスマートフォンを使えます。パソコン側のエージェントがMCP経由でスマートフォンにタスクを渡し、進捗確認や結果の受け取りをすることもできます。Android専用、公開テスト段階です。",
+      "url": "https://github.com/wangzan101/Mika",
+      "source": "GitHub · wangzan101",
+      "outside": false
+    },
+    {
+      "title": "GitHub Agentic Workflows が正式提供開始：Markdownで書くリポジトリ自動化",
+      "summary": "2026年10月28日に正式提供開始。自然言語のMarkdownで自動化を記述すると標準のGitHub Actionsワークフローにコンパイルされ、コーディングエージェントがIssueの振り分け、CI失敗の分析、ドキュメント更新、テスト作成などを行います。既定は読み取り専用権限で、サンドボックスとファイアウォールがあり、変更は事前に脅威検出を通ります。セルフホストのARC Runner、Docker-in-Docker、マイクロ仮想マシンによる分離にも対応します。",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "source": "GitHub Blog",
+      "outside": false
+    }
+  ]
+}

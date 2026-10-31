@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "title": "nanoMuse：开源跨设备个人 agent",
+      "summary": "开源的跨设备个人 agent 框架：每台设备上各跑一个 agent，却共享同一段对话上下文，换设备时任务可以接着往下走，而不是重新交代一遍。",
+      "url": "https://github.com/nano-muse/nanoMuse",
+      "source": "GitHub · nano-muse",
+      "outside": false
+    },
+    {
+      "title": "Rapid-MLX：为 coding agent 优化的 Apple Silicon 本地推理服务",
+      "summary": "面向 Apple Silicon 的本地推理服务，专门针对编程 agent 的工具调用（tool calling）做了优化，让本地模型跑 agent 工作流时更快、更稳。",
+      "url": "https://rapidmlx.com",
+      "source": "Rapid-MLX",
+      "outside": false
+    },
+    {
+      "title": "MagInkDash：树莓派驱动的电池供电电子墨水信息屏",
+      "summary": "用树莓派渲染内容、电池供电的电子墨水（e-ink）信息屏：把日历、天气、待办等信息做成一块低功耗、可长期摆放的一瞥式仪表盘。",
+      "url": "https://www.hackster.io/news/maginkdash-gives-you-a-customizable-long-life-glanceable-epaper-dashboard-5a2ab8cdbe68",
+      "source": "Hackster",
+      "outside": true
+    }
+  ]
+}

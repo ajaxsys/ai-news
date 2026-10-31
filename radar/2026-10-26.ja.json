@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-26",
+  "items": [
+    {
+      "title": "Perplexity Computer 完全ローカルモード：Mac上でオフライン動作するエージェント",
+      "summary": "Perplexity Computerの新モードは、エージェントをMac本体で実行し（Qwen 3.6 / PPLX Pro）、オフラインでも動作します。インターネットを使う操作にはユーザーの承認が必要です。Pro / Max / Enterpriseプランが必要で、Apple Siliconでは36GB以上のメモリが推奨されます。",
+      "url": "https://9to5mac.com/2026/10/20/perplexitys-computer-can-now-run-entirely-on-your-mac-even-offline/",
+      "source": "9to5Mac",
+      "outside": false
+    }
+  ]
+}

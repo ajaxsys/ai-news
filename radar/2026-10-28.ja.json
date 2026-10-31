@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "title": "Entire：エージェントと人の協働のために生まれたGitホスティング",
+      "summary": "2026年10月26日に公開された独立系のGitホスティング基盤。エージェントと人の協働を前提に設計され、従来のPull Requestの流れを「Trails」という仕組みに置き換えます。",
+      "url": "https://entire.com/news/entire-launches-an-independent-git-forge-for-agent-human-collaboration",
+      "source": "Entire",
+      "outside": false
+    },
+    {
+      "title": "Hob：オープンなモデルをローカルで動かすオフラインのデスクトップアシスタント",
+      "summary": "MITライセンスのデスクトップアシスタント。オープンなモデルを自分のマシン上だけで実行し、オフラインで使えることが売りです。2026年10月26日にProduct Huntで公開されました。",
+      "url": "https://www.producthunt.com/products/hob-3",
+      "source": "Product Hunt",
+      "outside": false
+    },
+    {
+      "title": "Pi-Esp Jarvis：Raspberry Pi＋ESP32小型ディスプレイのローカル音声アシスタント",
+      "summary": "Raspberry PiとESP32の小型ディスプレイで作るローカル音声アシスタント。音声対話も表示もローカル機器で完結する、低コストな家庭用音声端末の作り方です。",
+      "url": "https://github.com/nativebreed/pi-esp-jarvis",
+      "source": "GitHub · nativebreed",
+      "outside": true
+    }
+  ]
+}

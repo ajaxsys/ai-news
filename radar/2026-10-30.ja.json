@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "title": "Quiver 1.1.1：複数のコーディングエージェントを一元管理し、スマートフォンから遠隔操作",
+      "summary": "ローカルの複数のコーディングエージェントをコマンドラインで一元管理するツール。1.1.1で遠隔操作が加わり、1台を中心に、スマートフォンのウェブページやiOSアプリからセッションの確認、指示、承認、中断、新規開始ができ、2台目をサテライトノードとして接続できます。遠隔の中心は自機のTailscaleアドレスにだけ結び付けられ（tailscale serve経由のループバックも可）、公開ポートは開きません。デスクトップアプリ版はmacOS 26とApple Siliconが必要です。",
+      "url": "https://github.com/c-wenlong/quiver",
+      "source": "GitHub · c-wenlong",
+      "outside": false
+    },
+    {
+      "title": "Alex Relay：プロジェクト内に置くエージェント間の引き継ぎ仕組み",
+      "summary": "エージェントの進捗をチェックポイントとしてプロジェクト内の .alex/ フォルダ（state.json＋HANDOFF.md）に保存し、別のエージェントがそのまま続きを引き継げる仕組み。ベンダーのチャット履歴に依存せず、クラウドも経由しません。2026年10月23日にリポジトリが作られた公開アルファ段階です。",
+      "url": "https://github.com/kobayakawa-ai/alex-skills",
+      "source": "GitHub · kobayakawa-ai",
+      "outside": false
+    }
+  ]
+}

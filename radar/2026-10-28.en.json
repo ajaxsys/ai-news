@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "title": "Entire: a Git forge built for agent–human collaboration",
+      "summary": "Launched on October 26, 2026, Entire is an independent Git hosting platform designed around agent–human collaboration, replacing the traditional pull request flow with a mechanism it calls Trails.",
+      "url": "https://entire.com/news/entire-launches-an-independent-git-forge-for-agent-human-collaboration",
+      "source": "Entire",
+      "outside": false
+    },
+    {
+      "title": "Hob: an offline desktop assistant running open models locally",
+      "summary": "An MIT-licensed desktop assistant built to run open models entirely on your own machine, offline. Launched on Product Hunt on October 26, 2026.",
+      "url": "https://www.producthunt.com/products/hob-3",
+      "source": "Product Hunt",
+      "outside": false
+    },
+    {
+      "title": "Pi-Esp Jarvis: a local voice assistant on a Raspberry Pi + ESP32 screen",
+      "summary": "A local voice assistant built from a Raspberry Pi and a small ESP32 display — voice interaction and display handled entirely on local hardware, a low-cost pattern for a home voice terminal.",
+      "url": "https://github.com/nativebreed/pi-esp-jarvis",
+      "source": "GitHub · nativebreed",
+      "outside": true
+    }
+  ]
+}

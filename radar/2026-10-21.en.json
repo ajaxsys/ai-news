@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "title": "nanoMuse: an open-source personal agent that spans your devices",
+      "summary": "An open-source framework for personal agents that live on every device you own yet share one continuous conversation — pick up a task on another device without re-explaining everything.",
+      "url": "https://github.com/nano-muse/nanoMuse",
+      "source": "GitHub · nano-muse",
+      "outside": false
+    },
+    {
+      "title": "Rapid-MLX: local inference on Apple Silicon, tuned for coding agents",
+      "summary": "A local inference service for Apple Silicon, specifically optimized for the tool calling that coding agents rely on, so local models run agent workflows faster and more reliably.",
+      "url": "https://rapidmlx.com",
+      "source": "Rapid-MLX",
+      "outside": false
+    },
+    {
+      "title": "MagInkDash: a Raspberry Pi-rendered, battery-powered e-ink dashboard",
+      "summary": "A build that pairs a Raspberry Pi with a battery-powered e-ink panel: calendars, weather, to-dos and more become a low-power, glanceable dashboard you can leave anywhere.",
+      "url": "https://www.hackster.io/news/maginkdash-gives-you-a-customizable-long-life-glanceable-epaper-dashboard-5a2ab8cdbe68",
+      "source": "Hackster",
+      "outside": true
+    }
+  ]
+}

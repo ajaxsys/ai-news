@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "title": "ESP32 iPhone Agent：7ドルの基板でAIが実機iPhoneを直接操作",
+      "summary": "約7ドルのESP32-S3基板が、AirPlayでiPhoneの画面をAIに送り、USB HIDのタッチ入力で実機を操作するオープンソースプロジェクト。パソコン経由も脱獄も不要です。現行実装は縦向きのASCII映像で480×1040、最大約5fps。ロック画面は見られません。",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent/blob/main/README.md",
+      "source": "GitHub · onehumanbeing",
+      "outside": true
+    },
+    {
+      "title": "Murmell AVP：AIエージェントのために設計されたバージョン管理プロトコル",
+      "summary": "複数のエージェントが同じリポジトリへ並行して書くためのバージョンプロトコル。各エージェントの変更は現在のmainの先端で検証・自動リプレイされ、通常のGitコミットとして取り込まれるため、並行作業の衝突が減ります。",
+      "url": "https://www.producthunt.com/products/avp",
+      "source": "Product Hunt",
+      "outside": false
+    },
+    {
+      "title": "OpenBot：複数のコーディングエージェントを1つのデスクトップアプリで並行実行",
+      "summary": "複数のコーディングエージェントを並べて実行し、相互にメッセージやファイルを受け渡せるデスクトップアプリ。スマートフォンから接続して様子を見たり指示したりもできます。開発プレビュー版は既定でディスク全体へのアクセスを許可し、操作ごとの承認がないため、試す際は権限に注意が必要です。",
+      "url": "https://openbot.run/providers/custom-agents",
+      "source": "OpenBot",
+      "outside": false
+    }
+  ]
+}

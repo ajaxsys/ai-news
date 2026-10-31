@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "title": "Entire：为 agent 与人协作而生的 Git 托管平台",
+      "summary": "2026 年 10 月 26 日发布的独立 Git 托管平台，面向 agent 与人协作的工作流，用名为 Trails 的机制替代传统的 Pull Request 流程。",
+      "url": "https://entire.com/news/entire-launches-an-independent-git-forge-for-agent-human-collaboration",
+      "source": "Entire",
+      "outside": false
+    },
+    {
+      "title": "Hob：在本机跑开源模型的离线桌面助手",
+      "summary": "MIT 开源的桌面助手，主打完全在本机运行开源模型、离线可用，2026 年 10 月 26 日在 Product Hunt 发布。",
+      "url": "https://www.producthunt.com/products/hob-3",
+      "source": "Product Hunt",
+      "outside": false
+    },
+    {
+      "title": "Pi-Esp Jarvis：树莓派 + ESP32 小屏的本地语音助手",
+      "summary": "用树莓派加一块 ESP32 小屏搭的本地语音助手，语音交互与显示都在本地设备上完成，是一种低成本的家庭语音终端做法。",
+      "url": "https://github.com/nativebreed/pi-esp-jarvis",
+      "source": "GitHub · nativebreed",
+      "outside": true
+    }
+  ]
+}

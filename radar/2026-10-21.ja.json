@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "title": "nanoMuse：デバイスをまたぐオープンソースのパーソナルエージェント",
+      "summary": "所有する各デバイスにエージェントを置きながら、会話の文脈は一つに共有するオープンソースのフレームワーク。デバイスを替えても、説明し直さずにタスクを引き継げます。",
+      "url": "https://github.com/nano-muse/nanoMuse",
+      "source": "GitHub · nano-muse",
+      "outside": false
+    },
+    {
+      "title": "Rapid-MLX：コーディングエージェント向けに最適化されたApple Silicon向けローカル推論サービス",
+      "summary": "Apple Silicon向けのローカル推論サービス。コーディングエージェントが多用するツール呼び出し（tool calling）に特化して最適化され、ローカルモデルでエージェントのワークフローをより速く、安定して回せます。",
+      "url": "https://rapidmlx.com",
+      "source": "Rapid-MLX",
+      "outside": false
+    },
+    {
+      "title": "MagInkDash：Raspberry Pi描画＋電池駆動の電子ペーパー情報パネル",
+      "summary": "Raspberry Piで描画し、電池で動く電子ペーパー（e-ink）の情報パネル。カレンダーや天気、ToDoなどを、低消費電力で常時表示できるダッシュボードとして置いておけます。",
+      "url": "https://www.hackster.io/news/maginkdash-gives-you-a-customizable-long-life-glanceable-epaper-dashboard-5a2ab8cdbe68",
+      "source": "Hackster",
+      "outside": true
+    }
+  ]
+}

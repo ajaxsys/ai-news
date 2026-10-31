@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "title": "Mika: an open-source Android agent that uses your apps on a hidden screen",
+      "summary": "Open-sourced on October 29, 2026 (Apache-2.0; 2,000+ stars in two days), Mika takes a one-line task and operates apps on an invisible background screen — browsing, running scheduled jobs — while you keep using your phone undisturbed. Agents on your computer can also drive the phone in reverse via MCP: assign tasks, check progress, collect results. Android only, public beta.",
+      "url": "https://github.com/wangzan101/Mika",
+      "source": "GitHub · wangzan101",
+      "outside": false
+    },
+    {
+      "title": "GitHub Agentic Workflows are generally available: repo automation in Markdown",
+      "summary": "Generally available since October 28, 2026: describe automation in natural-language Markdown, compile it into standard GitHub Actions workflows, and let coding agents triage issues, analyze CI failures, update docs and write tests. Read-only permissions by default, sandboxed with a firewall, changes pass threat detection first; self-hosted ARC runners, Docker-in-Docker and micro-VM isolation are supported.",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "source": "GitHub Blog",
+      "outside": false
+    }
+  ]
+}

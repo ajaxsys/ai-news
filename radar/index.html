@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;650;700;750&family=Noto+Sans+SC:wght@400;650;700;750&family=Noto+Serif+JP:wght@500&family=Noto+Serif+SC:wght@500&display=swap" rel="stylesheet" />
+  <title>玩法雷达</title>
+  <style>:root{color-scheme:light dark;--paper:#f3f1eb;--paper-2:#e8e4da;--ink:#161713;--muted:#63645d;--line:#c9c5bb;--accent:#df4f2f;--accent-ink:#fffaf5;--card:rgba(255,255,255,.5);--green:#235b45;--shadow:0 18px 45px rgba(32,27,18,.09);--font-sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans JP","PingFang SC",sans-serif;--font-serif:Georgia,"Noto Serif CJK SC","Noto Serif JP","Songti SC",serif;}html:lang(zh-CN){--font-sans:"Noto Sans SC","Noto Sans CJK SC","PingFang SC",ui-sans-serif,sans-serif;--font-serif:"Noto Serif SC","Noto Serif CJK SC","Songti SC",serif;}html:lang(ja-JP){--font-sans:"Noto Sans JP","Noto Sans CJK JP",ui-sans-serif,sans-serif;--font-serif:"Noto Serif JP","Noto Serif CJK JP",serif;}html[data-theme="dark"]{color-scheme:dark;--paper:#171814;--paper-2:#22231e;--ink:#f2efe7;--muted:#aaa99f;--line:#3d3e37;--accent:#ff6a45;--accent-ink:#161713;--card:rgba(255,255,255,.035);--green:#72b495;--shadow:0 18px 45px rgba(0,0,0,.18);}@media (prefers-color-scheme:dark){html:not([data-theme="light"]){color-scheme:dark;--paper:#171814;--paper-2:#22231e;--ink:#f2efe7;--muted:#aaa99f;--line:#3d3e37;--accent:#ff6a45;--accent-ink:#161713;--card:rgba(255,255,255,.035);--green:#72b495;--shadow:0 18px 45px rgba(0,0,0,.18);}}*{box-sizing:border-box;}html{scroll-behavior:smooth;}body{margin:0;min-width:320px;background:linear-gradient(90deg,transparent 49.9%,rgba(127,127,127,.035) 50%,transparent 50.1%),var(--paper);color:var(--ink);font-family:var(--font-sans);font-size:16px;line-height:1.55;}a{color:inherit;}button{font:inherit;}.wrap{width:min(1180px,calc(100% - 48px));margin:0 auto;}.utility{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:56px;border-bottom:1px solid var(--line);color:var(--muted);font-size:13px;letter-spacing:.02em;}.utility strong{color:var(--ink);font-weight:650;}.pulse{display:inline-flex;align-items:center;gap:8px;min-width:0;}.pulse::before{content:"";flex:0 0 auto;width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 14%,transparent);}.backlink{text-decoration:none;color:var(--muted);}.backlink:hover{color:var(--ink);}.utility-right{display:flex;align-items:center;gap:9px;white-space:nowrap;}.language-picker{position:relative;}.language-menu{position:absolute;z-index:20;top:calc(100%+7px);right:0;width:158px;padding:6px;border:1px solid var(--line);border-radius:12px;background:var(--paper);box-shadow:var(--shadow);}.language-menu[hidden]{display:none;}.language-option,.date-option{width:100%;min-height:38px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:7px 9px;border:0;border-radius:7px;background:transparent;color:var(--muted);text-align:left;cursor:pointer;}.language-option:hover,.language-option:focus-visible,.date-option:hover,.date-option:focus-visible{color:var(--ink);background:var(--paper-2);outline:none;}.language-option[aria-checked="true"],.date-option[aria-checked="true"]{color:var(--ink);font-weight:700;}.language-check,.date-check{opacity:0;color:var(--accent);}.language-option[aria-checked="true"] .language-check,.date-option[aria-checked="true"] .date-check{opacity:1;}.date-option .date-iso{margin-left:auto;color:var(--muted);font-size:12px;font-weight:400;font-variant-numeric:tabular-nums;}.language-caret{transition:transform .18s ease;}#languageToggle[aria-expanded="true"] .language-caret,#dateMoreToggle[aria-expanded="true"] .language-caret{transform:rotate(180deg);}.utility-action{min-height:34px;display:inline-flex;align-items:center;gap:6px;padding:5px 9px;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:transparent;cursor:pointer;}.utility-action:hover{color:var(--ink);border-color:var(--ink);}.utility-action svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}.utility-action .mode-text{font-size:11px;font-weight:700;}#clock{color:var(--ink);font-variant-numeric:tabular-nums;}.lead{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(270px,.7fr);gap:48px;padding:64px 0 54px;border-bottom:1px solid var(--line);}.date-label{color:var(--accent);font-weight:700;font-size:13px;letter-spacing:.08em;}h1{margin:13px 0 18px;max-width:760px;font-family:var(--font-serif);font-size:clamp(44px,7vw,84px);line-height:.99;letter-spacing:-.045em;font-weight:500;}.dek{max-width:650px;margin:0;color:var(--muted);font-size:clamp(17px,2vw,21px);}.lead-side{align-self:end;padding-bottom:5px;}.countdown{border-top:4px solid var(--ink);padding-top:15px;}.countdown .label{display:flex;justify-content:space-between;gap:16px;font-size:13px;color:var(--muted);}.countdown output{display:block;margin:6px 0 3px;font:500 clamp(30px,4.4vw,50px)/1.15 var(--font-serif);letter-spacing:-.02em;}.countdown small{color:var(--muted);}.about{padding:42px 0 46px;border-bottom:1px solid var(--line);}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:22px;}.about-grid h3{margin:0 0 8px;font-size:14px;letter-spacing:.06em;color:var(--accent);}.about-grid p{margin:0;color:var(--muted);font-size:15px;}.briefing{padding:42px 0 46px;border-bottom:1px solid var(--line);}.briefing-head{display:grid;grid-template-columns:1fr auto;align-items:end;gap:24px;margin-bottom:22px;}.briefing-head p{margin:5px 0 0;color:var(--muted);}.snapshot{color:var(--muted);font-size:12px;text-align:right;}.briefing-toolbar{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:18px;}.briefing-control-label{display:block;margin-bottom:7px;color:var(--muted);font-size:12px;}.date-switcher{display:flex;flex-wrap:wrap;gap:8px;}.date-recent button,.date-more{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:8px 13px;cursor:pointer;transition:background .18s,color .18s,border-color .18s;}.date-recent button:hover,.date-more:hover{border-color:var(--ink);color:var(--ink);}.date-recent button[aria-pressed="true"],.date-more[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink);}.date-recent{display:flex;flex-wrap:wrap;gap:8px;}.date-picker{position:relative;}.date-picker[hidden]{display:none;}.date-more{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;}.date-more svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}.date-menu{position:absolute;z-index:20;top:calc(100%+7px);left:0;width:208px;max-height:292px;overflow-y:auto;padding:6px;border:1px solid var(--line);border-radius:12px;background:var(--paper);box-shadow:var(--shadow);}.date-menu[hidden]{display:none;}.news-list{border-top:4px solid var(--ink);}.news-item{display:grid;grid-template-columns:88px minmax(0,1fr);gap:24px;align-items:start;padding:22px 0;border-bottom:1px solid var(--line);}.news-item .news-kind{color:var(--accent);font-weight:750;font-size:13px;}.news-item h3{margin:0 0 5px;font:500 21px/1.25 var(--font-serif);}.news-item p{margin:0;color:var(--muted);font-size:14px;}.news-source{display:inline-block;margin-top:8px;color:var(--ink);font-size:13px;font-weight:650;text-decoration-color:var(--line);text-underline-offset:3px;}.news-source:hover{color:var(--accent);text-decoration-color:currentColor;}.news-empty{margin:0;padding:24px 0;color:var(--muted);border-bottom:1px solid var(--line);}h2{margin:0;font-family:var(--font-serif);font-weight:500;font-size:30px;letter-spacing:-.02em;}.rule{display:grid;grid-template-columns:140px 1fr;gap:24px;padding:28px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;}.rule strong{color:var(--ink);}@media (max-width:820px){.wrap{width:min(100% - 30px,680px);}.lead{grid-template-columns:1fr;gap:36px;padding:46px 0 40px;}.lead-side{max-width:430px;}.about-grid{grid-template-columns:1fr;gap:24px;}.briefing-head{grid-template-columns:1fr;gap:7px;align-items:start;}.snapshot{text-align:left;}.briefing-toolbar{align-items:flex-start;flex-direction:column;}}@media (max-width:620px){.utility{align-items:flex-start;padding:10px 0;}.utility-right{flex-wrap:wrap;justify-content:flex-end;gap:6px;}#clock{flex-basis:100%;text-align:right;order:3;}.pulse{flex:0 0 auto;}.pulse strong{white-space:nowrap;}.pulse .quiet{display:none;}.utility-action{min-height:30px;padding:3px 8px;}h1{font-size:clamp(42px,14vw,64px);}.news-item{grid-template-columns:72px minmax(0,1fr);gap:12px;}.news-item h3{font-size:18px;}.rule{grid-template-columns:1fr;gap:6px;}}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}*,*::before,*::after{transition:none !important;}}</style>
+</head>
+<body><div class="wrap"><div class="utility" id="utility" aria-label="Page status"><span class="pulse"><a class="backlink" href="../" id="backLink">← AI 资讯</a><strong id="utilityTitle">玩法雷达</strong></span><span class="utility-right"><span class="language-picker" id="languagePicker"><button class="utility-action" id="languageToggle" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="languageMenu"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"></path></svg><span class="mode-text" id="languageText">中文</span><svg class="language-caret" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"></path></svg></button><span class="language-menu" id="languageMenu" role="menu" hidden></span></span><button class="utility-action" id="themeToggle" type="button"><svg id="themeIcon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"></path><circle cx="12" cy="12" r="4"></circle></svg><span class="mode-text" id="themeText">跟随系统</span></button><span id="clock" aria-live="off">—</span></span></div><main><section class="lead" aria-labelledby="mainTitle"><div><div class="date-label" id="dateLabel">—</div><h1 id="mainTitle">玩法雷达</h1><p class="dek" id="dek">能动手的新玩法，才值得收藏。每天侦察一次，只收有仓库、有教程、有产品、可以照着复现的东西。</p></div><aside class="lead-side"><div class="countdown"><div class="label"><span id="cadenceLabel">更新节奏</span><span id="dailyTime">—</span></div><output id="cadenceText">有好东西才更新</output><small id="cadenceNote">没有够格的新发现，就跳过当天，不凑数。</small></div></aside></section><section class="about" aria-labelledby="aboutTitle"><h2 id="aboutTitle">关于这个专栏</h2><div class="about-grid"><div><h3 id="bgTitle">背景</h3><p id="bgText">这个专栏源于一个持续中的个人实验：把 AI agent 从聊天窗口里放出来，让它能远程操作自己的电脑、调度多台机器协同干活，并长期常驻在家庭网络里。实验的过程里，不断冒出值得一试的新项目和新做法——这个专栏就是它们的固定存放处。</p></div><div><h3 id="purposeTitle">目的</h3><p id="purposeText">每天侦察一次全网，只收录具体、可动手的东西，不收泛泛的行业新闻（那是本站 AI 早报的工作）。重点关注六个方向：AI 远程控制、多 agent 编排、Tailscale 等组网玩法、Apple Silicon 本地模型与家庭算力私有化、事件驱动的常驻 agent、给 agent 安全放权的隔离实践；偶尔也会收录标着「圈外」的跨界点子，开阔思路。</p></div></div></section><section class="briefing" aria-labelledby="briefingTitle"><div class="briefing-head"><div><h2 id="briefingTitle">雷达条目</h2><p id="briefingMeta"></p></div><div class="snapshot" id="snapshotLabel"></div></div><div class="briefing-toolbar"><div><span class="briefing-control-label" id="dateControlLabel">条目日期</span><div class="date-switcher" id="dateSwitcher" role="group"><span class="date-recent" id="dateRecent"></span><span class="date-picker" id="datePicker"><button class="date-more" id="dateMoreToggle" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="dateMenu"><span id="dateMoreText">更多日期</span><svg class="language-caret" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"></path></svg></button><span class="date-menu" id="dateMenu" role="menu" hidden></span></span></div></div></div><div class="news-list" id="newsList" aria-live="polite"></div></section><footer class="rule"><strong id="ruleTitle">收录原则</strong><span id="ruleText">只收具体可复现的项目与做法，链接一律给一手来源；厂商宣传不等于实测结论，动手前请先看原文的限制与权限说明。</span></footer></main></div>
+<script>
+(function(){
+"use strict";
+var T={
+zh:{pageTitle:"玩法雷达",utilityTitle:"玩法雷达",back:"← AI 资讯",dek:"能动手的新玩法，才值得收藏。每天侦察一次，只收有仓库、有教程、有产品、可以照着复现的东西。",cadenceLabel:"更新节奏",cadenceText:"有好东西才更新",cadenceNote:"没有够格的新发现，就跳过当天，不凑数。",dailyNote:"每天约 20:51（JST）侦察",aboutTitle:"关于这个专栏",bgTitle:"背景",bgText:"这个专栏源于一个持续中的个人实验：把 AI agent 从聊天窗口里放出来，让它能远程操作自己的电脑、调度多台机器协同干活，并长期常驻在家庭网络里。实验的过程里，不断冒出值得一试的新项目和新做法——这个专栏就是它们的固定存放处。",purposeTitle:"目的",purposeText:"每天侦察一次全网，只收录具体、可动手的东西，不收泛泛的行业新闻（那是本站 AI 早报的工作）。重点关注六个方向：AI 远程控制、多 agent 编排、Tailscale 等组网玩法、Apple Silicon 本地模型与家庭算力私有化、事件驱动的常驻 agent、给 agent 安全放权的隔离实践；偶尔也会收录标着「圈外」的跨界点子，开阔思路。",briefing:"雷达条目",worth:"{n} 条新玩法",dateControl:"条目日期",moreDates:"更多日期",dateSwitch:"切换条目日期",ruleTitle:"收录原则",ruleText:"只收具体可复现的项目与做法，链接一律给一手来源；厂商宣传不等于实测结论，动手前请先看原文的限制与权限说明。",outside:"圈外",core:"核心圈",switchLanguage:"切换语言",pageStatus:"页面状态",viewSource:"查看来源：",source:"来源：",empty:"这一天没有收录条目。",languages:{zh:"中文",en:"English",ja:"日本語"},themes:{system:"跟随系统",light:"白天",dark:"夜晚"},loading:"加载中…",loadError:"加载失败。",retry:"重试",dataUpdated:"数据更新于 {date}"},
+en:{pageTitle:"Play Radar",utilityTitle:"Play Radar",back:"← AI Briefing",dek:"Only hands-on plays are worth collecting. One scan a day, keeping only what comes with a repository, a tutorial, or a product you can actually reproduce.",cadenceLabel:"Cadence",cadenceText:"Updated when something qualifies",cadenceNote:"When nothing qualifies, the day is skipped — no filler.",dailyNote:"Scouted daily around 20:51 JST",aboutTitle:"About this column",bgTitle:"Background",bgText:"This column grew out of an ongoing personal experiment: taking AI agents out of the chat window — letting them remotely operate your own computers, coordinate work across several machines, and live permanently on a home network. The experiment keeps turning up new projects and approaches worth trying; this column is where they are collected.",purposeTitle:"Purpose",purposeText:"Once a day, we scan the web and keep only concrete, hands-on items — no general industry news (that is the job of this site's AI Briefing). The focus is on six areas: remote control by AI agents, multi-agent orchestration, networking plays such as Tailscale, local models on Apple Silicon and privatized home compute, event-driven always-on agents, and isolation practices for safely giving agents more authority. Occasional items marked “Outside the box” wander further afield.",briefing:"Radar entries",worth:"{n} new plays",dateControl:"Entry date",moreDates:"More dates",dateSwitch:"Switch entry date",ruleTitle:"Inclusion principle",ruleText:"Only concrete, reproducible projects and techniques, always linked to primary sources. A vendor's pitch is not a tested conclusion — check the original's limits and permission notes before trying anything.",outside:"Outside the box",core:"Core",switchLanguage:"Switch language",pageStatus:"Page status",viewSource:"View source: ",source:"Source: ",empty:"No entries for this day.",languages:{zh:"中文",en:"English",ja:"日本語"},themes:{system:"System",light:"Day",dark:"Night"},loading:"Loading…",loadError:"Failed to load.",retry:"Retry",dataUpdated:"Data updated {date}"},
+ja:{pageTitle:"玩法レーダー",utilityTitle:"玩法レーダー",back:"← AIニュース",dek:"手を動かせる新しい遊び方だけを集める。1日1回の偵察で、リポジトリやチュートリアル、製品があり、再現できるものだけを残します。",cadenceLabel:"更新のリズム",cadenceText:"良いものが見つかった時だけ更新",cadenceNote:"該当する新発見がない日は更新を休み、無理に埋めることはしません。",dailyNote:"毎日 20:51（JST）ごろ偵察",aboutTitle:"このコラムについて",bgTitle:"背景",bgText:"このコラムは、進行中の個人的な実験から生まれました。AIエージェントをチャット画面から解き放ち、自分のコンピュータを遠隔操作させ、複数台のマシンを連携させ、家庭内ネットワークに常駐させる実験です。その過程で、試す価値のある新しいプロジェクトや手法が次々と見つかります。このコラムはそれらを集める場所です。",purposeTitle:"目的",purposeText:"1日1回、ウェブ全体を偵察し、具体的に手を動かせるものだけを収録します。一般的な業界ニュースは扱いません（それは本サイトのAIニュースの役割です）。注目する6分野は、AIエージェントによる遠隔操作、マルチエージェント編成、Tailscaleなどのネットワーク活用、Apple Silicon上のローカルモデルと家庭内コンピューティングの私有化、イベント駆動の常駐エージェント、エージェントに安全に権限を渡す分離の実践です。時には「圏外」と記したジャンル外のアイデアも取り上げます。",briefing:"レーダー項目",worth:"新しい遊び方 {n}件",dateControl:"項目の日付",moreDates:"過去の日付",dateSwitch:"項目の日付を切り替える",ruleTitle:"収録の原則",ruleText:"再現できる具体的なプロジェクトと手法だけを収録し、リンクは常に出典そのものへ。ベンダーの宣伝は実測の結論ではありません。手を動かす前に、原文の制約と権限の説明を確認してください。",outside:"圏外",core:"中核",switchLanguage:"言語を切り替える",pageStatus:"ページの状態",viewSource:"出典を見る：",source:"出典：",empty:"この日の項目はありません。",languages:{zh:"中文",en:"English",ja:"日本語"},themes:{system:"システム",light:"昼",dark:"夜"},loading:"読み込み中…",loadError:"読み込みに失敗しました。",retry:"再試行",dataUpdated:"データ更新日 {date}"}
+};
+var BASE="";
+var CDN="https://cdn.jsdelivr.net/gh/ajaxsys/ai-news@main/radar/";
+var LOCALE={zh:"zh-CN",en:"en-US",ja:"ja-JP"};
+var LANGS=["zh","en","ja"], THEMES=["system","light","dark"];
+var nav=(navigator.language||"en").toLowerCase();
+var lang=nav.indexOf("zh")===0?"zh":(nav.indexOf("ja")===0?"ja":"en");
+var theme="system", manifest=null, dates=[], selDate="", items=[], loadState="loading";
+function $(id){return document.getElementById(id);}
+function t(k){var d=T[lang]||T.zh;return d[k]!=null?d[k]:T.zh[k];}
+function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]!=null?o[k]:"";});}
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function fetchJSON(path){
+  return fetch(BASE+path).then(function(r){if(!r.ok)throw new Error("http "+r.status);return r.json();})
+  .catch(function(){return fetch(CDN+path).then(function(r){if(!r.ok)throw new Error("cdn "+r.status);return r.json();});});
+}
+function fmtDate(iso){
+  var d=new Date(iso+"T12:00:00Z");
+  return new Intl.DateTimeFormat(LOCALE[lang],{month:"short",day:"numeric"}).format(d);
+}
+function applyTheme(){
+  if(theme==="system")document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme",theme);
+  var tt=$("themeText"); if(tt)tt.textContent=t("themes")[theme];
+}
+function setLangMenu(open,focusIt){
+  var menu=$("languageMenu"),tog=$("languageToggle");
+  menu.hidden=!open; tog.setAttribute("aria-expanded",open?"true":"false");
+  if(open&&focusIt){var f=menu.querySelector(".language-option");if(f)f.focus();}
+}
+function setDateMenu(open,focusIt){
+  var menu=$("dateMenu"),tog=$("dateMoreToggle");
+  menu.hidden=!open; tog.setAttribute("aria-expanded",open?"true":"false");
+  if(open&&focusIt){var f=menu.querySelector(".date-option");if(f)f.focus();}
+}
+function renderLangMenu(){
+  var menu=$("languageMenu"); if(!menu)return; menu.innerHTML="";
+  LANGS.forEach(function(key){
+    var opt=document.createElement("button"),label=document.createElement("span"),check=document.createElement("span");
+    opt.type="button"; opt.className="language-option"; opt.setAttribute("role","menuitemradio");
+    opt.setAttribute("aria-checked",key===lang?"true":"false"); opt.dataset.language=key;
+    label.textContent=t("languages")[key]; check.className="language-check"; check.setAttribute("aria-hidden","true"); check.textContent="✓";
+    opt.appendChild(label); opt.appendChild(check);
+    opt.addEventListener("click",function(){lang=key;renderStatic();setLangMenu(false);$("languageToggle").focus();});
+    menu.appendChild(opt);
+  });
+}
+function renderDateSwitcher(){
+  var recent=$("dateRecent"); if(!recent)return;
+  $("dateSwitcher").setAttribute("aria-label",t("dateSwitch")); recent.innerHTML="";
+  dates.slice(0,3).forEach(function(date){
+    var b=document.createElement("button"); b.type="button"; b.textContent=fmtDate(date);
+    b.setAttribute("aria-pressed",date===selDate?"true":"false");
+    b.addEventListener("click",function(){selDate=date;setDateMenu(false);renderDateSwitcher();loadDay();});
+    recent.appendChild(b);
+  });
+  renderDateMenu();
+}
+function renderDateMenu(){
+  var menu=$("dateMenu"); if(!menu)return; menu.innerHTML="";
+  dates.forEach(function(date){
+    var opt=document.createElement("button"),label=document.createElement("span"),iso=document.createElement("span"),check=document.createElement("span");
+    opt.type="button"; opt.className="date-option"; opt.setAttribute("role","menuitemradio");
+    opt.setAttribute("aria-checked",date===selDate?"true":"false");
+    label.textContent=fmtDate(date); iso.className="date-iso"; iso.textContent=date;
+    check.className="date-check"; check.setAttribute("aria-hidden","true"); check.textContent="✓";
+    opt.appendChild(label); opt.appendChild(iso); opt.appendChild(check);
+    opt.addEventListener("click",function(){selDate=date;renderDateSwitcher();loadDay();setDateMenu(false);$("dateMoreToggle").focus();});
+    menu.appendChild(opt);
+  });
+  var tog=$("dateMoreToggle"),text=$("dateMoreText");
+  $("datePicker").hidden=dates.length<=3;
+  if(dates.slice(0,3).indexOf(selDate)===-1){text.textContent=fmtDate(selDate);tog.setAttribute("aria-pressed","true");}
+  else{text.textContent=t("moreDates");tog.removeAttribute("aria-pressed");}
+}
+function renderNews(){
+  var list=$("newsList"); if(!list)return;
+  $("briefingTitle").textContent=t("briefing");
+  $("briefingMeta").textContent=selDate+" · "+fmt(t("worth"),{n:items.length});
+  if(loadState==="loading"){list.innerHTML='<p class="news-empty">'+esc(t("loading"))+'</p>';return;}
+  if(loadState==="error"){list.innerHTML='<p class="news-empty">'+esc(t("loadError"))+' <button type="button" id="retryBtn">'+esc(t("retry"))+'</button></p>';var b=$("retryBtn");if(b)b.addEventListener("click",loadDay);return;}
+  if(!items.length){list.innerHTML='<p class="news-empty">'+esc(t("empty"))+'</p>';return;}
+  list.innerHTML=items.map(function(it){
+    var kind=it.outside?t("outside"):t("core");
+    return '<article class="news-item"><span class="news-kind">'+esc(kind)+'</span><div><h3>'+esc(it.title)+'</h3><p>'+esc(it.summary)+'</p><a class="news-source" href="'+esc(it.url)+'" target="_blank" rel="noopener noreferrer" aria-label="'+esc(t("viewSource")+it.source)+'">'+esc(t("source")+it.source+" ↗")+'</a></div></article>';
+  }).join("");
+}
+function loadDay(){
+  if(!selDate){loadState="error";renderNews();return;}
+  loadState="loading"; items=[]; renderNews();
+  fetchJSON(selDate+"."+lang+".json").then(function(data){
+    items=data.items||[]; loadState="ok"; renderNews();
+  }).catch(function(){loadState="error";renderNews();});
+}
+function renderSnapshot(){
+  var el=$("snapshotLabel"); if(!el)return;
+  if(!manifest){el.textContent="";return;}
+  var dt=new Date(manifest.updated_at);
+  el.textContent=fmt(t("dataUpdated"),{date:new Intl.DateTimeFormat(LOCALE[lang],{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit",hour12:false}).format(dt)});
+}
+function updateTime(){
+  var now=new Date(),loc=LOCALE[lang];
+  var clock=$("clock"); if(clock)clock.textContent=new Intl.DateTimeFormat(loc,{hour:"2-digit",minute:"2-digit",hour12:false}).format(now);
+  var dl=$("dateLabel"); if(dl)dl.textContent=new Intl.DateTimeFormat(loc,{month:"long",day:"numeric",weekday:"long"}).format(now);
+}
+function renderStatic(){
+  var d=T[lang];
+  document.documentElement.lang=LOCALE[lang]; document.title=d.pageTitle;
+  var vals={utilityTitle:"utilityTitle",dek:"dek",cadenceLabel:"cadenceLabel",cadenceText:"cadenceText",cadenceNote:"cadenceNote",dailyTime:"dailyNote",aboutTitle:"aboutTitle",bgTitle:"bgTitle",bgText:"bgText",purposeTitle:"purposeTitle",purposeText:"purposeText",dateControlLabel:"dateControl",ruleTitle:"ruleTitle",ruleText:"ruleText"};
+  for(var id in vals){var el=$(id);if(el)el.textContent=d[vals[id]];}
+  var mt=$("mainTitle"); if(mt)mt.textContent=d.pageTitle;
+  var bl=$("backLink"); if(bl)bl.textContent=d.back;
+  $("languageText").textContent=d.languages[lang];
+  $("languageToggle").setAttribute("aria-label",d.switchLanguage+": "+d.languages[lang]);
+  $("languageToggle").title=d.switchLanguage;
+  $("utility").setAttribute("aria-label",d.pageStatus);
+  renderLangMenu(); applyTheme(); renderDateSwitcher(); renderSnapshot(); loadDay(); updateTime();
+}
+$("languageToggle").addEventListener("click",function(){setLangMenu($("languageMenu").hidden,true);});
+$("dateMoreToggle").addEventListener("click",function(){setDateMenu($("dateMenu").hidden,true);});
+$("themeToggle").addEventListener("click",function(){theme=THEMES[(THEMES.indexOf(theme)+1)%THEMES.length];applyTheme();});
+document.addEventListener("click",function(e){
+  if(!$("languagePicker").contains(e.target))setLangMenu(false);
+  if(!$("datePicker").contains(e.target))setDateMenu(false);
+});
+document.addEventListener("keydown",function(e){
+  if(e.key==="Escape"){
+    if(!$("languageMenu").hidden){setLangMenu(false);$("languageToggle").focus();}
+    if(!$("dateMenu").hidden){setDateMenu(false);$("dateMoreToggle").focus();}
+  }
+});
+fetchJSON("manifest.json").then(function(m){
+  manifest=m; dates=m.dates||[]; selDate=m.latest||dates[0]||"";
+  renderStatic();
+}).catch(function(){loadState="error";renderStatic();});
+window.setInterval(updateTime,1000);
+})();
+</script>
+</body>
+</html>

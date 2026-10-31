@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "title": "Quiver 1.1.1：多编程 agent 统一管理 + 手机远程控制",
+      "summary": "在命令行统一管理本机多个编程 agent 的工具。1.1.1 新增远程控制：以一台机器为中心，用手机网页或 iOS 应用查看会话、发指令、批准操作、打断或新开会话，第二台机器可以卫星节点方式接入。远程中心只绑本机 Tailscale 地址或经 tailscale serve 暴露在回环，不开公网端口；桌面应用版要求 macOS 26 与 Apple Silicon。",
+      "url": "https://github.com/c-wenlong/quiver",
+      "source": "GitHub · c-wenlong",
+      "outside": false
+    },
+    {
+      "title": "Alex Relay：项目本地的跨 agent 交接机制",
+      "summary": "把 agent 的工作进度写成检查点，存进项目内的 .alex/ 目录（state.json + HANDOFF.md），换一个 agent 也能直接续上，不依赖任何厂商的聊天记录、不经过云端。目前为公开测试的 alpha 阶段，仓库建于 2026 年 10 月 23 日。",
+      "url": "https://github.com/kobayakawa-ai/alex-skills",
+      "source": "GitHub · kobayakawa-ai",
+      "outside": false
+    }
+  ]
+}

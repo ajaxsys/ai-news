@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-26",
+  "items": [
+    {
+      "title": "Perplexity Computer 全本地模式：在 Mac 上离线跑 agent",
+      "summary": "Perplexity Computer 新增全本地模式，可在 Mac 本机运行 agent（Qwen 3.6 / PPLX Pro），离线可用；涉及联网的动作需要用户批准。需要 Pro / Max / Enterprise 订阅，Apple Silicon 建议 36GB 以上内存。",
+      "url": "https://9to5mac.com/2026/10/20/perplexitys-computer-can-now-run-entirely-on-your-mac-even-offline/",
+      "source": "9to5Mac",
+      "outside": false
+    }
+  ]
+}

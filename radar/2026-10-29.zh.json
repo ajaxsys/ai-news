@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "title": "ESP32 iPhone Agent：一块 7 美元的板子让 AI 直接操作真 iPhone",
+      "summary": "开源项目：一块约 7 美元的 ESP32-S3 开发板，通过 AirPlay 把 iPhone 画面传给 AI，再用 USB HID 模拟触控操作真机，无需电脑中转、无需越狱。当前实现为竖屏 ASCII 画面、480×1040、最高约 5fps，锁屏状态下看不到画面。",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent/blob/main/README.md",
+      "source": "GitHub · onehumanbeing",
+      "outside": true
+    },
+    {
+      "title": "Murmell AVP：为 AI agent 设计的版本协议",
+      "summary": "为多个 agent 并行写同一个仓库设计的版本协议：各 agent 的改动先在当前主干顶端验证、自动重放，最后以普通 Git 提交落地，减少并行改动互相冲突。",
+      "url": "https://www.producthunt.com/products/avp",
+      "source": "Product Hunt",
+      "outside": false
+    },
+    {
+      "title": "OpenBot：一个桌面应用里并排跑多个 coding agent",
+      "summary": "桌面应用，可以把多个编程 agent 并排运行，彼此传消息、交接文件；还支持从手机连回查看与指挥。注意：其开发预览版默认可访问全盘且没有逐项审批，尝鲜时要留意权限。",
+      "url": "https://openbot.run/providers/custom-agents",
+      "source": "OpenBot",
+      "outside": false
+    }
+  ]
+}

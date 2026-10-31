@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "title": "ESP32 iPhone Agent: a $7 board lets AI operate a real iPhone",
+      "summary": "An open-source project in which a ~$7 ESP32-S3 board streams an iPhone's screen to an AI via AirPlay and operates the phone through USB HID touch input — no computer in the middle, no jailbreak. The current build is portrait ASCII video at 480×1040 and up to about 5fps, and it cannot see a locked screen.",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent/blob/main/README.md",
+      "source": "GitHub · onehumanbeing",
+      "outside": true
+    },
+    {
+      "title": "Murmell AVP: a versioning protocol designed for AI agents",
+      "summary": "A version protocol for several agents writing to the same repository in parallel: each agent's changes are verified and replayed on top of the current main branch, then land as ordinary Git commits, so parallel work collides far less.",
+      "url": "https://www.producthunt.com/products/avp",
+      "source": "Product Hunt",
+      "outside": false
+    },
+    {
+      "title": "OpenBot: run multiple coding agents side by side in one desktop app",
+      "summary": "A desktop app that runs several coding agents side by side, letting them message each other and hand off files, with a phone app to check in and steer them remotely. Note: its developer preview grants full-disk access by default with no per-action approval, so mind the permissions before trying it.",
+      "url": "https://openbot.run/providers/custom-agents",
+      "source": "OpenBot",
+      "outside": false
+    }
+  ]
+}

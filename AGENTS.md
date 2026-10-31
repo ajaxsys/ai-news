@@ -7,6 +7,7 @@
 - `index.html` — 独立外壳（GitHub Pages 入口）：只含结构 + 样式 + 逻辑，不含任何新闻数据；先读 `news/manifest.json`，再按需加载对应日期 + 语言文件；数据失败时回退 jsDelivr 镜像；全站禁用 localStorage（语言/主题仅会话内状态）
 - `news/manifest.json` — 唯一可信的日期列表：latest、updated_at、dates（新到旧）、editions
 - `news/<date>.<lang>.json` — 每日每语言一个文件（`zh` / `en` / `ja`），单语言扁平格式
+- `radar/` — 「玩法雷达」专栏（见下节）：`radar/index.html` 独立外壳 + `radar/manifest.json` + `radar/<date>.<lang>.json` 三语数据
 - `AGENTS.md` — 本文件
 - `README.md` — 仓库说明
 
@@ -29,6 +30,14 @@
 - 每天 11:51 同步：新增当日三语文件，更新 `manifest.json`（latest、dates、editions、updated_at 用真实时间）。
 - `manifest.json` 是唯一可信的日期列表；主页外壳先读 manifest，再按需加载对应日期+语言文件。
 - 不要删除历史日期文件（归档保留）。
+
+## 玩法雷达专栏（radar/，2026-10-31 开设）
+
+- 定位：每天侦察全网，只收录具体、可动手的新玩法/新项目（AI 远程控制、多 agent 编排、组网、Apple Silicon 本地模型与家庭算力、事件驱动常驻 agent、隔离放权；偶有标 `outside` 的「圈外」项）。背景与目的写在专栏页的「关于这个专栏」一节（三语）。
+- 数据格式：`radar/<date>.<lang>.json` 顶层 `{"date":"YYYY-MM-DD","items":[...]}`；每条含 `title`、`summary`、`url`（一手来源）、`source`、`outside`（布尔）。`radar/manifest.json` 为唯一可信日期列表（latest、updated_at、dates 新到旧）。
+- 更新规则：由玩法雷达每日任务（约 20:51 JST）在有够格条目时同步——新增当日三语文件并更新 manifest；没有够格条目则不更新（不凑数）。历史文件不删。
+- **公开版铁律**：专栏面向公众，只写「是什么 + 出处」，**绝不出现只对维护者个人的适配分析（如「为什么适合你」）、私人基础设施细节（主机名、地址、内网信息）**。聊天推送版与公开版是两套文案，勿混。
+- 外壳行为与主页一致：最近 3 天日期直接展示、其余收进下拉菜单；语言为点击展开下拉切换（zh / en / ja）；禁用 localStorage。外壳只含结构+样式+逻辑，不内嵌数据，数据失败时回退 jsDelivr。
 
 ## 外壳（index.html）
 

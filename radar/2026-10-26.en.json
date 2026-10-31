@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-26",
+  "items": [
+    {
+      "title": "Perplexity Computer goes fully local: agents running offline on your Mac",
+      "summary": "Perplexity Computer's new fully local mode runs its agent on your Mac itself (Qwen 3.6 / PPLX Pro) and works offline; actions that need the internet require your approval. Requires a Pro, Max or Enterprise plan; 36GB or more of memory is recommended on Apple Silicon.",
+      "url": "https://9to5mac.com/2026/10/20/perplexitys-computer-can-now-run-entirely-on-your-mac-even-offline/",
+      "source": "9to5Mac",
+      "outside": false
+    }
+  ]
+}

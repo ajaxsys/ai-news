@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-31",
+  "edition": 17,
+  "items": [
+    {
+      "title": "四大实验室联手：一个 robots.txt 信号即可退出所有 AI 训练",
+      "summary": "OpenAI、Google、微软、Anthropic 于 10 月 30 日共同支持 IETF 草案中的统一政策令牌 __usage_ai-training，网站只需在 robots.txt 写一行即可向四家爬虫表达“不用于训练”。Anthropic 已开始落地，OpenAI 称未来数月内，微软定于 2027 年 2 月 1 日，Google 定于 2027 年内；该信号只管训练、不管搜索收录，且不追溯已有训练集。",
+      "url": "https://aiweekly.co/alerts/openai-google-microsoft-anthropic-back-one-ai-opt-out-token",
+      "source": "The Verge（经 AI Weekly）",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic IPO 前夜：S-1 曝光天量算力账单，630 亿美元芯片融资遇“垃圾级”评级阴影",
+      "summary": "草案 S-1 显示 Anthropic 上半年营收 163 亿美元（去年同期仅 12 亿），但净亏损 807 亿美元（多为可转债公允价值变动的非现金支出）；算力与基建支出 89 亿美元，固定算力承诺高达 2656 亿美元。Broadcom 牵头的 630 亿美元 TPU 融资工具将以特殊目的公司购机再租给 Anthropic，而黑石向投资者表示其上市后评级可能仍停留在投机级，融资成本承压。传闻目标估值 1.5–2 万亿美元、11 月中旬上市。",
+      "url": "https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-october-b1d",
+      "source": "AI to ROI（据 WSJ、FT 与 S-1 草案）",
+      "category": "实验室"
+    },
+    {
+      "title": "DeepSeek 二轮融资约 158 亿美元落袋，国有资本占比从 2% 跃升至 27%",
+      "summary": "据 The Information 披露，DeepSeek 第二轮外部融资约 1055 亿元人民币（约 158 亿美元），投前估值约 5000 亿元（约 740 亿美元）未变，规模是最初目标的两倍多；近 30 家投资者参与，腾讯与宁德时代仍为最大出资方，国有资本占比从首轮的 2% 升至 27%。公司此前已聘请中信证券筹备科创板上市。",
+      "url": "https://aiweekly.co/alerts/deepseek-closes-16b-second-round-at-74-billion-pre-money",
+      "source": "The Information（经 AI Weekly）",
+      "category": "实验室"
+    },
+    {
+      "title": "Pika 发布 H3 Flex：开源权重视频模型，50 步压缩到 6 步",
+      "summary": "10 月 29 日发布的 H3 Flex 由 MiniMax H3 后训练而来，采样步数从 50 步压到 6 步，15 秒 768p 片段的 Transformer 计算时间最短约 7 秒（非端到端延迟），支持最多 12 个参考输入与同步立体声音频，API 起价每输出秒 0.01 美元；生成适配器与推理代码已开源，11 月 2 日进入 Pika 创作产品。",
+      "url": "https://pika.art/blog/pika-h3-flex",
+      "source": "Pika 官方",
+      "category": "开发者"
+    },
+    {
+      "title": "EMBRACE 披露：五大 AI 编程工具内嵌浏览器全破防，Codex 与 VS Code 披露时未修复",
+      "summary": "Forever Security 10 月 29 日披露的 EMBRACE 系列问题覆盖 Cursor、GitHub Copilot、Codex、VS Code 与 Claude Desktop：Cursor 可被恶意网页注入指令并执行命令（10 月 1 日已修），Copilot 地址栏可被伪造（1.1.29 已修），而 Codex、VS Code 的本地文件越界读取在披露时仍未修复，可窃取 SSH 密钥、.env 与 token。教训：给助手加的浏览器特权，正在绕过浏览器本身的安全边界。",
+      "url": "https://cybernoz.com/embrace-flaws-in-5-ai-coding-tools-enable-code-execution-and-file-theft/",
+      "source": "Forever Security（经 Cybernoz / The Register）",
+      "category": "开发者"
+    },
+    {
+      "title": "英国预算拨 4000 万英镑建“国家 Agent 安全部门”，专查失控 agent 事故",
+      "summary": "英国预算案宣布拨款 4000 万英镑设立国家 Agent 安全部门（National Agentic Security Unit），调查并响应失控 agent 事件；另有 3500 万英镑 GovAI 部门、5000 万英镑两年期转型资金与 6000 万英镑首期 Agent 网络护盾。拨款是意向而非服务已上线，真正的信号是：agent 上岗与事故响应要一起规划。",
+      "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-10-30",
+      "source": "Precise Impact（据 PublicTechnology）",
+      "category": "实验室"
+    },
+    {
+      "title": "Meta 暂缓 AI 训练新条款：出版商与广告主反弹后，生效日从 10 月 30 日推迟到 11 月 20 日",
+      "summary": "在新闻出版商与广告主反对、并向欧盟与英国反垄断机构投诉后，Meta 把扩大 AI 训练内容使用范围的修订版商业条款生效日从 10 月 30 日推迟至 11 月 20 日。与同日四巨头的统一退出信号对照看，平台数据规则正处在拉锯期。",
+      "url": "https://www.marketingprofs.com/opinions/2026/56256/ai-update-october-30-2026-ai-news-and-views-from-the-past-week",
+      "source": "MarketingProfs",
+      "category": "开发者"
+    },
+    {
+      "title": "ElevenLabs 发布 SFX v3：一段提示词同时布好整场戏的声音",
+      "summary": "10 月 29 日发布的 SFX v3 支持在一条提示词里组合多种声音（含音乐与人声），面向影视与游戏场景音效制作，已上线音效工具、Flows、Studio、音乐编辑器、移动端与 API。音效生成正从“一次一个声”走向“一次布一场戏”。",
+      "url": "https://opentools.ai/news/elevenlabs-sfx-v3-multi-sound-scene-brief-listening-access",
+      "source": "ElevenLabs（经 OpenTools）",
+      "category": "开发者"
+    }
+  ]
+}

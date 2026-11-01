@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-01",
+  "edition": 18,
+  "items": [
+    {
+      "title": "Apple、中国で12月にiOS 27.3とともにApple Intelligenceを提供　SiriはアリババQwenと連携",
+      "summary": "Appleは10月31日、中国で初のApple Intelligence機能を11月4日から最新のiOSデベロッパベータでテスト公開し、12月のiOS 27.3正式版で提供すると発表した。Siri、ライティングツール、ビジュアルインテリジェンスはアリババのQwenと連携する（他国でChatGPTが担う位置）。WWDC 2026で発表された次世代Siri AIは含まれない。",
+      "url": "https://www.theapplepost.com/2026/10/31/73757/apple-intelligence-finally-coming-to-china-in-december-with-ios-27-3/",
+      "source": "The Apple Post",
+      "category": "開発者"
+    },
+    {
+      "title": "Alphabet、1日で約5000億ドル蒸発　AI検索がGoogleの広告事業を侵食",
+      "summary": "Alphabetは10月29日に約13%下落し、時価総額は3.97兆ドルから3.46兆ドルへ、同社史上最大の1日での蒸発となった。検索広告収入は633.5億ドルで伸び率は12%に鈍化し予想を下回り、Google幹部はAI Modeの広告が少ないことを認めた。第3四半期のフリーキャッシュフローは-91億ドルで、AI投資はなお拡大している。",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/30/ETTWOKECKZFTJJPP2YK577AJOA/",
+      "source": "BizChosun",
+      "category": "ラボ"
+    },
+    {
+      "title": "Geminiのチャット画面がファイル編集画面に　ドキュメント・表・PDFを会話から離れずに編集可能に",
+      "summary": "Googleは10月29日、Geminiアプリ内でドキュメント、スプレッドシート、スライド、PDF、Markdown、コードを生成・プレビュー・編集できるようになったと発表した。全画面で直接編集したり、テキストを選択して質問したり、自然言語でGeminiに書き直させたりできる。PDFはウェブとモバイルの両方で編集可能で、それ以外の形式は当面ウェブのみ。",
+      "url": "https://www.unite.ai/gemini-app-now-lets-users-edit-documents-and-pdfs-in-chat/",
+      "source": "Unite.AI",
+      "category": "開発者"
+    },
+    {
+      "title": "Cohere、最大70億カナダドルのシリーズEを開始　カナダのソブリンAIへの賭けを拡大",
+      "summary": "トロントのCohereは10月30日、最大70億カナダドル規模、評価額357億カナダドルのシリーズEの初回クローズを発表した。ドイツのSchwarzグループが主導し、NVIDIAとカナダ政府が参加。カナダ政府は別途、最大16億カナダドルを段階的に出資する。注意：70億カナダドルは目標上限であり、初回クローズの金額は開示されていない。",
+      "url": "https://pulse2.com/cohere-announces-series-e-initial-close-targeting-up-to-c7-billion-at-c35-7-billion-valuation/",
+      "source": "Pulse 2",
+      "category": "ラボ"
+    },
+    {
+      "title": "ModelBestとOpenBMB、MiniCPM-OCRシリーズをオープンソース化　1.3Bの解析モデルと2Bの「AI品質検査員」",
+      "summary": "10月31日、ModelBestとOpenBMBはMiniCPM-OCRシリーズをオープンソース化した。1.3BのMiniCPM-OCR 1.0は高精度な文書解析をエッジ向けに、2BのMiniCPM-OCR JevはOCR結果向けでは初の意思決定モデルで、「AI品質検査員」として解析結果を採点し、ページごとの手動確認を省く。重み・コード・ファインチューニングコードが公開され、vLLM、SGLang、llama.cpp、Ollamaに対応する。（同名だが、TypeSafeの意思決定モデルJevとは別製品。）",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261031cn86192/modelbest-and-openbmb-open-source-minicpm-ocr-series-delivering-high-performance-document-parsing-and-ai-powered-quality-control",
+      "source": "PR Newswire（经 Morningstar）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Xiaomi、0.8Bの文書理解モデルXiaomi-OCR-0をオープンソース化　解析・抽出・問答を1モデルで",
+      "summary": "Xiaomiは10月30日夜、0.8Bパラメータの文書理解モデルXiaomi-OCR-0をオープンソース化した（Qwen3.5-0.8Bベース）。1モデルで文書解析（Markdown・表・LaTeX数式の出力）、キー情報抽出（JSON）、文書に関する問答をこなす。XiaomiによるとOmniDocBench v1.6で1B未満モデル中トップ。重みはApache 2.0で、MCPサービスとAgent Skillが付属し、ローカルでも実行できる。",
+      "url": "https://lapaasvoice.com/xiaomi-unveils-xiaomi-ocr-0-a-0-8b-open-source-ai-model-for-reading-complex-documents/",
+      "source": "Lapaas Voice",
+      "category": "ラボ"
+    },
+    {
+      "title": "DeepSeek、新エージェントアーキテクチャをオープンソース化　GitHubと飛書に直接接続",
+      "summary": "DeepSeekは10月31日、開発者向けプラットフォームGitHubと中国の企業向けコラボレーションプラットフォーム飛書に直接統合される新エージェントアーキテクチャをオープンソース化した。エージェントが会話の中だけでなく、実際のワークフローで多段階タスクを実行することを狙う。公開されている詳細はまだ限られており、今後の導入事例が注目点だ。",
+      "url": "https://kimkj.com/en/ai-board-en/?mod=document&uid=20504",
+      "source": "KIMKJ 中国 AI 简报",
+      "category": "開発者"
+    },
+    {
+      "title": "実験室ロボットのOpentronsが4000万ドル調達　AI主導の科学研究の「実行層」を目指す",
+      "summary": "ニューヨークの実験室ロボット企業Opentronsは、Avego主導で4000万ドルのシリーズEを完了し、ソフトバンク・ビジョン・ファンドとKhosla Venturesが継続出資した。80か国以上に広がる1万1000台超のロボットを、AIが設計した実験を実際に実行する場にする狙いだ。モデルが提案し、ロボットが実行し、結果がモデルにフィードバックされる自律研究のループを目指す。",
+      "url": "https://www.dailycompanynews.com/opentrons-labworks-raises-40m-in-series-e-funding/",
+      "source": "Daily Company News",
+      "category": "開発者"
+    }
+  ]
+}

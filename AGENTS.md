@@ -4,7 +4,7 @@
 
 ## 目录结构
 
-- `index.html` — 独立外壳（GitHub Pages 入口）：只含结构 + 样式 + 逻辑，不含任何新闻数据；先读 `news/manifest.json`，再按需加载对应日期 + 语言文件；数据失败时回退 jsDelivr 镜像；全站禁用 localStorage（语言/主题仅会话内状态）
+- `index.html` — 独立外壳（GitHub Pages 入口）：只含结构 + 样式 + 逻辑，不含任何新闻数据；先读 `news/manifest.json`，再按需加载对应日期 + 语言文件；数据失败时回退 jsDelivr 镜像；语言/主题偏好存 localStorage（站点共享键 `ai-news-lang` / `ai-news-theme`，主页与各专栏通用；无记录或读取失败时回退浏览器语言/跟随系统。2026-11-01 用户要求改，此前的「禁用 localStorage」是 artifact 环境的限制、Pages 不适用）
 - `news/manifest.json` — 唯一可信的日期列表：latest、updated_at、dates（新到旧）、editions
 - `news/<date>.<lang>.json` — 每日每语言一个文件（`zh` / `en` / `ja`），单语言扁平格式
 - `radar/` — 「玩法雷达」专栏（见下节）：`radar/index.html` 独立外壳 + `radar/manifest.json` + `radar/<date>.<lang>.json` 三语数据
@@ -38,7 +38,7 @@
 - 数据格式：`radar/<date>.<lang>.json` 顶层 `{"date":"YYYY-MM-DD","items":[...]}`；每条含 `title`、`summary`、`url`（一手来源）、`source`、`outside`（布尔）。`radar/manifest.json` 为唯一可信日期列表（latest、updated_at、dates 新到旧）。
 - 更新规则：由玩法雷达每日任务（约 20:51 JST）在有够格条目时同步——新增当日三语文件并更新 manifest；没有够格条目则不更新（不凑数）。历史文件不删。
 - **公开版铁律**：专栏面向公众，只写「是什么 + 出处」，**绝不出现只对维护者个人的适配分析（如「为什么适合你」）、私人基础设施细节（主机名、地址、内网信息）**。聊天推送版与公开版是两套文案，勿混。
-- 外壳行为与主页一致：最近 3 天日期直接展示、其余收进下拉菜单；语言为点击展开下拉切换（zh / en / ja）；禁用 localStorage。外壳只含结构+样式+逻辑，不内嵌数据，数据失败时回退 jsDelivr。
+- 外壳行为与主页一致：最近 3 天日期直接展示、其余收进下拉菜单；语言为点击展开下拉切换（zh / en / ja），选择存 localStorage（站点共享键，与主页一致）。外壳只含结构+样式+逻辑，不内嵌数据，数据失败时回退 jsDelivr。
 
 ## AI 开源周榜专栏（ai-trend/，2026-11-01 开设）
 
@@ -48,7 +48,7 @@
 - 收录范围：AI 相关仓库——Agent 工具与框架、本地模型与推理、AI 应用、语音与多模态、安全与审计、本地算力等。**排除**：越狱/破甲提示词类、绕过付费获取模型类、洗稿/作弊类，以及与 AI 无关的仓库（即使涨星更高也不收）。
 - 更新规则：由每周任务（周一约 10:00 JST）同步——新增当期三语文件并更新 manifest，同时把主页外壳 feature4 卡的日期更新为当期日期。历史文件不删。
 - **公开版铁律**：与 radar 相同——只写公开事实（是什么、数据、出处），绝不出现个人适配分析与私人基础设施细节。日语文案用规范日语词，不许中日混杂。
-- 外壳行为与主页一致：最近 3 期直接展示、其余收进下拉菜单；语言为点击展开下拉切换（zh / en / ja）；禁用 localStorage；数据失败时回退 jsDelivr。
+- 外壳行为与主页一致：最近 3 期直接展示、其余收进下拉菜单；语言为点击展开下拉切换（zh / en / ja），选择存 localStorage（站点共享键，与主页一致）；数据失败时回退 jsDelivr。
 
 ## 外壳（index.html）
 

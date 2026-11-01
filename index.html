@@ -31,6 +31,7 @@ var LANGS=["zh","en","ja"], THEMES=["system","light","dark"];
 var nav=(navigator.language||"en").toLowerCase();
 var lang=nav.indexOf("zh")===0?"zh":(nav.indexOf("ja")===0?"ja":"en");
 var theme="system", manifest=null, dates=[], selDate="", filter="all", items=[], edition=0, loadState="loading";
+try{var _pl=window.localStorage.getItem("ai-news-lang");if(_pl&&LANGS.indexOf(_pl)>=0)lang=_pl;var _pt=window.localStorage.getItem("ai-news-theme");if(_pt&&THEMES.indexOf(_pt)>=0)theme=_pt;}catch(e){}
 function $(id){return document.getElementById(id);}
 function t(k){var d=T[lang]||T.zh;return d[k]!=null?d[k]:T.zh[k];}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]!=null?o[k]:"";});}
@@ -70,7 +71,7 @@ function renderLangMenu(){
     opt.setAttribute("aria-checked",key===lang?"true":"false"); opt.dataset.language=key;
     label.textContent=t("languages")[key]; check.className="language-check"; check.setAttribute("aria-hidden","true"); check.textContent="✓";
     opt.appendChild(label); opt.appendChild(check);
-    opt.addEventListener("click",function(){lang=key;renderStatic();setLangMenu(false);$("languageToggle").focus();});
+    opt.addEventListener("click",function(){lang=key;try{window.localStorage.setItem("ai-news-lang",key);}catch(e){}renderStatic();setLangMenu(false);$("languageToggle").focus();});
     menu.appendChild(opt);
   });
 }
@@ -171,7 +172,7 @@ function renderStatic(){
 }
 $("languageToggle").addEventListener("click",function(){setLangMenu($("languageMenu").hidden,true);});
 $("dateMoreToggle").addEventListener("click",function(){setDateMenu($("dateMenu").hidden,true);});
-$("themeToggle").addEventListener("click",function(){theme=THEMES[(THEMES.indexOf(theme)+1)%THEMES.length];applyTheme();});
+$("themeToggle").addEventListener("click",function(){theme=THEMES[(THEMES.indexOf(theme)+1)%THEMES.length];try{window.localStorage.setItem("ai-news-theme",theme);}catch(e){}applyTheme();});
 document.addEventListener("click",function(e){
   if(!$("languagePicker").contains(e.target))setLangMenu(false);
   if(!$("datePicker").contains(e.target))setDateMenu(false);

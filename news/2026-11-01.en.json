@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-01",
+  "edition": 18,
+  "items": [
+    {
+      "title": "Apple confirms Apple Intelligence for China in December with iOS 27.3, Siri tapping Alibaba's Qwen",
+      "summary": "Apple confirmed on Oct 31 that the first Apple Intelligence features open for testing Nov 4 in the latest iOS developer beta and ship publicly in December with iOS 27.3. Siri, Writing Tools and Visual Intelligence will tap Alibaba's Qwen — standing in where other countries can call ChatGPT — while the next-generation Siri AI from WWDC 2026 is excluded.",
+      "url": "https://www.theapplepost.com/2026/10/31/73757/apple-intelligence-finally-coming-to-china-in-december-with-ios-27-3/",
+      "source": "The Apple Post",
+      "category": "Developers"
+    },
+    {
+      "title": "Alphabet sheds ~$500B in a day as AI search eats into Google's ad engine",
+      "summary": "Alphabet fell about 13% on Oct 29, its market value dropping from $3.97T to $3.46T — its largest one-day wipeout ever. Search ad revenue grew 12% to $63.35B, below expectations, and Google executives acknowledged AI Mode generates fewer ads; Q3 free cash flow was -$9.1B as AI spending kept climbing.",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/30/ETTWOKECKZFTJJPP2YK577AJOA/",
+      "source": "BizChosun",
+      "category": "Labs"
+    },
+    {
+      "title": "Gemini's chat window becomes a file editor: docs, sheets and PDFs editable without leaving the conversation",
+      "summary": "Google announced Oct 29 that the Gemini app can now generate, preview and edit documents, spreadsheets, slides, PDFs, Markdown and code inside the chat — edit full-screen, highlight text to ask questions, or have Gemini rewrite a section in plain language. PDFs work on web and mobile; other formats are web-only for now.",
+      "url": "https://www.unite.ai/gemini-app-now-lets-users-edit-documents-and-pdfs-in-chat/",
+      "source": "Unite.AI",
+      "category": "Developers"
+    },
+    {
+      "title": "Cohere opens Series E targeting up to C$7B in a big sovereign-AI bet",
+      "summary": "Toronto-based Cohere announced Oct 30 the initial close of a Series E targeting up to C$7B at a C$35.7B valuation, led by Germany's Schwarz Group with Nvidia and the Government of Canada participating; Ottawa separately committed up to C$1.6B in staged equity. Note: C$7B is the target ceiling, not cash already raised — the initial close amount was not disclosed.",
+      "url": "https://pulse2.com/cohere-announces-series-e-initial-close-targeting-up-to-c7-billion-at-c35-7-billion-valuation/",
+      "source": "Pulse 2",
+      "category": "Labs"
+    },
+    {
+      "title": "ModelBest and OpenBMB open-source MiniCPM-OCR: 1.3B parser plus a 2B 'AI quality inspector'",
+      "summary": "On Oct 31, ModelBest and OpenBMB open-sourced the MiniCPM-OCR series: the 1.3B MiniCPM-OCR 1.0 for high-accuracy document parsing on edge devices, and the 2B MiniCPM-OCR Jev — the first decision model for OCR results, acting as an 'AI quality inspector' that scores parsing output so pages need not be reviewed one by one. Weights, code and fine-tuning code are open, with vLLM, SGLang, llama.cpp and Ollama support. (Despite the shared name, this Jev is unrelated to TypeSafe's decision model Jev.)",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261031cn86192/modelbest-and-openbmb-open-source-minicpm-ocr-series-delivering-high-performance-document-parsing-and-ai-powered-quality-control",
+      "source": "PR Newswire（经 Morningstar）",
+      "category": "Labs"
+    },
+    {
+      "title": "Xiaomi open-sources 0.8B document model Xiaomi-OCR-0: parsing, extraction and Q&A in one model",
+      "summary": "Xiaomi open-sourced Xiaomi-OCR-0 on the night of Oct 30: just 0.8B parameters (built on Qwen3.5-0.8B), a single model that parses documents (Markdown, tables, LaTeX formulas), extracts key information as JSON, and answers questions about the document. Xiaomi says it ranks first among sub-1B models on OmniDocBench v1.6. Weights are Apache 2.0, with an MCP service and Agent Skill included, and it can run locally.",
+      "url": "https://lapaasvoice.com/xiaomi-unveils-xiaomi-ocr-0-a-0-8b-open-source-ai-model-for-reading-complex-documents/",
+      "source": "Lapaas Voice",
+      "category": "Labs"
+    },
+    {
+      "title": "DeepSeek open-sources a new agent architecture that plugs straight into GitHub and Feishu",
+      "summary": "DeepSeek open-sourced a new agent architecture on Oct 31 that integrates directly with developer platform GitHub and Chinese enterprise collaboration platform Feishu, aiming to let agents run multi-step tasks inside real workflows rather than only inside a chat. Public details are still thin; its real-world deployments are the thing to watch.",
+      "url": "https://kimkj.com/en/ai-board-en/?mod=document&uid=20504",
+      "source": "KIMKJ 中国 AI 简报",
+      "category": "Developers"
+    },
+    {
+      "title": "Lab-robot maker Opentrons raises $40M to be the 'execution layer' for AI-driven science",
+      "summary": "New York lab robotics company Opentrons closed a $40M Series E led by Avego, with SoftBank Vision Fund and Khosla Ventures returning, aiming to turn its 11,000+ robots across 80+ countries into the place where AI-designed experiments actually run: the model proposes, the robot executes, and results feed back into the model.",
+      "url": "https://www.dailycompanynews.com/opentrons-labworks-raises-40m-in-series-e-funding/",
+      "source": "Daily Company News",
+      "category": "Developers"
+    }
+  ]
+}

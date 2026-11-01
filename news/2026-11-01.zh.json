@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-01",
+  "edition": 18,
+  "items": [
+    {
+      "title": "苹果确认：Apple Intelligence 12 月随 iOS 27.3 登陆中国，Siri 接入阿里 Qwen",
+      "summary": "苹果 10 月 31 日在中国新闻中心确认，首批 Apple Intelligence 功能 11 月 4 日起随最新 iOS 开发者测试版开放测试，12 月随 iOS 27.3 正式上线。Siri、写作工具与视觉智能将接入阿里巴巴 Qwen 模型（在其他国家对应 ChatGPT 的位置），但不含 WWDC 2026 发布的新一代 Siri AI。",
+      "url": "https://www.theapplepost.com/2026/10/31/73757/apple-intelligence-finally-coming-to-china-in-december-with-ios-27-3/",
+      "source": "The Apple Post",
+      "category": "开发者"
+    },
+    {
+      "title": "Alphabet 单日蒸发约 5000 亿美元：AI 搜索正在蚕食谷歌广告基本盘",
+      "summary": "10 月 29 日 Alphabet 股价跌约 13%，市值从 3.97 万亿美元跌至 3.46 万亿美元，创公司史上最大单日市值蒸发。财报显示搜索广告收入 633.5 亿美元、增速放缓至 12% 且低于预期，谷歌高管承认 AI Mode 带来的广告更少；三季度自由现金流为 -91 亿美元，AI 投入仍在加码。",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/30/ETTWOKECKZFTJJPP2YK577AJOA/",
+      "source": "BizChosun",
+      "category": "实验室"
+    },
+    {
+      "title": "Gemini 聊天框变身文件编辑器：文档、表格、PDF 不用离开对话就能改",
+      "summary": "谷歌 10 月 29 日宣布，Gemini 应用内可直接生成、预览并编辑文档、电子表格、幻灯片、PDF、Markdown 与代码：全屏直接改、划词提问、或用自然语言让 Gemini 改写。PDF 在网页与移动端均可编辑，其余格式目前仅限网页端。",
+      "url": "https://www.unite.ai/gemini-app-now-lets-users-edit-documents-and-pdfs-in-chat/",
+      "source": "Unite.AI",
+      "category": "开发者"
+    },
+    {
+      "title": "Cohere 启动目标最高 70 亿加元的 E 轮：加拿大主权 AI 押注再加码",
+      "summary": "多伦多 Cohere 10 月 30 日宣布 E 轮首次交割，目标规模最高 70 亿加元、对应估值 357 亿加元，由德国 Schwarz 集团领投，英伟达与加拿大政府参投；加拿大政府另承诺最高 16 亿加元分阶段入股。注意：70 亿是目标上限而非已到账金额，首次交割的具体金额未披露。",
+      "url": "https://pulse2.com/cohere-announces-series-e-initial-close-targeting-up-to-c7-billion-at-c35-7-billion-valuation/",
+      "source": "Pulse 2",
+      "category": "实验室"
+    },
+    {
+      "title": "面壁智能与 OpenBMB 开源 MiniCPM-OCR 系列：1.3B 解析 + 2B“AI 质检员”",
+      "summary": "10 月 31 日，ModelBest（面壁智能）与 OpenBMB 联合开源 MiniCPM-OCR 系列：1.3B 参数的 MiniCPM-OCR 1.0 主攻高精度文档解析、面向端侧部署；2B 的 MiniCPM-OCR Jev 是首个面向 OCR 结果的决策模型，像“AI 质检员”一样给解析结果打分、省去逐页人工复核。权重、代码与微调代码均开源，支持 vLLM、SGLang、llama.cpp 与 Ollama。（同名提醒：它与 TypeSafe 的决策模型 Jev 并非同一产品。）",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261031cn86192/modelbest-and-openbmb-open-source-minicpm-ocr-series-delivering-high-performance-document-parsing-and-ai-powered-quality-control",
+      "source": "PR Newswire（经 Morningstar）",
+      "category": "实验室"
+    },
+    {
+      "title": "小米开源 0.8B 文档理解模型 Xiaomi-OCR-0：一个模型包揽解析、抽取与问答",
+      "summary": "小米 10 月 30 日晚开源 Xiaomi-OCR-0：仅 0.8B 参数（基于 Qwen3.5-0.8B），单个模型同时做文档解析（输出 Markdown、表格与 LaTeX 公式）、关键信息抽取（JSON）与基于文档的问答；小米称其在 OmniDocBench v1.6 上 1B 以下模型中解析第一。权重 Apache 2.0 开源，附 MCP 服务与 Agent Skill，可本地运行。",
+      "url": "https://lapaasvoice.com/xiaomi-unveils-xiaomi-ocr-0-a-0-8b-open-source-ai-model-for-reading-complex-documents/",
+      "source": "Lapaas Voice",
+      "category": "实验室"
+    },
+    {
+      "title": "DeepSeek 开源新 agent 架构：直接对接 GitHub 与飞书",
+      "summary": "DeepSeek 10 月 31 日开源了一种新的 agent（自主多步任务助手）架构，可直接与开发者协作平台 GitHub 和中国企业协作平台飞书集成，让 agent 在真实工作流里跑多步任务，而不只停留在对话里。公开细节目前有限，值得看它后续的落地案例。",
+      "url": "https://kimkj.com/en/ai-board-en/?mod=document&uid=20504",
+      "source": "KIMKJ 中国 AI 简报",
+      "category": "开发者"
+    },
+    {
+      "title": "实验室机器人 Opentrons 再融 4000 万美元：要做 AI 自主科研的“执行层”",
+      "summary": "纽约实验室机器人公司 Opentrons 完成 4000 万美元 E 轮（Avego 领投，软银愿景基金、Khosla 续投），把已遍布 80 多个国家的 1.1 万多台机器人打造成 AI 设计实验的落地点：模型提方案、机器人跑实验、再把结果喂回模型，形成自主科研闭环。",
+      "url": "https://www.dailycompanynews.com/opentrons-labworks-raises-40m-in-series-e-funding/",
+      "source": "Daily Company News",
+      "category": "开发者"
+    }
+  ]
+}

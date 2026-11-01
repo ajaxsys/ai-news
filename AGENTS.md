@@ -8,6 +8,7 @@
 - `news/manifest.json` — 唯一可信的日期列表：latest、updated_at、dates（新到旧）、editions
 - `news/<date>.<lang>.json` — 每日每语言一个文件（`zh` / `en` / `ja`），单语言扁平格式
 - `radar/` — 「玩法雷达」专栏（见下节）：`radar/index.html` 独立外壳 + `radar/manifest.json` + `radar/<date>.<lang>.json` 三语数据
+- `ai-trend/` — 「AI 开源周榜」专栏（见下节）：`ai-trend/index.html` 独立外壳 + `ai-trend/manifest.json` + `ai-trend/<date>.<lang>.json` 三语数据
 - `AGENTS.md` — 本文件
 - `README.md` — 仓库说明
 
@@ -38,6 +39,16 @@
 - 更新规则：由玩法雷达每日任务（约 20:51 JST）在有够格条目时同步——新增当日三语文件并更新 manifest；没有够格条目则不更新（不凑数）。历史文件不删。
 - **公开版铁律**：专栏面向公众，只写「是什么 + 出处」，**绝不出现只对维护者个人的适配分析（如「为什么适合你」）、私人基础设施细节（主机名、地址、内网信息）**。聊天推送版与公开版是两套文案，勿混。
 - 外壳行为与主页一致：最近 3 天日期直接展示、其余收进下拉菜单；语言为点击展开下拉切换（zh / en / ja）；禁用 localStorage。外壳只含结构+样式+逻辑，不内嵌数据，数据失败时回退 jsDelivr。
+
+## AI 开源周榜专栏（ai-trend/，2026-11-01 开设）
+
+- 定位：每周一期，追踪全网 AI 相关开源仓库的真实涨星：按过去 7 天新增 Star 排名，前十名上榜，逐周留档。背景与目的写在专栏页的「关于这个专栏」一节（三语）。
+- 数据口径（铁律）：本周新增 Star = OSS Insight（api.ossinsight.io/q/trending-repos?period=past_week）的 Star 事件数；累计 Star = 发榜日经 GitHub API 实测的 stargazers_count。**绝不编造或沿用第三方榜单的旧数字**；发榜前逐仓用 GitHub API 复核仓库存在与累计 Star。
+- 数据格式：`ai-trend/<date>.<lang>.json` 顶层 `{"date":"YYYY-MM-DD","items":[...]}`；每条含 `rank`、`name`、`repo`（owner/name）、`summary`、`stars_week`、`stars_total`、`category`（按文件语言取值）、`url`（仓库地址）、`source`（固定 `GitHub`）。`ai-trend/manifest.json` 为唯一可信日期列表（latest、updated_at、dates 新到旧）。期号日期 = 发榜日（周一）。
+- 收录范围：AI 相关仓库——Agent 工具与框架、本地模型与推理、AI 应用、语音与多模态、安全与审计、本地算力等。**排除**：越狱/破甲提示词类、绕过付费获取模型类、洗稿/作弊类，以及与 AI 无关的仓库（即使涨星更高也不收）。
+- 更新规则：由每周任务（周一约 10:00 JST）同步——新增当期三语文件并更新 manifest，同时把主页外壳 feature4 卡的日期更新为当期日期。历史文件不删。
+- **公开版铁律**：与 radar 相同——只写公开事实（是什么、数据、出处），绝不出现个人适配分析与私人基础设施细节。日语文案用规范日语词，不许中日混杂。
+- 外壳行为与主页一致：最近 3 期直接展示、其余收进下拉菜单；语言为点击展开下拉切换（zh / en / ja）；禁用 localStorage；数据失败时回退 jsDelivr。
 
 ## 外壳（index.html）
 

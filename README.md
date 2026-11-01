@@ -24,6 +24,15 @@ Layout:
   The shell shows the latest three days up front and tucks older dates
   into a dropdown. Public copy only — what it is and where it comes from,
   no personal-fit commentary.
+- `ai-trend/` — the "AI Open-Source Weekly" column: a weekly chart of the
+  AI-related open-source repositories that gained the most stars in the
+  past seven days (top 10). Same layout pattern: `ai-trend/index.html`
+  (standalone shell), `ai-trend/manifest.json`, and
+  `ai-trend/<date>.<lang>.json` in three languages with shape
+  `{"date","items":[{"rank","name","repo","summary","stars_week","stars_total","category","url","source"}]}`.
+  Weekly gains are star events counted by OSS Insight; totals are measured
+  through the GitHub API at publication time. Jailbreak collections and
+  paid-access circumvention projects are excluded.
 
 The homepage shell fetches `manifest.json` first, then loads only the
 selected date + language file. This repo is intended to be public (GitHub

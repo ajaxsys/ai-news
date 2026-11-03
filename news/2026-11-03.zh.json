@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-03",
+  "edition": 20,
+  "items": [
+    {
+      "title": "Anthropic 给 Claude Code 加两句话：不许复刻现成游戏",
+      "summary": "Anthropic 已确认在 Claude Code 的 Opus 5.5 系统提示中加入两句话：可以做原创游戏、同类型游戏和用户自有设计素材的游戏，但不得复刻某个现成游戏，哪怕改名或自称原创也不行。背景是 AI 生成的《我的世界》《光环》等克隆小游戏泛滥、独立开发者抱怨；但也有开发者反映这条服务端规则误伤了自家游戏的崩溃分析、反作弊与调试工作，且无法管住本地模型。",
+      "url": "https://www.polygon.com/anthropic-claude-ai-game-replicas/",
+      "source": "Polygon",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 要合并 ChatGPT 的 Chat 与 Work 标签，ChatGPT 和 Codex 共用一个用量池",
+      "summary": "OpenAI 11 月 2 日致订阅用户邮件称，将先向小部分用户测试合并后的 Chat 与 Work 体验：同一对话里既能聊想法、也能让 ChatGPT 建网站、做演示文稿或在网上代办任务；Codex 在桌面应用里仍独立存在，但从 12 月起 Plus、Pro、Business 的 ChatGPT 与 Codex 将共用一个按 token 计的用量池，Instant 聊天不限量、不计入。Anthropic 9 月已把 Claude 的聊天与 Cowork 合并到同一界面。",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "苹果中国 AI 终于落地：Qwen 驱动，11 月 4 日开测、12 月随 iOS 27.3 上线",
+      "summary": "苹果 10 月 31 日在中国官网宣布，Apple Intelligence 将由阿里巴巴 Qwen 驱动登陆中国：11 月 4 日起在最新 iOS 开发者测试版中开放测试，12 月随 iOS 27.3 正式推送，覆盖 Siri、写作工具与视觉智能；用户须主动选择加入，阿里巴巴承诺用户请求与生成内容不用于训练。但首批不含新版 Siri AI 等 WWDC 2026 宣布的下一代功能，机型限 iPhone 15 Pro/Pro Max、iPhone 16 及更新机型、iPhone Air 与 iPhone Duo。",
+      "url": "https://www.chinadailyasia.com/hk/article/642068",
+      "source": "China Daily Asia",
+      "category": "开发者"
+    },
+    {
+      "title": "DeepSeek 开源 dsh-superagent：把仓库任务拆成并行工单的编码 agent 原型",
+      "summary": "DeepSeek Harness 团队开源了 dsh-superagent v0.1.0（MIT 协议）：一个路由器-工人架构的研究原型，把获得授权的 GitHub 编码请求拆成并行、相互隔离的工人会话来处理，可监控 GitHub 与飞书；默认观察模式，强调本地系统隔离。附带设计文档《探索超级 agent 设计：迈向更自主的 agent 系统》，定位仍是原型而非生产工具。",
+      "url": "https://dataconomy.com/2026/11/02/deepseek-releases-open-source-dsh-superagent-coding-agent/",
+      "source": "Dataconomy",
+      "category": "开发者"
+    },
+    {
+      "title": "Mistral 万亿参数 Large 4 权重开放下载，企业可自托管部署",
+      "summary": "Mistral 10 月 29 日宣布开放 Mistral Large 4（代号 Le Chonk）权重：约 1 万亿总参数、每次处理激活约 520 亿参数，主打编程、网络安全与企业应用，10 月 6 日首次公开预览后又经过额外训练强化。Mistral 称其表现与中国开源竞品 GLM-5.3 相当、平均每任务少用 47% 的 token；权重已上 Hugging Face，也可走 API 调用。",
+      "url": "https://digitalmarketreports.com/news/100812/mistral-releases-open-weight-trillion-parameter-ai-model-for-cybersecurity-and-coding/",
+      "source": "Digital Market Reports",
+      "category": "实验室"
+    },
+    {
+      "title": "美团龙猫发布 LongCat-2.5：1.6 万亿参数原生多模态，主攻长程 agent 任务",
+      "summary": "据 11 月 2 日报道，美团龙猫发布 LongCat-2.5：总参数 1.6 万亿、每 token 激活约 480 亿的稀疏 MoE 原生多模态模型，在 LongCat-2.0 基础上强化了原生视觉理解与 agent 式编程，主攻长程 agent 任务。以上为厂商口径、未经独立评测；权重与境外 API 是否开放目前未见说明，开发者现阶段只能观望。",
+      "url": "https://aigc.news/events/longcat-2-5-ai-1-6t-2026-11-02-143dd349/",
+      "source": "AIGC News",
+      "category": "实验室"
+    },
+    {
+      "title": "商汤开源 Loop-9B：把同一组层算两遍，9B 参数跑出更深的推理",
+      "summary": "商汤 10 月 30 日宣布开源 SenseNova Loop-9B-Preview：约 90 亿参数的多模态模型，接受文本与图像、输出文本，面向文档理解、编程与工具调用；关键结构是把共享的 24 层解码器块算两遍——不复制权重就加深了计算路径，训练支持最长 262,144 token 序列，Apache 2.0 协议，权重、推理说明与训练指南均已公开。",
+      "url": "https://technode.com/2026/11/02/sensetime-open-sources-9-billion-parameter-ai-model-that-reuses-layers-for-deeper-processing/",
+      "source": "TechNode",
+      "category": "研究"
+    },
+    {
+      "title": "微软课堂 AI 安全标准 11 月 1 日生效：写进合同，不再只是自愿原则",
+      "summary": "微软与美国教师联合会（AFT）、纽约教师联合会（UFT）共同制定的《AI 安全与隐私标准》于 11 月 1 日生效：学区把该标准纳入与微软的教育协议后，承诺即成为双方有约束力的合同条款，执行走已有合同而非另设监管机构或新法；但范围只限微软教育产品，不是覆盖全行业的规则。被定位为课堂 AI 从自愿原则走向可执行规则的模板。",
+      "url": "https://dev.to/delimitter/microsoft-binding-ai-safety-standard-for-classrooms-takes-effect-november-1-3i8m",
+      "source": "DEV Community",
+      "category": "实验室"
+    }
+  ]
+}

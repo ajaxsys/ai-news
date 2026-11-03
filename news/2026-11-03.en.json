@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-03",
+  "edition": 20,
+  "items": [
+    {
+      "title": "Anthropic adds two sentences to Claude Code: no recreating existing games",
+      "summary": "Anthropic has confirmed two new sentences in Claude Code's Opus 5.5 system prompt: original games, genre games and games built from the user's own designs and assets are fine, but recreating a specific existing game is not — even renamed or described as original. The move follows a wave of AI-built clones of titles like Minecraft and Halo and complaints from indie developers; but some developers report the server-side rule also blocks crash-dump analysis, anti-cheat work and debugging on their own games, and it cannot constrain locally run models.",
+      "url": "https://www.polygon.com/anthropic-claude-ai-game-replicas/",
+      "source": "Polygon",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI to merge ChatGPT's Chat and Work tabs; ChatGPT and Codex will share one usage allowance",
+      "summary": "OpenAI told subscribers on Nov 2 that it will first test a merged Chat and Work experience with a small group: one conversation can go from exploring an idea to having ChatGPT build a website, make a presentation or do work on the web. Codex stays separate in the desktop app, but from December, Plus, Pro and Business plans will draw ChatGPT and Codex from a single token-based allowance; Instant chat stays unlimited and outside the pool. Anthropic merged Claude's chat and Cowork into one screen in September.",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Apple Intelligence lands in China on Qwen: beta from Nov 4, public rollout with iOS 27.3 in December",
+      "summary": "Apple announced on its China newsroom on Oct 31 that Apple Intelligence will come to China powered by Alibaba's Qwen: testing opens Nov 4 in the latest iOS developer beta, with a public rollout alongside iOS 27.3 in December, covering Siri, Writing Tools and Visual Intelligence. Use is opt-in, and Alibaba says user requests and outputs will not be used for training. But the first batch excludes the new Siri AI and other next-generation features announced at WWDC 2026, and is limited to iPhone 15 Pro/Pro Max, iPhone 16 and later, iPhone Air and iPhone Duo.",
+      "url": "https://www.chinadailyasia.com/hk/article/642068",
+      "source": "China Daily Asia",
+      "category": "Developers"
+    },
+    {
+      "title": "DeepSeek open-sources dsh-superagent: a coding-agent prototype that splits repo tasks into parallel tickets",
+      "summary": "DeepSeek's Harness team open-sourced dsh-superagent v0.1.0 under the MIT license: a research prototype with a router-worker architecture that breaks authorized GitHub coding requests into parallel, isolated worker sessions, and can monitor GitHub and Feishu. It defaults to observe mode and stresses local system isolation. It ships with a design document, 'Exploring Super-agent Design: Towards a More Autonomous Agent System' — a prototype, not a production tool.",
+      "url": "https://dataconomy.com/2026/11/02/deepseek-releases-open-source-dsh-superagent-coding-agent/",
+      "source": "Dataconomy",
+      "category": "Developers"
+    },
+    {
+      "title": "Mistral opens weights for trillion-parameter Large 4 for self-hosted deployment",
+      "summary": "Mistral announced on Oct 29 that it has opened the weights for Mistral Large 4 (nicknamed 'Le Chonk'): roughly one trillion total parameters with about 52 billion activated per task, aimed at coding, cybersecurity and enterprise use, further trained after its Oct 6 public preview. Mistral says it matches Chinese open-weight rival GLM-5.3 while using 47% fewer tokens per task on average; weights are on Hugging Face, with API access also available.",
+      "url": "https://digitalmarketreports.com/news/100812/mistral-releases-open-weight-trillion-parameter-ai-model-for-cybersecurity-and-coding/",
+      "source": "Digital Market Reports",
+      "category": "Labs"
+    },
+    {
+      "title": "Meituan LongCat releases LongCat-2.5: 1.6T-parameter native multimodal model for long-horizon agent tasks",
+      "summary": "Meituan's LongCat released LongCat-2.5, reported Nov 2: a sparse-MoE native multimodal model with 1.6 trillion total parameters and about 48 billion activated per token, building on LongCat-2.0 with stronger native visual understanding and agentic coding, aimed at long-horizon agent tasks. These are vendor-reported claims, not independently evaluated; whether weights or API access outside China will open is not yet stated.",
+      "url": "https://aigc.news/events/longcat-2-5-ai-1-6t-2026-11-02-143dd349/",
+      "source": "AIGC News",
+      "category": "Labs"
+    },
+    {
+      "title": "SenseTime open-sources Loop-9B: reuse the same layers twice for deeper processing at 9B parameters",
+      "summary": "SenseTime announced on Oct 30 the open-source SenseNova Loop-9B-Preview: a roughly 9-billion-parameter multimodal model that takes text and images and outputs text, for document understanding, coding and tool-use tasks. The key structure runs a shared block of 24 decoder layers twice — deepening the computation path without duplicating weights. Training supports sequences up to 262,144 tokens; it is Apache 2.0 licensed, with weights, inference instructions and training guidance published.",
+      "url": "https://technode.com/2026/11/02/sensetime-open-sources-9-billion-parameter-ai-model-that-reuses-layers-for-deeper-processing/",
+      "source": "TechNode",
+      "category": "Research"
+    },
+    {
+      "title": "Microsoft's classroom AI safety standard takes effect Nov 1: binding contract terms, not voluntary principles",
+      "summary": "Microsoft's AI Safety and Privacy Standard, developed with the American Federation of Teachers (AFT) and the United Federation of Teachers (UFT), took effect Nov 1: when school districts add it to their Microsoft education agreements, the commitments become binding contractual terms, enforced through existing contracts rather than a new regulator or law. Its scope covers Microsoft education products only, not the whole edtech market — positioned as a template for binding classroom-AI rules.",
+      "url": "https://dev.to/delimitter/microsoft-binding-ai-safety-standard-for-classrooms-takes-effect-november-1-3i8m",
+      "source": "DEV Community",
+      "category": "Labs"
+    }
+  ]
+}

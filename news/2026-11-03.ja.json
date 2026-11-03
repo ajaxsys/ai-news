@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-03",
+  "edition": 20,
+  "items": [
+    {
+      "title": "Anthropic、Claude Codeに2文を追加　既存ゲームの再現を禁止",
+      "summary": "Anthropicは、Claude CodeのOpus 5.5システムプロンプトに2文を追加したことを確認した。オリジナルゲーム、ジャンルのゲーム、ユーザー自身のデザインやアセットによるゲームはよいが、特定の既存ゲームの再現は、改名したりオリジナルと称したりしても不可。背景にはMinecraftやHaloなどのAI生成クローンの氾濫とインディー開発者の苦情がある。一方で、このサーバー側ルールが自社ゲームのクラッシュ解析やチート対策、デバッグまで阻むとの報告もあり、ローカルで動くモデルには及ばない。",
+      "url": "https://www.polygon.com/anthropic-claude-ai-game-replicas/",
+      "source": "Polygon",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、ChatGPTのChatタブとWorkタブを統合　ChatGPTとCodexで利用枠を共有へ",
+      "summary": "OpenAIは11月2日、購読者向けメールでChatタブとWorkタブの統合体験をまず一部のユーザーでテストすると発表した。同一の会話でアイデアを練り、ChatGPTにWebサイト作成やプレゼン作成、Web上の代行作業まで任せられる。Codexはデスクトップアプリ内で独立したまま。ただし12月からPlus・Pro・BusinessプランではChatGPTとCodexがトークン単位の共通利用枠を共有し、Instantチャットは無制限で枠外となる。Anthropicは9月にClaudeのチャットとCoworkを1画面に統合済みだ。",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "Apple Intelligenceが中国でついに始動　Qwen搭載、11月4日からテスト、12月にiOS 27.3で提供",
+      "summary": "Appleは10月31日、中国のニュースルームで、Apple IntelligenceがAlibabaのQwen搭載で中国に上陸すると発表した。11月4日から最新のiOS開発者ベータでテストを開始し、12月にiOS 27.3とともに一般提供。対象はSiri、ライティングツール、ビジュアルインテリジェンスで、利用はオプトイン、Alibabaはユーザーからのリクエストや生成内容を学習に使わないとしている。ただし初回はWWDC 2026で発表された新Siri AIなど次世代機能を含まず、対応機種はiPhone 15 Pro/Pro Max、iPhone 16以降、iPhone Air、iPhone Duoに限られる。",
+      "url": "https://www.chinadailyasia.com/hk/article/642068",
+      "source": "China Daily Asia",
+      "category": "開発者"
+    },
+    {
+      "title": "DeepSeek、dsh-superagentをオープンソース化　リポジトリのタスクを並行チケットに分割するコーディングエージェント試作",
+      "summary": "DeepSeekのHarnessチームは、dsh-superagent v0.1.0をMITライセンスでオープンソース化した。ルーター・ワーカー構造の研究用プロトタイプで、許可されたGitHubのコーディング依頼を並行かつ隔離されたワーカーセッションに分割して処理し、GitHubと飛書（Feishu）を監視できる。既定は観察モードで、ローカルのシステム隔離を重視。設計文書『Exploring Super-agent Design: Towards a More Autonomous Agent System』も付属する。あくまで試作で、本番ツールではない。",
+      "url": "https://dataconomy.com/2026/11/02/deepseek-releases-open-source-dsh-superagent-coding-agent/",
+      "source": "Dataconomy",
+      "category": "開発者"
+    },
+    {
+      "title": "Mistral、1兆パラメータのLarge 4の重みを公開　自社ホスティングが可能に",
+      "summary": "Mistralは10月29日、Mistral Large 4（愛称Le Chonk）の重みを公開したと発表した。総パラメータ約1兆、処理ごとに約520億が活性化し、コーディング、サイバーセキュリティ、企業用途を狙う。10月6日の公開プレビュー後に追加学習で強化された。Mistralによると中国のオープンウェイト競合GLM-5.3と同等の性能で、タスクあたり平均47%少ないトークンで済むという。重みはHugging Faceで公開され、API経由の利用も可能だ。",
+      "url": "https://digitalmarketreports.com/news/100812/mistral-releases-open-weight-trillion-parameter-ai-model-for-cybersecurity-and-coding/",
+      "source": "Digital Market Reports",
+      "category": "ラボ"
+    },
+    {
+      "title": "美団のLongCat、LongCat-2.5を発表　1.6兆パラメータのネイティブマルチモーダル、長期的エージェントタスク向け",
+      "summary": "美団のLongCatは11月2日の報道によると、LongCat-2.5を発表した。総パラメータ1.6兆、トークンあたり約480億が活性化するスパースMoEのネイティブマルチモーダルモデルで、LongCat-2.0を基にネイティブな視覚理解とエージェント型コーディングを強化し、長期的エージェントタスクを狙う。いずれもメーカー発表で独立検証はされていない。重みや中国国外向けAPIの公開可否は現時点で不明だ。",
+      "url": "https://aigc.news/events/longcat-2-5-ai-1-6t-2026-11-02-143dd349/",
+      "source": "AIGC News",
+      "category": "ラボ"
+    },
+    {
+      "title": "商湯、Loop-9Bをオープンソース化　同じ層を2回回して9Bで深い処理を実現",
+      "summary": "商湯は10月30日、SenseNova Loop-9B-Previewをオープンソース化したと発表した。約90億パラメータのマルチモーダルモデルで、テキストと画像を入力しテキストを出力。文書理解、コーディング、ツール利用向けだ。肝は共有の24層デコーダーブロックを2回計算することで、重みを複製せずに計算経路を深くする点。学習は最大262,144トークンの系列に対応し、Apache 2.0ライセンスで、重み・推論手順・学習ガイドが公開されている。",
+      "url": "https://technode.com/2026/11/02/sensetime-open-sources-9-billion-parameter-ai-model-that-reuses-layers-for-deeper-processing/",
+      "source": "TechNode",
+      "category": "研究"
+    },
+    {
+      "title": "Microsoftの教室向けAI安全基準が11月1日に発効　自主原則ではなく契約上の拘束力に",
+      "summary": "Microsoftと米国教員連盟（AFT）、全米教員連盟（UFT）が共同で策定したAI安全・プライバシー基準が11月1日に発効した。学区がMicrosoftとの教育契約に組み込むことで、約束は両者間の拘束力ある契約条項となり、新たな規制機関や法律ではなく既存の契約で執行される。対象はMicrosoftの教育製品に限られ、業界全体のルールではない。教室AIが自主原則から実行可能なルールへ移るひな形と位置づけられている。",
+      "url": "https://dev.to/delimitter/microsoft-binding-ai-safety-standard-for-classrooms-takes-effect-november-1-3i8m",
+      "source": "DEV Community",
+      "category": "ラボ"
+    }
+  ]
+}

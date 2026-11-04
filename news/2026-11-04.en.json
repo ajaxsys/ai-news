@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-04",
+  "edition": 21,
+  "items": [
+    {
+      "title": "OpenAI launches LifeVal: not coding tests, but whether AI can handle life's chores",
+      "summary": "OpenAI published its internal benchmark LifeVal on Nov 2, covering caregiving, health, education, household administration, personal finance, shopping and government services. Tasks ask the model to finish the job, not just advise — e.g. picking a kindergarten after a move, or planning a week of meals for a parent newly diagnosed with diabetes. On OpenAI's chart, GPT-6 Astra averages 80.6% reward, up from GPT-5.2's 49.3% in Dec 2025; but the task set, grading code and raw data are unpublished, so the scores can only be reported by OpenAI itself.",
+      "url": "https://cellcog.ai/blog/openai-lifeval/",
+      "source": "CellCog（据 OpenAI 官方页面）",
+      "category": "Labs"
+    },
+    {
+      "title": "SemiAnalysis launches GDPx: the best model scores only 12%, finance and legal at zero",
+      "summary": "SemiAnalysis launched GDPx on Nov 2: 206 long tasks across 11 high-value domains — chip design, cybersecurity, finance, legal and more — with a default 8-hour limit per task and binary grading. Claude Opus 5.5 leads at 12.0%, ahead of Gemini 4 Carbon at 10.9% and GPT-6 Astra at 9.6%; finance and legal score near zero for almost every model under strict grading. The figures reflect deliberately hard tasks, not everyday office success rates, but they cool expectations for agent reliability in production.",
+      "url": "https://www.techtimes.com/articles/329945/20261103/gdpx-benchmark-best-frontier-ai-scores-12-real-work-zero-finance-legal.htm",
+      "source": "Tech Times（据 SemiAnalysis）",
+      "category": "Research"
+    },
+    {
+      "title": "NYT and three papers sue Brave: accused of selling news to AI firms and bypassing paywalls",
+      "summary": "The New York Times, the Daily News, the Chicago Tribune and the Orlando Sentinel filed two lawsuits in Manhattan federal court on Nov 2, accusing Brave of copying articles into a 30-billion-page search index, selling access through its Search API to AI firms including Anthropic, Perplexity, Mistral, xAI and Cohere, and reproducing paywalled content via Ask Brave answers and the browser's 'paywall blocker' setting. Each complaint brings five counts and seeks a jury trial and an injunction; the named AI firms are not defendants, and Brave had not responded publicly as of the morning of Nov 3.",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "AGIBOT unveils GO-3 Preview: tops three embodied benchmarks, full open source by end of 2026",
+      "summary": "AGIBOT unveiled GO-3 Preview on Nov 3, an embodied foundation model built on its proprietary WRAM (World Reasoning Action Model) architecture, unifying task understanding, future-state prediction and action generation across pre-training, post-training and post-deployment learning. The company says it ranks first on three embodied benchmarks — RoboDojo, RoboTwin and RoboColiseum — and will fully open-source the model by the end of 2026; the announcement gives no detailed score tables, so independent verification awaits the open release.",
+      "url": "https://www.prnewswire.com/apac/news-releases/agibot-unveils-go-3-preview-takes-top-spot-on-three-embodied-ai-benchmarks-302927277.html",
+      "source": "PR Newswire（智元官方通稿）",
+      "category": "Labs"
+    },
+    {
+      "title": "Issue 03 tracker update: decision models move from launch hype to enterprise buying — and their security gaps surface",
+      "summary": "A Nov 3 industry analysis says the decision-model race has moved into enterprise adoption: after TypeSafe's Jev (Sep 15), Cloudflare's Clef/Clef-flash, Microsoft's Decision-1, Amazon's Strands Decider 2B and OpenAI's Decisions API have all entered, with enterprises drawn to outputs that are probability-scored judgments rather than free text. But a Nov 2 security assessment warns these 'System One' models can still be bypassed via prompt injection and data poisoning and need adversarial testing like any model — the category is shifting from proof-of-concept to a contest over reliability and security.",
+      "url": "https://inc42.com/features/the-enterprise-ai-push-for-decision-models/",
+      "source": "Inc42",
+      "category": "Developers"
+    },
+    {
+      "title": "Study: poisoning just 0.1% of pretraining data plants a working RCE backdoor in an AI agent",
+      "summary": "A study posted to arXiv on Oct 27 (no. 2610.37741) and surfaced on Hacker News' front page on Nov 2 shows that poisoning just 0.1% of pretraining data can implant a working remote-code-execution (RCE) backdoor in an AI agent. The authors pretrained open models from scratch at 0.6B, 1.7B and 4B parameters, turned them into CLI agents, and report about 92% attack success for the 4B model; code and methodology are public. The takeaway for the agent era: pretraining data is no longer just a quality issue — it is itself a security boundary.",
+      "url": "https://dev.to/delimitter/study-poisoning-01-of-pretraining-data-implants-a-working-rce-backdoor-in-an-ai-agent-3moh",
+      "source": "DEV Community（据 arXiv 2610.37741）",
+      "category": "Research"
+    },
+    {
+      "title": "Hg and Anthropic back a new European AI firm: Claude engineers embedded in companies, launching this year",
+      "summary": "European tech investor Hg announced on Nov 3 that it will invest, with participation from Anthropic and angel investors, in an independent European AI transformation company to move European firms beyond pilots to measurable operational impact: built on Claude, with forward deployed engineers embedded at clients to build AI-native products. The company name, amount, valuation and founding team are undisclosed, with a formal launch later this year — another sign of model labs shifting from selling models to selling deployment services.",
+      "url": "https://www.webdisclosure.com/press-release/hg-etr-new-ai-transformation-company-raises-funding-to-advance-ai-adoption-in-europe-iuIMBeReb2v",
+      "source": "Hg 官方通稿（经 EQS）",
+      "category": "Labs"
+    }
+  ]
+}

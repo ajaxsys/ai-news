@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-04",
+  "edition": 21,
+  "items": [
+    {
+      "title": "OpenAI、LifeValを発表　コーディングではなく生活の雑務をこなせるかを測る",
+      "summary": "OpenAIは11月2日、内部ベンチマークLifeValを発表した。介護・健康・教育・家事管理・個人財務・買い物・行政サービスを対象とし、助言ではなく実際に仕事を終わらせることを求める。例えば引っ越し後の幼稚園選びや、糖尿病と新たに診断された親のための1週間の献立作りなどだ。公式チャートではGPT-6 Astraの平均報酬80.6%で、2025年12月のGPT-5.2の49.3%から上昇。ただしタスク集・採点コード・生データは未公開で、スコアは当面OpenAI自身の発表に頼るほかない。",
+      "url": "https://cellcog.ai/blog/openai-lifeval/",
+      "source": "CellCog（据 OpenAI 官方页面）",
+      "category": "ラボ"
+    },
+    {
+      "title": "SemiAnalysis、GDPxを発表　最強モデルでも12%、金融・法務は全滅",
+      "summary": "SemiAnalysisは11月2日、エージェント評価GDPxを発表した。チップ設計・サイバーセキュリティ・金融・法務など11の高価値領域で206の長時間タスク、1タスクあたり原則8時間制限、二値採点。Claude Opus 5.5が12.0%で首位、Gemini 4 Carbon 10.9%、GPT-6 Astra 9.6%。金融・法務は厳格な採点ではほぼ全モデルが0点。数字は意図的に難しいタスクを反映したもので日常業務の成功率ではないが、エージェント実用化の信頼性への期待には冷水を浴びせる。",
+      "url": "https://www.techtimes.com/articles/329945/20261103/gdpx-benchmark-best-frontier-ai-scores-12-real-work-zero-finance-legal.htm",
+      "source": "Tech Times（据 SemiAnalysis）",
+      "category": "研究"
+    },
+    {
+      "title": "NYTなど4紙がBraveを提訴　ニュースをAI企業に販売しペイウォール回避を助けたと主張",
+      "summary": "ニューヨーク・タイムズ、デイリー・ニュース、シカゴ・トリビューン、オーランド・センティネルは11月2日、ニューヨークの連邦裁判所に2件の訴訟を提起した。Braveが記事を300億ページの検索インデックスに複製し、検索APIを通じてAnthropic、Perplexity、Mistral、xAI、CohereなどのAI企業に販売し、Ask Braveの回答やブラウザの「ペイウォールブロッカー」機能で有料記事を再現したと主張する。各訴状は5つの請求を掲げ、陪審審理と差し止めを求める。名指しされたAI企業は被告ではなく、Braveは11月3日午前時点で公に回答していない。",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "智元、具身モデルGO-3 Previewを発表　3つのロボット評価で首位、2026年末までに全面オープンソース化",
+      "summary": "智元（AGIBOT）は11月3日、具身基盤モデルGO-3 Previewを発表した。自社開発のWRAM（世界推論行動モデル）アーキテクチャに基づき、タスク理解・将来状態予測・行動生成を統一し、事前学習・事後学習・デプロイ後の学習の全周期をカバーする。同社によるとRoboDojo、RoboTwin、RoboColiseumの3つの具身評価でいずれも首位で、2026年末までに全面オープンソース化するという。ただし詳細なスコア表は未公表で、独立検証は公開後に委ねられる。",
+      "url": "https://www.prnewswire.com/apac/news-releases/agibot-unveils-go-3-preview-takes-top-spot-on-three-embodied-ai-benchmarks-302927277.html",
+      "source": "PR Newswire（智元官方通稿）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Issue 03追跡更新：意思決定モデルは「新製品発表」から「企業調達」へ　ただし安全面の弱点も浮上",
+      "summary": "11月3日の業界分析によると、意思決定モデル競争は企業導入の段階に入った。TypeSafeのJev（9月15日）以降、CloudflareのClef/Clef-flash、MicrosoftのDecision-1、AmazonのStrands Decider 2B、OpenAIのDecisions APIが相次いで参入し、企業は自由なテキストではなく確率付きの判断だけを出力する制御可能性に注目している。ただし11月2日の安全評価は、こうした「System One」モデルもプロンプトインジェクションやデータ汚染で回避され得ると警告し、従来モデル同様の敵対的テストが必要だと指摘する。カテゴリーは概念実証期から「信頼性と安全性を競う」段階に入った。",
+      "url": "https://inc42.com/features/the-enterprise-ai-push-for-decision-models/",
+      "source": "Inc42",
+      "category": "開発者"
+    },
+    {
+      "title": "研究：事前学習データのわずか0.1%の汚染で、AIエージェントにRCEバックドアを植え付け可能",
+      "summary": "10月27日にarXivに投稿され（番号2610.37741）、11月2日にHacker Newsのトップページに上がった研究によると、事前学習データのわずか0.1%を汚染するだけで、AIエージェントにリモートコード実行（RCE）のバックドアを植え付けられる。研究者は0.6B、1.7B、4Bのオープンモデルをゼロから事前学習してCLIエージェント化し、4Bモデルで攻撃成功率約92%を報告。コードと手法は公開済みだ。エージェント時代の教訓は、事前学習データはもはや「品質」の問題ではなく、それ自体がセキュリティ境界だということだ。",
+      "url": "https://dev.to/delimitter/study-poisoning-01-of-pretraining-data-implants-a-working-rce-backdoor-in-an-ai-agent-3moh",
+      "source": "DEV Community（据 arXiv 2610.37741）",
+      "category": "研究"
+    },
+    {
+      "title": "HgとAnthropic、欧州に新会社　Claudeエンジニアを企業に派遣、年内に正式始動",
+      "summary": "欧州のテクノロジー投資会社Hgは11月3日、Anthropicおよびエンジェル投資家とともに、独立した欧州のAIトランスフォーメーション企業に投資すると発表した。欧州企業を「実証実験」から「測定可能な経営インパクト」へ進める狙いで、Claudeを基盤にフォワードデプロイエンジニアを顧客に常駐させてAIネイティブ製品を構築する。社名・金額・評価額・創業チームは未公表で、正式始動は年内。モデル販売から導入サービス販売への大手ラボのシフトを示すもう一つの事例だ。",
+      "url": "https://www.webdisclosure.com/press-release/hg-etr-new-ai-transformation-company-raises-funding-to-advance-ai-adoption-in-europe-iuIMBeReb2v",
+      "source": "Hg 官方通稿（经 EQS）",
+      "category": "ラボ"
+    }
+  ]
+}

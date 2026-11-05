@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-05",
+  "edition": 22,
+  "items": [
+    {
+      "title": "テンセントHy4正式発表　混元初の「画面を見てパソコンを操作できる」モデル、重みは当面非公開",
+      "summary": "テンセントは11月4日、混元Hy4の正式版を発表した。770BパラメータのMoEで、8月28日のテキスト専用プレビューと異なり、初めて視覚理解とコンピュータ操作が加わった。チャートや文書を読み、コマンドラインとGUIで複数アプリにまたがって作業でき、BlenderやCADなど専門ソフトでの訓練を含む。API価格は入力100万トークンあたり0.834ドル、出力2.501ドル、11月4〜15日はWorkBuddy/CodeBuddyで無料、TokenHubは年末まで半額。ただし正式版の重みとシステムカードは未公開で、ダウンロードできるのは8月のプレビュー版のみで、従来のオープン路線からの一時的な逸脱だ。テンセント発表のOSWorld 2.1は78.9で、Claude Opus 5.5の81.8に近くGPT-6.1 Solの75.2を上回るが、独立した再現はまだない。",
+      "url": "https://startupfortune.com/tencent-launches-hunyuan-hy4-with-vision-and-the-ability-to-click-through-apps/",
+      "source": "Startup Fortune（据腾讯官方发布）",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、Pierre Computer買収へ　コードストレージ層をCodexに組み込み、GitHubの領域へ",
+      "summary": "OpenAIは11月4日、開発者ツール新興企業Pierre Computerを買収すると発表した。金額は非公開で、完了には規制当局の承認が必要で、それまでは両社は独立を保つ。PierreのCode StorageはGit基盤の分散ストレージサービス（LovableやBoltなどが利用）で、TreesやDiffsのオープンソースライブラリは既にCodexアプリ内で動いている。完了後、Code Storageの機能はCodexに統合され、オープンソースプロジェクトは公開を続ける。背景として、2日前にOpenAIは自社製GitバックエンドPandoを公開した（中央値のプッシュ遅延が約80%短縮）。コーディングエージェントが増えるほど、コードの保存やブランチ管理の基盤そのものが製品の一部になる。",
+      "url": "https://www.unite.ai/openai-to-acquire-pierre-computer-and-bring-code-storage-to-codex/",
+      "source": "Unite.AI（据 Axios 与 OpenAI 官方公告）",
+      "category": "開発者"
+    },
+    {
+      "title": "CrowdStrike、エージェント安全チェーンを一挙に補完　AIキルスイッチ投入、FiddlerとDreadnodeを約4.95億ドルで買収へ",
+      "summary": "CrowdStrikeは11月3日のFal.Con Europeで3つのエージェント安全策を同時に打ち出した。Falcon GuardianにAIキルスイッチを追加し、権限のある管理者が暴走したエージェントを停止し、再起動を防ぎ、ネットワークを切断できる（現時点ではAIゲートウェイ層での停止で、エンドポイント層は後日）。Fiddler AI（エージェントの可観測性、Falcon Observeに改称、ツール呼び出しと判断の軌跡を記録）とDreadnode（100以上の攻撃手法によるリリース前の自動レッドチームテスト）の買収契約も締結した。価格は非公開だが、ウォール・ストリート・ジャーナルは合計約4.95億ドル（Fiddler約4億ドル、Dreadnode約9500万ドル）と報じ、2027会計年度第4四半期（2027年1月まで）の完了と一般提供を見込む。アナリストは注意を促す。プロセスの停止はエージェントの認証情報や権限の取り消しではなく、既に行われた変更を元に戻すこともできない。",
+      "url": "https://futurumgroup.com/insights/crowdstrike-buys-fiddler-and-dreadnode-to-test-watch-and-stop-ai-agents/",
+      "source": "Futurum Group（据 CrowdStrike 官方公告与《华尔街日报》）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Anthropic、FlashProveをオープンソース化　「この回答はどのモデルが書いたか」をゼロ知識証明で検証",
+      "summary": "Anthropicの研究プロトタイプFlashProveは11月2日に公開され、11月3日に技術記事が出た。提供者がモデル重みに一度コミット（指紋）し、その後の各回答に暗号学的証明を添付することで、重みを見ずに「この回答は確かにコミットされた重みから生まれた」ことを誰でも検証できる。アプリやルーティングサービス経由で安いモデルにすり替えられたり、回答が途中で改ざんされたりする問題を狙う。Llama 4 Maverick（400B MoE）での実測では、H100 1枚で毎秒約110トークンを証明し、1024トークンのリクエストには約19MBの証明が付き、24スレッドCPUで約17秒で検証できる。ただし証明コストは通常推論の70〜95倍で、対象は混合エキスパートモデル、1024トークン以内のコンテキスト、貪欲デコーディングに限られる。コードとLeanによる形式証明はApache 2.0で公開されたが、Anthropicは導入計画はなく、リポジトリはメンテナンスされない研究成果物と明記している。",
+      "url": "https://techprolonged.com/2026/11/anthropics-flashprove-can-prove-which-ai-model-wrote-a-reply/",
+      "source": "Tech Prolonged（据 Anthropic 研究文章）",
+      "category": "研究"
+    },
+    {
+      "title": "Issue 03追跡更新：インドSarvam、オープンウェイトの意思決定モデルPrismを発表　71.8点・44ミリ秒、100ミリ秒以内で最強を主張",
+      "summary": "インドのSarvam AIは11月3日、System One意思決定モデルPrismを発表した。Sarvam 105B-10BをLoRAで微調整したもので、トークン逐次生成なしに1回のフォワードパスで各選択肢の確率を出力し、重みはApache 2.0で公開（FP8、120GB以上のメモリを持つGPU 1枚で実行可能）。Sarvam自身による25の意思決定モデルの3指標平均では、Prismは71.8点で100ミリ秒以内では最高（B200で中央値44ミリ秒）、Perplexity Decider v1.2の68.0、Jev 1.14の64.5、Clefの62.6を上回る。90%以上の確信度の回答では実際の誤り率（英語2.2%）が予測の3.3%を下回るのに対し、Jev 1.14などは予測の1.5〜2.7倍の誤りを出す。注意点として、3指標にはSarvam独自のインド言語ベンチマークとArtificial Analysis指標の再現が含まれており、スコアはベンダー測定で第三者による再現はまだない。ただし「オープンウェイト＋校正された確信度＋ミリ秒級の遅延」という路線は、Jevの最初のコンセプトから各国ベンダーの定番の戦法へと広がっている。",
+      "url": "https://www.sarvam.ai/blogs/sarvam-prism",
+      "source": "Sarvam AI 官方博客",
+      "category": "開発者"
+    },
+    {
+      "title": "Uber決算で自ら明かす　サードパーティのエージェント経由の配車は四半期でわずか4件、外食は約500件",
+      "summary": "Uberは11月4日の第3四半期決算説明会で、エージェント経由の実績を初めて開示した。CFOのBalaji Krishnamurthy氏によると、配車事業でサードパーティのエージェントから完了したのは「合計わずか4件」。ハロウィーンの週（Uberで最も繁忙な週で、配車と外食を合わせて約3.2億件）では、エージェント経由のUber Eats注文は約500件だった。CEOのDara Khosrowshahi氏は「非常に、非常に初期段階で、 traction は非常に限定的」と述べた。この数字はエージェント商取引の大きな物語に冷水を浴びせる。外食と配車の125対1の差は、遅延や誤りを許容できる注文から自動化が進み、リアルタイムの位置情報や正確な乗車地点、即時確認を要する配車がエージェントにとって最も難しい品目であることを示す。ただし分母の3.2億件は1週間分、分子は四半期分であり、単純に割ると割合を過大評価することに注意が必要だ。",
+      "url": "https://tech-insider.org/uber-ai-agents-four-rides-500-eats-orders-q3-2026/",
+      "source": "Tech Insider（据 Uber Q3 财报电话会与 The Verge）",
+      "category": "ラボ"
+    },
+    {
+      "title": "MIT研究：GPT-6 Astraは訓練なしで他モデルの重みを直接編集し、小型モデルの数学スコアを7.9%から48.1%へ",
+      "summary": "MIT CSAILの研究者4人は11月2日、ブログ「Sparks of Weight-Space Programming」を公開した。GPT-6 Astraに他ネットワークの重みを直接読ませ書き換えさせるもので、勾配降下も微調整も使わず、重みの読み取り・修復・ゼロからの記述にわたる8つの実験を含む。最も注目されたのは、Qwen3.5-0.8Bの「思考ループ」が第15層と第19層のMLPが書き込む一つの方向に起因すると特定し、131,072個の重み（0.8Bの0.016%）だけを変更したところ、MATH-500が7.9%から48.1%へ、GSM8Kが13.8%から67.1%へ上昇し、トークン上限に達する回答の割合が93%から33%に低下したこと。Hugging Faceは公開ログから編集済みチェックポイントを再構築し、51.0%を再現した。ただし著者も批評家も境界を指摘する。この手法は「単一の局所的な欠陥」にのみ有効で、ループが稀なGemma 3 270Mでは最良の編集でもMATH-500は6.8%から7.7%にしか上がらず、現時点では査読を経ていないブログ記事で、検証は1つのモデルのみだ。",
+      "url": "https://www.datacamp.com/blog/weight-space-programming",
+      "source": "DataCamp（据 MIT CSAIL 博客）",
+      "category": "研究"
+    },
+    {
+      "title": "Snowflake、Expedition 2026で「ガバナンスされたエージェント」に賭ける　統一された業務定義と、すべてのモデル・ツール呼び出しを管理するゲートウェイ",
+      "summary": "Snowflakeは11月3日、Expedition 2026でHorizon Catalogの2つの機能を発表した。Business Ontologyは「純収益」などの中核概念について、公式で責任者のいる定義を1つ定め、基盤のテーブルやビューに直接結び付け、エージェントが自らの推論ではなく人間が承認した定義に基づいて回答するようにする。Cortex AI Gatewayはエージェントの単一の入口として、クラウド・フレームワーク・ベンダーを横断するモデルやMCPツール呼び出しに同一のアクセスポリシー、認証、コスト上限を適用し、濫用検出（単一プロンプトではなくエージェント軌跡全体）、サンドボックス実行、可観測性を備える。背景として、Snowflake委託のMIT Technology Review調査では、55%の幹部がエージェントの洞察の質の低さの最大の原因として「業務コンテキストの欠如」を挙げた。展開のペースに注意。Business Ontologyは発表時点では「まもなくパブリックプレビュー予定」で、ゲートウェイの高度な機能の一部はプライベートプレビューのままだ。",
+      "url": "https://www.hpcwire.com/bigdatawire/this-just-in/snowflake-helps-enterprises-deploy-ai-agents-with-trusted-business-context-and-built-in-controls/",
+      "source": "BigDATAwire（Snowflake 官方通稿）",
+      "category": "開発者"
+    }
+  ]
+}

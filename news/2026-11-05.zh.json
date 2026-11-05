@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-05",
+  "edition": 22,
+  "items": [
+    {
+      "title": "腾讯 Hy4 正式发布：混元首个能“看屏幕、动手操作电脑”的模型，权重却暂时没开源",
+      "summary": "腾讯 11 月 4 日发布混元 Hy4 正式版：770B 参数 MoE，相比 8 月 28 日的纯文本预览版首次加入视觉理解与电脑操作能力，能读图表文档、在命令行与图形界面里跨应用办事，训练覆盖 Blender、CAD 等专业软件。API 定价输入每百万 token 0.834 美元、输出 2.501 美元，11 月 4–15 日在 WorkBuddy/CodeBuddy 免费、TokenHub 年底前五折；但正式版权重与系统卡暂未放出，只有 8 月预览版可下载——这与腾讯此前一贯的开源打法暂时背离。腾讯自报 OSWorld 2.1 得分 78.9，接近 Claude Opus 5.5 的 81.8，高于 GPT-6.1 Sol 的 75.2，不过尚未经独立复现。",
+      "url": "https://startupfortune.com/tencent-launches-hunyuan-hy4-with-vision-and-the-ability-to-click-through-apps/",
+      "source": "Startup Fortune（据腾讯官方发布）",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 宣布收购 Pierre Computer：把代码存储层装进 Codex，直指 GitHub 的地盘",
+      "summary": "OpenAI 11 月 4 日宣布将收购开发者工具初创 Pierre Computer，交易金额未披露、交割须经监管批准，在此之前两家公司保持独立。Pierre 的 Code Storage 是基于 Git 的分布式存储服务（已有 Lovable、Bolt 等客户），其 Trees、Diffs 开源库已运行在 Codex 应用内；收购后 Code Storage 功能将并入 Codex、开源项目继续开放。背景是两天前 OpenAI 刚公开自研 Git 后端 Pando（称中位推送延迟降近 80%）：写代码的 agent 越多，存代码、管分支的基础设施就越成为产品本身。",
+      "url": "https://www.unite.ai/openai-to-acquire-pierre-computer-and-bring-code-storage-to-codex/",
+      "source": "Unite.AI（据 Axios 与 OpenAI 官方公告）",
+      "category": "开发者"
+    },
+    {
+      "title": "CrowdStrike 一口气补齐 agent 安全链：AI Kill Switch 上线，约 4.95 亿美元买下 Fiddler 与 Dreadnode",
+      "summary": "CrowdStrike 在 11 月 3 日的 Fal.Con Europe 上同时出三招：Falcon Guardian 新增 AI Kill Switch，授权管理员可叫停失控 agent、阻止其重启并切断网络（目前终止动作在 AI Gateway 层，端点层随后跟上）；签署协议收购 Fiddler AI（agent 可观测性，将改名 Falcon Observe，记录工具调用与决策轨迹）与 Dreadnode（用 100 多种攻击手法做上线前自动化红队测试）。公司未披露价格，《华尔街日报》报道合计约 4.95 亿美元（Fiddler 约 4 亿、Dreadnode 约 9500 万），预计 2027 财年第四季度（截至 2027 年 1 月）交割并上线。分析师提醒：停掉进程不等于收回 agent 的凭证与授权，已造成的改动也无法一键撤销。",
+      "url": "https://futurumgroup.com/insights/crowdstrike-buys-fiddler-and-dreadnode-to-test-watch-and-stop-ai-agents/",
+      "source": "Futurum Group（据 CrowdStrike 官方公告与《华尔街日报》）",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic 开源 FlashProve：用零知识证明验明“这句话到底是哪个模型写的”",
+      "summary": "Anthropic 11 月 2 日发布、11 月 3 日公开技术文章的研究原型 FlashProve：服务方先对模型权重做一次承诺（指纹），此后每条回答附带一份密码学证明，任何人无需看到权重就能验证“这条回答确实出自承诺过的那组权重”，针对的是经中间层或路由服务时“便宜模型被悄悄掉包、回答中途被篡改”的问题。原型在 Llama 4 Maverick（400B MoE）上实测：单张 H100 每秒约证明 110 token，每 1024 token 请求的证明约 19MB、24 线程 CPU 约 17 秒可验；代价是证明耗时为直接推理的 70–95 倍，且仅覆盖混合专家模型、1024 token 内上下文与贪心解码。代码与 Lean 形式化证明按 Apache 2.0 开源，但 Anthropic 明确表示目前没有部署计划、仓库标注为不再维护的研究产物。",
+      "url": "https://techprolonged.com/2026/11/anthropics-flashprove-can-prove-which-ai-model-wrote-a-reply/",
+      "source": "Tech Prolonged（据 Anthropic 研究文章）",
+      "category": "研究"
+    },
+    {
+      "title": "Issue 03 追踪更新：印度 Sarvam 发布开源决策模型 Prism，71.8 分、44 毫秒，宣称 100 毫秒内最强",
+      "summary": "印度 Sarvam AI 11 月 3 日发布 System One 决策模型 Prism：基于 Sarvam 105B-10B 做 LoRA 微调，单次前向直接输出各选项的概率、不逐 token 生成，权重按 Apache 2.0 开源（FP8 单卡 120GB+ 显存可跑）。在 Sarvam 自测的 25 个决策模型三项指数平均分中，Prism 以 71.8 分居 100 毫秒内最高（B200 上中位延迟 44 毫秒），高于 Perplexity Decider v1.2 的 68.0、Jev 1.14 的 64.5、Clef 的 62.6；90% 置信以上回答的实际错误率（英语 2.2%）低于其预测的 3.3%，而 Jev 1.14 等对手的实际错误是预测的 1.5–2.7 倍。注意：三项指数含 Sarvam 自建的印度语言基准与对 Artificial Analysis 指数的复现，分数为厂商自测、尚未经第三方复现；但“开源权重 + 可校准置信度 + 毫秒级延迟”这条路线，正在从 Jev 的首创概念扩散为各国厂商的标配打法。",
+      "url": "https://www.sarvam.ai/blogs/sarvam-prism",
+      "source": "Sarvam AI 官方博客",
+      "category": "开发者"
+    },
+    {
+      "title": "Uber 财报自曝：整个季度第三方 agent 只帮它跑了 4 单车，外卖约 500 单",
+      "summary": "Uber 在 11 月 4 日的三季度财报电话会上首次披露 agent 渠道的真实量级：CFO Balaji Krishnamurthy 说，打车业务“总共只有 4 单”来自第三方 agent；万圣节那一周（Uber 最繁忙单周，打车+外卖合计约 3.2 亿次）里，agent 下的 Uber Eats 订单约 500 单。CEO Dara Khosrowshahi 的评价是“非常非常早期、 traction 非常有限”。这个数字给 agent 商业化的宏大叙事泼了冷水：打车对外卖 125:1 的悬殊，恰好说明“能容忍延迟和出错”的订单先被 agent 啃动，而需要实时位置、精确上车点和即时确认的打车，仍是 agent 最难啃的品类；不过要注意，分母 3.2 亿是单周量、分子是季度口径，直接相除会高估占比。",
+      "url": "https://tech-insider.org/uber-ai-agents-four-rides-500-eats-orders-q3-2026/",
+      "source": "Tech Insider（据 Uber Q3 财报电话会与 The Verge）",
+      "category": "实验室"
+    },
+    {
+      "title": "MIT 研究：GPT-6 Astra 不用训练、直接改权重，就把小模型的数学分从 7.9% 提到 48.1%",
+      "summary": "MIT CSAIL 四位研究者 11 月 2 日发布博客《Sparks of Weight-Space Programming》：让 GPT-6 Astra 直接阅读并改写其他网络的权重（不走梯度下降、不做微调），8 组实验覆盖读权重、修权重、从零写权重。最受关注的一组：Astra 定位到 Qwen3.5-0.8B 的“思考死循环”源于第 15、19 层 MLP 写出的一个方向，只改 131,072 个权重（占 0.8B 的 0.016%），MATH-500 就从 7.9% 升至 48.1%，GSM8K 从 13.8% 升至 67.1%，触顶 token 上限的回答比例从 93% 降到 33%；Hugging Face 随后按公开日志重建并复现出 51.0%。但作者与批评者都提醒边界：这招只在“单一局部故障”时有效——Gemma 3 270M 没有死循环毛病时最好一 edit 只从 6.8% 提到 7.7%，且目前只是一篇博客、未经同行评审、仅用一个模型验证。",
+      "url": "https://www.datacamp.com/blog/weight-space-programming",
+      "source": "DataCamp（据 MIT CSAIL 博客）",
+      "category": "研究"
+    },
+    {
+      "title": "Snowflake 在 Expedition 2026 上押注“受治理的 agent”：统一业务定义 + 一个网关管住所有模型与工具调用",
+      "summary": "Snowflake 11 月 3 日在 Expedition 2026 发布 Horizon Catalog 的两项能力：Business Ontology（业务本体）让企业为“净收入”这类核心概念定一个官方定义、指定负责人并直连底层表与视图，agent 回答时以人工批准的定义为准而非自行推断；Cortex AI Gateway 则作为 agent 的统一入口，对跨云、跨框架、跨供应商的模型与 MCP 工具调用套用同一套访问策略、鉴权与成本上限，并附带滥用检测（看整条 agent 轨迹而非单条提示）、沙箱执行与可观测性。背景数据来自 Snowflake 委托 MIT Technology Review 的调研：55% 的高管把“缺乏业务上下文”列为 agent 洞察质量低的首因。注意节奏：Business Ontology 当时仅为“即将公开预览”，网关的部分高级能力仍在私有预览，并非全部立即可用。",
+      "url": "https://www.hpcwire.com/bigdatawire/this-just-in/snowflake-helps-enterprises-deploy-ai-agents-with-trusted-business-context-and-built-in-controls/",
+      "source": "BigDATAwire（Snowflake 官方通稿）",
+      "category": "开发者"
+    }
+  ]
+}

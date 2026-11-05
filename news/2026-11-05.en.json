@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-05",
+  "edition": 22,
+  "items": [
+    {
+      "title": "Tencent's Hy4 is out: Hunyuan's first model that can see and operate a computer — but the weights are not open yet",
+      "summary": "Tencent released the full Hunyuan Hy4 on Nov 4: a 770B-parameter MoE that, unlike the text-only preview from Aug 28, adds vision and computer use for the first time — it can read charts and documents and work across apps via command line and GUI, trained on professional software such as Blender and CAD. API pricing is $0.834 per million input tokens and $2.501 for output, free in WorkBuddy/CodeBuddy Nov 4–15 and half-price on TokenHub through year-end; but the full weights and system card are not out yet — only the August preview is downloadable, a break from Tencent's usual open playbook. Tencent reports OSWorld 2.1 at 78.9, close to Claude Opus 5.5's 81.8 and above GPT-6.1 Sol's 75.2, though no independent reproduction exists yet.",
+      "url": "https://startupfortune.com/tencent-launches-hunyuan-hy4-with-vision-and-the-ability-to-click-through-apps/",
+      "source": "Startup Fortune（据腾讯官方发布）",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer: bringing a code-storage layer into Codex, aiming at GitHub's turf",
+      "summary": "OpenAI announced on Nov 4 it will acquire developer-tools startup Pierre Computer; terms were not disclosed and closing is subject to regulatory approval, with the two firms independent until then. Pierre's Code Storage is a Git-based distributed storage service (customers include Lovable and Bolt), and its Trees and Diffs open-source libraries already run inside the Codex app; after closing, Code Storage features will fold into Codex and the open-source projects stay open. Context: two days earlier OpenAI unveiled its in-house Git backend Pando (median push latency down nearly 80%) — as coding agents multiply, the infrastructure for storing code and managing branches becomes part of the product itself.",
+      "url": "https://www.unite.ai/openai-to-acquire-pierre-computer-and-bring-code-storage-to-codex/",
+      "source": "Unite.AI（据 Axios 与 OpenAI 官方公告）",
+      "category": "Developers"
+    },
+    {
+      "title": "CrowdStrike completes its agent-security chain in one move: AI Kill Switch live, ~$495M for Fiddler and Dreadnode",
+      "summary": "At Fal.Con Europe on Nov 3, CrowdStrike made three agent-safety moves at once: Falcon Guardian gained an AI Kill Switch letting authorized admins halt a rogue agent, block its relaunch and cut its network access (termination today at the AI Gateway layer, endpoint enforcement to follow); and it signed agreements to acquire Fiddler AI (agent observability, to become Falcon Observe, tracing tool calls and decisions) and Dreadnode (pre-release automated red-teaming with 100+ attack methods). CrowdStrike disclosed no price; The Wall Street Journal reported about $495 million combined (~$400M for Fiddler, ~$95M for Dreadnode), with closing and general availability expected in fiscal Q4 FY27 (ending January 2027). Analysts caution: stopping a process is not revoking an agent's credentials and grants, nor undoing changes it already made.",
+      "url": "https://futurumgroup.com/insights/crowdstrike-buys-fiddler-and-dreadnode-to-test-watch-and-stop-ai-agents/",
+      "source": "Futurum Group（据 CrowdStrike 官方公告与《华尔街日报》）",
+      "category": "Labs"
+    },
+    {
+      "title": "Anthropic open-sources FlashProve: zero-knowledge proof of which model actually wrote a reply",
+      "summary": "Anthropic's research prototype FlashProve, published Nov 2 with a technical write-up on Nov 3, lets a provider commit to one set of model weights once, then attach a cryptographic proof to each reply so anyone can verify — without seeing the weights — that the reply really came from the committed model. It targets the quiet-swap problem: a cheaper model substituted, or an answer tampered with, behind an app or routing service. On Llama 4 Maverick (400B MoE), one H100 proves about 110 tokens per second; a 1,024-token request carries a ~19MB proof verifiable in ~17 seconds on a 24-thread CPU — but proving costs 70–95× the GPU time of plain inference, and coverage is limited to mixture-of-experts models, 1,024-token contexts and greedy decoding. Code and Lean formal proofs are Apache 2.0, but Anthropic says there is no deployment plan and the repo is marked as unmaintained research.",
+      "url": "https://techprolonged.com/2026/11/anthropics-flashprove-can-prove-which-ai-model-wrote-a-reply/",
+      "source": "Tech Prolonged（据 Anthropic 研究文章）",
+      "category": "Research"
+    },
+    {
+      "title": "Issue 03 tracker update: India's Sarvam releases open-weight decision model Prism — 71.8 points in 44 ms, best under 100 ms",
+      "summary": "India's Sarvam AI released Prism on Nov 3, a System One decision model: a LoRA fine-tune of Sarvam 105B-10B that scores options in a single forward pass with no token-by-token generation, with weights open under Apache 2.0 (FP8, one GPU with 120GB+ memory). Across Sarvam's own three-index average over 25 decision models, Prism scores 71.8 — the best under 100 ms (median 44 ms on a B200) — ahead of Perplexity Decider v1.2 (68.0), Jev 1.14 (64.5) and Clef (62.6); for answers at 90%+ confidence, its actual error rate (2.2% in English) sits below its predicted 3.3%, while rivals like Jev 1.14 err 1.5–2.7× more than their confidence predicts. Caveat: the three indices include Sarvam's own Indian-language benchmark and a recreation of the Artificial Analysis index, so the scores are vendor-measured, not independently reproduced; still, 'open weights + calibrated confidence + millisecond latency' is spreading from Jev's original concept into a standard playbook for vendors worldwide.",
+      "url": "https://www.sarvam.ai/blogs/sarvam-prism",
+      "source": "Sarvam AI 官方博客",
+      "category": "Developers"
+    },
+    {
+      "title": "Uber's own earnings call: third-party agents booked just 4 rides all quarter, ~500 food orders",
+      "summary": "On its Q3 earnings call on Nov 4, Uber disclosed agent-channel volumes for the first time: CFO Balaji Krishnamurthy said the rides business fulfilled 'a grand total of four trips' from third-party agents, and in Halloween week — Uber's busiest single week, with roughly 320 million rides and deliveries combined — agents placed about 500 Uber Eats orders. CEO Dara Khosrowshahi called traction 'very, very early and very limited.' The numbers cool the agentic-commerce narrative: the 125:1 Eats-to-rides gap fits a pattern where orders that tolerate delay and error get automated first, while rides — needing live location, exact pickup points and instant confirmation — remain the hardest category for agents. Note the denominators differ: 320 million is one week's volume, the agent counts are quarterly, so a direct division overstates the share.",
+      "url": "https://tech-insider.org/uber-ai-agents-four-rides-500-eats-orders-q3-2026/",
+      "source": "Tech Insider（据 Uber Q3 财报电话会与 The Verge）",
+      "category": "Labs"
+    },
+    {
+      "title": "MIT study: GPT-6 Astra edits another model's weights with no training — and lifts its math score from 7.9% to 48.1%",
+      "summary": "Four MIT CSAIL researchers published 'Sparks of Weight-Space Programming' on Nov 2: GPT-6 Astra reads and rewrites other networks' weights directly — no gradient descent, no fine-tuning — across 8 experiments spanning reading, repairing and writing weights from scratch. The headline case: Astra traced Qwen3.5-0.8B's 'thinking loops' to one direction written by the MLPs of layers 15 and 19, changed just 131,072 weights (0.016% of 0.8B), and MATH-500 rose from 7.9% to 48.1%, GSM8K from 13.8% to 67.1%, with answers hitting the token limit falling from 93% to 33%; Hugging Face rebuilt the edited checkpoint from the public logs and reproduced 51.0%. But authors and critics alike flag the boundary: the trick works only for a single localized fault — on Gemma 3 270M, which rarely loops, the best edit moved MATH-500 only from 6.8% to 7.7% — and this is still a blog post, not peer-reviewed, tested with a single model.",
+      "url": "https://www.datacamp.com/blog/weight-space-programming",
+      "source": "DataCamp（据 MIT CSAIL 博客）",
+      "category": "Research"
+    },
+    {
+      "title": "Snowflake bets on governed agents at Expedition 2026: one business definition, one gateway for every model and tool call",
+      "summary": "Snowflake announced two Horizon Catalog capabilities at Expedition 2026 on Nov 3: Business Ontology lets companies set one official, owned definition for core concepts like 'net revenue', linked directly to underlying tables and views, so agents answer from human-approved definitions rather than their own inferences; Cortex AI Gateway acts as the single front door for agents, applying one set of access policies, authentication and cost caps to model and MCP tool calls across clouds, frameworks and vendors, with abuse detection (over full agent trajectories, not single prompts), sandboxed execution and observability. The pitch cites a Snowflake-commissioned MIT Technology Review survey: 55% of executives name lack of business context as the top cause of poor agent insights. Watch the rollout: Business Ontology was only 'coming to public preview soon' at announcement, and several advanced gateway capabilities remain in private preview.",
+      "url": "https://www.hpcwire.com/bigdatawire/this-just-in/snowflake-helps-enterprises-deploy-ai-agents-with-trusted-business-context-and-built-in-controls/",
+      "source": "BigDATAwire（Snowflake 官方通稿）",
+      "category": "Developers"
+    }
+  ]
+}

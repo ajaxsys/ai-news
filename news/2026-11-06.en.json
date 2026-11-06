@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-06",
+  "edition": 23,
+  "items": [
+    {
+      "title": "OpenAI releases GPT-6 Cyber: a model built to find flaws — 48.5% on ExploitGym, 81 unknown high-severity bugs in Firefox",
+      "summary": "OpenAI released GPT-6 Cyber on Nov 5: a model tuned for authorized security research, available first to approved Daybreak Red customers via the API and Codex. It scores 48.5% on ExploitGym (turning a specified vulnerability into a working remote exploit), above GPT-5.6 Cyber's 32.1% and GPT-6 Astra's 42.4%; in real campaigns it found 81 previously unknown high-severity vulnerabilities in Firefox (Mozilla has begun fixing them) and built working exploits for 948 Linux kernel vulnerabilities, including 588 previously unknown ones. In the ExploitGym Honeypot scope test it went out of bounds in only 0.07% of cases, versus 5.51% for the previous model; OpenAI rates it Critical for cybersecurity under its own Preparedness Framework. The caveat: OpenAI published no data on faster patching, and its Patch the Planet dashboard shows a remediation rate under 25% — finding more while fixing slowly makes the gap worse.",
+      "url": "https://www.csoonline.com/article/4244911/openais-gpt-6-cyber-ups-the-ante-on-vulnerability-discovery.html",
+      "source": "CSO Online（据 OpenAI 官方发布）",
+      "category": "Labs"
+    },
+    {
+      "title": "Baidu open-sources a hundred-billion-parameter model again after 16 months: ERNIE 5.5 Flash Base, 280B parameters with only 14B active",
+      "summary": "Baidu open-sourced ERNIE 5.5 Flash Base on Nov 5: a 280B-parameter sparse MoE that activates only 14B per token, pretrained from scratch on 33.5T tokens, with a 128K training context extendable to 1M tokens for fine-tuning and inference; 37 attention layers compress every 128 history tokens into one cache entry to cut long-text costs. It is Baidu's first open hundred-billion-parameter model in about 16 months since the ERNIE 4.5 series in June 2025 (5.0 and 5.1 were never opened). This release is a pure base model with no fine-tuning or post-training, left for developers to build on, with the full version to follow; Baidu says it ranks first in 24 of 30 benchmarks against same-class models such as DeepSeek-V4-Flash-Base under one pipeline (vendor-measured, not independently reproduced). But the licence is tighter than last generation: a custom agreement that bars use in the EU, UK and South Korea, and commercial use above $50M in related annual revenue needs Baidu's written authorisation; FP8 and BF16 weights are on Hugging Face, with vLLM and SGLang support.",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+      "source": "The Decoder（据百度官方发布）",
+      "category": "Developers"
+    },
+    {
+      "title": "Google's Gemini Omni 1.2 Flash is generally available: clips stretch to 15 seconds, 720p price cut 30% to $0.07 a second",
+      "summary": "Google made Gemini Omni 1.2 Flash generally available on Nov 5 (Gemini API and business tiers): native clips grow from 10 to 15 seconds, settable in one-second steps from 3 to 15; multi-turn conversational editing (swap a background, lighting or aspect ratio without regenerating), stronger character/product/brand consistency and more natural lip-sync and multi-speaker dialogue; 720p drops 30% to $0.07 per second, so a full 15-second clip costs about $1.05, with a SynthID watermark on outputs. In the Gemini app, 15-second clips roll out first to Ultra subscribers; Omni 1.1 requests will automatically switch to 1.2 pricing from December 3.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Google 官方博客",
+      "category": "Labs"
+    },
+    {
+      "title": "Claude can now see your bank account: Anthropic launches Personal Finance — read-only, US beta",
+      "summary": "Anthropic launched Personal Finance in Claude on Nov 5: a US beta rolling out this week to Pro, Max and Ultra subscribers, linking up to 16 banks through Plaid to read balances, credit limits and up to 24 months of transactions, and answering plain-language questions such as 'where did my money go this month?' The key line is read-only: Claude cannot move money, pay bills, cancel subscriptions or invest, and the feature is not designed to give investment advice; there are no ads or sponsored recommendations, and Anthropic sells no credit cards or loans of its own. On privacy, Claude never sees the bank password and conversations inside the finance hub are not used for training; but Anthropic itself warns Claude can make mistakes, so important figures should be checked against the bank, and for investment, loan and card accounts it reads balances and limits only — not holdings or terms.",
+      "url": "https://www.unite.ai/anthropic-introduces-read-only-personal-finance-beta-in-claude/",
+      "source": "Unite.AI（据 Anthropic 官方公告）",
+      "category": "Labs"
+    },
+    {
+      "title": "Perplexity launches always-on work agents 'Teammates': fixed roles, ongoing jobs — Max plan at $200 a month required",
+      "summary": "Perplexity launched Teammates on Nov 5: always-on work agents built on its Computer platform, each taking a fixed role and owning an ongoing job, inheriting existing projects, skills and memory, able to work in parallel, hand tasks to one another and talk to colleagues over Slack; each agent runs in its own desktop, browser and session. Available first to Max subscribers ($200 a month, web), with iOS and Android to follow; CEO Aravind Srinivas says the company internally used about 10,000 teammates in the last 30 days. It directly targets OpenAI's Dots and Anthropic's Claude Duet — giving agents standing responsibilities instead of one-off tasks is becoming the shared playbook of all three.",
+      "url": "https://www.aiaffairs.com/technology/perplexity-launches-teammates-agents-for-work/",
+      "source": "AI Affairs（据 The Verge）",
+      "category": "Developers"
+    },
+    {
+      "title": "METR's independent assessment: Anthropic's model progress has doubled, with about 80% of it down to AI doing the research",
+      "summary": "Independent evaluator METR published a report on Nov 5: Anthropic is improving its models' capabilities at about 1.9× the rate of March 2024–October 2025 (95% confidence interval 1.5–2.8×), roughly two years of progress in a single year; METR judges that perhaps 80% of the acceleration comes from AI itself doing research, and rules out training-compute growth as the main cause. The 11-week assessment (Aug 12–Oct 29) reviewed internal data and interviewed staff; but Anthropic redacted most of the key evidence, and METR concedes high uncertainty (the true figure could be 1.3–3×) and that the acceleration may apply only to well-specified, auto-gradeable tasks. The report also says Anthropic's public August risk report 'overall understates the level of acceleration that was occurring,' and found no compute or data bottlenecks — implying the acceleration could compound further.",
+      "url": "https://techxplore.com/news/2026-11-anthropic-rapidly-ai-slowdown-group.html",
+      "source": "Tech Xplore（美联社）",
+      "category": "Research"
+    },
+    {
+      "title": "Issue 03 tracker update: independent test of 27 decision models — Perplexity Decider V1.2 right 190 out of 190, Jev 1.14 mid-table",
+      "summary": "Dutch developer Plainlamp updated an independent test on Nov 4: 38 self-written descriptions, each read five times per model, across all 27 decision models listed on OpenRouter. Perplexity Decider V1.2 was right in all 190 reads with zero wrong kinds, at a 253 ms median latency and $4.30 per million calls; Jev 1.14 got 181 right, misreading 'my car insurance policy document' as an organisation's internal policy four times, landing mid-table among the 24 models that answered; Cloudflare's Clef scored 189 with one wrong kind, but costs $55.20 per million calls — about 13× Decider. The author cautions the lead may be a one-description fluke and should not be treated as settled; the test covers only document classification on a small sample. It is the first third-party test covering the whole field — Jev is no longer the default benchmark, and Perplexity's Decider now leads on accuracy, price and speed at once.",
+      "url": "https://www.plainlamp.com/blog/decision-models",
+      "source": "Plainlamp 独立测试",
+      "category": "Developers"
+    },
+    {
+      "title": "Panasonic teams up with Berkeley, NVIDIA and Stanford on tactile robot AI 'T-Rex': 65% success on dexterous bimanual tasks, 30 points above the best baseline",
+      "summary": "Panasonic announced 'T-Rex' (Tactile-Reactive Dexterous Manipulation) on Nov 5, with UC Berkeley, NVIDIA, Stanford, Sapienza University of Rome and ItalAI: fingertip touch is fed into a VLA (vision-language-action) model, with the vision-language module generating broad motion at about 5 Hz and a tactile correction module fine-tuning actions at about 20 Hz, so slips or excess pressure are corrected immediately. Across 12 real-world tasks (turning pages, transferring eggs, applying toothpaste, unlocking with a key, pulling out a card, screwing in a light bulb) it averaged 65% success versus 35% for the strongest baseline; removing touch dropped it to 42%, showing touch itself is the key. Training used 100 hours and 7,700+ bimanual manipulation episodes across 200+ everyday objects; the paper will be presented at the Conference on Robot Learning (CoRL) on Nov 9–12, and the 100-hour tactile-synchronised dataset is open-sourced.",
+      "url": "https://news.panasonic.com/global/press/en261105-2",
+      "source": "松下官方新闻稿",
+      "category": "Research"
+    }
+  ]
+}

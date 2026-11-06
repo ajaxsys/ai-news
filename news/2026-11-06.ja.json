@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-06",
+  "edition": 23,
+  "items": [
+    {
+      "title": "OpenAI、GPT-6 Cyberを発表　脆弱性発見に特化したモデル、ExploitGymで48.5%、Firefoxで未知の高深刻度バグ81件",
+      "summary": "OpenAIは11月5日、GPT-6 Cyberを発表した。認可されたセキュリティ研究向けの専用モデルで、まずDaybreak Redプログラムの承認済み顧客にAPIとCodex経由で提供される。ExploitGym（指定された脆弱性をリモートで悪用可能なものに変える評価）で48.5%を記録し、GPT-5.6 Cyberの32.1%、GPT-6 Astraの42.4%を上回った。実戦ではFirefoxでこれまで未知の高深刻度脆弱性81件を発見し（Mozillaは修正を開始）、Linuxカーネルの948件の脆弱性について動作するエクスプロイトを構築した（うち588件は未知）。越権テスト（ExploitGym Honeypot）で認可範囲を逸脱した割合はわずか0.07%で、前世代の5.51%から大幅に改善。OpenAIは自社のPreparedness FrameworkでサイバーセキュリティのリスクをCriticalと評価した。ただし注意点として、OpenAIは「修正の加速」を示すデータを出しておらず、Patch the Planetの修正率は25%未満にとどまる。見つける量が増える一方で直す速度が追いつかない問題はむしろ深刻化している。",
+      "url": "https://www.csoonline.com/article/4244911/openais-gpt-6-cyber-ups-the-ante-on-vulnerability-discovery.html",
+      "source": "CSO Online（据 OpenAI 官方发布）",
+      "category": "ラボ"
+    },
+    {
+      "title": "百度、16か月ぶりに1000億級モデルをオープンソース化　ERNIE 5.5 Flash Base、280Bパラメータで活性化は14Bのみ",
+      "summary": "百度は11月5日、ERNIE 5.5 Flash Baseをオープンソース化した。280BパラメータのスパースMoEで、トークンごとに活性化するのは14Bのみ、33.5Tトークンでゼロから事前学習し、訓練コンテキスト128K、微調整・推論では最大1Mトークンまで拡張できる。37の注意層が128個の履歴トークンを1つのキャッシュ項目に圧縮し、長文のコストを抑える。2025年6月のERNIE 4.5シリーズ以来、約16か月ぶりの1000億級モデルの公開となる（5.0と5.1は未公開）。今回は微調整や事後学習をしていない純粋なBaseモデルで、開発者による二次開発に委ねられ、完成版は後日公開される。百度によると、DeepSeek-V4-Flash-Baseなど同クラスとの同一パイプライン評価で30項目中24項目で1位（ベンダー測定で、第三者の再現はまだない）。ただしライセンスは前世代より厳しく、カスタム契約でEU・英国・韓国での利用を禁止し、関連年収5000万ドル超の商用利用には百度の書面による許諾が必要。FP8とBF16の重みはHugging Faceで公開済みで、vLLMとSGLangが対応している。",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+      "source": "The Decoder（据百度官方发布）",
+      "category": "開発者"
+    },
+    {
+      "title": "グーグル、Gemini Omni 1.2 Flashを一般提供開始　動画が15秒に延長、720pは30%値下げで1秒0.07ドルに",
+      "summary": "グーグルは11月5日、Gemini Omni 1.2 Flashを一般提供開始した（Gemini APIとビジネス版）。ネイティブの動画長が10秒から15秒に延び、3〜15秒を1秒刻みで指定可能。多輪の対話式編集（背景・光・画角の変更を最初から作り直さずに行える）に対応し、キャラクター・製品・ブランド要素の一貫性や口の動き、複数話者の対話がより自然になった。720pは30%値下げされ1秒0.07ドルとなり、15秒の完全なクリップは約1.05ドル。出力にはSynthIDの透かしが入る。Geminiアプリ内の15秒機能はまずUltra加入者に段階的に展開される。旧版Omni 1.1は12月3日から自動的に1.2の料金で課金される。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Google 官方博客",
+      "category": "ラボ"
+    },
+    {
+      "title": "Claudeが銀行口座を見られるように　Anthropic、個人財務機能を開始　読み取り専用・米国ベータ",
+      "summary": "Anthropicは11月5日、Claudeの個人財務機能（Personal Finance）を発表した。米国のPro・Max・Ultra加入者を対象に今週から段階的に展開され、Plaid経由で最大16の銀行に接続し、残高・利用限度額・最長24か月分の取引履歴を読み取り、「今月のお金はどこへ行ったか」といった質問に自然言語で答える。重要なのは読み取り専用であることで、Claudeは送金・支払い・解約・投資ができず、投資助言も行わない。広告やスポンサー付きの推奨はなく、Anthropic自身のクレジットカードやローンの販売もない。プライバシー面では、Claudeは銀行のパスワードを扱わず、財務ハブ内の会話は学習に使われない。ただしAnthropic自身がClaudeは間違えることがあると注意しており、重要な数字は銀行と照合すべきで、投資・ローン・カード口座については残高と限度額のみを読み取り、保有資産や条件は読まない。",
+      "url": "https://www.unite.ai/anthropic-introduces-read-only-personal-finance-beta-in-claude/",
+      "source": "Unite.AI（据 Anthropic 官方公告）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Perplexity、常駐型の仕事エージェント「Teammates」を発表　役割分担・長期タスクを担当、月額200ドルのMaxプラン限定",
+      "summary": "Perplexityは11月5日、Teammatesを発表した。Computerプラットフォーム上の常駐型仕事エージェントで、各Teammateは固定の役割を担い、継続的な職責を引き受け、既存のプロジェクト・スキル・記憶を引き継ぎ、並行して作業し、互いにタスクを引き渡し、Slack経由で同僚とやり取りできる。各エージェントは独立したデスクトップ・ブラウザ・セッションで動作する。まずMax加入者（月額200ドル、ウェブ版）に提供され、iOSとAndroidは後日。CEOのAravind Srinivas氏によると、社内では過去30日間に約1万のTeammateが使われた。OpenAIのDotsやAnthropicのClaude Duetに直接対抗するもので、エージェントに単発のタスクではなく長期の職責を持たせることが3社共通の戦法になりつつある。",
+      "url": "https://www.aiaffairs.com/technology/perplexity-launches-teammates-agents-for-work/",
+      "source": "AI Affairs（据 The Verge）",
+      "category": "開発者"
+    },
+    {
+      "title": "METRの独立評価：Anthropicのモデル進歩速度が2倍に、約8割はAI自身による研究開発のおかげ",
+      "summary": "独立評価機関METRは11月5日、報告書を発表した。Anthropicのモデル能力の向上速度は2024年3月〜2025年10月の約1.9倍（95%信頼区間1.5〜2.8倍）で、1年で過去2年分の進歩を遂げた計算になる。METRは加速の約80%がAI自身による研究開発によるものと判断し、訓練計算量の増加を主因から除外した。11週間（8月12日〜10月29日）の評価では内部データを精査し、従業員に聞き取りを行った。ただしAnthropicは重要な証拠の大部分を黒塗りにし、METRも推定の不確実性が大きいこと（真値は1.3〜3倍の可能性）を認めており、加速は「定義が明確で自動採点できる」タスクに限られる可能性もある。報告書はまた、Anthropicの8月の公開リスク報告書が「当時起きていた加速の水準を全体として過小評価していた」と指摘し、計算量やデータのボトルネックは見つからなかった。加速がさらに自己強化する可能性があることを意味する。",
+      "url": "https://techxplore.com/news/2026-11-anthropic-rapidly-ai-slowdown-group.html",
+      "source": "Tech Xplore（美联社）",
+      "category": "研究"
+    },
+    {
+      "title": "Issue 03追跡更新：27の意思決定モデルの独立テスト、Perplexity Decider V1.2は190回中190回正解、Jev 1.14は中位",
+      "summary": "オランダの開発者Plainlampは11月4日、独立テストを更新した。自作の38の記述を各モデルに5回ずつ読ませ、OpenRouterに掲載されている27の意思決定モデルすべてをテストした。Perplexity Decider V1.2は190回すべて正解で誤分類ゼロ、中央値の遅延253ミリ秒、100万回あたり4.3ドル。Jev 1.14は181回正解で、「自動車保険の証券」を組織内部の方針と4回誤判定し、回答した24モデル中の中位にとどまった。CloudflareのClefは189回正解・誤分類1回だが、100万回あたり55.2ドルとDeciderの約13倍の価格だ。著者自身も、リードは1つの記述の偶然の差かもしれず、結論として扱うべきではないと注意している。テストは文書分類という1つの場面のみで、サンプルも小さい。この分野全体をカバーする初の第三者テストであり、Jevがもはや既定の基準ではなく、PerplexityのDeciderが「正確さ・安さ・速さ」の3つで同時に優位に立った。",
+      "url": "https://www.plainlamp.com/blog/decision-models",
+      "source": "Plainlamp 独立测试",
+      "category": "開発者"
+    },
+    {
+      "title": "パナソニック、バークレー・NVIDIA・スタンフォードと共同でロボットの触覚AI「T-Rex」を発表　両手の精密操作で成功率65%、最強のベースラインを30ポイント上回る",
+      "summary": "パナソニックは11月5日、触覚反応型の器用な操作AI「T-Rex」（Tactile-Reactive Dexterous Manipulation）を発表した。カリフォルニア大学バークレー校、NVIDIA、スタンフォード、ローマ・ラ・サピエンツァ大学、ItalAIとの共同研究で、指先の触覚をVLA（視覚・言語・行動）モデルに組み込んだ。視覚言語モジュールが約5Hzで大まかな動作を生成し、触覚補正モジュールが約20Hzでリアルタイムに微調整するため、滑りや押しすぎを即座に修正できる。ページめくり、卵の運搬、歯磨き粉の塗布、鍵での解錠、カードの取り出し、電球の取り付けなど12の実タスクで平均成功率65%を達成し、最強のベースラインの35%を大きく上回った。触覚を外すと42%に低下し、触覚そのものが鍵であることが示された。学習には100時間・7700件以上の両手操作データ（200種類以上の日用品）を使用。論文は11月9〜12日のロボット学習国際会議CoRLで発表され、100時間の触覚同期データセットはオープンソース化されている。",
+      "url": "https://news.panasonic.com/global/press/en261105-2",
+      "source": "松下官方新闻稿",
+      "category": "研究"
+    }
+  ]
+}

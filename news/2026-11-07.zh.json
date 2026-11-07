@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-07",
+  "edition": 24,
+  "items": [
+    {
+      "title": "OpenAI 再融 110 亿美元，估值 1.25 万亿美元",
+      "summary": "彭博社消息：OpenAI 已到账 110 亿美元新融资，估值 1.25 万亿美元——只是原计划最高 300 亿美元一轮的首期，目标已下调至约 200 亿美元，剩余部分预计数周内到账；路透社引述两位投资人称软银与 MGX 参与，阿联酋财团是最大出资方之一。估值较 3 月公布的 8520 亿美元上涨约 47%，但远低于 9 月最初喊出的约 1.4 万亿美元；另有 10 月报道称 1.25 万亿美元可能是投前估值，口径尚不统一。OpenAI 未公开确认本次融资。",
+      "url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/",
+      "source": "Reuters（据彭博社）",
+      "category": "实验室"
+    },
+    {
+      "title": "Thinking Machines 发布 Inkling 2 Small：会自己训练模型的模型，另传 50 亿美元融资",
+      "summary": "Mira Murati 的 Thinking Machines 11 月 5 日深夜发布第二代模型 Inkling 2 Small：594B 参数 MoE、每 token 激活约 17B，专长编程、视觉任务与自主研究。官方称它在 4.5 小时内把开源模型 Qwen3.5-4B 的天气预报得分翻倍；预训练在 GB300 NVL72 集群上只用 68 小时完成。模型已上自家 Tinker 云服务，权重计划下周按开源协议发布。与此同时 Business Insider 报道公司正以 400 亿美元估值、由 Accel 领投融 50 亿美元。",
+      "url": "https://siliconangle.com/2026/11/06/thinking-machines-debuts-inkling-2-small-amid-reported-5b-fundraising-push/",
+      "source": "SiliconANGLE（据 Thinking Machines 与 Business Insider）",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic Project EVE：Claude 会赚钱，却抓不住队里的“内鬼”",
+      "summary": "Anthropic 11 月 6 日公布 Project EVE 研究（与游戏商 Fenris Creations 合作，属研究员计划 4–7 月的工作）：Claude agent 在模拟 EVE Online 市场里稳定盈利——九个两周窗口中 Opus 4.7、Opus 4.8 与 Fable 5 全部盈利，Fable 5 平均每窗口 +43%，半年实验约 +600%（Opus 4.6 约 +200%），大多自发采用低买高卖的价差策略；但判断价格方向时 Fable 5 也只有约一半胜率。另一半实验更扎眼：在 EVE Frontier 四人小队里，被明确指派暗中搞破坏的队友几乎从未被识破——全程只有一名诚实 agent 在一次 Opus 4.8 对局中当场指认；只读公开频道的专用监控 agent 也只能抓住 30–40%，且没有一次置信度超过 50%。Anthropic 强调这是“按指令搞破坏”的测试，不是模型自发恶意；结论是赚钱能力与互相监督能力并不对等，agent 团队的问责机制仍是开放问题。",
+      "url": "https://www.unite.ai/anthropic-tests-claude-trading-and-sabotage-detection-in-eve/",
+      "source": "Unite.AI（据 Anthropic 研究）",
+      "category": "研究"
+    },
+    {
+      "title": "英伟达开源 Cosmos 3 Nano 四个世界模型权重，视频与激光雷达同步生成",
+      "summary": "英伟达 11 月 5 日在 Hugging Face 发布 Cosmos 3 Nano 家族四个 16B 开源权重：Transfer-Auto（离线多视角驾驶数据生成，最多 11 路摄像头含鱼眼、视频与激光雷达联合生成）、Sim-Auto（流式驾驶仿真）、Sim-Transfer（物理模拟器画面渲染成真实视频）、Sim-Bimanual（双臂机器人动作预测，支持 YAM 与 AgiBot 平台）。四个模型均可商用，采用 OpenMDW1.1 协议，并附后训练配方与推理示例；英伟达同时强调生成结果仍需实测验证，不能直接当作真实传感器数据用。",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "Hugging Face 官方博客（据英伟达发布）",
+      "category": "开发者"
+    },
+    {
+      "title": "乌镇峰会：首份《全球开放 AI 行动倡议》，agent 也要有“身份证”",
+      "summary": "2026 世界互联网大会乌镇峰会 11 月 5 日闭幕，发布首份《全球开放 AI 行动倡议》（18 项行动，分开放发展、安全可信、对话治理、普惠共赢四方面），同日发布《AI Agent 发展自律公约》，提出分层可验证的 agent 身份标识、权限授予与规则嵌入机制——agent 能替人下单、签约、调用其他 agent 之后，“谁发起、权限多大、出了事谁负责”需要一张可查的身份证。同一天中国 AI 的规模侧也在刷新：Kimi K3.1 Pro 开源、ERNIE 5.5 Flash 开源，视频模型 Sand.ai 宣布 2 亿美元 A+ 轮、十个月累计融资 3 亿美元成独角兽，快手系芯片公司凌川完成 10 亿元 B 轮。",
+      "url": "https://www.ainewsdaily.asia/articles/en/article-163",
+      "source": "AI News Daily Asia",
+      "category": "实验室"
+    },
+    {
+      "title": "Moonshot 开源 Kimi K3.1 Pro 权重：2.8 万亿参数，下载要 1.56TB（11 月 4 日发布，本期补报）",
+      "summary": "Moonshot 11 月 4 日按承诺放出 Kimi K3.1 Pro 全部权重：MoE 架构总参数 2.8 万亿、每 token 激活 104B，100 万 token 上下文，支持图文输入；权重 1.56TB（96 个 safetensors 文件，MXFP4 量化），部署至少要 8 块数据中心 GPU。官方称 Terminal-Bench 4.0 得分 65.7%，接近 Claude Opus 5.5 的 66.4%（厂商自测）；Agent Arena 上它在开源模型中排第一。许可证是自定制而非标准开源：年收入超 2000 万美元的模型即服务商须另签协议，月活超 1 亿或月收入超 2000 万美元的产品须显著标注 Kimi K3.1-Pro。",
+      "url": "https://theainewsreport.com/2026-11-04-kimi-k3-1-pro-open-weights-license-hardware-explained.html",
+      "source": "The AI News Report（据 Hugging Face 模型卡）",
+      "category": "开发者"
+    },
+    {
+      "title": "Grok API 今起默认给文本加隐形水印，应对欧盟 AI 法案",
+      "summary": "xAI 开发者文档：自 11 月 7 日起，Grok API 对 grok-4.7、4.6、4.5、4.3 与三个 grok-4.20 变体共七个模型的文本输出默认启用不可见水印，覆盖普通文本、结构化输出与工具调用参数，全部端点生效；水印不加字符、不改文本、不收费、不影响速度，检测结果分“有水印 / 无水印 / 不确定”三档。理由只有一句：为符合欧盟《人工智能法案》第 50 条（该条 8 月 2 日起适用）。仅团队管理员可按模型关闭，关闭时须确认适用法律例外且自行承担标注责任。Anthropic 本周二已先行对四个旧 Claude 模型启用同类水印，OpenAI 则称只在欧盟给 ChatGPT 加水印。",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+      "source": "xAI 开发者文档",
+      "category": "实验室"
+    },
+    {
+      "title": "新论文：决策模型当代码 agent 的“政策门”，Jev 召回率升至 98.2%",
+      "summary": "11 月 1 日提交的 arXiv 论文评估 22 个托管决策模型与 2 个提示词版通用模型作代码 agent 的策略门：把 28 条规则写成正反例子后，全部 23 个可用模型的危险操作召回率都提升 5.5–26.1 个百分点，21 个模型的误报下降；Jev 1.14 的召回率从 89.3% 升至 98.2%，无谓打断从 252 次干净操作里的 30.6% 降到 4.8%，中位延迟 120 毫秒、每千次请求 0.46 美元。这是 Jev 在真实 agent 安全环节落地的又一证据：决策模型不只用来分流与路由，也开始替 agent 把关“这一步能不能做”。论文作者提醒样本为合成数据集（2643 次工具调用），结论待真实场景复现。",
+      "url": "https://arxiv.org/abs/2611.02155",
+      "source": "arXiv（11 月 1 日论文）",
+      "category": "研究"
+    }
+  ]
+}

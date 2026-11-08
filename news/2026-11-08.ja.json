@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "edition": 25,
+  "items": [
+    {
+      "title": "Anthropic、Claudeのエージェント記憶4層設計を公開 暇な時間に「夢を見る」",
+      "summary": "Anthropicは11月6日、エンジニアリング記事「The components of agent memory」（著者Lance Martin）を公開し、エージェントのセッションをまたぐ記憶を4層に分けた。生のトランスクリプト、エージェント自身が書く記憶ノート、wikiのような構造化された表現、そして毎セッションに事前に読み込まれる小さな注入コンテキスト。暇な時間のオフライン「ドリーミング」ではトランスクリプトを読み返し、誤ったノートを修正し、重複を統合し、wikiを構築する。実測では、CL-BenchのデータベースタスクでOpus 5.5は記憶あり0.838、なし0.655。約35万件の内部文書（約4億2000万トークン）では、128回のドリーミング後にwiki単独での回答が13%から48%に上昇し、検索+wikiは61%（検索単独53%）に達し、1問あたり約2万トークンの節約にもなった。「ポケットモンスター 赤」ではFable 5が9件のメモだけでバッジ4個を獲得したのに対し、Sonnet 3.7は413件書いて1個だけ。何を、どれだけ精密に覚えるかが、量より重要だ。Anthropicは、これは設計記事であって製品発表ではなく、結果の大半は社内の小規模な単発実験によるものだと注意している。",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "Anthropic 官方博客",
+      "category": "研究"
+    },
+    {
+      "title": "AnthropicのIPO評価額が切り下げ 選挙後のAI株急落で買い手は1.1兆ドルまで",
+      "summary": "Bloombergが11月6日に報じたところでは、中間選挙後にナスダック100が1日で6.4%下落し、2.3兆ドルが蒸発（1日の記録）したことを受け、AnthropicのIPOの潜在買い手は評価額の議論レンジを従来の1.4〜1.5兆ドルから1.2〜1.3兆ドルに引き下げ、一部は1.1兆ドルまで見ている。10月初には最大2兆ドルという声もあった。ウォール・ストリート・ジャーナルも11月5日、大口投資家3人が約1.5兆ドルの目標は高すぎるとし、1人は1兆ドル前後が妥当と語ったと報じた。ロイターによると、関係者4人は11月9日の週に予定されていたロードショーが予定通り始まるか疑問視している。正式なマーケティングは来週開始予定で、11月2日の修正目論見書は発行価格レンジが依然空欄。最後に確認された評価額は5月のシリーズHの9650億ドルのまま。OpenAIが同時期に1.25兆ドルの出資前評価額で資金調達中であり、Anthropicが「OpenAIより高い」を守れるかが微妙な上限になっている。",
+      "url": "https://www.moneycontrol.com/news/business/companies/anthropic-ipo-buyers-see-valuation-as-low-as-1-1-trillion-14073828.html",
+      "source": "Moneycontrol（据彭博社）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Claude Codeの「今後確認しない」が秘密鍵をそのまま保存 2539件がGitHubで公開状態に",
+      "summary": "セキュリティ企業Apiiroが11月5日に報告した。Claude Codeで秘密鍵を含むシェルコマンドに「はい、今後確認しない」を選ぶと、そのコマンドがプロジェクト内の.claude/settings.local.jsonにそのまま保存される。このファイルがコードと一緒にコミットされれば、秘密鍵も公開されてしまう。調査では、GitHub上の同ファイル104,185件のうち1,122件に本物の秘密鍵が含まれ（異なる鍵は1,379件）、git履歴やチーム共有のsettings.json、保存されたエージェントの会話記録まで含めると、合計2,539件の異なる本物の秘密鍵が1,994の公開リポジトリにあり、63組織に影響していた。データベースベンダーの管理者レベルのクラウドキー、本番のAzure Postgresパスワード、Squareの本番トークン、医療記録データベースの所有者パスワードも含まれる。Apiiroは11月2〜3日に各組織へ通知し、1社は鍵が当時も有効だったと確認した。研究者は鍵が実際に使えるかは検証しておらず、一般的なスキャナーも見逃しが多い。gitleaksは564件、TruffleHogは643件しか検出せず、215件はどちらも検出しなかった。自社の組織内にある.claude/settings.local.jsonとsettings.jsonを検索して確認を。",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again/",
+      "source": "Apiiro 研究报告",
+      "category": "開発者"
+    },
+    {
+      "title": "GitHub、Gitストレージを「Rubicon」として再構築 5000のエージェントが1リポジトリへ同時プッシュ可能に",
+      "summary": "GitHubは11月5日、エンジニアリングブログで新しいGitストレージアーキテクチャ「Project Rubicon」を詳説した（5月に開始、先週のGitHub Universeで発表）。不変のpackデータはAzure Blob Storageへ、参照とpack一覧は専用の複製ログサービスRef-CASでcompare-and-swapを行い、読み書きノードは使い捨ての仮想レプリカになった。内部テストでは、5000の同時エージェントが1リポジトリへ毎秒7200回のプッシュを達成し、読み取り遅延も低いままだった。設計目標は単一リポジトリの規模を現状の2桁上にすること。現在最も忙しいリポジトリでも書き込みは毎秒数十回で短時間のバーストが中心だが、エージェントが24時間並行で動くようになればバーストが持続的な負荷になるとGitHubは見ている。現在は限定プライベートプレビューで、来年初により広く展開予定。開発者のpush・fetch・ブランチ操作は変わらない。",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "GitHub 官方博客",
+      "category": "開発者"
+    },
+    {
+      "title": "ByteDance系Axion 1.0 1.8万件のサンプルだけで訓練したオープンなエージェントモデル（11月2日論文・補足）",
+      "summary": "ByteDance関連の著者らが11月2日にarXivでAxion 1.0を公開した。軽量なSFTを2段階とRLの計3段階で、訓練サンプルは約1.8万件のみ。mid-trainingやDPO、on-policy蒸留はなし。レシピ、データ構築、プロンプト、訓練コードはすべて公開されている。35B（トークンあたり3Bが活性化）と122B（10Bが活性化）の2バージョンで、Apache 2.0ライセンス。122Bは制限付きウェブアクセスのHumanity's Last Examで59.0点、35BはSEAL-0で62.2点で、著者によれば一部の商用モデルと競合できる水準だという。注意点として、35Bの重みはコミュニティによる再現版で、公式の122Bの重みへのリンクはまだ公開されておらず、当時のリポジトリのスター数は19件のみの初期公開である。",
+      "url": "https://arxiv.org/abs/2611.03233",
+      "source": "arXiv（11 月 2 日论文）",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAIのGPT-Live音声エージェントが発信可能に SIP外線が全面開放（11月4日発表・補足）",
+      "summary": "OpenAIは11月4日、GPT-LiveのSIP外線通話を全面提供開始した。Twilio、Telnyx、OzonetelなどのSIPトランク事業者を経由して音声エージェントを公衆電話網に接続し、実際の電話番号へ直接発信できる。全二重HD音声、双方向DTMF（IVRメニュー操作可）、TLSシグナリング、SRTP音声、欧州データレジデンシー用エンドポイントを備える。GPT-Liveの音声層は1分あたり0.05ドルで、キャリアの接続料は別途。呼び出しは3分、通話は2時間まで。今週のAnthropicのエージェント記憶の進展と合わせ、音声エージェントは「発信できる」「覚えていられる」という2つのピースを揃えつつある。ただしHacker Newsのコメント欄では、AIによる電話営業や電話詐欺のハードルも下がるとの懸念が出ている。",
+      "url": "https://developers.openai.com/api/docs/guides/voice-sip?api=live",
+      "source": "OpenAI 开发者文档",
+      "category": "ラボ"
+    },
+    {
+      "title": "7つの意思決定モデルを独立検証 長文記録でJev 1.14は75%、双方向読み取りが先行",
+      "summary": "独立研究者のFrancesco Cerizziが11月5日ごろに実測を発表した。Jev 1.14、OpenAI Decisions API、5つのオープンな意思決定モデル（KnowLine 31B、vLLM-SR d3-ultra、Perplexity Decider v1.2、Cloudflare Clef、AWS Strands Decider 2B）を同じ496件の合成判断で比較した。通常の短い判断は93.0%〜98.5%に集まる（Strands Decider 2Bは83.0%、106msで、ローカル実験向け）。1000〜20000トークンの長文記録168件こそ分水嶺で、双方向に読むd3-ultra 97.0%、Perplexity v1.2 93.5%が先行し、KnowLine 80.4%、Jev 1.14 75.0%、Decisions API 56.0%、Clef 53.6%と続いた。同じd3-ultraの重みで注意マスクだけを変えた対照実験では、「記録を双方向に見せる」こと自体が約18件分の価値があった。Jevの長文記録における較正誤差（ECE）は0.094まで上昇し、著者は自分のトラフィックで温度を再調整するよう助言している。チケット1件あたりJevは74ms、0.000024ドル。結論として、長くルールの多い記録こそ意思決定モデルの真の分水嶺であり、選定はJev Decision Indexを起点にすべきで、このテストは日常の利用像ではなくストレステストである。",
+      "url": "https://medium.com/@cerizzi/how-decision-models-work-inside-the-open-system-one-models-078de1398b58",
+      "source": "Medium（Francesco Cerizzi 独立实测）",
+      "category": "研究"
+    },
+    {
+      "title": "Google、Crusoeのワイオミング・データセンター難航プロジェクトを引き継ぎ 170億ドルを追加投資",
+      "summary": "TechCrunchが11月7日に報じた。データセンター開発企業Crusoe（評価額309億ドル）は、ワイオミング州南東部の未完成データセンター・プロジェクトをGoogleに売却したと確認した。CrusoeはGoogleを同プロジェクトの顧客にしようとしたが不調に終わり、Googleはコストと工期への懸念から自ら開発を引き継ぎ、同キャンパスに170億ドルを投資する計画だ。このプロジェクトは当初Blackstone系のTallgrassとともに発表され、最終的に10GW規模を計画していた。Crusoeは9月に39億ドルを調達したばかりで、テキサス州アマリロ近郊ではGoogle向けに別のデータセンターを建設中で、アビリーンではOracleとOpenAIにサービスを提供している。BloombergとThe Informationは同日、MicrosoftがOracleからAI計算資源を借りる契約を縮小していると報じた。独立系開発企業が超大型AIデータセンターを期限と予算内で引き渡すのはますます難しくなっており、地域の反対も重なっている。今週の中間選挙では、データセンター関連の住民投票41件のうち1件を除くすべてでより厳しい規制が支持された。",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    }
+  ]
+}

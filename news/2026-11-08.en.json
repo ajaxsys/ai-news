@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "edition": 25,
+  "items": [
+    {
+      "title": "Anthropic publishes Claude's four-layer agent memory design: idle-time 'dreaming' tidies memory",
+      "summary": "Anthropic published the engineering post 'The components of agent memory' on November 6 (by Lance Martin), splitting agent memory across sessions into four layers: raw transcripts, memory notes the agent writes itself, structured representations such as wikis, and a small block of injected context preloaded into every session. Offline 'dreaming' between sessions rereads transcripts, corrects wrong notes, merges duplicates and builds wikis. Measured results: on the CL-Bench database task, Opus 5.5 scored 0.838 with memory versus 0.655 without; on about 350,000 internal documents (roughly 420M tokens), a wiki alone went from 13% to 48% of graded criteria after 128 dreaming sessions, search plus wiki reached 61% (search alone 53%), and saved about 20,000 tokens per question. Playing Pokémon Red, Fable 5 earned four badges with just nine memory files while Sonnet 3.7 wrote 413 files for one badge — what to remember, and how precisely, matters more than how much. Anthropic notes this is a design write-up, not a product launch, and most results come from small internal single-run evaluations.",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "Anthropic 官方博客",
+      "category": "Research"
+    },
+    {
+      "title": "Anthropic IPO valuation cut: post-midterm AI selloff pushes buyers as low as $1.1T",
+      "summary": "Bloomberg reported on November 6: after the midterm elections, the Nasdaq 100 fell 6.4% in a single day, wiping out $2.3 trillion — a one-day record — and prospective Anthropic IPO buyers cut their valuation discussion range from $1.4–1.5 trillion to $1.2–1.3 trillion, some as low as $1.1 trillion; in early October the figure discussed had reached $2 trillion. The Wall Street Journal reported on November 5 that three major investors called the roughly $1.5 trillion target too high, one suggesting closer to $1 trillion. Reuters says four people familiar with the talks question whether the roadshow can start in the week of November 9 as planned. Formal marketing is set to begin next week, and the amended prospectus filed November 2 still leaves the price range blank; the last confirmed valuation remains the $965 billion Series H in May. OpenAI is meanwhile raising at a $1.25 trillion pre-money valuation, making 'staying more expensive than OpenAI' a delicate ceiling for Anthropic.",
+      "url": "https://www.moneycontrol.com/news/business/companies/anthropic-ipo-buyers-see-valuation-as-low-as-1-1-trillion-14073828.html",
+      "source": "Moneycontrol（据彭博社）",
+      "category": "Labs"
+    },
+    {
+      "title": "Claude Code's 'don't ask again' saves secrets verbatim: 2,539 real credentials found public on GitHub",
+      "summary": "Security firm Apiiro reported on November 5: in Claude Code, approving a shell command containing a secret with 'Yes, and don't ask again' saves that command verbatim into the project's.claude/settings.local.json; once the file is committed, the secret goes public with it. Scanning found 1,122 of 104,185 public copies of the file on GitHub holding real secrets (1,379 distinct values); counting git history, team-shared settings.json and saved agent chat transcripts, the total reaches 2,539 distinct real secrets across 1,994 public repositories, affecting 63 organizations — including a database vendor's own admin-level cloud key, a production Azure Postgres password, a Square production token and the owner password of a medical-records database. Apiiro notified each organization on November 2–3, and one company confirmed its key was still live. The researchers did not test whether the credentials still worked, and standard scanners missed plenty: gitleaks flagged 564 of the files, TruffleHog 643, and 215 were caught by neither. To check yourself, search your organization for.claude/settings.local.json and settings.json.",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again/",
+      "source": "Apiiro 研究报告",
+      "category": "Developers"
+    },
+    {
+      "title": "GitHub rebuilds Git storage as 'Rubicon' for 5,000 agents pushing to one repo",
+      "summary": "GitHub detailed its new Git storage architecture, Project Rubicon, in an engineering blog post on November 5 (started in May, announced at GitHub Universe last week): immutable pack data goes to Azure Blob Storage, references and the pack manifest move to a dedicated replicated log service, Ref-CAS, doing compare-and-swap, and read/write nodes become disposable virtual replicas. In internal testing, 5,000 concurrent agents pushing to one repository reached 7,200 pushes per second with consistently low read latency — the design target is two orders of magnitude more single-repository scale. Today's busiest repositories see only dozens of writes per second, mostly in short bursts, and GitHub expects agent traffic running around the clock to turn bursts into sustained load. The architecture is in limited private preview now, with a broader rollout early next year; developers push, fetch and branch exactly as before.",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "GitHub 官方博客",
+      "category": "Developers"
+    },
+    {
+      "title": "ByteDance-linked Axion 1.0: an open agent model trained on just 18K examples (Nov 2 paper, catch-up)",
+      "summary": "ByteDance-linked authors posted Axion 1.0 on arXiv on November 2: two lightweight SFT stages plus RL — three stages total, on only about 18,000 training examples, with no mid-training, DPO or on-policy distillation — and the full recipe, data construction, prompts and training code are all public. Two versions: 35B (3B active per token) and 122B (10B active), under Apache 2.0. The 122B scores 59.0 on Humanity's Last Exam with restricted web access, and the 35B scores 62.2 on SEAL-0, which the authors say is competitive with some commercial models. Caveats: the 35B weights are a community reproduction, no official 122B weights link has been published yet, and the repository had only 19 stars at the time — an early release.",
+      "url": "https://arxiv.org/abs/2611.03233",
+      "source": "arXiv（11 月 2 日论文）",
+      "category": "Research"
+    },
+    {
+      "title": "OpenAI's GPT-Live voice agents can now place outbound calls: SIP dialing goes GA (Nov 4, catch-up)",
+      "summary": "OpenAI made GPT-Live outbound SIP calling generally available on November 4: developers can connect voice agents to the public phone network through SIP trunk providers such as Twilio, Telnyx and Ozonetel and dial real numbers directly, with full-duplex HD voice, bidirectional DTMF keypad tones (for navigating IVR menus), TLS signaling, SRTP audio and a European data-residency endpoint. The GPT-Live voice layer costs $0.05 per minute, with carrier termination billed separately; ringing is limited to 3 minutes and calls to 2 hours. Alongside this week's Anthropic agent-memory work, voice agents are filling in two missing pieces — 'call out' and 'remember' — though Hacker News commenters worry the move also lowers the bar for AI telemarketing and phone scams.",
+      "url": "https://developers.openai.com/api/docs/guides/voice-sip?api=live",
+      "source": "OpenAI 开发者文档",
+      "category": "Labs"
+    },
+    {
+      "title": "[Issue 03 tracking update] Independent test of 7 decision models: Jev 1.14 scores 75% on long records as bidirectional readers lead",
+      "summary": "Independent researcher Francesco Cerizzi published a hands-on test around November 5, running Jev 1.14, OpenAI's Decisions API and five open decision models (KnowLine 31B, vLLM-SR d3-ultra, Perplexity Decider v1.2, Cloudflare Clef, AWS Strands Decider 2B) on the same 496 synthetic decisions. Routine short decisions cluster at 93.0%–98.5% (Strands Decider 2B at 83.0% in 106 ms, built for local experimentation); the 168 long records of 1,000–20,000 tokens are the real divider: the bidirectional readers lead — d3-ultra 97.0% and Perplexity v1.2 93.5% — ahead of KnowLine 80.4%, Jev 1.14 75.0%, the Decisions API 56.0% and Clef 53.6%. A control swapping only the attention mask on the same d3-ultra weights shows 'letting the record be read both ways' is worth about 18 decisions. Jev's calibration error (ECE) rises to 0.094 on long records, and the author advises refitting temperature on your own traffic; a single ticket costs Jev 74 ms and $0.000024. Conclusion: long, rule-heavy records are where decision models truly separate, and model choice should start from the Jev Decision Index — this test is a stress test, not everyday traffic.",
+      "url": "https://medium.com/@cerizzi/how-decision-models-work-inside-the-open-system-one-models-078de1398b58",
+      "source": "Medium（Francesco Cerizzi 独立实测）",
+      "category": "Research"
+    },
+    {
+      "title": "Google takes over Crusoe's troubled Wyoming data center, pledges $17B to finish it",
+      "summary": "TechCrunch reported on November 7: data center developer Crusoe (valued at $30.9 billion) confirmed it has sold an unfinished data center project in southeastern Wyoming to Google; Crusoe had tried and failed to land Google as a customer for the project, and Google is taking over development over cost and timeline concerns, planning to invest $17 billion in the campus. The project was first announced with Blackstone-backed Tallgrass, planned to eventually reach 10 GW. Crusoe raised $3.9 billion in September and is still building another data center for Google near Amarillo, Texas, while its Abilene campus serves Oracle and OpenAI; Bloomberg and The Information reported the same day that Microsoft is winding down a deal to rent AI compute from Oracle. Delivering mega-scale AI data centers on time and on budget is getting harder for independent developers, on top of local opposition — in this week's midterm elections, voters backed tighter restrictions in all but one of 41 data-center-related ballot measures.",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    }
+  ]
+}

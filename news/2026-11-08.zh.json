@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "edition": 25,
+  "items": [
+    {
+      "title": "Anthropic 公开 Claude agent 记忆四层设计：闲时“做梦”整理记忆",
+      "summary": "Anthropic 11 月 6 日发表工程文章《The components of agent memory》（作者 Lance Martin），把 agent 跨会话记忆拆成四层：原始 transcript、agent 自写的记忆笔记、wiki 之类的结构化表征，以及每会话预载的一小块注入上下文；闲时离线“做梦”（dreaming）会回读 transcript、纠正错误笔记、合并重复、搭建 wiki。实测：CL-Bench 数据库任务上 Opus 5.5 有记忆 0.838、无记忆 0.655；约 35 万份内部文档（约 4.2 亿 token）上，128 轮 dreaming 后单用 wiki 答题从 13% 升至 48%，搜索+wiki 达 61%（单搜索 53%），每题还省约 2 万 token。玩《宝可梦 红》时 Fable 5 只写 9 份记忆文件就拿 4 枚徽章，Sonnet 3.7 写了 413 份才拿 1 枚——记什么、记多精，比记多少重要。Anthropic 提醒这是一篇设计文章而非产品发布，多数结果来自内部小样本单次实验。",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "Anthropic 官方博客",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic IPO 估值被砍：中期选举后 AI 股暴跌，买方出价低至 1.1 万亿美元",
+      "summary": "彭博社 11 月 6 日报道：中期选举后纳斯达克 100 单日跌 6.4%、蒸发 2.3 万亿美元（创单日纪录），Anthropic IPO 的潜在买方把估值讨论区间从此前的 1.4–1.5 万亿美元下调至 1.2–1.3 万亿美元，个别低至 1.1 万亿美元；10 月初最高曾喊到 2 万亿美元。华尔街日报 11 月 5 日亦报道三位大投资者认为约 1.5 万亿美元的目标太高，一人建议接近 1 万亿美元。路透社称四位知情人士质疑原定 11 月 9 日当周启动的路演能否按时进行。正式路演定于下周启动，11 月 2 日修订版招股书仍未填发行价区间；上次确认估值仍是 5 月 H 轮的 9650 亿美元。OpenAI 同期正以 1.25 万亿美元投前估值融资，Anthropic 能否守住“比 OpenAI 贵”成了微妙的上限。",
+      "url": "https://www.moneycontrol.com/news/business/companies/anthropic-ipo-buyers-see-valuation-as-low-as-1-1-trillion-14073828.html",
+      "source": "Moneycontrol（据彭博社）",
+      "category": "实验室"
+    },
+    {
+      "title": "Claude Code“别再问我”会把密钥原样存进项目文件：2539 个真实密钥已公开在 GitHub 上",
+      "summary": "安全公司 Apiiro 11 月 5 日报告：在 Claude Code 里对含密钥的 shell 命令点“是的，不再询问”，命令会原样存入项目内的.claude/settings.local.json；该文件一旦随代码提交，密钥就公开了。扫描发现 GitHub 上 104,185 份该文件里 1,122 份含真实密钥（1,379 个不同密钥值），再算上 git 历史、团队共享的 settings.json 与 agent 对话记录，总计 2,539 个不同真实密钥分布在 1,994 个公开仓库，涉及 63 家机构——包括某数据库厂商自己的管理级云密钥、生产环境 Azure Postgres 密码、Square 生产 token 与一份病历数据库的属主密码。Apiiro 11 月 2–3 日已逐一通知，一家公司确认密钥当时仍有效。研究者未实际测试密钥是否可用，常规扫描器也漏网不少：gitleaks 只检出 564 份、TruffleHog 643 份，215 份两者都没抓住。自查办法：搜自己组织里的.claude/settings.local.json 与 settings.json。",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again/",
+      "source": "Apiiro 研究报告",
+      "category": "开发者"
+    },
+    {
+      "title": "GitHub 重建 Git 存储“Rubicon”：为 5000 个 agent 同推一个仓库做准备",
+      "summary": "GitHub 11 月 5 日在工程博客详解新 Git 存储架构 Project Rubicon（5 月启动、GitHub Universe 上周宣布）：不可变 pack 数据进 Azure Blob Storage，引用与 pack 清单改由专用复制日志服务 Ref-CAS 做 compare-and-swap，读写节点改为可任意替换的虚拟副本。内测：5000 个并发 agent 向同一仓库推送可达每秒 7200 次，读延迟保持低位——设计目标是单仓规模比现在高两个数量级。目前最繁忙的仓库每秒也只有几十次写入、且多为短时突发，GitHub 预计 agent 全天候并行后突发会变成持续流量。架构现为有限私有预览，明年初更广泛推出；开发者 push/fetch/分支的用法不变。",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "GitHub 官方博客",
+      "category": "开发者"
+    },
+    {
+      "title": "字节系 Axion 1.0：只用 1.8 万条样本训出的开源 agent 模型（11 月 2 日论文，本期补报）",
+      "summary": "字节跳动关联作者 11 月 2 日在 arXiv 发布 Axion 1.0：两段轻量 SFT 加 RL、三阶段搞定，训练样本仅约 1.8 万条，无 mid-training、DPO 或 on-policy 蒸馏；配方、数据构造、提示词与训练代码全部公开。两个版本：35B（每 token 激活 3B）与 122B（激活 10B），Apache 2.0 协议。122B 在受限联网的 Humanity's Last Exam 上得 59.0 分，35B 在 SEAL-0 上 62.2 分，作者称可与部分商用模型一较高下。注意：35B 权重是社区复现版、官方 122B 权重链接尚未放出，仓库当时仅 19 个 star，属早期发布。",
+      "url": "https://arxiv.org/abs/2611.03233",
+      "source": "arXiv（11 月 2 日论文）",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAI GPT-Live 语音 agent 现在能主动打电话了：SIP 外呼全面开放（11 月 4 日发布，本期补报）",
+      "summary": "OpenAI 11 月 4 日把 GPT-Live 的 SIP 外呼通话设为全面可用：开发者经 Twilio、Telnyx、Ozonetel 等 SIP 中继商，把语音 agent 接到公共电话网、直接拨打真实号码，通话走全双工高清语音、支持双向 DTMF 按键（可过 IVR 菜单），信令 TLS、音频 SRTP，另有欧洲数据驻留端点。GPT-Live 语音层每分钟 0.05 美元，运营商接续费另算；振铃限 3 分钟、通话限 2 小时。结合本周 Anthropic 的 agent 记忆进展看，语音 agent 正在补齐“打出去、记得住”这两块拼图——但 HN 评论区也在担心：AI 电话推销与诈骗的门槛随之降低。",
+      "url": "https://developers.openai.com/api/docs/guides/voice-sip?api=live",
+      "source": "OpenAI 开发者文档",
+      "category": "实验室"
+    },
+    {
+      "title": "独立实测 7 个决策模型：长记录上 Jev 1.14 仅 75%，双向读记录者领跑",
+      "summary": "独立研究者 Francesco Cerizzi 11 月 5 日前后发表实测：把 Jev 1.14、OpenAI Decisions API 与 5 个开源决策模型（KnowLine 31B、vLLM-SR d3-ultra、Perplexity Decider v1.2、Cloudflare Clef、AWS Strands Decider 2B）放在同一套 496 个合成决策上跑。常规短决策大家都在 93.0%–98.5%（Strands 2B 为 83.0%，106ms，主打本机实验）；168 条 1000–20000 token 的长记录才是分水岭：双向读记录的 d3-ultra 97.0%、Perplexity v1.2 93.5% 领跑，KnowLine 80.4%，Jev 1.14 75.0%，Decisions API 56.0%，Clef 53.6%。同权重换注意力掩码的对照显示，“让记录双向可见”本身值约 18 个决策。Jev 的长记录校准误差（ECE）升至 0.094，作者提醒按自己的流量重标温度；单张工单 Jev 74ms、花费 0.000024 美元。结论：长规则记录是决策模型真正的分水岭，选型应以 Jev Decision Index 为准、本测试只是压力测试。",
+      "url": "https://medium.com/@cerizzi/how-decision-models-work-inside-the-open-system-one-models-078de1398b58",
+      "source": "Medium（Francesco Cerizzi 独立实测）",
+      "category": "研究"
+    },
+    {
+      "title": "谷歌接手 Crusoe 怀俄明数据中心烂尾项目，另投 170 亿美元续建",
+      "summary": "TechCrunch 11 月 7 日报道：数据中心开发商 Crusoe（估值 309 亿美元）确认把怀俄明州东南部一处未完工的数据中心项目卖给谷歌；Crusoe 原想把谷歌发展为该项目客户未果，谷歌以成本与工期为由接手自建，并计划投资 170 亿美元开发该园区。项目最初与 Blackstone 支持的 Tallgrass 合作宣布，规划最终达 10GW。Crusoe 9 月刚融 39 亿美元，仍在得州阿马里洛附近为谷歌建另一座数据中心，阿比林园区则服务 Oracle 与 OpenAI；彭博社与 The Information 同日称微软正在缩减向 Oracle 租用 AI 算力的交易。独立开发商按时按预算交付超大 AI 数据中心正变得越来越难，叠加地方对数据中心的反对声浪——本周中期选举中 41 项数据中心相关公投几乎全部通过了更严限制。",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    }
+  ]
+}

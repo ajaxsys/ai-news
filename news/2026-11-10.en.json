@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-10",
+  "edition": 27,
+  "items": [
+    {
+      "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2: an OS built from scratch in 8 days, Fermat's Last Theorem formalized in 30 hours",
+      "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2 on November 9: the same underlying model, with Fable open to all users (with cybersecurity and biology safeguards) and Mythos restricted to vetted cybersecurity and life-science institutions. Highlights: more than 1,000 Fable 5.2 agents worked around the clock for eight days to build a bootable operating system from an empty folder; 1,000 agents formalized the proof of Fermat's Last Theorem in 30 hours (the first attempt took 11 days); and the model solved two open problems in black-hole physics. Benchmarks: 49.1% on FrontierCode 2.0 (Opus 5.5: 45.5%), 74.6% on Terminal-Bench-Science, and 89.6% on Mythos's CVE rediscovery (up from 78.3%); it tops the Artificial Analysis Intelligence Index at 65. Pricing falls to $8 per million input tokens and $40 per million output tokens, output is up to 30% faster, and an optional 2.5x fast mode costs $16/$80. Anthropic still recommends starting everyday work with Opus 5.5 and reserving Fable and Mythos for the hardest long-running technical work.",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic 官方博客",
+      "category": "Labs"
+    },
+    {
+      "title": "Google ships four TPUs in one year: 8tx for confidential inference, 8i Max for giant context windows",
+      "summary": "Google added two systems to its eighth-generation TPU lineup on November 9 — 8tx and 8i Max — making four TPU systems in a single year, a first for the company. The 8tx targets regulated customers such as banks and governments: built on the same silicon as TPU 8t with 5th-generation AMD EPYC hosts, it keeps sensitive data and model weights protected and isolated even while in active use, with up to 2x lower latency than 8t, and lets teams fine-tune models on private data in the same system. The 8i Max packs two 8i chips into one package, doubling compute, on-chip SRAM and HBM bandwidth for the 'memory wall' of dozens of agents working across million-token contexts. Google published no price or availability date; Bloomberg reported both systems arrive in 2027. TPU customers now number nearly 100. Google also open-sourced parts of its software stack, including TPU Sync and the XLA Serving Engine, and PyTorch code now runs on TPUs without rewrites.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/?ref=explainx",
+      "source": "Google 官方博客",
+      "category": "Labs"
+    },
+    {
+      "title": "Meta launches Muse Ember, its smallest model: Haiku-level intelligence at about a third of the cost per task",
+      "summary": "Meta released Muse Ember (muse-ember-1.0) on November 9, the smallest model in its Muse family, built for the work agents repeat all day: tool calls, coding subtasks, routing, extraction and long-document parsing. It costs $0.10 per million input tokens and $0.50 per million output tokens; on the Artificial Analysis Intelligence Index it scores 36, matching Claude Haiku 5.5's best score, at about $0.14 per task — roughly a third of Haiku's cost. It takes a 1M-token context window and up to 512K output tokens, and accepts text, images, audio and video. It is the first model trained using Muse Wonder Full, Meta's largest model, pitched as 'Wonder plans, Ember handles the volume.' Weights are not public; it is live on the Meta Model API and in Muse Code.",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "source": "Meta AI Research 官方博客",
+      "category": "Labs"
+    },
+    {
+      "title": "Nvidia unveils GR00T 2 at CoRL: a robot world-action model hitting 71% one-shot success across 50 tasks",
+      "summary": "Nvidia introduced GR00T 2 at the Conference on Robot Learning (CoRL) on November 9: an open frontier world-action model built on Nvidia Cosmos, trained on diverse robot and human data including 100,000 hours of open-source egocentric human video. Across 50 dexterous manipulation tasks, it completed 40 at least once with no task-specific demonstrations; with one demonstration per task it averaged 71% success, rising to 95% with five. It ranks among the top three models across the RoboCasa365, RoboLab, RoboDojo and MolmoSpaces benchmarks. Nvidia also released the open robot-learning framework Isaac Lab 3.0 and two new industrial benchmarks, DexBench and VABAR; Foxconn is applying GR00T 2 to server-manufacturing automation and Siemens is evaluating it.",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "source": "NVIDIA 官方博客",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI lists ChatGPT Enterprise on AWS Marketplace, letting spend count toward cloud commitments",
+      "summary": "OpenAI announced on November 9 that ChatGPT Enterprise is available through AWS Marketplace: organizations can buy and manage it through their existing AWS purchasing and billing relationships, and eligible spending can count toward AWS commitments (EDP/PPA). The bundle combines Chat, ChatGPT Work, Codex and dots, with the same models, features and release timing as buying directly from OpenAI; eligible customers can also get ChatGPT for Healthcare and Financial Services the same way. Pricing is not public — customers request a private offer. The move follows the April expansion of the OpenAI–AWS partnership (OpenAI models on Bedrock, among others); unlike Bedrock, which sells model APIs to developers, the Marketplace listing sells the packaged ChatGPT suite for the whole workforce.",
+      "url": "https://www.unite.ai/openai-starts-selling-chatgpt-enterprise-through-aws-marketplace/",
+      "source": "Unite.AI",
+      "category": "Labs"
+    },
+    {
+      "title": "Issue 03 update: Drex Max v1.1 tops the new Artificial Analysis Decision Index v2 at 73.4, ahead of Jev 1.14's 67.0",
+      "summary": "On its website, updated November 9, Nace reports that Drex Max v1.1 scores 73.4 on the new Artificial Analysis Decision Index v2, ahead of Jev 1.14's 67.0, taking the top spot among decision models. Drex leads on document decisions (AA-Paperclip 72.8 vs 57.5), tool calling (When2Call 95.3 vs 84.4) and consistency (AA-Symmetry 85.0 vs 79.3), while Jev still leads on knowledge-reasoning items such as MMLU-Pro, HLE and ARC. Drex answers in a median 172 ms at $0.03 per thousand decisions (a 50% launch discount), and its API is wire-compatible with Jev, so switching takes three environment variables. Note: this is a new ranking from an updated index version — Drex Max v1.1 itself shipped on October 28 and its weights were open-sourced on October 30 (covered in our November 2 edition) — and the previous independent test (November 8) had Jev at only 75% on long records, a different scale that cannot be read against this one.",
+      "url": "https://www.nace.ai/drex",
+      "source": "Nace.AI 官网",
+      "category": "Research"
+    },
+    {
+      "title": "[Catch-up] OpenAI hires bounty hunters Hacktron to probe its own systems",
+      "summary": "OpenAI announced on November 6 a formal testing partnership with security firm Hacktron: the two sides will jointly pick priority areas to test, starting with the points where OpenAI's platforms connect to third-party services, and Hacktron gains wider access to frontier models through the Daybreak Red program. The relationship began with a bug bounty: in July, Hacktron researchers chained two previously unknown flaws — in the Discourse forum software and in staff identity verification — to reach OpenAI employees' ChatGPT accounts within 72 hours, earning a $6,500 bounty; the flaws have been patched. OpenAI recently raised its top bounty payout to $172,000 and opened its security-focused model GPT-6 Cyber to Daybreak Red participants.",
+      "url": "https://secnews.co.uk/2026/11/openai-hacktron-bug-bounty-partnership/",
+      "source": "SEC News",
+      "category": "Labs"
+    },
+    {
+      "title": "[Catch-up] OpenAI ships Images 2.6: GIFs built in, generation 50% faster",
+      "summary": "OpenAI released Images 2.6 on November 4 across ChatGPT, Codex and the API: image generation is about 50% faster than before (the company's claim), and the headline feature is built-in animated GIF creation — a prompt or a single image can become a looping reaction, mascot or product animation. It also adds saveable reference images (tag a character or style with @) and more stable multi-round editing. Two new API models arrive: Flare for speed (as fast as about 6 seconds per image at low quality) and Sunburst for detail and consistency; markup-guided regional edits, SVG export and a complexity setting are also new. Output pricing is unchanged at $30 per million image tokens; OpenAI says 4 billion images are now created every week across ChatGPT, Codex and the API.",
+      "url": "https://www.techbooky.com/openai-images-2-6-brings-faster-creation-and-gifs-to-chatgpt/",
+      "source": "TechBooky",
+      "category": "Labs"
+    },
+    {
+      "title": "Nous ships Arete-27B: a 53M-token fine-tune cuts Qwen's state-framed answers from 22% to 0.9%",
+      "summary": "Nous Research released Arete-27B on November 6: Alibaba's Qwen3.8-27B post-trained with about 52.8 million tokens of supervised fine-tuning (two epochs, 1,202 steps, no reinforcement learning, no architecture changes) to drop the model's habit of echoing Chinese state framing on politically sensitive topics. On Nous's own 803-prompt test, answers containing state framing fell from 22% to 0.9% (freedom of expression: 60% to 1%), while the fact score rose from 2.32 to 2.98 out of 5; general ability was nearly untouched (65.60% on Hermes Bench vs 65.77% for the base model). Weights, the evaluation set and the training data are all published on Hugging Face under Apache 2.0. Caveats: Nous designed the categories, rubric and prompts, xAI's Grok 4.7 judged the answers, and the numbers have not been independently replicated; Nous's conclusion is that the values layer of an open model is thin, and one fine-tune can rewrite it.",
+      "url": "https://shiftdelete.net/en/arete-27b",
+      "source": "ShiftDelete",
+      "category": "Developers"
+    },
+    {
+      "title": "[Catch-up] Anthropic spends $3.4B on 1.7GW of gas generators, the largest power-equipment buy by an AI lab",
+      "summary": "The Financial Times reported on November 8 that Anthropic agreed in late September to pay about $3.4 billion to take over OnePWR Solutions' orders for 1.7 gigawatts of heavy-duty gas-fired generators, including the engineering and construction work to install them; Anthropic had originally planned to simply buy electricity from OnePWR. OnePWR had ordered the Caterpillar generators two years earlier but could not complete the purchase, so Anthropic's takeover jumps a multi-year queue for generator supply. The FT calls it the largest known single purchase of power-generation equipment by an AI lab, at roughly $2,000 per kilowatt; neither company commented and Reuters said it could not independently verify the report, though investment bank Piper Sandler lists a matching $3.4 billion sale. Context: Anthropic's amended IPO filing puts its compute and infrastructure commitments at $895.4 billion; xAI spent $2 billion on mobile gas turbines earlier this year, and Google's parent acquired energy developer Intersect in late 2025.",
+      "url": "https://www.cnbctv18.com/business/companies/anthropic-signs-3-4-billion-deal-for-gas-generators-to-power-ai-data-centres-report-20030054.htm",
+      "source": "CNBC TV18（据《金融时报》）",
+      "category": "Labs"
+    }
+  ]
+}

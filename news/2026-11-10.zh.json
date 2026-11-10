@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-10",
+  "edition": 27,
+  "items": [
+    {
+      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：8 天从零写出操作系统，30 小时形式化费马大定理",
+      "summary": "Anthropic 11 月 9 日发布 Claude Fable 5.2 与 Mythos 5.2：同一底层模型，Fable 面向所有用户（带网络安全与生物安全护栏），Mythos 仅限通过验证的网络安全与生命科学机构。亮点：1000 多个 Fable 5.2 agent 连续工作 8 天、从空文件夹写出一个能启动的操作系统；1000 个 agent 仅用 30 小时完成费马大定理证明的形式化（首版用了 11 天）；还解出了黑洞理论中两个悬而未决的计算问题。基准：FrontierCode 2.0 49.1%（Opus 5.5 为 45.5%）、Terminal-Bench-Science 74.6%、Mythos 漏洞复现 89.6%（上一代 78.3%）；Artificial Analysis 智能指数 65 分登顶。价格降至每百万 tokens 输入 8 美元/输出 40 美元，速度快 30%，另有 2.5 倍速的 fast mode（16/80 美元）。Anthropic 建议日常仍从 Opus 5.5 起手，Fable/Mythos 留给最难的长期技术攻坚。",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic 官方博客",
+      "category": "实验室"
+    },
+    {
+      "title": "谷歌一年发四款 TPU：8tx 主打机密推理、8i Max 专攻超大上下文",
+      "summary": "谷歌 11 月 9 日在第八代 TPU 产品线新增两款系统：8tx 与 8i Max，全年共发四款、创纪录。8tx 面向银行、政府等受监管客户：与 TPU 8t 同款芯片、配第五代 AMD EPYC 主机，数据与模型权重在使用中仍受硬件级隔离保护，延迟比 8t 低至多 2 倍，且可在同一系统内用私有数据微调模型；8i Max 把两颗 8i 芯片封进一个封装，算力、片上 SRAM 与 HBM 带宽全部翻倍，专为数十个 agent 同时处理百万级上下文的“内存墙”而设。谷歌未公布价格与上市时间，彭博称两款系统 2027 年供货；TPU 客户已近 100 家。同期谷歌还开源了 TPU Sync、XLA Serving Engine 等软件栈，PyTorch 代码无需改写即可跑 TPU。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/?ref=explainx",
+      "source": "Google 官方博客",
+      "category": "实验室"
+    },
+    {
+      "title": "Meta 发布最小模型 Muse Ember：Haiku 级智能，每任务成本约三分之一",
+      "summary": "Meta 11 月 9 日发布 Muse 系列最小模型 Muse Ember（muse-ember-1.0），专为 agent 每天重复的活设计：调工具、跑代码子任务、路由、抽取、解析长文档。定价每百万 tokens 输入 0.10 美元/输出 0.50 美元；Artificial Analysis 智能指数 36 分、追平 Claude Haiku 5.5 的最高分，每任务成本约 0.14 美元、约为 Haiku 的三分之一；上下文 100 万 tokens、单次输出可达 51.2 万 tokens，支持文本、图像、音频与视频输入。它是首个用最大模型 Muse Wonder Full 训练出的模型，定位是“Wonder 规划、Ember 干活”；权重不公开，已上线 Meta Model API 与 Muse Code。",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "source": "Meta AI Research 官方博客",
+      "category": "实验室"
+    },
+    {
+      "title": "英伟达在 CoRL 发布 GR00T 2：机器人世界动作模型，50 项任务一次演示成功率 71%",
+      "summary": "英伟达 11 月 9 日在机器人学习大会 CoRL 发布 GR00T 2：基于 Cosmos 的开放世界动作模型（world action model），用多样化的机器人与人类数据训练，含 10 万小时开源第一人称人类数据。50 项灵巧操作任务中，40 项无需任务演示即可至少完成一次；每任务只给一次演示时平均成功率 71%，给五次演示升至 95%；在 RoboCasa365、RoboLab、RoboDojo、MolmoSpaces 四项基准上均排前三。同期发布开源机器人学习框架 Isaac Lab 3.0 与 DexBench、VABAR 两项工业基准；富士康已用 GR00T 2 做服务器制造自动化，西门子也在评估。",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "source": "NVIDIA 官方博客",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 把 ChatGPT Enterprise 搬上 AWS Marketplace：可抵扣 AWS 云消费承诺",
+      "summary": "OpenAI 11 月 9 日宣布 ChatGPT Enterprise 上架 AWS Marketplace：企业可用现有 AWS 采购与账单关系购买和管理，符合条件的支出可计入 AWS 消费承诺（EDP/PPA）。套餐含 Chat、ChatGPT Work、Codex 与 dots 四项，功能与发布时间与直接购买完全一致；符合条件的客户也可通过同一渠道获得医疗、金融行业版。价格不公开、按客户需求私下报价。背景是今年 4 月 OpenAI 与 AWS 的合作扩展（Bedrock 上线 OpenAI 模型等）；与 Bedrock 的区别在于，Marketplace 卖的是面向全员的 ChatGPT 套餐、而非供开发者调用的模型接口。",
+      "url": "https://www.unite.ai/openai-starts-selling-chatgpt-enterprise-through-aws-marketplace/",
+      "source": "Unite.AI",
+      "category": "实验室"
+    },
+    {
+      "title": "Issue 03 追踪更新：决策指数 v2 新榜出炉，Drex Max v1.1 以 73.4 分反超 Jev 1.14 登顶",
+      "summary": "Nace 官网 11 月 9 日更新：Artificial Analysis 新版决策指数 v2 中，Drex Max v1.1 以 73.4 分领先 Jev 1.14 的 67.0 分，登顶决策模型榜。分项上 Drex 领先文档决策（AA-Paperclip 72.8 对 57.5）、工具调用（When2Call 95.3 对 84.4）与一致性（AA-Symmetry 85.0 对 79.3）；Jev 则在 MMLU-Pro、HLE、ARC 等知识推理项上仍占优。Drex 中位延迟 172 毫秒、每千次决策 0.03 美元（首发半价），API 与 Jev 线路兼容、切换只需改三个环境变量。注意：这是榜单版本更新带来的新排名，Drex Max v1.1 本身 10 月 28 日已发布、权重 10 月 30 日开源（本报 11 月 2 日已报）；上一轮独立实测（11 月 8 日）中 Jev 在长记录上仅 75%，两榜口径不同、不可直接对读。",
+      "url": "https://www.nace.ai/drex",
+      "source": "Nace.AI 官网",
+      "category": "研究"
+    },
+    {
+      "title": "【补报】OpenAI 把“赏金猎人”Hacktron 招安：请外部黑客来测自家系统",
+      "summary": "OpenAI 11 月 6 日宣布与安全公司 Hacktron 建立正式测试合作：双方共同选定优先测试方向，首要目标是 OpenAI 平台与第三方服务的连接处；Hacktron 通过 Daybreak Red 计划获得更广泛的前沿模型使用权。双方的渊源是漏洞赏金：Hacktron 研究员 7 月用 72 小时串联两处未知漏洞（论坛软件 Discourse 与员工身份验证环节），一路摸到 OpenAI 员工的 ChatGPT 账号，获 6500 美元赏金、漏洞已修。OpenAI 近期还把顶级赏金提到 17.2 万美元，并向 Daybreak Red 成员开放了安全专用模型 GPT-6 Cyber。",
+      "url": "https://secnews.co.uk/2026/11/openai-hacktron-bug-bounty-partnership/",
+      "source": "SEC News",
+      "category": "实验室"
+    },
+    {
+      "title": "【补报】OpenAI Images 2.6 上线：能直接做 GIF，生成提速 50%",
+      "summary": "OpenAI 11 月 4 日发布 Images 2.6：ChatGPT、Codex 与 API 全线更新，生成速度比上一代快约 50%（公司说法），最显眼的新功能是直接生成循环 GIF——一句话或一张图就能做出表情包、产品循环动画；另有可保存的参考图（@ 提及复用角色与风格）、更稳定的多轮编辑。API 新增两个模型：Flare 主打速度（低画质最快约 6 秒出图）、Sunburst 主打细节与一致性；另支持标记区域精修、SVG 导出与复杂度参数。输出定价不变，每百万图像 tokens 30 美元；OpenAI 称全球每周经 ChatGPT、Codex 与 API 生成的图片已达 40 亿张。",
+      "url": "https://www.techbooky.com/openai-images-2-6-brings-faster-creation-and-gifs-to-chatgpt/",
+      "source": "TechBooky",
+      "category": "实验室"
+    },
+    {
+      "title": "Nous 发布 Arete-27B：53M tokens 微调就把 Qwen 的“官方口径”回答从 22% 洗到 0.9%",
+      "summary": "Nous Research 11 月 6 日发布 Arete-27B：对阿里 Qwen3.8-27B 做约 5280 万 tokens 的监督微调（两轮、1202 步，无强化学习、不改架构），目标是去掉模型在政治敏感话题上复述中国官方立场的倾向。在 Nous 自拟的 803 题测试中，含官方口径表述的回答占比从 22% 降至 0.9%（言论自由类从 60% 降至 1%），事实得分从 2.32 升至 2.98（满分 5）；通用能力几乎无损（Hermes Bench 65.60%，基座为 65.77%）。权重、评测集与训练数据均以 Apache 2.0 开源在 Hugging Face。提醒：分类、评分标准与题目都由 Nous 自定，裁判是 xAI 的 Grok 4.7，数字尚未经第三方复现；Nous 的结论是“开源模型的价值取向层很薄，一次微调就能改写”。",
+      "url": "https://shiftdelete.net/en/arete-27b",
+      "source": "ShiftDelete",
+      "category": "开发者"
+    },
+    {
+      "title": "【补报】Anthropic 豪掷 34 亿美元买下 1.7GW 燃气发电机：AI 实验室史上最大单笔发电设备采购",
+      "summary": "《金融时报》11 月 8 日报道：Anthropic 9 月底同意出资约 34 亿美元，接手 OnePWR Solutions 订购的 1.7GW 重型燃气发电机（含安装工程能力），原计划只是向对方买电；OnePWR 两年前向卡特彼勒下单后无力完成付款，Anthropic 接盘等于绕过长达数年的发电机排队。按 FT 的说法，这是 AI 实验室史上最大单笔发电设备采购，折合每千瓦约 2000 美元；双方均未置评，路透称无法独立核实，但投行 Piper Sandler 的交易页列有一笔金额、时间吻合的 34 亿美元出售。背景：Anthropic 修正后的招股书称其算力与基建承诺总额达 8954 亿美元；xAI 今年初也花 20 亿美元买了移动燃气轮机，谷歌母公司则在 2025 年底收购了能源开发商 Intersect。",
+      "url": "https://www.cnbctv18.com/business/companies/anthropic-signs-3-4-billion-deal-for-gas-generators-to-power-ai-data-centres-report-20030054.htm",
+      "source": "CNBC TV18（据《金融时报》）",
+      "category": "实验室"
+    }
+  ]
+}

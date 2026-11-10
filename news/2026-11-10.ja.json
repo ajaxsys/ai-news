@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-10",
+  "edition": 27,
+  "items": [
+    {
+      "title": "Anthropic、Claude Fable 5.2とMythos 5.2を発表 空フォルダから8日でOSを構築、フェルマーの最終定理を30時間で形式化",
+      "summary": "Anthropicは11月9日、Claude Fable 5.2とMythos 5.2を発表した。同じ基盤モデルで、Fableは全ユーザー向け（サイバーセキュリティと生物学のセーフガード付き）、Mythosは審査を通過したサイバーセキュリティとライフサイエンスの機関限定。目玉は、1000超のFable 5.2エージェントが8日間休みなく働き、空のフォルダから起動可能なOSを構築したこと。1000のエージェントはフェルマーの最終定理の証明の形式化もわずか30時間で完了した（初回は11日かかった）。さらにブラックホール物理学の未解決の計算問題を2件解いた。ベンチマークはFrontierCode 2.0で49.1%（Opus 5.5は45.5%）、Terminal-Bench-Scienceで74.6%、Mythosの脆弱性再発見率は89.6%（前世代は78.3%）。Artificial Analysisの知能指数では65点で首位に立った。料金は100万トークンあたり入力8ドル・出力40ドルに値下がりし、速度は30%向上。2.5倍速のファストモード（16ドル/80ドル）も用意された。Anthropicは日常の作業には引き続きOpus 5.5から始めることを勧め、FableとMythosは最も難しい長期の技術課題に使うべきだとしている。",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic 官方博客",
+      "category": "ラボ"
+    },
+    {
+      "title": "グーグル、1年でTPUを4機種投入 8txは機密推論、8i Maxは巨大コンテキスト向け",
+      "summary": "グーグルは11月9日、第8世代TPUに8txと8i Maxの2機種を追加し、1年間で4機種の投入という同社初のペースとなった。8txは銀行や政府など規制対象の顧客向けで、TPU 8tと同じシリコンに第5世代AMD EPYCホストを組み合わせ、データとモデルの重みを使用中もハードウェアレベルで隔離して保護し、8tより最大2倍低いレイテンシを実現。同じシステム内でプライベートデータによる微調整もできる。8i Maxは2個の8iチップを1パッケージに封入し、計算性能、オンチップSRAM、HBM帯域幅をすべて2倍にし、数十のエージェントが百万トークン級のコンテキストを同時に処理する際の「メモリの壁」に対処する。価格と発売時期は未発表で、ブルームバーグは2027年の提供と報じた。TPUの顧客は約100社に達した。あわせてTPU SyncやXLA Serving Engineなどのソフトウェアもオープンソース化され、PyTorchのコードは書き換えなしでTPU上で動く。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/?ref=explainx",
+      "source": "Google 官方博客",
+      "category": "ラボ"
+    },
+    {
+      "title": "Meta、最小モデルMuse Emberを発表 Haiku並みの性能を1タスクあたり約3分の1のコストで",
+      "summary": "Metaは11月9日、Museシリーズ最小のモデルMuse Ember（muse-ember-1.0）を発表した。エージェントが毎日繰り返す作業、ツール呼び出し、コーディングの小タスク、ルーティング、抽出、長文ドキュメントの解析向けに設計された。料金は100万トークンあたり入力0.10ドル・出力0.50ドル。Artificial Analysisの知能指数では36点で、Claude Haiku 5.5の最高点に並び、1タスクあたりのコストは約0.14ドルとHaikuの約3分の1。コンテキストは100万トークン、1回の出力は最大51.2万トークンで、テキスト、画像、音声、動画の入力に対応する。最大モデルMuse Wonder Fullを使って訓練された初のモデルで、「Wonderが計画し、Emberが量をこなす」という位置付け。重みは非公開で、Meta Model APIとMuse Codeで提供中だ。",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "source": "Meta AI Research 官方博客",
+      "category": "ラボ"
+    },
+    {
+      "title": "エヌビディア、CoRLでGR00T 2を発表 ロボット向け世界行動モデル、50課題でワンショット成功率71%",
+      "summary": "エヌビディアは11月9日、ロボット学習の国際会議CoRLでGR00T 2を発表した。Cosmosを基盤とするオープンな世界行動モデル（ワールド・アクション・モデル）で、多様なロボットと人間のデータ、10万時間のオープンソースの一人称視点の人間データで訓練された。50の器用な操作課題のうち40課題はタスク固有のデモなしで少なくとも1回は成功し、1課題あたり1回のデモで平均成功率71%、5回で95%に達した。RoboCasa365、RoboLab、RoboDojo、MolmoSpacesの4ベンチマークすべてで上位3位以内に入った。あわせてオープンなロボット学習フレームワークIsaac Lab 3.0と、産業向けの新ベンチマークDexBenchとVABARも公開された。フォックスコンはサーバー製造の自動化にGR00T 2を適用中で、シーメンスも評価している。",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "source": "NVIDIA 官方博客",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、ChatGPT EnterpriseをAWS Marketplaceに出品 クラウド利用コミットメントに充当可能に",
+      "summary": "OpenAIは11月9日、ChatGPT EnterpriseがAWS Marketplaceで購入可能になったと発表した。企業は既存のAWSの購買・請求関係を使って購入・管理でき、対象の支出はAWSの利用コミットメント（EDP/PPA）に充当できる。パッケージはChat、ChatGPT Work、Codex、dotsの4つで、機能とリリース時期はOpenAIから直接購入する場合と同じ。対象の顧客は医療版や金融版も同じ経路で利用できる。価格は非公開で、個別見積もりとなる。背景には4月のOpenAIとAWSの提携拡大（BedrockへのOpenAIモデル提供など）がある。Bedrockが開発者向けのモデルAPIを売るのに対し、Marketplaceでは全社員向けのChatGPTパッケージを売る点が異なる。",
+      "url": "https://www.unite.ai/openai-starts-selling-chatgpt-enterprise-through-aws-marketplace/",
+      "source": "Unite.AI",
+      "category": "ラボ"
+    },
+    {
+      "title": "Issue 03 追跡更新：意思決定指数v2でDrex Max v1.1が73.4点で首位に Jev 1.14（67.0点）を逆転",
+      "summary": "Naceの公式サイトが11月9日に更新したところによると、新版のArtificial Analysis意思決定指数v2でDrex Max v1.1が73.4点を獲得し、Jev 1.14の67.0点を上回って意思決定モデルの首位に立った。内訳ではDrexが文書判断（AA-Paperclip 72.8対57.5）、ツール呼び出し（When2Call 95.3対84.4）、一貫性（AA-Symmetry 85.0対79.3）でリードし、JevはMMLU-Pro、HLE、ARCなどの知識推論で依然優位にある。Drexの中央値レイテンシは172ミリ秒、1000回の判断あたり0.03ドル（発売記念半額）で、APIはJevと互換性があり、切り替えは環境変数3つで済む。注意点として、これは指数のバージョン更新による新たな順位で、Drex Max v1.1自体は10月28日に公開され、重みは10月30日にオープンソース化されている（11月2日号で既報）。前回の独立テスト（11月8日）ではJevは長文記録で75%にとどまっており、尺度が異なるため直接の比較はできない。",
+      "url": "https://www.nace.ai/drex",
+      "source": "Nace.AI 官网",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAI、賞金ハンターのHacktronをパートナーに 自社システムの弱点を外部から探らせる",
+      "summary": "OpenAIは11月6日、セキュリティ企業のHacktronと正式なテスト提携を結んだと発表した。両社で優先テスト領域を共同で決め、まずはOpenAIのプラットフォームとサードパーティ製サービスの接続部分を対象とし、HacktronはDaybreak Redプログラムを通じて最先端モデルへの幅広いアクセスを得る。両社の出会いはバグバウンティだった。7月、Hacktronの研究者は2件の未知の脆弱性（フォーラムソフトDiscourseと従業員の本人確認の仕組み）を組み合わせ、72時間以内にOpenAI従業員のChatGPTアカウントに到達し、6500ドルの報奨金を得た。脆弱性は修正済みだ。OpenAIは最近、最高報奨金を17.2万ドルに引き上げ、セキュリティ専用モデルGPT-6 CyberをDaybreak Redの参加者に開放した。",
+      "url": "https://secnews.co.uk/2026/11/openai-hacktron-bug-bounty-partnership/",
+      "source": "SEC News",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、Images 2.6を公開 GIF生成に対応、生成速度は50%向上",
+      "summary": "OpenAIは11月4日、Images 2.6を公開した。ChatGPT、Codex、APIのすべてで更新され、生成速度は前世代より約50%高速化（同社発表）。目玉はループGIFの直接生成で、プロンプトや1枚の画像からリアクション、キャラクター、製品のループアニメが作れる。保存可能な参照画像（@でキャラクターや画風を再利用）や、より安定した多段階編集も追加された。APIには2つの新モデル、速度重視のFlare（低画質で最速約6秒）と、細部と一貫性重視のSunburstが登場。指定領域の精密編集、SVG出力、複雑さパラメータも利用できる。出力料金は100万画像トークンあたり30ドルで据え置き。OpenAIによると、ChatGPT、Codex、APIを合わせた画像生成は週40億枚に達している。",
+      "url": "https://www.techbooky.com/openai-images-2-6-brings-faster-creation-and-gifs-to-chatgpt/",
+      "source": "TechBooky",
+      "category": "ラボ"
+    },
+    {
+      "title": "Nous、Arete-27Bを公開 5300万トークンの微調整でQwenの「公式見解」回答を22%から0.9%に",
+      "summary": "Nous Researchは11月6日、Arete-27Bを公開した。アリババのQwen3.8-27Bに約5280万トークンの教師あり微調整（2エポック、1202ステップ、強化学習なし、アーキテクチャ変更なし）を施し、政治的に敏感な話題で中国の公式見解を繰り返す傾向を除去したものだ。Nous独自の803問のテストでは、公式見解を含む回答の割合が22%から0.9%に低下し（表現の自由の分野では60%から1%）、事実スコアは2.32から2.98（5点満点）に上昇した。汎用能力はほぼ無傷（Hermes Benchで65.60%、ベースモデルは65.77%）。重み、評価セット、訓練データはすべてApache 2.0でHugging Faceに公開された。注意点として、分類、評価基準、問題はすべてNousが設計し、採点はxAIのGrok 4.7が行っており、第三者による再現はまだない。Nousの結論は「オープンなモデルの価値観の層は薄く、1回の微調整で書き換えられる」というものだ。",
+      "url": "https://shiftdelete.net/en/arete-27b",
+      "source": "ShiftDelete",
+      "category": "開発者"
+    },
+    {
+      "title": "Anthropic、34億ドルで1.7GWのガス発電機を購入 AI企業として過去最大の発電設備調達",
+      "summary": "フィナンシャル・タイムズが11月8日に報じたところによると、Anthropicは9月末、OnePWR Solutionsが発注した1.7GWの大型ガス発電機（設置工事を含む）を約34億ドルで引き取ることに合意した。当初はOnePWRから電力を買う計画だった。OnePWRは2年前にキャタピラーへ発注したものの支払いを完了できず、Anthropicの引き受けは数年待ちの発電機の行列を飛び越える形となった。FTによればAI企業による発電設備の単独購入としては過去最大で、1キロワットあたり約2000ドルに相当する。両社はコメントを控え、ロイターは独自に確認できていないとしているが、投資銀行パイパー・サンドラーは金額と時期が一致する34億ドルの売却案件を掲載している。背景として、Anthropicの修正版上場目論見書では計算・インフラ関連のコミットメント総額は8954億ドル。xAIも今年初めに移動式ガスタービンを20億ドルで購入し、グーグルの親会社は2025年末にエネルギー開発会社のIntersectを買収している。",
+      "url": "https://www.cnbctv18.com/business/companies/anthropic-signs-3-4-billion-deal-for-gas-generators-to-power-ai-data-centres-report-20030054.htm",
+      "source": "CNBC TV18（据《金融时报》）",
+      "category": "ラボ"
+    }
+  ]
+}

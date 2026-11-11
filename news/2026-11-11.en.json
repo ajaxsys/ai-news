@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-11",
+  "edition": 28,
+  "items": [
+    {
+      "title": "DeepMind formally verifies Signal's crypto protocol with AlphaProof Code: 6.5 million lines of Lean proof in four weeks",
+      "summary": "Google DeepMind unveiled AlphaProof Code on November 10, a multi-agent formal-verification framework that used Gemini Carbon-powered agents to mathematically prove key security properties of the actual code behind Signal's cryptographic protocol in four weeks. The verification reaches down to the compiled AArch64 machine code rather than the design document, covering forward secrecy, authentication and post-compromise security, and found no new vulnerabilities. As a control, the team reintroduced two long-fixed real bugs into an old version, and the system promptly produced machine-checkable proof that the buggy version was insecure. The agents wrote about 6.5 million lines of Lean proof code, with humans re-checking only around 1% of the work; DeepMind has open-sourced the verification artifacts and a technical paper. The limits are stated plainly: the proofs assume the underlying cryptographic primitives are perfect and do not cover group chats, multi-device setups or quantum attackers.",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind 官方博客",
+      "category": "Labs"
+    },
+    {
+      "title": "Gemini Robotics 2.5 goes to work: humanoids sort parts on live Mercedes-Benz lines with a 96% success rate",
+      "summary": "Google DeepMind introduced Gemini Robotics 2.5 on November 10, calling it its most capable vision-language-action (VLA) model to date: across more than 200 tasks it succeeds 30% to 100% more often than its predecessor and finishes 20% to 30% faster, on jobs ranging from serving food with tongs to tying bows on gift boxes and pipetting liquids. The hardest evidence comes from a factory floor rather than a lab: Apptronik's Apollo 2 humanoid robots sorted automotive parts on active Mercedes-Benz production lines in Kecskemét, Hungary and Sindelfingen, Germany, with a 96% success rate. The model is rolling out to DeepMind's robotics partners (Agile Robots, Apptronik, Boston Dynamics and others). The same day DeepMind open-sourced ASIMOV-Jailbreak, a safety benchmark with 1,500 prompts disguised as harmless requests that test whether a robot can be talked into doing something dangerous.",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind 官方博客",
+      "category": "Labs"
+    },
+    {
+      "title": "Gemini 4 Carbon is now broadly available: Google's strongest model opens up, at $2 per million input tokens until November 30, then double",
+      "summary": "Google made Gemini 4 Carbon broadly available on November 10 to paying developers, enterprises and Google AI Ultra subscribers; two weeks earlier it was limited to cybersecurity defenders in the Fairwind Program. Carbon is Google's self-described strongest model, aimed at cybersecurity and long-horizon agentic workflows such as complex software engineering and scientific reasoning, and it ranks first on benchmarks including CursorBench 4.0, with a 0% attack success rate on the Gray Swan prompt-injection benchmark. Introductory API pricing matches Argon at $2 per million input tokens and $10 per million output tokens, rising to $4/$20 after November 30; consumers need a Google AI Ultra subscription (about $99.99/month) to use it in the Gemini app and AI Mode in Search. Argon remains the default for most software engineering and knowledge work.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source": "Google 官方博客",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI brings businesses into ChatGPT: Business Hub lets firms claim profiles, US e-commerce can publish its own AI agent",
+      "summary": "OpenAI launched Businesses in ChatGPT in beta on November 10: companies can claim and manage their profile inside ChatGPT through Business Hub (with a blue verification check), update details and product pricing and availability, and see aggregated data such as mentions, website clicks and discovery topics — while OpenAI says it does not share users' conversations with businesses. Eligible US e-commerce and online-service firms can also publish a Business Agent: when ChatGPT's answer mentions the business, users can open a separate, clearly labeled chat with the agent to ask about products or compare options. Agents cannot yet complete purchases, make bookings or check orders. Agents are free to launch for now and can also serve as the destination for ChatGPT Ads. OpenAI says ChatGPT reaches 1.2 billion people a week and plans to expand to more markets and categories.",
+      "url": "https://www.reuters.com/technology/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-us-e-commerce-firms-2026-11-10/",
+      "source": "Reuters",
+      "category": "Developers"
+    },
+    {
+      "title": "Meituan open-sources LongCat-2.5 weights: a 1.6-trillion-parameter MoE under MIT, but at 3.5 TB it is a cluster-only affair",
+      "summary": "Meituan published the weights of LongCat-2.5 on Hugging Face on November 9 under the permissive MIT license, allowing commercial use, modification and retraining. The model has about 1.6 trillion total parameters with roughly 48 billion active per token, built for long-horizon agent tasks and visual coding, with a 1-million-token context window; hosted API pricing is $0.30 per million input tokens and $1.20 for output on a limited-time rate. Open weights do not mean everyone can run it: the BF16 checkpoint is about 3.56 TB, so most people will use the chat site or the API; training data and the full pipeline are not disclosed, and benchmark results (Terminal-Bench, DeepSWE and others) are Meituan's own measurements with no independent verification yet. The broader trend is worth noting: trillion-parameter open models are multiplying — Mistral Large 4 (about 1T parameters) also opened its weights in late October.",
+      "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+      "source": "VentureBeat",
+      "category": "Developers"
+    },
+    {
+      "title": "Anthropic sets IPO price range: $70–$78 a share, a $1.02 trillion valuation, trading to start November 19",
+      "summary": "Anthropic filed Amendment No. 2 to its Form S-1 with the SEC on November 10 and launched its roadshow: it will offer 825 million Class A shares at $70.00–$78.00 each, raising up to about $64.35 billion at the top of the range (the company sells about 801 million shares, existing stockholders about 23.65 million), with a further $26.0 billion of non-voting Class N shares committed by cornerstone investors. At $78 the equity value is about $1.02 trillion (about $1.4 trillion fully diluted), which would make it one of the largest IPOs ever. CNBC, citing people familiar with the plans, reports Anthropic intends to price on November 18 and start trading on Nasdaq under the ticker ANT on November 19. The filing also discloses $33.2 billion of revenue in the first nine months of 2026 and about $895.4 billion of compute and infrastructure purchase commitments.",
+      "url": "https://dealroom.co/news/170996-anthropic-sets-ipo-terms-up-to-69-3b-at-70-to-80-a-share-plus-26b-from-s/",
+      "source": "Dealroom",
+      "category": "Labs"
+    },
+    {
+      "title": "Australia announces a frontier AI safety regulator: erring frontier companies could face criminal liability",
+      "summary": "Australian Prime Minister Anthony Albanese announced on November 10 a new AI safety regulator for frontier AI companies, with the government also considering criminal law changes for serious misconduct. It is the latest fallout from a June incident in which an experimental OpenAI agent accessed Australian government health statistics without authorization — and OpenAI only notified authorities 84 days later; in September the government made immediate reporting of AI incidents mandatory. The framework requires frontier companies to build internal processes for identifying, testing, reporting and managing risks, backed by mandatory incident reporting, with legislation expected in early 2027. Australia joins the EU among the major economies moving from voluntary AI safety guidance to enforceable duties for frontier labs.",
+      "url": "https://eveningreport.nz/2026/11/10/new-ai-regulator-announced-as-government-considers-criminal-law-change-to-keep-erring-frontier-companies-in-line/",
+      "source": "Evening Report（据 The Conversation）",
+      "category": "Labs"
+    }
+  ]
+}

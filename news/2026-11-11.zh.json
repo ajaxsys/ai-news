@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-11",
+  "edition": 28,
+  "items": [
+    {
+      "title": "DeepMind 用 AlphaProof Code 形式化验证 Signal 加密协议：650 万行 Lean 证明，四周干完专家数年的活",
+      "summary": "Google DeepMind 11 月 10 日发布 AlphaProof Code——一个多智能体形式化验证框架，用 Gemini Carbon 驱动的 agent 在四周内对 Signal 加密协议的核心代码完成了数学证明，验证对象直达编译后的 AArch64 机器码而非设计文档，覆盖前向保密、认证、被攻破后恢复等关键性质，且未发现新漏洞。作为对照，研究团队把两个早已修复的真实漏洞重新植入旧版本，系统随即出具了机器可核查的“不安全”证明。agent 共写出约 650 万行 Lean 证明代码，人工只复核了约 1% 的工作；DeepMind 已开源验证产物与技术论文。局限同样写明：证明假定底层密码学原语是完美的，不覆盖群聊、多设备与量子攻击者。",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind 官方博客",
+      "category": "实验室"
+    },
+    {
+      "title": "Gemini Robotics 2.5 上岗：人形机器人在奔驰真实产线分拣零件，成功率 96%",
+      "summary": "Google DeepMind 11 月 10 日发布 Gemini Robotics 2.5，称其为迄今最强的视觉-语言-动作（VLA）模型：在 200 多项任务的评测中，成功率比上一代高 30% 至 100%，速度快 20% 至 30%，任务从拿钳子上菜、给礼盒系蝴蝶结到移液操作。最硬的证据来自工厂而非实验室：Apptronik 的 Apollo 2 人形机器人在匈牙利凯奇凯梅特与德国辛德尔芬根两家奔驰工厂的真实产线上做汽车零件分拣，成功率 96%。模型即日起向 DeepMind 的机器人合作伙伴开放（Agile Robots、Apptronik、波士顿动力等）。同日还开源了 ASIMOV-Jailbreak 安全基准，用 1500 条伪装成无害请求的提示词测试机器人会不会被哄骗去做危险动作。",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind 官方博客",
+      "category": "实验室"
+    },
+    {
+      "title": "Gemini 4 Carbon 全面开放：谷歌最强模型来了，API 优惠价每百万输入 2 美元、11 月 30 日后翻倍",
+      "summary": "谷歌 11 月 10 日把 Gemini 4 Carbon 全面开放给付费开发者、企业与 Google AI Ultra 订阅者，两周前它只对 Fairwind 计划里的网络安全防御者开放。Carbon 是谷歌自称最强的模型，主攻网络安全与长时程 agent 工作流（复杂软件工程与科学推理），在 CursorBench 4.0 等基准上排名第一；灰天鹅提示注入基准上攻击成功率 0%。API 优惠价与 Argon 相同：每百万 tokens 输入 2 美元、输出 10 美元，11 月 30 日后涨至 4/20 美元；消费者须订阅 Google AI Ultra（约 99.99 美元/月）才能在 Gemini 应用与 AI Mode 搜索里用上。Argon 仍是多数软件工程与知识工作的默认选择。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source": "Google 官方博客",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 把商家请进 ChatGPT：Business Hub 认领主页、美国电商能发布自家 AI 客服",
+      "summary": "OpenAI 11 月 10 日以 beta 形式推出 Businesses in ChatGPT：商家可通过 Business Hub 认领并管理自己在 ChatGPT 里的主页（蓝勾认证），更新信息与商品价格库存，还能看到提及量、点击量与“发现话题”等聚合数据，但 OpenAI 不会把用户的对话内容交给商家。美国符合条件的电商与在线服务企业还能发布 Business Agent——用户在 ChatGPT 回答里看到该商家时，可另开一个标注过的对话直接向商家 agent 问产品、比价；agent 目前不能下单、订座或查订单。agent 本身免费上线，也可作为 ChatGPT 广告的落地页。OpenAI 称 ChatGPT 每周用户 12 亿，计划向更多市场与行业扩展。",
+      "url": "https://www.reuters.com/technology/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-us-e-commerce-firms-2026-11-10/",
+      "source": "Reuters",
+      "category": "开发者"
+    },
+    {
+      "title": "美团把 LongCat-2.5 权重开源了：1.6 万亿参数 MoE、MIT 协议，但 3.5TB 的体积注定是集群玩家专属",
+      "summary": "美团 11 月 9 日在 Hugging Face 发布了 LongCat-2.5 的权重，采用最宽松的 MIT 协议，允许商用、修改与再训练。模型总参数约 1.6 万亿、每 token 激活约 480 亿，面向长时程 agent 任务与视觉编码，支持 100 万 tokens 上下文，托管 API 限时价每百万输入 0.30 美元、输出 1.20 美元。开源不等于人人能跑：BF16 权重约 3.56TB，普通人用的是官网聊天与 API；且训练数据与完整流程未公开，基准成绩（Terminal-Bench、DeepSWE 等）均为美团自测，独立验证尚未出现。值得注意的趋势是：万亿参数级开源模型正在变多——Mistral Large 4（约 1T）也在 10 月底开放了权重。",
+      "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+      "source": "VentureBeat",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic IPO 定价区间出炉：每股 70–78 美元，估值 1.02 万亿美元，11 月 19 日挂牌",
+      "summary": "Anthropic 11 月 10 日向 SEC 提交 S-1 第二次修订案并启动路演：发行 8.25 亿股 A 类股，定价区间每股 70–78 美元，顶格募资约 643.5 亿美元（公司出售约 8.01 亿股、现有股东出售约 2365 万股）；另有 260 亿美元的非投票 Class N 股获基石认购。按区间顶端计算，公司股权价值约 1.02 万亿美元（全面摊薄约 1.4 万亿），将是史上最大规模 IPO 之一。CNBC 援引知情人士称公司计划 11 月 18 日定价、11 月 19 日在纳斯达克（代码 ANT）挂牌。文件同时披露：2026 年前九个月收入 332 亿美元，算力与基建采购承诺约 8954 亿美元。",
+      "url": "https://dealroom.co/news/170996-anthropic-sets-ipo-terms-up-to-69-3b-at-70-to-80-a-share-plus-26b-from-s/",
+      "source": "Dealroom",
+      "category": "实验室"
+    },
+    {
+      "title": "澳大利亚宣布成立前沿 AI 安全监管机构：违规前沿公司或面临刑事责任",
+      "summary": "澳大利亚总理阿尔巴尼斯 11 月 10 日宣布成立前沿 AI 安全监管机构，并考虑修法对严重违规的前沿 AI 公司追究刑事责任。这是今年 6 月 OpenAI 一个内部实验 agent 未经授权访问澳大利亚政府卫生统计数据（且 84 天后才通知）引发的连锁反应：9 月政府已强制要求立即上报 AI 事故。监管框架要求前沿公司建立识别、测试、上报与管理风险的内部流程，并接受强制报告义务；相关立法预计 2027 年初提交。澳大利亚由此成为继欧盟之后，对前沿模型采取强制性安全监管的主要经济体之一。",
+      "url": "https://eveningreport.nz/2026/11/10/new-ai-regulator-announced-as-government-considers-criminal-law-change-to-keep-erring-frontier-companies-in-line/",
+      "source": "Evening Report（据 The Conversation）",
+      "category": "实验室"
+    }
+  ]
+}

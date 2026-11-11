@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-11",
+  "edition": 28,
+  "items": [
+    {
+      "title": "DeepMind、AlphaProof CodeでSignalの暗号プロトコルを形式検証 650万行のLean証明を4週間で完成",
+      "summary": "Google DeepMindは11月10日、マルチエージェント形式検証フレームワークAlphaProof Codeを発表した。Gemini Carbonが駆動するエージェントが4週間で、Signalの暗号プロトコルの実コードに対する主要なセキュリティ特性を数学的に証明した。検証は設計書ではなく、コンパイル後のAArch64マシンコードまで到達し、前方秘匿性、認証、侵害後の回復などをカバーし、新たな脆弱性は見つからなかった。対照実験として、過去に修正済みの実際のバグ2件を旧バージョンに再導入すると、システムは直ちにその版が安全でないことを機械検証可能な形で証明した。エージェントは約650万行のLean証明コードを書き、人間が再確認したのは約1%。DeepMindは検証成果物と技術論文をオープンソース化した。限界も明記されている。証明は暗号プリミティブが完全であることを前提とし、グループチャット、複数デバイス、量子攻撃者は対象外。",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind 官方博客",
+      "category": "ラボ"
+    },
+    {
+      "title": "Gemini Robotics 2.5が現場へ 人型ロボットがメルセデス・ベンツの実稼働ラインで部品仕分け、成功率96%",
+      "summary": "Google DeepMindは11月10日、Gemini Robotics 2.5を発表した。これまでで最も高性能な視覚・言語・行動（VLA）モデルとされ、200以上のタスクの評価で成功率が前世代より30〜100%向上し、速度も20〜30%速くなった。トングで料理を盛る、ギフトボックスにリボンを結ぶ、ピペットで液体を扱うといった作業が対象だ。最も説得力のある証拠は実験室ではなく工場から来た。Apptronikの人型ロボットApollo 2が、ハンガリーのケチケメートとドイツのジンデルフィンゲンにあるメルセデス・ベンツの実稼働ラインで自動車部品の仕分けを行い、成功率96%を記録した。モデルはDeepMindのロボティクスパートナー（Agile Robots、Apptronik、ボストン・ダイナミクスなど）に展開される。同日、無害な依頼に偽装した1500のプロンプトでロボットが危険な行動へ誘導されるかを測る安全ベンチマークASIMOV-Jailbreakもオープンソース化された。",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind 官方博客",
+      "category": "ラボ"
+    },
+    {
+      "title": "Gemini 4 Carbonが全面提供開始 Google最強モデルが開放、APIは100万入力トークン2ドルの導入価格、11月30日以降は倍額に",
+      "summary": "Googleは11月10日、Gemini 4 Carbonを有料開発者、企業、Google AI Ultra加入者に全面開放した。2週間前まではFairwindプログラムのサイバーセキュリティ防御者限定だった。CarbonはGoogleが自称する最強モデルで、サイバーセキュリティと長期的なエージェントワークフロー（複雑なソフトウェア工学や科学推論）が主戦場。CursorBench 4.0などのベンチマークで首位に立ち、Gray Swanのプロンプトインジェクション指標では攻撃成功率0%。APIの導入価格はArgonと同じ100万トークンあたり入力2ドル・出力10ドルで、11月30日以降は4ドル/20ドルに上がる。消費者向けはGoogle AI Ultra（月額約99.99ドル）加入者がGeminiアプリとAI Mode検索で利用できる。Argonは引き続き、大半のソフトウェア工学と知識労働の既定の選択肢とされる。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source": "Google 官方博客",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、企業をChatGPTに招く Business Hubでプロフィールを取得、米国のECは自社AIカスタマーサービスを公開可能に",
+      "summary": "OpenAIは11月10日、Businesses in ChatGPTをベータ版として開始した。企業はBusiness Hubを通じてChatGPT内の自社プロフィールを取得・管理でき（青い認証チェック付き）、情報や商品の価格・在庫を更新し、言及数、クリック数、「発見トピック」などの集計データを確認できる。OpenAIはユーザーの会話内容を企業に渡さないとしている。条件を満たす米国のEC・オンラインサービス企業はBusiness Agentも公開可能で、ChatGPTの回答にその企業が登場した際、ユーザーは別枠の明示されたチャットでエージェントに商品について尋ねたり比較したりできる。ただし現時点では購入、予約、注文確認はできない。エージェントは当面無料で、ChatGPT広告の遷移先にもできる。OpenAIはChatGPTの週間ユーザーが12億人に達するとし、より多くの市場と業種への拡大を計画している。",
+      "url": "https://www.reuters.com/technology/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-us-e-commerce-firms-2026-11-10/",
+      "source": "Reuters",
+      "category": "開発者"
+    },
+    {
+      "title": "美団、LongCat-2.5の重みをオープンソース化 1.6兆パラメータのMoEをMITライセンスで公開も、3.5TBの容量はクラスター専用",
+      "summary": "美団は11月9日、LongCat-2.5の重みをHugging Faceで公開した。最も寛容なMITライセンスで、商用利用、改変、再学習が可能だ。総パラメータ数は約1.6兆、トークンあたり約480億が活性化し、長期的なエージェントタスクとビジュアルコーディング向けで、コンテキストは100万トークン。ホスト型APIの期間限定価格は100万トークンあたり入力0.30ドル、出力1.20ドル。オープンウェイトとはいえ誰でも動かせるわけではない。BF16のチェックポイントは約3.56TBで、大半の人は公式チャットかAPIを使うことになる。学習データと完全なパイプラインは非公開で、ベンチマーク（Terminal-Bench、DeepSWEなど）は美団自身の測定値で、独立検証はまだない。注目すべき流れとして、兆パラメータ級のオープンウェイトモデルが増えている。Mistral Large 4（約1兆パラメータ）も10月末に重みを公開した。",
+      "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+      "source": "VentureBeat",
+      "category": "開発者"
+    },
+    {
+      "title": "AnthropicのIPO価格帯が決定 1株70〜78ドル、評価額1.02兆ドル、11月19日に上場へ",
+      "summary": "Anthropicは11月10日、SECにS-1の第2次修正案を提出し、ロードショーを開始した。A種株式8億2500万株を1株70〜78ドルで売り出し、上限では約643億5000万ドルを調達する（会社が約8億100万株、既存株主が約2365万株を売却）。さらに260億ドル分の無議決権Class N株に基石投資家がコミットした。上限の78ドルでは株式価値は約1.02兆ドル（完全希薄化ベースでは約1.4兆ドル）となり、史上最大級のIPOとなる。CNBCは関係者の話として、11月18日に価格を決定し、11月19日にナスダック（ティッカーANT）で取引を開始する予定と報じている。提出書類では2026年1〜9月の売上332億ドル、計算・インフラの購入コミットメント約8954億ドルも開示された。",
+      "url": "https://dealroom.co/news/170996-anthropic-sets-ipo-terms-up-to-69-3b-at-70-to-80-a-share-plus-26b-from-s/",
+      "source": "Dealroom",
+      "category": "ラボ"
+    },
+    {
+      "title": "豪州、前線AIの安全規制当局を新設へ 違反企業には刑事責任も",
+      "summary": "オーストラリアのアンソニー・アルバニージー首相は11月10日、前線AI企業向けの新たなAI安全規制当局の設立を発表し、重大な違反に対する刑事法の改正も検討するとした。今年6月、OpenAIの実験用エージェントが豪政府の保健統計データに無断でアクセスし、通知が84日後になった事件を受けた対応で、9月にはAI事故の即時報告が義務化されていた。枠組みでは前線企業に対し、リスクの特定、試験、報告、管理のための社内プロセスの構築と強制的な事故報告が求められ、関連法案は2027年初頭に提出される見込み。オーストラリアはEUに続き、自主的な安全指針から前線モデルへの強制的な安全義務へと進む主要国の一つとなった。",
+      "url": "https://eveningreport.nz/2026/11/10/new-ai-regulator-announced-as-government-considers-criminal-law-change-to-keep-erring-frontier-companies-in-line/",
+      "source": "Evening Report（据 The Conversation）",
+      "category": "ラボ"
+    }
+  ]
+}

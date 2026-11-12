@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-12",
+  "edition": 29,
+  "items": [
+    {
+      "title": "Nvidia board weighs ousting Jensen Huang: WSJ says directors may decide as soon as Wednesday, after about $600 billion of market value vanished this week",
+      "summary": "The Wall Street Journal reported on November 11, citing people familiar with the matter, that Nvidia's board is preparing to oust CEO Jensen Huang and could meet as soon as Wednesday to decide his future, after he had two extramarital affairs, including one with a businesswoman said to be linked to a Chinese intelligence operation. The shares slid about 8% in after-hours trading, taking the week's loss of market value to roughly $600 billion. The board launched an independent investigation on November 8 and retained Joon Kim, a Wachtell Lipton partner and former acting US Attorney for the Southern District of New York, to lead it; three House committee chairs have asked Huang to appear for a closed-door briefing on November 18. Huang resumed executive meetings on November 10. Reuters notes the espionage allegations themselves remain unverified.",
+      "url": "https://www.reuters.com/world/china/how-nvidia-ceo-jensen-huang-got-entangled-china-chip-spy-scandal-2026-11-11/",
+      "source": "Reuters（据《华尔街日报》）",
+      "category": "Labs"
+    },
+    {
+      "title": "Anthropic turns Claude into an office suite: Sheets, Whiteboards and Meetings take on Microsoft and Google",
+      "summary": "Anthropic unveiled a Claude office suite on November 10: Claude Sheets (beta, for paid subscribers) generates multi-tab workbooks with formulas and dropdown menus from plain-language prompts; Claude Whiteboards (beta) is a shared visual workspace; Claude Data (formerly Dashboards, now generally available) connects to warehouses and CRMs such as Snowflake and Salesforce; and Claude Meetings (beta for Team and Enterprise) brings Claude into Google Meet calls as a named, visible participant that drafts plans, maps timelines, answers questions in the meeting chat and pulls figures from connected work apps while people are still talking. Interactive connectors embed apps such as Adobe, Atlassian and HubSpot inside Claude. The launch lands during Anthropic's IPO roadshow, opening a new front against Microsoft 365 and Google Workspace.",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-brings-claude-to-google-meet-to-tackle-tasks-live-10958395/",
+      "source": "The Indian Express",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI's Q3 revenue hits $10 billion, up nearly 50% quarter on quarter, but operating losses widen to $10.9 billion",
+      "summary": "The Information and The Wall Street Journal reported on November 10 that OpenAI told investors on a call that day that third-quarter revenue reached about $10 billion, up nearly 50% from $6.7 billion in Q2 — its fastest growth rate yet. Growth was driven by the GPT 5.6, Astra and image-model API businesses and by enterprise, where revenue doubled in the quarter and is now the majority of revenue. Operating losses widened from $10.1 billion to $10.9 billion over the same period, while the adjusted operating margin improved from -150% to -109%. Annualized, the quarter implies about $40 billion of revenue. For comparison, Anthropic posted about $17 billion of revenue in Q3 with an operating loss of only $567 million. The figures come from investor materials cited by the press; OpenAI has not published financial statements.",
+      "url": "https://www.thehindu.com/sci-tech/technology/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion-report/article71688191.ece",
+      "source": "The Hindu（据《华尔街日报》）",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI acquires AI travel agent Odessia: Sonder founder joins as ChatGPT eyes the $1.9 trillion travel market",
+      "summary": "OpenAI has acquired AI travel agent Odessia, founder Francis Davidson (co-founder of Sonder) announced on November 10 as he joins OpenAI to work on the future of travel. Odessia, about a year old, used GPT 5.5 and Codex-powered agents to plan trips for users, had raised a $6 million pre-seed round led by Sequoia, and its service has closed as part of the deal; terms were not disclosed. An OpenAI spokesperson confirmed the hire to TechCrunch but the company has announced no travel product plans. It is a second commerce move on the same day OpenAI launched business profiles and Business Agents in ChatGPT: the chatbot is shifting from answering questions toward booking trips and selling things.",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "New York opens RAISE Act registration: frontier developers over $500 million in revenue must register by January 1, 2027",
+      "summary": "New York opened the registration portal for the RAISE Act (Responsible AI Safety and Education Act) on November 10: large frontier developers with more than $500 million in annual revenue — including OpenAI and Anthropic — must register before the law takes effect on January 1, 2027, publish safety frameworks on their websites, report critical safety incidents within 72 hours and issue public model transparency reports. Fines run up to $1 million for a first violation and $3 million for later ones. The newly formed Office of Digital Innovation, Governance, Integrity, and Trust (DIGIT, inside the Department of Financial Services) will enforce it, and Governor Hochul also launched the New York Center for AI Responsibility and Research at SUNY Binghamton the same day. It is the first state-level mandatory frontier-AI safety law to take effect in the US.",
+      "url": "https://opentools.ai/news/new-york-raise-act-ai-safety-law-openai-anthropic-2027",
+      "source": "OpenTools（据 TechCrunch）",
+      "category": "Labs"
+    },
+    {
+      "title": "Claude Fable 5.2 completes 41.3% of real freelance projects on the Remote Labor Index, up from 2.5% a year ago",
+      "summary": "Scale Labs and the Center for AI Safety (CAIS) updated the Remote Labor Index on November 9: Anthropic's newly released Claude Fable 5.2 completed 41.3% of 240 real, paid Upwork projects to a standard a client would accept — about double the runner-up Opus 5.5 (21.25%) and GPT 6 Astra (20.83%). When the index launched in October 2025 the best agent managed just 2.5%, and CAIS says the automation rate is doubling about every three months. The projects come from 358 verified freelancers, total about $144,000, average just under 29 hours of human work, and span 23 categories; nearly 50 of the projects Fable 5.2 completed had never been solved by any agent before. Mind the scope: the index excludes work needing live client interaction, physical labor or long-term evaluation, so 41.3% is not 41.3% of all remote work.",
+      "url": "https://aiparabellum.com/claude-fable-5-2-tops-remote-labor-index/",
+      "source": "AI Parabellum（据 Scale Labs）",
+      "category": "Research"
+    },
+    {
+      "title": "OpenAI models set to leave Cursor today: the SpaceX deal triggers the cutoff clause, but talks continue",
+      "summary": "Under OpenAI's August 28 announcement, November 12 is the proposed date for its models to leave Cursor: after SpaceX's $60 billion acquisition of Cursor's parent Anysphere, OpenAI invoked a change-of-control clause to wind down supply, saying it cannot be confident SpaceX will use its technology within its terms of service, and future models including Astra will not come to Cursor either. Cursor CEO Michael Truell says OpenAI models serve about 5% of Cursor traffic and that talks continue, so the 12th is a proposed date rather than a confirmed one; developers can keep using GPT in Cursor with their own API key. Claude, Gemini, Grok and Cursor's own Composer models are unaffected.",
+      "url": "https://theinference.org/article/openai-says-its-models-go-dark-in-cursor-on-nov-12-and-spacex-s-7-56-billion-segment-shows-no-split",
+      "source": "The Inference",
+      "category": "Developers"
+    },
+    {
+      "title": "Anthropic IPO multiple times oversubscribed: pricing November 18, trading November 19, with Amazon and Google holding over a quarter",
+      "summary": "Bloomberg reported on November 11, citing people familiar with the matter, that Anthropic's IPO is already multiple times oversubscribed, with roadshow demand running hotter than expected. Under the terms disclosed earlier: 825 million Class A shares at $70–$78 each, raising up to about $64.35 billion, plus $26 billion of non-voting Class N shares committed by cornerstone investors including AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC — up to about $90.4 billion in total. Pricing is set for November 18 and trading on Nasdaq under the ticker ANT starts November 19. At the top of the range the equity value is about $1.02 trillion (about $1.4 trillion fully diluted). Among early investors, Amazon's $18 billion investment could be worth over $250 billion and Google's $33 billion about $140 billion, with the two holding more than a quarter of the company between them.",
+      "url": "https://michaelparekh.substack.com/p/cleared-for-takeoff-in-ai-anthropic",
+      "source": "Michael Parekh（据彭博社）",
+      "category": "Labs"
+    }
+  ]
+}

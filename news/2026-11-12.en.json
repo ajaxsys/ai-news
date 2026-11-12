@@ -6,7 +6,7 @@
       "title": "Nvidia board weighs ousting Jensen Huang: WSJ says directors may decide as soon as Wednesday, after about $600 billion of market value vanished this week",
       "summary": "The Wall Street Journal reported on November 11, citing people familiar with the matter, that Nvidia's board is preparing to oust CEO Jensen Huang and could meet as soon as Wednesday to decide his future, after he had two extramarital affairs, including one with a businesswoman said to be linked to a Chinese intelligence operation. The shares slid about 8% in after-hours trading, taking the week's loss of market value to roughly $600 billion. The board launched an independent investigation on November 8 and retained Joon Kim, a Wachtell Lipton partner and former acting US Attorney for the Southern District of New York, to lead it; three House committee chairs have asked Huang to appear for a closed-door briefing on November 18. Huang resumed executive meetings on November 10. Reuters notes the espionage allegations themselves remain unverified.",
       "url": "https://www.reuters.com/world/china/how-nvidia-ceo-jensen-huang-got-entangled-china-chip-spy-scandal-2026-11-11/",
-      "source": "Reuters（据《华尔街日报》）",
+      "source": "Reuters (via The Wall Street Journal)",
       "category": "Labs"
     },
     {
@@ -20,7 +20,7 @@
       "title": "OpenAI's Q3 revenue hits $10 billion, up nearly 50% quarter on quarter, but operating losses widen to $10.9 billion",
       "summary": "The Information and The Wall Street Journal reported on November 10 that OpenAI told investors on a call that day that third-quarter revenue reached about $10 billion, up nearly 50% from $6.7 billion in Q2 — its fastest growth rate yet. Growth was driven by the GPT 5.6, Astra and image-model API businesses and by enterprise, where revenue doubled in the quarter and is now the majority of revenue. Operating losses widened from $10.1 billion to $10.9 billion over the same period, while the adjusted operating margin improved from -150% to -109%. Annualized, the quarter implies about $40 billion of revenue. For comparison, Anthropic posted about $17 billion of revenue in Q3 with an operating loss of only $567 million. The figures come from investor materials cited by the press; OpenAI has not published financial statements.",
       "url": "https://www.thehindu.com/sci-tech/technology/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion-report/article71688191.ece",
-      "source": "The Hindu（据《华尔街日报》）",
+      "source": "The Hindu (via The Wall Street Journal)",
       "category": "Labs"
     },
     {
@@ -34,14 +34,14 @@
       "title": "New York opens RAISE Act registration: frontier developers over $500 million in revenue must register by January 1, 2027",
       "summary": "New York opened the registration portal for the RAISE Act (Responsible AI Safety and Education Act) on November 10: large frontier developers with more than $500 million in annual revenue — including OpenAI and Anthropic — must register before the law takes effect on January 1, 2027, publish safety frameworks on their websites, report critical safety incidents within 72 hours and issue public model transparency reports. Fines run up to $1 million for a first violation and $3 million for later ones. The newly formed Office of Digital Innovation, Governance, Integrity, and Trust (DIGIT, inside the Department of Financial Services) will enforce it, and Governor Hochul also launched the New York Center for AI Responsibility and Research at SUNY Binghamton the same day. It is the first state-level mandatory frontier-AI safety law to take effect in the US.",
       "url": "https://opentools.ai/news/new-york-raise-act-ai-safety-law-openai-anthropic-2027",
-      "source": "OpenTools（据 TechCrunch）",
+      "source": "OpenTools (via TechCrunch)",
       "category": "Labs"
     },
     {
       "title": "Claude Fable 5.2 completes 41.3% of real freelance projects on the Remote Labor Index, up from 2.5% a year ago",
       "summary": "Scale Labs and the Center for AI Safety (CAIS) updated the Remote Labor Index on November 9: Anthropic's newly released Claude Fable 5.2 completed 41.3% of 240 real, paid Upwork projects to a standard a client would accept — about double the runner-up Opus 5.5 (21.25%) and GPT 6 Astra (20.83%). When the index launched in October 2025 the best agent managed just 2.5%, and CAIS says the automation rate is doubling about every three months. The projects come from 358 verified freelancers, total about $144,000, average just under 29 hours of human work, and span 23 categories; nearly 50 of the projects Fable 5.2 completed had never been solved by any agent before. Mind the scope: the index excludes work needing live client interaction, physical labor or long-term evaluation, so 41.3% is not 41.3% of all remote work.",
       "url": "https://aiparabellum.com/claude-fable-5-2-tops-remote-labor-index/",
-      "source": "AI Parabellum（据 Scale Labs）",
+      "source": "AI Parabellum (via Scale Labs)",
       "category": "Research"
     },
     {
@@ -55,7 +55,7 @@
       "title": "Anthropic IPO multiple times oversubscribed: pricing November 18, trading November 19, with Amazon and Google holding over a quarter",
       "summary": "Bloomberg reported on November 11, citing people familiar with the matter, that Anthropic's IPO is already multiple times oversubscribed, with roadshow demand running hotter than expected. Under the terms disclosed earlier: 825 million Class A shares at $70–$78 each, raising up to about $64.35 billion, plus $26 billion of non-voting Class N shares committed by cornerstone investors including AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC — up to about $90.4 billion in total. Pricing is set for November 18 and trading on Nasdaq under the ticker ANT starts November 19. At the top of the range the equity value is about $1.02 trillion (about $1.4 trillion fully diluted). Among early investors, Amazon's $18 billion investment could be worth over $250 billion and Google's $33 billion about $140 billion, with the two holding more than a quarter of the company between them.",
       "url": "https://michaelparekh.substack.com/p/cleared-for-takeoff-in-ai-anthropic",
-      "source": "Michael Parekh（据彭博社）",
+      "source": "Michael Parekh (via Bloomberg)",
       "category": "Labs"
     }
   ]

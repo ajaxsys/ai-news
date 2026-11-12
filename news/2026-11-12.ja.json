@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-12",
+  "edition": 29,
+  "items": [
+    {
+      "title": "エヌビディア取締役会、フアンCEOの解任を検討 WSJ報道では早ければ水曜にも去就を決定、今週の時価総額蒸発は約6000億ドル",
+      "summary": "ウォール・ストリート・ジャーナルは11月11日、関係者の話として、エヌビディア取締役会がジェンスン・フアンCEOの解任を準備しており、早ければ水曜にも去就を決定する可能性があると報じた。中国の情報活動と関係があるとされる実業家との2度の不倫が背景にある。報道を受けて株価は時間外で約8%下落し、今週の時価総額の蒸発は約6000億ドルに達した。取締役会は11月8日に独立調査を開始し、Wachtell Liptonのパートナーで元ニューヨーク南地区検事代理のジューン・キム氏を調査責任者に起用した。下院の3委員会の委員長は11月18日の非公開説明会への出席をフアン氏に求めている。フアン氏は11月10日に幹部会議への出席を再開した。ロイターは、スパイ疑惑そのものは未確認だと指摘している。",
+      "url": "https://www.reuters.com/world/china/how-nvidia-ceo-jensen-huang-got-entangled-china-chip-spy-scandal-2026-11-11/",
+      "source": "Reuters（据《华尔街日报》）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Anthropic、Claudeをオフィススイート化 Sheets、ホワイトボード、会議アシスタントを投入しMicrosoftとGoogleに挑む",
+      "summary": "Anthropicは11月10日、Claudeのオフィススイートを発表した。Claude Sheets（ベータ版、有料ユーザー向け）は自然言語の指示から数式やドロップダウンメニュー付きの複数シートの表を生成する。Claude Whiteboards（ベータ版）は共有のビジュアル作業空間。Claude Data（旧Dashboards、正式提供開始）はSnowflakeやSalesforceなどのウェアハウスやCRMと接続する。Claude Meetings（Team・Enterprise向けベータ版）はClaudeをGoogle Meetの通話に名前付きの参加者として招き、会議中に計画案の作成、タイムラインの作成、会話中の質問への回答、業務データの呼び出しを行う。インタラクティブコネクターによりAdobe、Atlassian、HubSpotなどのアプリもClaude内に組み込める。発表はAnthropicのIPOロードショー期間中で、Microsoft 365やGoogle Workspaceとの正面対決の新たな戦場となった。",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-brings-claude-to-google-meet-to-tackle-tasks-live-10958395/",
+      "source": "The Indian Express",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAIの第3四半期売上は100億ドル、前期比約50%増も営業損失は109億ドルに拡大",
+      "summary": "The Informationとウォール・ストリート・ジャーナルは11月10日、OpenAIが同日の投資家向け電話会議で第3四半期の売上高が約100億ドルに達したと明らかにしたと報じた。第2四半期の67億ドルから約50%増で、過去最速の伸び。成長をけん引したのはGPT 5.6、Astra、画像モデルのAPI事業とエンタープライズ事業で、企業向け売上は同四半期に倍増し、収入の柱となった。同期の営業損失は101億ドルから109億ドルに拡大したが、調整後営業利益率は-150%から-109%に改善した。年換算では約400億ドルとなる。対照的にAnthropicの第3四半期売上は約170億ドル、営業損失は5億6700万ドルにとどまった。数字はいずれも報道が引用した投資家向け資料によるもので、OpenAIは財務諸表を公開していない。",
+      "url": "https://www.thehindu.com/sci-tech/technology/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion-report/article71688191.ece",
+      "source": "The Hindu（据《华尔街日报》）",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、AI旅行エージェントOdessiaを買収 Sonder創業者が参画、1.9兆ドル市場を狙う",
+      "summary": "OpenAIはAI旅行エージェントOdessiaを買収した。創業者のフランシス・デイビッドソン氏（Sonder共同創業者）は11月10日、OpenAIに参画し旅行分野のプロダクトを担当すると発表した。約1年前に創業したOdessiaはGPT 5.5とCodexを駆動するエージェントで旅行計画を支援し、Sequoia主導の600万ドルのプレシード資金を調達していたが、サービスは買収に伴い終了した。買収額は非公表。OpenAIの広報はTechCrunchに採用を確認したが、旅行製品の計画は発表していない。ChatGPTの企業プロフィールとBusiness Agentの開始と同日の2つ目の商業化の一手で、チャットボットは質問に答える存在から旅行の予約や買い物を手伝う存在へと変わりつつある。",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "ニューヨーク州、RAISE法の登録受付を開始 年商5億ドル超のフロンティア開発者は2027年1月1日までに登録必須",
+      "summary": "ニューヨーク州は11月10日、RAISE法（責任あるAI安全・教育法）の登録受付を開始した。年商5億ドル超の大規模フロンティア開発者（OpenAIやAnthropicを含む）は、2027年1月1日の法施行までに登録し、自社サイトで安全フレームワークを公開し、重大な安全事故を72時間以内に報告し、モデルの透明性レポートを発行しなければならない。罰金は初回違反で最大100万ドル、再犯で300万ドル。新設のデジタルイノベーション・ガバナンス・インテグリティ・トラスト局（DIGIT、州金融サービス局内）が執行を担い、ホークル知事は同日、ニューヨーク州立大学ビンガムトン校にニューヨークAI責任・研究センターも開設した。米国で初めて施行される州レベルのフロンティアAI強制安全法となる。",
+      "url": "https://opentools.ai/news/new-york-raise-act-ai-safety-law-openai-anthropic-2027",
+      "source": "OpenTools（据 TechCrunch）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Claude Fable 5.2、実際のフリーランス案件ベンチマークで41.3%を達成 1年前の最高は2.5%",
+      "summary": "Scale LabsとAI安全センター（CAIS）は11月9日、リモート労働指数（Remote Labor Index）を更新した。Anthropicの新モデルClaude Fable 5.2は、実際の有償Upwork案件240件のうち41.3%をクライアントが受け入れられる水準で完了した。2位のOpus 5.5（21.25%）やGPT 6 Astra（20.83%）の約2倍だ。同指数は2025年10月の開始時、最高のエージェントでも2.5%で、CAISによれば自動化率は約3カ月ごとに倍増している。案件は358人の認定フリーランサーによるもので総額約14万4000ドル、平均で人間が約29時間かかる作業、23カテゴリーをカバーする。Fable 5.2が完了した案件のうち約50件は、これまでどのエージェントも解けなかったものだ。ただし対象範囲に注意が必要で、クライアントとのリアルタイムのやり取りや肉体労働、長期評価を要する仕事は含まれていないため、41.3%は全リモートワークの41.3%ではない。",
+      "url": "https://aiparabellum.com/claude-fable-5-2-tops-remote-labor-index/",
+      "source": "AI Parabellum（据 Scale Labs）",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAIモデル、本日Cursorから撤退へ SpaceX買収が断供条項を発動、交渉は継続中",
+      "summary": "OpenAIの8月28日の発表によれば、11月12日は同社のモデルがCursorから撤退する予定日だ。SpaceXがCursorの親会社Anysphereを600億ドルで買収した後、OpenAIは支配権変更条項を援用して供給を終了するとし、SpaceXが利用規約を順守する確信が持てないと説明した。Astraを含む将来のモデルもCursorには提供されない。Cursorのマイケル・トルエルCEOによれば、OpenAIモデルはCursorのトラフィックの約5%を占め、両社は交渉を継続中のため、12日は「予定」であって確定日ではない。開発者は自分のAPIキーを用いればCursor内でGPTを使い続けられる。Claude、Gemini、Grok、Cursor独自のComposerモデルには影響はない。",
+      "url": "https://theinference.org/article/openai-says-its-models-go-dark-in-cursor-on-nov-12-and-spacex-s-7-56-billion-segment-shows-no-split",
+      "source": "The Inference",
+      "category": "開発者"
+    },
+    {
+      "title": "AnthropicのIPOは数倍の超過申し込み 価格決定は11月18日、上場は19日、AmazonとGoogleの保有は合計4分の1超",
+      "summary": "ブルームバーグは11月11日、関係者の話として、AnthropicのIPOがすでに数倍の超過申し込みを集め、ロードショーの需要が予想を上回っていると報じた。既に開示された発行条件は、A種株式8億2500万株を1株70〜78ドルで売り出し、上限で約643億5000万ドルを調達するほか、AMD、Broadcom、Google、Micron、Microsoft、エヌビディア、TSMCなどの基石投資家が260億ドル分の無議決権Class N株にコミットし、合計で最大約904億ドルとなる。価格決定は11月18日、ナスダック（ティッカーANT）での取引開始は11月19日。上限の78ドルでは株式価値は約1.02兆ドル（完全希薄化ベースでは約1.4兆ドル）。初期投資家では、Amazonの180億ドルの出資は2500億ドル超、Googleの330億ドルは約1400億ドルの価値になる可能性があり、両社合計で4分の1超を保有する。",
+      "url": "https://michaelparekh.substack.com/p/cleared-for-takeoff-in-ai-anthropic",
+      "source": "Michael Parekh（据彭博社）",
+      "category": "ラボ"
+    }
+  ]
+}

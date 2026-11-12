@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-12",
+  "edition": 29,
+  "items": [
+    {
+      "title": "英伟达董事会拟罢免黄仁勋：WSJ 称最快当地时间周三开会定去留，本周市值已蒸发约 6000 亿美元",
+      "summary": "《华尔街日报》11 月 11 日援引知情人士称，英伟达董事会正在准备罢免 CEO 黄仁勋，最快于当地时间周三开会决定其去留，起因是他与一名被指与中国情报行动有关的商界女性有过两段婚外情。消息传出后英伟达盘后跌约 8%，本周以来市值累计蒸发约 6000 亿美元。董事会 11 月 8 日已启动独立调查，并聘请 Wachtell Lipton 合伙人、前纽约南区代理检察官 Joon Kim 主导；三位众议院委员会主席已要求黄仁勋 11 月 18 日赴国会闭门说明。黄仁勋 11 月 10 日已恢复主持高管会议。路透社指出，相关间谍指控本身尚未得到独立证实。",
+      "url": "https://www.reuters.com/world/china/how-nvidia-ceo-jensen-huang-got-entangled-china-chip-spy-scandal-2026-11-11/",
+      "source": "Reuters（据《华尔街日报》）",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic 把 Claude 变成办公套件：Sheets、白板、会议助手齐发，正面叫板微软与谷歌",
+      "summary": "Anthropic 11 月 10 日发布 Claude 办公套件：Claude Sheets（beta，付费用户可用）可按自然语言生成带公式与下拉菜单的多标签表格；Claude Whiteboards（beta）是共享可视化协作空间；Claude Data（原 Dashboards，正式可用）可连 Snowflake、Salesforce 等仓库与 CRM；Claude Meetings（Team 与 Enterprise 用户 beta）把 Claude 以具名参与者身份请进 Google Meet，开会时就能起草方案、拉时间线、回答会中提问并调取业务数据。另有交互式连接器把 Adobe、Atlassian、HubSpot 等应用嵌进 Claude。发布正值 Anthropic IPO 路演期间，办公软件成为其与微软 365、Google Workspace 正面竞争的新战场。",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-brings-claude-to-google-meet-to-tackle-tasks-live-10958395/",
+      "source": "The Indian Express",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 三季度营收 100 亿美元、环比增近 50%，但经营亏损扩大至 109 亿美元",
+      "summary": "《The Information》与《华尔街日报》11 月 10 日报道，OpenAI 在当天的投资者电话会上披露三季度营收约 100 亿美元，较二季度的 67 亿美元环比增长近 50%，为史上最快增速；增长由 GPT 5.6、Astra 与图像模型 API 业务及企业业务驱动，企业收入在三季度翻倍、已成为收入主力。同期经营亏损从 101 亿美元扩大至 109 亿美元，但调整后经营利润率从 -150% 改善至 -109%。按此年化约 400 亿美元。作为对比，Anthropic 三季度营收约 170 亿美元、经营亏损仅 5.67 亿美元。数字均来自媒体援引的投资者材料，OpenAI 未公开财报。",
+      "url": "https://www.thehindu.com/sci-tech/technology/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion-report/article71688191.ece",
+      "source": "The Hindu（据《华尔街日报》）",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 收购 AI 旅行助手 Odessia：Sonder 创始人加盟，瞄准 1.9 万亿美元旅行市场",
+      "summary": "OpenAI 收购了 AI 旅行助手 Odessia，创始人 Francis Davidson（Sonder 联合创始人）11 月 10 日宣布加盟 OpenAI、负责旅行方向的产品。Odessia 成立约一年，用 GPT 5.5 与 Codex 驱动的 agent 帮用户规划行程，曾获红杉领投的 600 万美元 pre-seed 融资，服务已随收购关闭，金额未披露。OpenAI 发言人向 TechCrunch 确认了这笔人事引进，但未公布任何旅行产品计划。这是 OpenAI 在推出 ChatGPT 商家主页与 Business Agent 的同一天落下的又一枚商业化棋子：聊天机器人正从回答问题转向帮用户订行程、买东西。",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "纽约州 RAISE 法案注册通道开启：年营收超 5 亿美元的前沿开发者须在 2027 年 1 月 1 日前登记",
+      "summary": "纽约州 11 月 10 日开放 RAISE 法案（《负责任 AI 安全与教育法案》）注册通道：年营收超 5 亿美元的大型前沿开发者——包括 OpenAI 与 Anthropic——须在 2027 年 1 月 1 日法律生效前完成登记，并在官网公布安全框架、72 小时内上报重大安全事故、发布模型透明度报告，首违罚款最高 100 万美元、再犯 300 万美元。新设的数字创新、治理、诚信与信任办公室（DIGIT，隶属州金融服务局）负责执法；州长霍楚尔同日还启动了位于纽约州立大学宾汉姆顿分校的纽约 AI 责任与研究中心。这是美国首部落地的州级前沿 AI 强制安全法。",
+      "url": "https://opentools.ai/news/new-york-raise-act-ai-safety-law-openai-anthropic-2027",
+      "source": "OpenTools（据 TechCrunch）",
+      "category": "实验室"
+    },
+    {
+      "title": "Claude Fable 5.2 在真实自由职业基准上完成 41.3% 的项目，一年前最佳水平仅 2.5%",
+      "summary": "Scale Labs 与 AI 安全中心（CAIS）11 月 9 日更新远程劳动指数（Remote Labor Index）：Anthropic 新发布的 Claude Fable 5.2 在 240 个真实付费 Upwork 项目中完成了 41.3%，达到客户可接受的标准，约为第二名 Opus 5.5（21.25%）与 GPT 6 Astra（20.83%）的两倍；该指数 2025 年 10 月上线时最佳 agent 仅 2.5%，CAIS 称自动化率约每 3 个月翻一番。这些项目来自 358 名认证自由职业者、总价约 14.4 万美元，平均耗时近 29 小时，覆盖 23 类工作；近 50 个 Fable 5.2 完成的项目是此前任何 agent 都没攻克过的。但要注意口径：指数不含需要客户实时互动、体力劳动与长期评估的工作，41.3% 不等于全部远程工作。",
+      "url": "https://aiparabellum.com/claude-fable-5-2-tops-remote-labor-index/",
+      "source": "AI Parabellum（据 Scale Labs）",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAI 模型拟于今日撤出 Cursor：SpaceX 收购触发断供条款，谈判仍在继续",
+      "summary": "按 OpenAI 8 月 28 日的公告，11 月 12 日是其向 Cursor 断供模型的拟定日期：SpaceX 以 600 亿美元收购 Cursor 母公司 Anysphere 后，OpenAI 援引控制权变更条款终止供货，称无法确信 SpaceX 会遵守其服务条款，未来模型（包括 Astra）也不会再进入 Cursor。Cursor CEO Michael Truell 称 OpenAI 模型约占 Cursor 流量的 5%，双方仍在谈判，因此 12 日是“拟定”而非最终确认的日期；开发者也可自带 API key 继续在 Cursor 里用 GPT。Claude、Gemini、Grok 与 Cursor 自研 Composer 模型不受影响。",
+      "url": "https://theinference.org/article/openai-says-its-models-go-dark-in-cursor-on-nov-12-and-spacex-s-7-56-billion-segment-shows-no-split",
+      "source": "The Inference",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic IPO 获数倍超额认购：定价 11 月 18 日、19 日挂牌，亚马逊与谷歌持股合计超四分之一",
+      "summary": "彭博社 11 月 11 日援引知情人士称，Anthropic 的 IPO 已获得数倍超额认购，路演热度超过预期。按此前披露的发行条款：8.25 亿股 A 类股、每股 70–78 美元，顶格募资约 643.5 亿美元，另有 260 亿美元非投票 Class N 股获 AMD、博通、谷歌、美光、微软、英伟达与台积电等基石认购，合计最高约 904 亿美元；定价定于 11 月 18 日，11 月 19 日在纳斯达克以代码 ANT 挂牌。按区间顶端，股权价值约 1.02 万亿美元（全面摊薄约 1.4 万亿）。早期投资者中，亚马逊 180 亿美元投资的账面价值或超 2500 亿美元，谷歌 330 亿美元投资约值 1400 亿美元，两家合计持股超四分之一。",
+      "url": "https://michaelparekh.substack.com/p/cleared-for-takeoff-in-ai-anthropic",
+      "source": "Michael Parekh（据彭博社）",
+      "category": "实验室"
+    }
+  ]
+}

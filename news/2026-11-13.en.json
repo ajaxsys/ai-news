@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-13",
+  "edition": 30,
+  "items": [
+    {
+      "title": "Jensen Huang resigns as Nvidia CEO: steps down effective immediately after 33 years, CFO Colette Kress named interim chief",
+      "summary": "Nvidia announced on November 12 that Jensen Huang has resigned as president, CEO and director, effective immediately, ending a 33-year run at the chipmaker he co-founded; the company gave no reason. Chief financial officer Colette Kress (who joined in 2013) will serve as interim CEO, and the board named former Synopsys chief Harvey Jones as its first-ever chair, saying operations and the product roadmap would continue \"without interruption.\" Shares fell as much as 13% after the announcement before paring losses to about 4%, wiping roughly $450 billion off the company's value since the weekend. The exit follows revelations of two extramarital affairs, one involving a woman said to be linked to a Chinese intelligence operation; the independent investigation the board opened on November 8 has yet to publish findings, and third-quarter results are still scheduled for November 17.",
+      "url": "https://www.malaymail.com/news/money/2026/11/13/jensen-huang-resigns-as-nvidia-ceo-after-affair-revelations-ending-33-years-at-helm/243032",
+      "source": "Malay Mail（据法新社）",
+      "category": "Labs"
+    },
+    {
+      "title": "Google launches Gemini 4 Hydrogen: 2.5x faster than 3.8 Flash, now powering Search for everyone",
+      "summary": "Google launched Gemini 4 Hydrogen on November 12, a model pitched as fast and smart enough: it completes tasks about 2.5 times faster than the previous fast model, Gemini 3.8 Flash, and at its default high thinking level even beats the more powerful Gemini 4 Argon on the Artificial Analysis Intelligence Index. Hydrogen will drive a Search upgrade — better handling of multi-part, highly specific questions and typos, plus more images, structured answers and comparison tables in AI Mode — and ranks fifth on Agent Arena for multi-step work such as deep research, data analysis and broad codebase navigation. The model offers four thinking levels (low, medium, high, and a new extra-high tier) and is rolling out to AI Studio, the Gemini API, the Gemini App and Antigravity, with the Search upgrade reaching users globally.",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Thinking Machines open-sources Inkling 2 Small weights: a 594B MoE under Apache 2.0",
+      "summary": "Thinking Machines Lab released the full weights for Inkling 2 Small on November 12 (Hugging Face, Apache 2.0), keeping its launch promise: a 594-billion-parameter mixture-of-experts model with 17 billion active per token, routing each token to 8 of 384 experts across 48 decoder layers, with a 1-million-token context window and text-plus-image input. The model debuted on November 5 behind the company's own Tinker service; the weights follow completed outside safety testing and red-teaming. The main NVFP4 checkpoint needs about 500GB of GPU memory; SGLang, vLLM and other frameworks, plus cloud providers including Nvidia, Fireworks and Together, already support it. The lab says a safeguards-removed test version showed no material uplift in misuse risk beyond existing open-weight models, while conceding the model still trails top closed models on alignment tests.",
+      "url": "https://aiparabellum.com/thinking-machines-releases-inkling-2-small-open-weights/",
+      "source": "AI Parabellum",
+      "category": "Developers"
+    },
+    {
+      "title": "IBM ships prompt-injection-resistant Granite models: instructions and data in structured markup, attack success down from up to 100% to 5.6%",
+      "summary": "IBM's Granite team released two experimental models on November 12, Granite-4.1-3B/8B-LLMON-preview (Apache 2.0), built around LLMON, an XML-like markup language that makes prompt structure explicit: instructions, documents and tool definitions each occupy addressable blocks, and an execution block says which instruction to run with which inputs, so the model obeys only instructions bound through that block and reads everything else as data. IBM says the models avoided 47% more attacks than the best frontier model it tested on the OPI benchmark, with indirect-injection attack success falling from 53%–100% to 0.02%–5.6% while general capability was largely preserved (the 8B model dips on GPQA but beats the instruct baseline on BigCodeBench). The previews are for exploration and evaluation, not production, and the model cards caution that the learned privilege rule is not an enforced guarantee.",
+      "url": "https://www.unite.ai/ibm-releases-granite-models-designed-to-resist-prompt-injection/",
+      "source": "Unite.AI",
+      "category": "Research"
+    },
+    {
+      "title": "TSMC board approves up to $1 billion for stakes in Anthropic and OpenAI",
+      "summary": "TSMC's board approved up to $1 billion in investments on November 10: up to $500 million to buy Anthropic shares at the IPO price and up to $500 million for preferred stock in OpenAI (disclosed November 12). The Anthropic $500 million matches TSMC Partners' subscription in the $26 billion supplier placement in Anthropic's November 10 S-1 amendment — Google and Nvidia about $10 billion each, AMD $2.5 billion — though the filings do not state the two are the same commitment, and the placement only closes if the IPO does; the OpenAI $500 million is new money. Analysts say the Huang scandal has not affected TSMC's orders so far (Nvidia is roughly a fifth of its revenue), but a chipmaker funding its own customers has revived the circular-financing debate around the AI boom.",
+      "url": "https://aiagentupdate.com/post/tsmc-anthropic-openai-stakes-2026-11-12",
+      "source": "AI Agent Update",
+      "category": "Labs"
+    },
+    {
+      "title": "CoreWeave Q3 revenue hits $3.66 billion, up 168%, but net loss widens to $709 million and debt climbs to $47 billion",
+      "summary": "AI cloud provider CoreWeave reported third-quarter results after the close on November 10: revenue of $3.66 billion, up 168% year over year and above the $3.54 billion consensus; the revenue backlog rose from $104 billion to $132.5 billion, and full-year guidance was raised to $13–13.3 billion; GAAP operating income jumped from $52 million to $207 million. But interest expense surged from $310 million to $846 million, the net loss widened to $709 million (from $110 million a year earlier), quarterly free cash flow was negative $7.7 billion and debt climbed to $47 billion. Management said it expects about $9 billion in customer prepayments in Q4 and will not tap the unsecured debt market at current rates. Shares jumped as much as 24.7% on November 11 after the report.",
+      "url": "https://www.fool.com/investing/2026/11/10/coreweave-delivers-another-blowout-quarter-is-it-enough-to-save-the-ai-trade/",
+      "source": "The Motley Fool",
+      "category": "Labs"
+    },
+    {
+      "title": "[Catch-up] Anthropic says it has crossed its own safety threshold: AI is pushing its own research pace toward doubling",
+      "summary": "Anthropic disclosed in its November 10 amended IPO filing that it has determined it has met the threshold in its Responsible Scaling Policy (RSP) for AI significantly accelerating its own research: AI-assisted research is expected to roughly double the pace at which model capabilities improve. The determination rests mainly on expectations for future models and the overall rate of progress, not on measured results from current systems; the company says it is evaluating the implications and preparing additional safeguards (logging critical AI development activity, publishing externally reviewed risk reports), but crossing the threshold does not mean halting research or deployment. Independent evaluator METR reported on November 5 that Anthropic's model benchmark scores have improved about 1.9 times faster since October 2025, and that the threshold may already have been crossed by July 15.",
+      "url": "https://securityboulevard.com/2026/11/anthropic-reports-ai-safety-threshold-reached-ahead-of-ipo/",
+      "source": "Security Boulevard",
+      "category": "Research"
+    },
+    {
+      "title": "[Issue 03 tracking update] Cloudflare cuts Clef-flash price by nearly 60%; Jev is no longer the cheapest hosted decision model",
+      "summary": "A pricing shift in the decision-model race: S5 Labs' comparison, updated November 12, shows Cloudflare has cut Clef-flash on Workers AI from $0.09 to $0.038 per million input tokens — down nearly 60% — putting a 500-million-token example at about $19, under Jev's $21, so Jev is no longer the cheapest hosted option; Clef stays at $0.240. The trade-off is that Clef-flash's hosted context window shrank from 65,536 to 24,576 tokens, though Cloudflare now states explicitly that Clef models do not charge for output tokens. On the TypeSafe side, jev-latest now points to jev-1.14.0, with price and the default 64K/32K context limits unchanged, and an opt-in header raising both limits to 262K.",
+      "url": "https://s5labs.io/resources/insights/open-decision-models-clef-d1-jev/",
+      "source": "S5 Labs",
+      "category": "Developers"
+    },
+    {
+      "title": "[Catch-up] Fireworks AI's second intrusion reaches Notion: Notion AI chat transcripts from a small number of workspaces exposed",
+      "summary": "AI inference platform Fireworks AI disclosed a second intrusion on November 9: a third-party cloud provider was breached on October 23, and the attacker reached Fireworks' development machines the next day and ran an unauthorized workload, touching billing data and, for a limited set of accounts, secrets, datasets and incomplete model weights (payment card numbers were not affected because they are not stored). The impact has since spread to customers: Notion said on November 11 that the exposed dataset contained Notion AI chat transcripts from a small number of workspaces (under 1% of users), and the dataset used for its Insights feature has been disabled; Notion has stopped sending traffic to Fireworks, deleted its stored data and halted training runs by November 3. Fireworks links the activity to a financially motivated LLMjacking group and is investigating with Palo Alto Networks Unit 42; self-serve dataset uploads and downloads are paused.",
+      "url": "https://windowsforum.com/news/fireworks-ai-discloses-second-breach-customer-data-exposed-dataset-workflows-restricted.451620/",
+      "source": "Windows Forum（据 BleepingComputer）",
+      "category": "Developers"
+    }
+  ]
+}

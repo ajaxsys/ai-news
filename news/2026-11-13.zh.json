@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-13",
+  "edition": 30,
+  "items": [
+    {
+      "title": "黄仁勋辞任英伟达 CEO：执掌 33 年后即刻离任，CFO 科莱特·克雷斯暂代",
+      "summary": "英伟达 11 月 12 日宣布，黄仁勋即刻辞去总裁、CEO 与董事职务，结束 33 年掌舵；公司未说明辞职原因。CFO 科莱特·克雷斯（2013 年加入）任临时 CEO，董事会同时任命前 Synopsys CEO 哈维·琼斯为公司首任董事长，并称业务与产品路线图“不受影响”。消息公布后英伟达股价盘中一度跌约 13%，收窄至约 4%，自上周末以来市值蒸发约 4500 亿美元。事件源于两段婚外情曝光，其中一人被指与中国情报行动有关；董事会 11 月 8 日启动的独立调查尚未公布结论，11 月 17 日三季报仍按计划发布。",
+      "url": "https://www.malaymail.com/news/money/2026/11/13/jensen-huang-resigns-as-nvidia-ceo-after-affair-revelations-ending-33-years-at-helm/243032",
+      "source": "Malay Mail（据法新社）",
+      "category": "实验室"
+    },
+    {
+      "title": "谷歌发布 Gemini 4 Hydrogen：速度比 3.8 Flash 快 2.5 倍，搜索全量接入",
+      "summary": "谷歌 11 月 12 日发布 Gemini 4 Hydrogen，主打“快且够聪明”：任务完成速度约为上一代快速模型 Gemini 3.8 Flash 的 2.5 倍，在默认高思考档位下甚至在 Artificial Analysis 智能指数上超过了更强的 Gemini 4 Argon。Hydrogen 将驱动谷歌搜索的升级——更理解多段式、细节繁多的提问与错别字，并在 AI Mode 中给出更多图片、结构化回答与对比表；多步任务（深度研究、数据分析、大代码库导航）在 Agent Arena 排名第五。模型提供低/中/高/超高四档思考级别，即日起进入 AI Studio、Gemini API、Gemini App 与 Antigravity，搜索升级向全球用户推送。",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "Thinking Machines 开源 Inkling 2 Small 权重：594B MoE，Apache 2.0",
+      "summary": "Thinking Machines Lab 11 月 12 日兑现承诺，发布 Inkling 2 Small 的完整权重（Hugging Face，Apache 2.0）：594B 参数 MoE、每 token 激活 17B，384 个专家中每 token 路由 8 个，48 层解码器，上下文 100 万 token，文本+图像输入、文本输出。11 月 5 日首发时仅通过自家 Tinker 服务提供，此次在外部安全测试与红队评估完成后放开。主检查点为 NVFP4，需约 500GB 显存；SGLang、vLLM 等框架与英伟达、Fireworks、Together 等云厂商已接入。公司称“去安全措施版”测试未发现超出已有开源模型的实质滥用提升，但也承认模型在对齐测试上仍落后顶级闭源模型。",
+      "url": "https://aiparabellum.com/thinking-machines-releases-inkling-2-small-open-weights/",
+      "source": "AI Parabellum",
+      "category": "开发者"
+    },
+    {
+      "title": "IBM 发布抗提示注入的 Granite 模型：指令与数据写进结构化标记，攻击成功率从最高 100% 降至 5.6%",
+      "summary": "IBM Granite 团队 11 月 12 日发布两个实验模型 Granite-4.1-3B/8B-LLMON-preview（Apache 2.0），用 LLMON（一种类 XML 标记语言）把提示结构显式化：指令、文档、工具定义各占可寻址区块，执行块指明运行哪条指令、用什么输入，模型只服从执行块绑定的指令、把其余内容当数据读。IBM 称在 OPI 基准上比测试过的最强前沿模型多挡下 47% 的攻击；间接注入攻击成功率从 53%–100% 降至 0.02%–5.6%，通用能力基本保留（8B 的 GPQA 略降、BigCodeBench 反超）。模型仅供探索评估、非生产用途，作者也提醒这只是学到的特权规则、不是强制保证。",
+      "url": "https://www.unite.ai/ibm-releases-granite-models-designed-to-resist-prompt-injection/",
+      "source": "Unite.AI",
+      "category": "研究"
+    },
+    {
+      "title": "台积电董事会批准最高 10 亿美元，分别入股 Anthropic 与 OpenAI",
+      "summary": "台积电董事会 11 月 10 日批准最高 10 亿美元投资：最多 5 亿美元按 IPO 价认购 Anthropic 股票、最多 5 亿美元认购 OpenAI 优先股（11 月 12 日披露）。Anthropic 的 5 亿与 11 月 10 日 S-1 修订披露的 260 亿美元供应商配售中的台积电份额数字相同（谷歌与英伟达各约 100 亿、AMD 25 亿），但文件未明说两者是否为同一笔钱，且配售以 IPO 成行为前提；OpenAI 的 5 亿则是新钱。分析师称黄仁勋风波目前未影响台积电订单（英伟达约占其收入两成），但“芯片厂出钱给自家客户”也让 AI 繁荣期的循环融资争议再起。",
+      "url": "https://aiagentupdate.com/post/tsmc-anthropic-openai-stakes-2026-11-12",
+      "source": "AI Agent Update",
+      "category": "实验室"
+    },
+    {
+      "title": "CoreWeave 三季度营收 36.6 亿美元、同比增 168%，但净亏 7.09 亿、债务升至 470 亿",
+      "summary": "AI 云厂商 CoreWeave 11 月 10 日盘后发布三季报：营收 36.6 亿美元，同比增 168%、超 35.4 亿美元预期；积压订单 1325 亿美元（季度末 1040 亿→1325 亿），全年营收指引上调至 130–133 亿美元；GAAP 经营利润从 5200 万增至 2.07 亿美元。但利息支出从 3.1 亿飙至 8.46 亿美元，净亏损 7.09 亿美元（去年同期 1.1 亿），季度自由现金流为 -77 亿美元，债务升至 470 亿美元；管理层称四季度将收约 90 亿美元客户预付款、不按当前利率发无担保债。财报后股价 11 月 11 日一度大涨 24.7%。",
+      "url": "https://www.fool.com/investing/2026/11/10/coreweave-delivers-another-blowout-quarter-is-it-enough-to-save-the-ai-trade/",
+      "source": "The Motley Fool",
+      "category": "实验室"
+    },
+    {
+      "title": "【补报】Anthropic 称已触发自身安全阈值：AI 正在把自身研发速度推向翻倍",
+      "summary": "Anthropic 在 11 月 10 日的 IPO 修订文件中披露，已认定达到其《负责任扩展政策》（RSP）中“AI 显著加速自身研发”的阈值：AI 辅助研究有望使模型能力提升速度翻倍。判定主要基于对未来模型与整体进展速度的预期、而非现有模型的实测；公司称正评估影响并准备追加保障措施（记录关键研发活动、发布外部评审的风险报告），但不意味着停研或停发。独立评估机构 METR 11 月 5 日的报告称，Anthropic 模型基准分进步速度自 2025 年 10 月以来约为此前的 1.9 倍，且阈值可能早在 7 月 15 日就已越过。",
+      "url": "https://securityboulevard.com/2026/11/anthropic-reports-ai-safety-threshold-reached-ahead-of-ipo/",
+      "source": "Security Boulevard",
+      "category": "研究"
+    },
+    {
+      "title": "【Issue 03 追踪更新】Cloudflare 把 Clef-flash 降价近六成，Jev 不再是最便宜的托管决策模型",
+      "summary": "决策模型的价格战出现新变化：S5 Labs 11 月 12 日更新的对照显示，Cloudflare 把 Workers AI 上 Clef-flash 的价格从每百万输入 token 0.09 美元降至 0.038 美元（降幅近六成），以 5 亿 token 的示例算约 19 美元，低于 Jev 的 21 美元——Jev 不再是最便宜的托管选项；Clef 维持 0.24 美元。代价是 Clef-flash 托管上下文从 65,536 缩至 24,576 token，不过 Cloudflare 现明确 Clef 系列不收输出 token 费用。TypeSafe 方面，jev-latest 现指向 jev-1.14.0，价格与默认 64K/32K 上下文不变，可选 header 可将上限提至 262K。",
+      "url": "https://s5labs.io/resources/insights/open-decision-models-clef-d1-jev/",
+      "source": "S5 Labs",
+      "category": "开发者"
+    },
+    {
+      "title": "【补报】Fireworks AI 二次入侵波及 Notion：少量工作区的 Notion AI 聊天记录外泄",
+      "summary": "AI 推理平台 Fireworks AI 11 月 9 日披露第二起入侵：第三方云厂商 10 月 23 日被攻破，攻击者次日进入其研发机并运行未授权负载，账单数据、部分客户的密钥、数据集与不完整模型权重被触及（银行卡号因未存储而未受影响）。后续影响扩至客户：Notion 11 月 11 日称，泄露数据集中含有少量工作区的 Notion AI 聊天记录（不足 1% 用户），其 Insights 功能所用数据集已被停用；Notion 已停止向 Fireworks 发送流量、删除存放数据并于 11 月 3 日前叫停训练。Fireworks 称与财务动机明确的 LLM 盗用（LLMjacking）团伙有关，正与 Palo Alto Networks Unit 42 调查，已暂停自助数据集上传下载。",
+      "url": "https://windowsforum.com/news/fireworks-ai-discloses-second-breach-customer-data-exposed-dataset-workflows-restricted.451620/",
+      "source": "Windows Forum（据 BleepingComputer）",
+      "category": "开发者"
+    }
+  ]
+}

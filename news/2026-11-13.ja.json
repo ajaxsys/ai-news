@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-13",
+  "edition": 30,
+  "items": [
+    {
+      "title": "ジェンスン・フアン、エヌビディアCEOを辞任 33年の在任を経て即日退任、CFOのコレット・クレス氏が暫定CEOに",
+      "summary": "エヌビディアは11月12日、ジェンスン・フアン氏が社長、CEO、取締役を即日辞任し、共同創業した同社の33年にわたる経営に幕を閉じたと発表した。辞任の理由は示されていない。CFOのコレット・クレス氏（2013年入社）が暫定CEOを務め、取締役会は元Synopsys CEOのハーベイ・ジョーンズ氏を同社初の会長に任命し、事業と製品ロードマップは「中断なく継続する」とした。発表後、株価は一時約13%下落し、約4%安まで戻したが、週末以降の時価総額の蒸発は約4500億ドルに達した。中国の情報活動と関係があるとされる女性との不倫を含む2件の不倫の発覚が背景にある。取締役会が11月8日に開始した独立調査の結論はまだ公表されておらず、第3四半期決算は11月17日に予定通り発表される。",
+      "url": "https://www.malaymail.com/news/money/2026/11/13/jensen-huang-resigns-as-nvidia-ceo-after-affair-revelations-ending-33-years-at-helm/243032",
+      "source": "Malay Mail（据法新社）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Google、Gemini 4 Hydrogenを発表 3.8 Flashの2.5倍の速度で検索に全面導入",
+      "summary": "Googleは11月12日、Gemini 4 Hydrogenを発表した。「速くて十分に賢い」を売りにするモデルで、タスクの完了速度は前世代の高速モデルGemini 3.8 Flashの約2.5倍。デフォルトの高思考レベルでは、Artificial Analysisインテリジェンス指数で上位モデルのGemini 4 Argonをも上回る。Hydrogenは検索のアップグレードを担い、複数要素の質問や細かい指定、タイプミスへの理解を高め、AI Modeでは画像や構造化された回答、比較表をより多く提示する。深層調査やデータ分析、広範なコードベースの探索といった多段階タスクではAgent Arenaで5位。四段階の思考レベル（低・中・高・新設の超高）を備え、AI Studio、Gemini API、Geminiアプリ、Antigravityに展開され、検索のアップグレードは全世界のユーザーに順次提供される。",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "Thinking Machines、Inkling 2 Smallの重みをオープンソース化 594BのMoE、Apache 2.0",
+      "summary": "Thinking Machines Labは11月12日、Inkling 2 Smallの完全な重みを公開した（Hugging Face、Apache 2.0）。5940億パラメータのMoEで、1トークンあたりのアクティブ数は170億、384のエキスパートのうち8つにルーティングされ、48層のデコーダー、コンテキストウィンドウは100万トークン、テキストと画像の入力に対応する。11月5日の発表時は自社のTinkerサービス経由のみだったが、外部の安全性テストとレッドチーミングの完了を受けて開放された。主要チェックポイントはNVFP4で約500GBのGPUメモリが必要。SGLangやvLLMなどのフレームワーク、エヌビディア、Fireworks、Togetherなどのクラウド事業者がすでに対応している。同社は、セーフガードを外したバージョンでのテストでも既存のオープンウェイトモデルを上回る悪用の実質的な高まりは見られなかったとする一方、アライメントのテストでは依然としてトップのクローズドモデルに及ばないと認めている。",
+      "url": "https://aiparabellum.com/thinking-machines-releases-inkling-2-small-open-weights/",
+      "source": "AI Parabellum",
+      "category": "開発者"
+    },
+    {
+      "title": "IBM、プロンプトインジェクション耐性のGraniteモデルを発表 指示とデータを構造化マークアップに分離、攻撃成功率を最大100%から5.6%へ",
+      "summary": "IBMのGraniteチームは11月12日、2つの実験モデルGranite-4.1-3B/8B-LLMON-preview（Apache 2.0）を発表した。LLMONというXML風のマークアップ言語でプロンプト構造を明示化するもので、指示、文書、ツール定義がそれぞれアドレス可能なブロックに分かれ、実行ブロックがどの指示をどの入力で実行するかを指定するため、モデルは実行ブロックに結び付けられた指示にのみ従い、それ以外はデータとして読む。IBMによれば、OPIベンチマークでテストした最強のフロンティアモデルより47%多く攻撃を防ぎ、間接インジェクションの攻撃成功率は53%〜100%から0.02%〜5.6%に低下した。汎用能力はほぼ維持されている（8BはGPQAでやや低下する一方、BigCodeBenchではinstruct版を上回る）。両モデルは探索・評価用で本番向けではなく、学習された特権ルールは強制的な保証ではないとモデルカードは注意を促している。",
+      "url": "https://www.unite.ai/ibm-releases-granite-models-designed-to-resist-prompt-injection/",
+      "source": "Unite.AI",
+      "category": "研究"
+    },
+    {
+      "title": "TSMC取締役会、AnthropicとOpenAIへの最大10億ドルの出資を承認",
+      "summary": "TSMCの取締役会は11月10日、最大10億ドルの投資を承認した。Anthropic株をIPO価格で最大5億ドル、OpenAIの優先株を最大5億ドル取得するもので、11月12日に開示された。Anthropicへの5億ドルは、11月10日のS-1修正届で開示された260億ドルのサプライヤー向け割当におけるTSMCの申し込み額と同額だ（Googleとエヌビディアが各約100億ドル、AMDが25億ドル）。ただし両者が同一の資金かどうかは書類に明記されておらず、割当はIPOの成立が前提となる。OpenAIへの5億ドルは新たな資金となる。アナリストは、フアン氏をめぐる騒動は今のところTSMCの受注に影響していないとする（エヌビディアは売上高の約2割）が、チップメーカーが自社の顧客に出資する構図は、AIブームにおける循環融資の議論を再燃させている。",
+      "url": "https://aiagentupdate.com/post/tsmc-anthropic-openai-stakes-2026-11-12",
+      "source": "AI Agent Update",
+      "category": "ラボ"
+    },
+    {
+      "title": "CoreWeave第3四半期売上は36.6億ドル、前年比168%増も純損失は7.09億ドル、債務は470億ドルに",
+      "summary": "AIクラウド事業者のCoreWeaveは11月10日の引け後に第3四半期決算を発表した。売上高は36.6億ドルで前年比168%増、市場予想の35.4億ドルを上回った。受注残は1040億ドルから1325億ドルに増え、通年の売上高見通しは130億〜133億ドルに引き上げられた。GAAP営業利益は5200万ドルから2.07億ドルに増加した。一方、金利負担は3.1億ドルから8.46億ドルに急増し、純損失は7.09億ドル（前年同期は1.1億ドル）に拡大、四半期のフリーキャッシュフローはマイナス77億ドル、債務は470億ドルに達した。経営陣は第4四半期に約90億ドルの顧客前受金を回収する見込みで、現行金利では無担保債を発行しない方針を示した。決算発表後、株価は11月11日に一時24.7%上昇した。",
+      "url": "https://www.fool.com/investing/2026/11/10/coreweave-delivers-another-blowout-quarter-is-it-enough-to-save-the-ai-trade/",
+      "source": "The Motley Fool",
+      "category": "ラボ"
+    },
+    {
+      "title": "【補報】Anthropic、自社の安全しきい値に到達と発表 AIが自らの研究速度を倍増へと押し上げ",
+      "summary": "Anthropicは11月10日のIPO修正届で、自社の「責任あるスケーリングポリシー（RSP）」における「AIによる自社研究の大幅な加速」のしきい値に到達したと判断したことを開示した。AI支援研究により、モデル能力の向上ペースがおよそ倍増する見込みだという。判断は主に将来のモデルと全体の進展速度への期待に基づくもので、現行モデルの実測によるものではない。同社は影響を評価中で、追加の安全対策（重要なAI開発活動の記録、外部レビュー付きリスク報告の公表）を準備しているとするが、研究や提供の停止を意味するものではない。独立評価機関METRは11月5日の報告で、Anthropicのモデルベンチマークの進歩速度が2025年10月以降、従来の約1.9倍になっているとし、しきい値は7月15日時点で既に越えていた可能性があると述べた。",
+      "url": "https://securityboulevard.com/2026/11/anthropic-reports-ai-safety-threshold-reached-ahead-of-ipo/",
+      "source": "Security Boulevard",
+      "category": "研究"
+    },
+    {
+      "title": "【Issue 03 追跡更新】Cloudflare、Clef-flashを約6割値下げ Jevは最安のホスト型決定モデルではなくなった",
+      "summary": "決定モデルの価格競争に新たな動き。S5 Labsが11月12日に更新した比較によると、CloudflareはWorkers AI上のClef-flashの価格を100万入力トークンあたり0.09ドルから0.038ドルへと約6割引き下げた。5億トークンの例では約19ドルとなり、Jevの21ドルを下回るため、Jevは最安のホスト型オプションではなくなった。Clefは0.24ドルのまま。代償として、Clef-flashのホスト版コンテキストは65,536トークンから24,576トークンに縮小したが、CloudflareはClefモデルに出力トークンの課金がないことを明確にした。TypeSafe側では、jev-latestがjev-1.14.0を指すようになり、価格とデフォルトの64K/32Kのコンテキスト上限は変わらず、オプトインのヘッダーで両上限を262Kまで引き上げられる。",
+      "url": "https://s5labs.io/resources/insights/open-decision-models-clef-d1-jev/",
+      "source": "S5 Labs",
+      "category": "開発者"
+    },
+    {
+      "title": "【補報】Fireworks AIの2度目の侵入がNotionに波及 少数のワークスペースのNotion AIチャット記録が流出",
+      "summary": "AI推論プラットフォームのFireworks AIは11月9日、2度目の侵入を開示した。サードパーティのクラウド事業者が10月23日に侵害され、攻撃者は翌日に同社の開発マシンに侵入して不正なワークロードを実行し、請求データや、一部の顧客のシークレット、データセット、不完全なモデル重みにまで及んだ（カード番号は保存されていないため影響なし）。影響は顧客にも広がり、Notionは11月11日、流出したデータセットに少数のワークスペースのNotion AIチャット記録（ユーザーの1%未満）が含まれていたと発表し、Insights機能で使われていたデータセットは無効化した。NotionはFireworksへのトラフィック送信を停止し、預けたデータを削除、11月3日までにトレーニングを停止した。Fireworksは金銭目的のLLMジャック（LLMjacking）グループとの関連を指摘し、Palo Alto NetworksのUnit 42とともに調査中。セルフサービスでのデータセットのアップロードとダウンロードは一時停止されている。",
+      "url": "https://windowsforum.com/news/fireworks-ai-discloses-second-breach-customer-data-exposed-dataset-workflows-restricted.451620/",
+      "source": "Windows Forum（据 BleepingComputer）",
+      "category": "開発者"
+    }
+  ]
+}

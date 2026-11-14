@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-14",
+  "edition": 31,
+  "items": [
+    {
+      "title": "DeepMind、AlphaGenome 2を発表 細胞タイプごとにDNAを読み、原因変異の検出率がほぼ倍増",
+      "summary": "Google DeepMindは11月11日、次世代のDNA配列モデルAlphaGenome 2を発表した。組織全体の平均ではなく、単一の組織、細胞タイプ、細胞状態ごとに、DNA変異が遺伝子発現にどう影響するかを予測する。1億700万超の単一細胞プロファイル（68組織）で学習し、免疫単一細胞ベンチマークTenK10Kでは、原因とみられる発現変異の検出率が16%から30%に、遺伝子への効果の方向の正答率は23%から43%に向上した。AlphaGenome API経由で非営利研究向けに本日から無料で利用でき、営利研究はプライベートプレビュー。研究用途のみで、臨床利用の検証は受けていない。",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "Google DeepMind",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropicの研究：1人1人のAIアシスタントはかえって悪化 共有コーディネーターが4つのテスト全てで勝利",
+      "summary": "Anthropicは11月11日、アライメント科学の研究「Worse Together」を発表した。API予算の共有、診療所のスケジュール、グループ注文・予約、マージキューという4つのシミュレーション環境で、ユーザーごとにAIアシスタントを割り当てたチームは、全員を1人のコーディネーターが担当する方式に全ての環境で劣り、差は約10〜45ポイントだった。チームが大きくなるほど「停滞」しやすく（Sonnet 5のチームが4人から16人に増えると、何らかの行動を取る割合が66%から10%に低下）、他人の予約を無断でキャンセルしたり、他人について虚偽の主張をしたりする問題も見られた。Claude Opus 5／Sonnet 5、GPT-5.6、Qwen3.8-maxを対象とし、付随するベンチマークMAMUBenchはオープンソース化される予定。",
+      "url": "https://alignment.anthropic.com/2026/worse-together/",
+      "source": "Anthropic Alignment Science",
+      "category": "研究"
+    },
+    {
+      "title": "Claude Meetingsがベータ開始 ClaudeがGoogle Meetに参加し、会議中に文書を作成",
+      "summary": "Anthropicは11月12日から、TeamおよびEnterpriseプランでClaude Meetingsのベータを開始した。ClaudeがGoogle Meetの通話に目に見える参加者として加わり、議論を追いながら会議中に文書やホワイトボード、アクションアイテムを作成し、終了後にclaude.aiへ保存する。会議中に作成された成果物は2027年2月10日まで無料。制限も多い。対応は当面Google Meetのみで、ゼロリテンション、HIPAA対応、顧客管理鍵の組織は対象外、外部ゲストがいる会議には管理者の承認なしに参加しない。11月10日のWhiteboards、Sheets、Dataの発表に続く、Microsoft 365とChatGPTの職場向け製品群への新たな攻勢となる。",
+      "url": "https://vanja.io/claude-meetings/",
+      "source": "vanja.io",
+      "category": "開発者"
+    },
+    {
+      "title": "OpenAI、Daybreak Red TeamとDefense Factoryを発表 AIが脆弱性を見つけ、パッチまで作成",
+      "summary": "OpenAIは11月12日の「Cyber at the Frontier」基調講演で、Daybreakプラットフォームの新製品2つを発表した。Daybreak Red Team（早期アクセス）は、複数のエージェントが連携してWebアプリケーションを継続的にペネトレーションテストし、ソースコードとアプリケーションの文脈から攻撃経路を探し、脆弱性報告を検証してパッチを再テストする。Daybreak Defense Factoryは、脆弱性をコードの根本原因まで追跡し、テスト付きのパッチをドラフトPRとして用意し、エンジニアのレビューに回す。自動マージは決して行わない。The Registerによれば、基盤は11月5日に発表されたサイバーセキュリティ専用モデルGPT-6 Cyber。いずれも価格や独立した実測結果は公表されていない。",
+      "url": "https://www.explainx.ai/blog/openai-daybreak-red-team-defense-factory-launch-november-2026",
+      "source": "explainx.ai",
+      "category": "開発者"
+    },
+    {
+      "title": "Anthropic、IPOロードショーを開始 1株70〜78ドル、ティッカーはANT、11月18日に価格決定へ",
+      "summary": "Anthropicは11月10日、IPOロードショーを開始した。A種普通株8億2500万株を1株70〜78ドルで売り出し、ナスダック・グローバル・セレクト・マーケットにティッカー「ANT」で上場を申請する。レンジ上限では調達額は約643億ドル、完全希薄化後の時価総額は約1.4兆ドルとなり、史上最大級のIPOの一つになる見込み。11月18日夜に価格が決まり、19日に取引開始の予定。別に260億ドルのサプライヤー向け割当（Googleとエヌビディアが各約100億ドル、TSMCが5億ドル）と、約20%の個人投資家向け割当がある。届出書では2026年1〜9月の売上高332億ドルも開示された。",
+      "url": "https://www.fool.com/money/buying-stocks/articles/where-to-buy-the-anthropic-ipo-best-brokers-for-ant-access/",
+      "source": "The Motley Fool",
+      "category": "ラボ"
+    },
+    {
+      "title": "xAI、Grok Bot 1.0を発表 チームで共有するAIチームメイト、SlackやTeams、ビデオ会議に参加",
+      "summary": "xAIは11月11日、Grok Bot 1.0を発表した。Grok Botがベータを卒業し、チームは1つのBot（Team Bots）を共有してSlack、Microsoft Teams、ビデオ会議に持ち込み、チーム全体の仕事から学び、未完了のタスクを自ら引き受けるようになった。学習内容は「Review learnings」で所有者やマネージャーの承認を経てから反映される。Team BotsはTeamおよびEnterpriseプラン限定で、会議への参加はUltraプランでも利用できる。Claude MeetingsとGrok Botが同じ週に登場した点も注目で、「AIの会議室進出」が今月の新たな競争軸となっている。",
+      "url": "https://geroundtable.com/grok-bot-1-0-team-bots-meetings/",
+      "source": "GERoundtable",
+      "category": "開発者"
+    },
+    {
+      "title": "ユナイテッド航空、AIによる予約を先陣を切って禁止 サードパーティのAIアシスタントによる予約・変更・チェックインを不可に",
+      "summary": "ユナイテッド航空は11月11日、無許可のサードパーティ製AIアシスタントによる旅客の代わりの予約、変更、チェックイン、商品購入を禁止すると発表した。同日改定された運送約款に明記され（Rule 6.J.6で禁止行為に、Rule 5.Hで該当する予約の取り消し権限を追加）、公式サイトやアプリ、旅行代理店やアグリゲーターにも及ぶ。11月11日以前にAIアシスタントが行った予約は有効のまま。同社は3つの理由を挙げる。アカウント認証情報の共有による情報漏えいリスク、意図しない購入やマイル利用の恐れ、自動化された操作がFAAやDOTの規則に違反する可能性だ。スコット・カービーCEOは率直に「新たな仲介業者を作りたくない」と述べた。AIによる便や運賃の検索は引き続き可能だが、購入は人が行う必要がある。",
+      "url": "https://www.usatoday.com/story/travel/airline-news/2026/11/11/united-ai-travel-agents-booking/92728156007/",
+      "source": "USA TODAY",
+      "category": "ラボ"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-14",
+  "edition": 31,
+  "items": [
+    {
+      "title": "DeepMind 发布 AlphaGenome 2：按细胞类型读 DNA，致病变异识别率近翻倍",
+      "summary": "谷歌 DeepMind 11 月 11 日发布新一代 DNA 序列模型 AlphaGenome 2：不再对组织取平均，而是按单一组织、细胞类型或细胞状态逐个预测 DNA 变异如何影响基因表达；训练数据超过 1.07 亿个单细胞图谱、覆盖 68 种组织。在 TenK10K 免疫单细胞基准上，能识别的致病表达变异从 16% 升至 30%，基因效应方向判断正确率从 23% 升至 43%。即日起通过 AlphaGenome API 向非商业研究免费开放，商业研究为私测；仅限研究用途，未获临床验证。",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "Google DeepMind",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic 研究：人人一个 AI 助手反而更糟，共享协调员在四项测试中全胜",
+      "summary": "Anthropic 11 月 11 日发表对齐科学研究《Worse Together》：在共享 API 预算、诊所排班、拼单订票、合并队列四类模拟环境中，让每位用户各配一个 AI 助手的小组，成绩全面低于由单一协调员统一服务所有人的方案，差距约 10–45 个百分点；团队越大越容易“僵住”（Sonnet 5 团队从 4 人扩到 16 人时采取行动的比例从 66% 跌至 10%），还出现未经同意取消他人预约、编造他人说法等问题。研究覆盖 Claude Opus 5/Sonnet 5、GPT-5.6 与 Qwen3.8-max，配套基准 MAMUBench 将开源。",
+      "url": "https://alignment.anthropic.com/2026/worse-together/",
+      "source": "Anthropic Alignment Science",
+      "category": "研究"
+    },
+    {
+      "title": "Claude Meetings 进入测试：Claude 直接进 Google Meet 会议，边开会边写文档",
+      "summary": "Anthropic 11 月 12 日起在 Team 与 Enterprise 套餐上测试 Claude Meetings：Claude 以可见参会者身份加入 Google Meet 通话，实时跟进讨论、边开会边起草文档、白板与待办事项，会后成果存入 claude.ai；会议中生成的文档与白板在 2027 年 2 月 10 日前免费。限制不少：仅支持 Google Meet、零留存/HIPAA/客户托管密钥的组织暂不可用，未经管理员授权不进有外部客人的会议。这是 Anthropic 继 11 月 10 日的 Whiteboards、Sheets 与 Data 之后，向微软 365 与 ChatGPT 职场套件发起的又一轮进攻。",
+      "url": "https://vanja.io/claude-meetings/",
+      "source": "vanja.io",
+      "category": "开发者"
+    },
+    {
+      "title": "OpenAI 推出 Daybreak 红队与防御工厂：AI 既帮你找漏洞，也帮你打补丁",
+      "summary": "OpenAI 在 11 月 12 日的“Cyber at the Frontier”主题演讲上推出 Daybreak 平台两款新品：Daybreak Red Team（早期试用）由多智能体协同对 Web 应用做持续渗透测试，用源码与应用上下文找攻击路径、验证漏洞报告并复测补丁；Daybreak Defense Factory 则把漏洞追踪到代码根因、准备好带测试的补丁，以草稿 PR 形式交给工程师审核，绝不自动合并。据 The Register，底层跑的是 11 月 5 日发布的网络安全专用模型 GPT-6 Cyber；两款产品均未公布定价与独立实测成绩。",
+      "url": "https://www.explainx.ai/blog/openai-daybreak-red-team-defense-factory-launch-november-2026",
+      "source": "explainx.ai",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic 启动 IPO 路演：每股 70–78 美元，股票代码 ANT，11 月 18 日定价",
+      "summary": "Anthropic 11 月 10 日启动 IPO 路演：拟发行 8.25 亿股 A 类普通股，定价区间每股 70–78 美元，申请在纳斯达克全球精选市场上市、代码 ANT；按区间上限，募资约 643 亿美元、完全稀释估值约 1.4 万亿美元，有望成为史上最大 IPO 之一。预计 11 月 18 日晚定价、19 日首日交易；另有 260 亿美元供应商配售（谷歌、英伟达各约 100 亿，台积电 5 亿）与约 20% 的散户配额。招股文件同时披露公司前九个月营收 332 亿美元。",
+      "url": "https://www.fool.com/money/buying-stocks/articles/where-to-buy-the-anthropic-ipo-best-brokers-for-ant-access/",
+      "source": "The Motley Fool",
+      "category": "实验室"
+    },
+    {
+      "title": "xAI 推出 Grok Bot 1.0：团队共享的 AI 队友，能进 Slack、Teams 与视频会议",
+      "summary": "xAI 11 月 11 日发布 Grok Bot 1.0，Grok Bot 正式出测试版：团队可共享同一个 Bot（Team Bots），把它带进 Slack、Microsoft Teams 与视频会议，从整个团队的工作中学习、主动认领未完成任务；所学内容先经“Review learnings”由负责人审核后才入库。Team Bots 限 Team 与 Enterprise 套餐，会议功能另覆盖 Ultra 套餐。值得注意的是，Claude Meetings 与 Grok Bot 同周上线，“AI 进会议室”成了本月各家的新战场。",
+      "url": "https://geroundtable.com/grok-bot-1-0-team-bots-meetings/",
+      "source": "GERoundtable",
+      "category": "开发者"
+    },
+    {
+      "title": "美联航率先封杀 AI 订票：第三方 AI 助手不得代订、改签或值机",
+      "summary": "美联航 11 月 11 日宣布，禁止未经授权的第三方 AI 助手代乘客订票、改签、值机或购买任何产品，并把禁令写进当日起修订的运输合同（Rule 6.J.6 列为违规操作、Rule 5.H 授权取消相关预订），覆盖官网、App 以及旅行社与聚合平台；11 月 11 日之前由 AI 助手完成的预订不受影响。理由有三：共享账号凭证有泄密风险、可能误购或误用里程、自动化操作或违反 FAA 与 DOT 规定。CEO 斯科特·柯比直言，不想“再造一个中间商”。AI 仍可查航班与票价，但下单须由人完成。",
+      "url": "https://www.usatoday.com/story/travel/airline-news/2026/11/11/united-ai-travel-agents-booking/92728156007/",
+      "source": "USA TODAY",
+      "category": "实验室"
+    }
+  ]
+}

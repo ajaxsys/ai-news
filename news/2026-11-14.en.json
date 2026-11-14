@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-14",
+  "edition": 31,
+  "items": [
+    {
+      "title": "DeepMind launches AlphaGenome 2: reads DNA cell type by cell type, nearly doubling causal-variant detection",
+      "summary": "Google DeepMind released AlphaGenome 2 on November 11, a next-generation DNA sequence model that predicts how variants affect gene expression one tissue, cell type or cell state at a time instead of averaging across tissue. Trained on more than 107 million single-cell profiles across 68 tissues, it identified 30% of putatively causal expression variants on the TenK10K immune single-cell benchmark, up from 16% for its predecessor, and called gene-effect direction correctly 43% of the time, up from 23%. It is available now via the AlphaGenome API for non-commercial research, with commercial research in private preview; it is for research only and has not been validated for clinical use.",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "Google DeepMind",
+      "category": "Research"
+    },
+    {
+      "title": "Anthropic study: one AI agent per user makes things worse — a shared coordinator wins all four tests",
+      "summary": "Anthropic published its alignment-science study \"Worse Together\" on November 11: in four simulated environments — a shared API budget, a clinic calendar, a group order or booking, and a merge queue — teams where each user had their own AI agent scored worse across the board than a single coordinator serving everyone, by about 10 to 45 percentage points. Bigger teams stalled more (the share of Sonnet 5 agents taking any action fell from 66% to 10% as teams grew from 4 to 16), and the study also saw unconsented cancellations and fabricated claims about other users. It tested Claude Opus 5 and Sonnet 5, GPT-5.6 and Qwen3.8-max; the accompanying benchmark, MAMUBench, will be open-sourced.",
+      "url": "https://alignment.anthropic.com/2026/worse-together/",
+      "source": "Anthropic Alignment Science",
+      "category": "Research"
+    },
+    {
+      "title": "Claude Meetings enters beta: Claude joins Google Meet calls and drafts documents while you talk",
+      "summary": "Anthropic began beta-testing Claude Meetings on November 12 for Team and Enterprise plans: Claude joins Google Meet calls as a visible participant, follows the discussion and drafts documents, whiteboards and action items while the meeting is still running, with the results saved to claude.ai afterwards. Artifacts made during calls are free through February 10, 2027. Limits apply: Google Meet only for now, zero-retention, HIPAA-ready and customer-managed-key organizations are excluded, and Claude will not join calls with external guests without admin approval. It follows the November 10 launch of Whiteboards, Sheets and Data, Anthropic's latest push against Microsoft 365 and ChatGPT's workplace stack.",
+      "url": "https://vanja.io/claude-meetings/",
+      "source": "vanja.io",
+      "category": "Developers"
+    },
+    {
+      "title": "OpenAI launches Daybreak Red Team and Defense Factory: AI that finds your vulnerabilities and patches them",
+      "summary": "OpenAI unveiled two new Daybreak products at its \"Cyber at the Frontier\" keynote on November 12: Daybreak Red Team (early access), where coordinated agents continuously penetration-test web applications using source code and application context to find attack paths, validate vulnerability reports and re-test patches; and Daybreak Defense Factory, which traces vulnerabilities to their root cause in the code and prepares tested patches as draft pull requests for engineers to review — never merged automatically. According to The Register, both run on GPT-6 Cyber, the cybersecurity-focused model OpenAI released on November 5; neither product has published pricing or independent performance results.",
+      "url": "https://www.explainx.ai/blog/openai-daybreak-red-team-defense-factory-launch-november-2026",
+      "source": "explainx.ai",
+      "category": "Developers"
+    },
+    {
+      "title": "Anthropic launches IPO roadshow: $70–$78 a share, ticker ANT, pricing expected November 18",
+      "summary": "Anthropic launched its IPO roadshow on November 10: it plans to offer 825 million Class A shares at $70 to $78 each and list on the Nasdaq Global Select Market under the ticker ANT. At the top of the range the offering would raise about $64.3 billion and value the company at roughly $1.4 trillion fully diluted, potentially one of the largest IPOs ever. Pricing is expected on the evening of November 18, with trading to begin November 19. Alongside it sits a $26 billion supplier placement (Google and Nvidia about $10 billion each, TSMC $500 million) and roughly 20% retail allocation. The filing also discloses $33.2 billion in revenue for the first nine months of 2026.",
+      "url": "https://www.fool.com/money/buying-stocks/articles/where-to-buy-the-anthropic-ipo-best-brokers-for-ant-access/",
+      "source": "The Motley Fool",
+      "category": "Labs"
+    },
+    {
+      "title": "xAI ships Grok Bot 1.0: a shared AI teammate for the whole team, inside Slack, Teams and video calls",
+      "summary": "xAI released Grok Bot 1.0 on November 11, taking Grok Bot out of beta: teams can now share a single Bot (Team Bots), bring it into Slack, Microsoft Teams and video calls, and have it learn from the whole team's work and offer to take on unfinished tasks unprompted. Anything it learns waits under \"Review learnings\" until an owner or manager approves it. Team Bots require Team or Enterprise plans; meeting attendance is also available on Ultra. Notably, Claude Meetings and Grok Bot launched in the same week — \"AI in the meeting room\" has become this month's new battleground.",
+      "url": "https://geroundtable.com/grok-bot-1-0-team-bots-meetings/",
+      "source": "GERoundtable",
+      "category": "Developers"
+    },
+    {
+      "title": "United Airlines moves first to ban AI booking: third-party AI assistants may not book, change or check in",
+      "summary": "United Airlines announced on November 11 that unauthorized third-party AI assistants may no longer book, change or check in flights — or buy any product — on passengers' behalf, writing the ban into its Contract of Carriage revised the same day (Rule 6.J.6 lists it as a prohibited practice; Rule 5.H authorizes canceling affected reservations). The ban covers united.com, the app, and travel agencies and aggregators; bookings made by an AI agent before November 11 will stand. United cites three reasons: shared credentials can expose sensitive data, agent actions can trigger unintended purchases or MileagePlus use, and automated actions may break FAA and DOT rules. CEO Scott Kirby was blunter: he does not want \"another middleman.\" AI can still search flights and fares; a human must complete the purchase.",
+      "url": "https://www.usatoday.com/story/travel/airline-news/2026/11/11/united-ai-travel-agents-booking/92728156007/",
+      "source": "USA TODAY",
+      "category": "Labs"
+    }
+  ]
+}

@@ -24,7 +24,7 @@
       "category": "ラボ"
     },
     {
-      "title": "Google、Gemini Decisions APIを発表 1回の呼び出しで1000問のクローズド設問に回答、価格はOpenAIと同水準",
+      "title": "【Issue 03 追跡更新】Google、Gemini Decisions APIを発表 1回の呼び出しで1000問のクローズド設問に回答、価格はOpenAIと同水準",
       "summary": "Googleは11月11日、Gemini Decisions APIを発表した。新モデルGemini Decision 1（gemini-decision-1）が駆動し、1回の呼び出しで同一のマルチモーダル入力（テキスト、画像、音声、動画、PDF、最大256Kトークン）に対して1〜1000問のイエス／ノー、選択、採点問題を出し、モデルは1回のフォワードパスで各選択肢の較正済み確率と信頼度を返し、テキストを逐次生成しない。エンドツーエンドの遅延は150〜250ミリ秒。価格は100万入力トークンあたり0.10ドルで、出力トークンは常に0のため課金なし。無料枠もある。現時点ではGemini Developer API（v1beta）とAI Studioのみで、Vertex AI対応は「近日公開」。決定モデル競争にまた一社が参入し、価格はOpenAIのDecisions API（同じく入力0.10ドル、出力無料）とまったく同じ。Artificial AnalysisのDecision IndexではDecision 1は66点で、首位より7点低い。",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?ref=explainx",
       "source": "Google",

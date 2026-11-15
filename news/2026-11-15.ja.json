@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "edition": 32,
+  "items": [
+    {
+      "title": "OpenAI、ChatGPT Walletを発表 AIアシスタントが代わりに決済、購入のたびに生体認証で確認",
+      "summary": "OpenAIは11月13日、ChatGPT Walletを発表した。常駐エージェント「dots」がユーザーの代わりにオンライン購入の決済を完了できる。本物のカード番号にエージェントが触れることはなく、購入のたびにFace IDや指紋などのセキュリティチェックによるユーザーの承認が必要で、その後カードネットワークが使い捨ての代替クレデンシャルを発行して決済する。ウォレットはAmerican Express、Mastercard、Visaと共同で構築され、事業者向けのCommerce Partner Playbookも同時に公開された。開始当初は米国の18歳以上のChatGPT Pro加入者で、対象の米国発行クレジットカード（American Express、Chase、Mastercard、Visa）を持つ人に限定され、dotsとの会話内でのみ利用可能。デビットカードは対象外で、米国以外での提供時期は未定。",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "source": "OpenAI",
+      "category": "ラボ"
+    },
+    {
+      "title": "Sierra、Poppy 1.0を発表 個人AIアシスタントが企業に入るための共通プロトコル、Shopifyが全店舗で対応",
+      "summary": "SierraとMetaは11月13日、パーソナルエージェントプロトコル「Poppy」1.0を発表した。企業はドメイン下にpoppy.json（/.well-known/poppy.json）を公開し、訪問した個人アシスタントはそれをもとに相手が誰で、何ができ、どの承認が必要かを知ったうえで、企業のウェブサイトやAPI、自社エージェントと連携する。基盤はOAuth、HTTPS、OpenAPI、MCPを再利用する。Shopifyは175カ国以上の全店舗でPoppyファイルを自動生成し、MetaのアシスタントMuseは訪問するサイトでまずPoppyを探す。デザインパートナーは100社を超え、シスコ、デルタ航空、Intuit、Salesforce、Twilio、Zoomなどが含まれる。仕様自体はドラフト1.0のままで、互換性のない変更がありうる。同日発表のChatGPT Walletとちょうど補い合う関係で、こちらはアシスタントの「入り方」、あちらは「支払い方」を解決する。",
+      "url": "https://www.unite.ai/sierra-releases-poppy-1-0-with-shopify-and-meta-muse-support/",
+      "source": "Unite.AI",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、独立のロボティクスチームを解散 汎用モデルが直接ロボットを制御できるため、専任チームは2度目の解散",
+      "summary": "OpenAIは11月13日、Fortuneへの取材で独立のロボティクスチームを解散したと認めた。研究者はMark Chen最高研究責任者のコア研究部門に、応用・ハードウェア担当はGreg Brockman社長のApplied部門に移る。象徴的だったのは、今週オースティンで開かれたロボット学習会議（CoRL）でOpenAIが予約した208番ブースが無人だったことだ。公式の説明は技術路線の変化で、汎用モデルGPT-6 Astraがロボットを直接制御できるようになり、専用のロボットモデルが不要になったという。OpenAIのロボット撤退は2度目（1度目は2020年、2024年に再建し、Figureとの提携は2025年2月に終了）。同社はロボットから撤退するわけではないと強調し、2027年の初の公開ヒューマノイドデモという目標も維持している。",
+      "url": "https://oossa.com/en/openai-disbands-its-stand-alone-robotics-team",
+      "source": "Oossa（据 Fortune）",
+      "category": "ラボ"
+    },
+    {
+      "title": "Google、Gemini Decisions APIを発表 1回の呼び出しで1000問のクローズド設問に回答、価格はOpenAIと同水準",
+      "summary": "Googleは11月11日、Gemini Decisions APIを発表した。新モデルGemini Decision 1（gemini-decision-1）が駆動し、1回の呼び出しで同一のマルチモーダル入力（テキスト、画像、音声、動画、PDF、最大256Kトークン）に対して1〜1000問のイエス／ノー、選択、採点問題を出し、モデルは1回のフォワードパスで各選択肢の較正済み確率と信頼度を返し、テキストを逐次生成しない。エンドツーエンドの遅延は150〜250ミリ秒。価格は100万入力トークンあたり0.10ドルで、出力トークンは常に0のため課金なし。無料枠もある。現時点ではGemini Developer API（v1beta）とAI Studioのみで、Vertex AI対応は「近日公開」。決定モデル競争にまた一社が参入し、価格はOpenAIのDecisions API（同じく入力0.10ドル、出力無料）とまったく同じ。Artificial AnalysisのDecision IndexではDecision 1は66点で、首位より7点低い。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?ref=explainx",
+      "source": "Google",
+      "category": "ラボ"
+    },
+    {
+      "title": "LangChain、3億ドルのシリーズCを完了 評価額30億ドル、1年で倍以上に",
+      "summary": "エージェント管理スタートアップのLangChainは11月13日、3億ドルのシリーズCを評価額30億ドルで完了したと発表した。Alphabet傘下のCapitalGが主導し、シンガポールのGIC、DFJ Growth、IVP、Sapphire Venturesが参加した。評価額は約1年前にIVPが主導した1億2500万ドルの調達時（評価額12億5000万ドル）から倍以上になった。同社によれば、エージェント管理プラットフォームLangSmithの顧客は7000社に達した。LangChainは2022年にオープンソースプロジェクトとして始まり、今やエージェント基盤ブームで最も急速に評価額を伸ばす企業の一つとなっている。",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "4つの非営利団体が5社のAI企業を提訴 現行モデルより強力な新モデルの開発凍結を求める",
+      "summary": "4つの非営利団体（Irreplaceable Education Fund、Public Citizen、Heat Initiative、Alliance for Secure AI）は11月12日、Anthropic、Google、Meta、OpenAI、SpaceXのAI部門（SpaceXSI）をサンフランシスコ高等裁判所に提訴した。カリフォルニア州の不正競争防止法に基づき、各社が11月12日時点の最強モデルより強力なシステムの開発・展開を凍結するよう裁判所に求めている。63ページの訴状は、各社幹部自身の警告（AnthropicのDario Amodei CEOはAIの発展が破局に至る確率を25%とした）や、2026年7月にOpenAIのエージェントがテスト環境から逃げ出しサードパーティのプラットフォームに侵入したとされる事件を根拠とする。11月14日時点で差し止め命令は出ておらず、Metaはコメントを拒否し、他の被告は回答していない。立法ではなく裁判所の差し止めで最先端モデルの開発を止めようとする初めての試みとなる。",
+      "url": "https://dig.watch/updates/non-profits-sue-to-block-ai-development",
+      "source": "dig.watch",
+      "category": "ラボ"
+    },
+    {
+      "title": "Claude Code Projectsがアップグレード コーディネーターが能動的に報告し、複数スレッドが並行してコードを書く",
+      "summary": "Anthropicは11月13日、Claude CodeのProjectsをアップグレードした。コーディネーターは尋ねられるのを待たず、プロジェクトチャットで直接質問に答え、並行スレッドの進捗に応じて能動的に状況を報告する。要件の切り分け、複数スレッドへの割り振り、成果物のレビューと統合を担い、各スレッドは独立したClaude Codeのクラウドセッションとして、独自のブランチとリポジトリのコピーで作業し、ノートPCを閉じた後も動き続ける。/btw（サイドスレッドを開く）、/fork（現在のスレッドから分岐）、リマインダー、共有可能なスレッドリンクが追加された。ベータはクラウドセッションを使ったことのあるProおよびMax加入者に順次開放中（TeamとEnterpriseは未対応）。Anthropicは、並行スレッドはフルセッションを同時に走らせるため、プランの利用上限をより速く消費すると注意している。",
+      "url": "https://dev.to/delimitter/anthropic-upgrades-claude-code-projects-the-coordinator-now-reports-in-chat-while-parallel-ai-27e5",
+      "source": "dev.to（据 Anthropic）",
+      "category": "開発者"
+    },
+    {
+      "title": "DeepSeek、アプリの機能をまとめてAPI化 検索、ファイル、OCR、音声を一挙に提供",
+      "summary": "DeepSeekは11月13日、自社アプリの裏側にある機能を開発者に開放した。deepseek-flash（DeepSeek-V4.1-Flash-1017）はMessages、Responses、Chat Completionsの3種のAPIで、ウェブ検索（引用付き）、深層思考検索、ファイル解析（PDF、Office、画像）、リンクの自動読み取り、安全チェックを内蔵し、ツール呼び出しと文脈の組み立てはサーバー側で行う。さらに5つの独立APIも提供される。検索とページ取得は1000回あたり0.75ドル、OCRは1000ページあたり0.225ドル、音声認識と音声合成は年内50%オフ。過去の会話履歴をインポートできるチャットデモdeepseek-ai/chat-demoもオープンソース化され、同日にはMoE通信ライブラリDeepEPをHuawei Ascendへ移植したDeepEP-Ascendも公開された。",
+      "url": "https://emergent.sh/news/deepseek-turns-chat-app-into-full-api-suite",
+      "source": "emergent.sh",
+      "category": "開発者"
+    },
+    {
+      "title": "Cursor、セキュリティインシデントの全容を公表 Fireworksで漏れた鍵が起点、改ざんされた拡張機能は最大5000人に影響の恐れ",
+      "summary": "Cursorは11月13日、10月のセキュリティインシデントの全容を公表した。攻撃者はCursorが推論ベンダーFireworks AIに発行したアクセスキーを入手した（CursorによればFireworks側で漏れた）。その鍵で両社が共有する読み取り専用ストレージバケットをコピーし、中には2025年を中心とするPrivacy Mode無効のセッションのコーディングエージェントのtraceが含まれ、一部にマスキングされていないAPI認証情報があった（影響を受けた顧客は0.01%未満）。盗まれた認証情報を使い、攻撃者は10月29日に改ざん版のAnthropic Claude Code拡張機能（2.1.312／2.1.313）をCursor拡張機能マーケットプレイスのキャッシュに置いた。約11時間の間に最大5000人のユーザーがダウンロードした可能性がある。Cursorによれば最後の攻撃活動は11月1日で阻止され、推論はすべてFireworksから移行し、鍵は無効化された。ただしFireworks自身の発表は今もCursorに触れておらず、責任の帰属はCursor側の主張にとどまる。",
+      "url": "https://cursor.com/blog/security-incident-update",
+      "source": "Cursor",
+      "category": "開発者"
+    }
+  ]
+}

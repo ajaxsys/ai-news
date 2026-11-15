@@ -24,7 +24,7 @@
       "category": "实验室"
     },
     {
-      "title": "谷歌推出 Gemini Decisions API：一次回答 1000 道封闭式问题，定价与 OpenAI 持平",
+      "title": "【Issue 03 追踪更新】谷歌推出 Gemini Decisions API：一次回答 1000 道封闭式问题，定价与 OpenAI 持平",
       "summary": "谷歌 11 月 11 日推出 Gemini Decisions API，由新模型 Gemini Decision 1（gemini-decision-1）驱动：一次调用可对同一份多模态输入（文本、图片、音频、视频、PDF，最高 256K token）提出 1–1000 道是否、选择或打分题，模型单次前向推理直接输出各选项的校准概率与置信度，不逐词生成文本，端到端延迟 150–250 毫秒。定价每百万输入 token 0.10 美元、输出 token 恒为 0 故不收费，另有免费层；目前仅走 Gemini 开发者 API（v1beta）与 AI Studio，Vertex AI 支持“即将推出”。决策模型赛道再添一员：定价与 OpenAI 的 Decisions API（同为 0.10 美元输入、输出免费）完全相同；据 Artificial Analysis 的 Decision Index，Decision 1 得 66 分，比领先者低 7 分。",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?ref=explainx",
       "source": "Google",

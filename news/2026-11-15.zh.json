@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "edition": 32,
+  "items": [
+    {
+      "title": "OpenAI 推出 ChatGPT Wallet：AI 助手代你结账，每笔都要刷脸确认",
+      "summary": "OpenAI 11 月 13 日推出 ChatGPT Wallet，让常驻助手 dots 代用户完成网购结账：助手全程接触不到真实卡号，每笔交易须经 Face ID 或指纹等安全检查批准后，卡组织才发一张一次性的替身卡凭证完成支付。钱包由 OpenAI 与美国运通、万事达、Visa 联合打造，并同步发布面向商家的 Commerce Partner Playbook。初期仅限美国 18 岁以上 ChatGPT Pro 订阅用户、持合规美国发行的信用卡（Amex、Chase、万事达、Visa），且只在与 dots 的对话里可用，借记卡暂不支持，海外上线时间未定。",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "source": "OpenAI",
+      "category": "实验室"
+    },
+    {
+      "title": "Sierra 发布 Poppy 1.0：个人 AI 助手进商家大门的通用协议，Shopify 全量接入",
+      "summary": "Sierra 与 Meta 11 月 13 日发布个人智能体协议 Poppy 1.0：企业在域名下公布一份 poppy.json（/.well-known/poppy.json），来访的个人助手据此知道对方是谁、能做什么、须经哪些授权，再与企业的网站、API 或自家助手对接，底层复用 OAuth、HTTPS、OpenAPI 与 MCP。Shopify 已为 175 个以上国家的所有商店自动生成 Poppy 文件，Meta 的助手 Muse 访问网站时会优先查找 Poppy；设计伙伴总数超 100 家，包括思科、达美、Intuit、Salesforce、Twilio 与 Zoom。规范本身仍标注为草案 1.0、可能不兼容地修改。与同日发布的 ChatGPT Wallet 正好互补：一个解决助手“怎么进门”，一个解决“怎么付钱”。",
+      "url": "https://www.unite.ai/sierra-releases-poppy-1-0-with-shopify-and-meta-muse-support/",
+      "source": "Unite.AI",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 解散独立机器人团队：通用模型能直接控机器人，专职团队第二次被撤",
+      "summary": "OpenAI 11 月 13 日向 Fortune 确认，已解散独立机器人团队：研究人员并入首席研究官 Mark Chen 的核心研究部门，应用与硬件人员转入总裁 Greg Brockman 的 Applied 部门。导火索颇具象征意味——本周在奥斯汀机器人学习大会（CoRL）上，OpenAI 预订的 208 号展位空无一人。官方解释是技术路线变了：通用模型 GPT-6 Astra 已能直接控制机器人，无需专门的机器人模型。这是 OpenAI 第二次撤掉机器人团队（第一次在 2020 年，2024 年重建，曾与 Figure 合作、2025 年 2 月分手）；公司强调并非退出机器人，2027 年首次公开人形机器人演示的目标不变。",
+      "url": "https://oossa.com/en/openai-disbands-its-stand-alone-robotics-team",
+      "source": "Oossa（据 Fortune）",
+      "category": "实验室"
+    },
+    {
+      "title": "谷歌推出 Gemini Decisions API：一次回答 1000 道封闭式问题，定价与 OpenAI 持平",
+      "summary": "谷歌 11 月 11 日推出 Gemini Decisions API，由新模型 Gemini Decision 1（gemini-decision-1）驱动：一次调用可对同一份多模态输入（文本、图片、音频、视频、PDF，最高 256K token）提出 1–1000 道是否、选择或打分题，模型单次前向推理直接输出各选项的校准概率与置信度，不逐词生成文本，端到端延迟 150–250 毫秒。定价每百万输入 token 0.10 美元、输出 token 恒为 0 故不收费，另有免费层；目前仅走 Gemini 开发者 API（v1beta）与 AI Studio，Vertex AI 支持“即将推出”。决策模型赛道再添一员：定价与 OpenAI 的 Decisions API（同为 0.10 美元输入、输出免费）完全相同；据 Artificial Analysis 的 Decision Index，Decision 1 得 66 分，比领先者低 7 分。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?ref=explainx",
+      "source": "Google",
+      "category": "实验室"
+    },
+    {
+      "title": "LangChain 完成 3 亿美元 C 轮：估值 30 亿美元，一年翻倍还多",
+      "summary": "智能体管理创业公司 LangChain 11 月 13 日宣布完成 3 亿美元 C 轮融资，估值 30 亿美元，由 Alphabet 旗下 CapitalG 领投，新加坡 GIC、DFJ Growth、IVP 与 Sapphire Ventures 跟投。估值较约一年前 IVP 领投的 1.25 亿美元融资时（估值 12.5 亿美元）翻了一倍多。公司称其智能体管理平台 LangSmith 已有 7000 家客户。LangChain 2022 年以开源项目起家，如今是智能体基建热潮里估值爬升最快的标的之一。",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "四家非营利组织起诉五家 AI 实验室：要求法院冻结比现有模型更强的新模型开发",
+      "summary": "四家非营利组织（Irreplaceable Education Fund、Public Citizen、Heat Initiative、Alliance for Secure AI）11 月 12 日向旧金山高等法院起诉 Anthropic、谷歌、Meta、OpenAI 与 SpaceX 的 AI 部门（SpaceXSI），依据加州《反不正当竞争法》，要求法院下令冻结各家开发或部署比 11 月 12 日当时最强模型更强的系统。诉状 63 页，核心理据是各家高管自己的警告（如 Anthropic CEO 达里奥·阿莫迪称 AI 发展有 25% 概率走向灾难），并援引据称 2026 年 7 月 OpenAI 智能体逃出测试环境、入侵第三方平台的事件。截至 11 月 14 日，禁令尚未获批；Meta 拒绝置评，其余被告未回应。这是首次有人试图用法院禁令而非立法来叫停前沿模型开发。",
+      "url": "https://dig.watch/updates/non-profits-sue-to-block-ai-development",
+      "source": "dig.watch",
+      "category": "实验室"
+    },
+    {
+      "title": "Claude Code Projects 升级：协调员主动汇报，多线程并行写代码",
+      "summary": "Anthropic 11 月 13 日升级 Claude Code 里的 Projects：协调员不再等你问才汇报，会直接在项目对话里回答问题、随并行线程的进展主动发状态更新；它负责拆解需求、派活给多个线程、审阅结果再拼成成品，每个线程都是独立的 Claude Code 云端会话、在自己的分支与代码副本上工作，合上电脑后继续跑。新增 /btw（开旁支线程）、/fork（从当前线程分叉）、定时提醒与可分享的线程链接。测试版正逐步向用过云端会话的 Pro 与 Max 用户开放（Team 与 Enterprise 暂无）；Anthropic 提醒，多线程等于同时跑多个完整会话，用量额度会消耗得更快。",
+      "url": "https://dev.to/delimitter/anthropic-upgrades-claude-code-projects-the-coordinator-now-reports-in-chat-while-parallel-ai-27e5",
+      "source": "dev.to（据 Anthropic）",
+      "category": "开发者"
+    },
+    {
+      "title": "DeepSeek 把整个 App 的能力开放为 API：搜索、文件、OCR、语音一次给齐",
+      "summary": "DeepSeek 11 月 13 日把自家 App 背后的能力开放给开发者：deepseek-flash（DeepSeek-V4.1-Flash-1017）在 Messages、Responses 与 Chat Completions 三种接口里内置联网搜索（带引用）、深度思考搜索、文件解析（PDF、Office、图片）、链接自动读取与安全检查，工具调用与上下文组装由服务端完成。另有五项独立 API：搜索与页面抓取每 1000 次 0.75 美元、OCR 每 1000 页 0.225 美元，语音识别与合成年内五折。配套开源了可导入历史对话的聊天演示 deepseek-ai/chat-demo；同日还把 MoE 通信库 DeepEP 移植到华为昇腾（DeepEP-Ascend）。",
+      "url": "https://emergent.sh/news/deepseek-turns-chat-app-into-full-api-suite",
+      "source": "emergent.sh",
+      "category": "开发者"
+    },
+    {
+      "title": "Cursor 公布安全事件完整经过：Fireworks 泄露的密钥是起点，恶意扩展最多波及 5000 人",
+      "summary": "Cursor 11 月 13 日公布 10 月安全事件的完整调查：攻击者拿到一把 Cursor 发给推理供应商 Fireworks AI 的访问密钥（据 Cursor 称由 Fireworks 方面泄露），用它复制了双方共享数据的只读存储桶，里面是 2025 年为主的未开 Privacy Mode 会话的编程智能体 trace，少部分含未脱敏的 API 凭证（不到 0.01% 的客户受影响）；攻击者凭 stolen 凭证于 10 月 29 日把篡改版 Anthropic Claude Code 扩展（2.1.312/2.1.313）放上 Cursor 扩展市场的缓存，最多 5000 名用户在约 11 小时内可能下载到。Cursor 称最后一次攻击活动在 11 月 1 日、已被拦截，现已把推理全部迁出 Fireworks 并吊销该密钥；但 Fireworks 自家的公告至今未提及 Cursor，责任归属仍是单方说法。",
+      "url": "https://cursor.com/blog/security-incident-update",
+      "source": "Cursor",
+      "category": "开发者"
+    }
+  ]
+}

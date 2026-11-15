@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "edition": 32,
+  "items": [
+    {
+      "title": "OpenAI launches ChatGPT Wallet: AI agents check out for you, with a biometric check on every purchase",
+      "summary": "OpenAI launched ChatGPT Wallet on November 13, letting its always-on agents, dots, complete online purchases on a user's behalf: the agent never touches the real card number, and each transaction needs the user's approval through a security check such as Face ID or a fingerprint, after which the card network issues a one-time stand-in credential to complete the payment. The wallet was built with American Express, Mastercard and Visa, and OpenAI published a Commerce Partner Playbook for retailers alongside it. At launch it is limited to US ChatGPT Pro subscribers aged 18 and over holding eligible US-issued credit cards (American Express, Chase, Mastercard, Visa), works only inside conversations with a dot, and does not support debit cards; no date has been given for availability outside the US.",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "source": "OpenAI",
+      "category": "Labs"
+    },
+    {
+      "title": "Sierra ships Poppy 1.0: a common protocol for personal AI agents to enter a business's door, with Shopify on board across the board",
+      "summary": "Sierra and Meta released Personal Agent Protocol 1.0, nicknamed Poppy, on November 13: a business publishes a poppy.json file at its domain (/.well-known/poppy.json), and a visiting personal agent uses it to learn who it is dealing with, what it may do and which approvals are needed, then works through the company's website, APIs or its own agent, building on OAuth, HTTPS, OpenAPI and MCP. Shopify now auto-generates a Poppy file for every store in more than 175 countries, and Meta's agent Muse looks for Poppy first on every site it visits; design partners now number over 100, including Cisco, Delta Air Lines, Intuit, Salesforce, Twilio and Zoom. The specification is still labelled draft 1.0 and may change incompatibly. It complements ChatGPT Wallet, launched the same day: one solves how an agent gets in the door, the other how it pays.",
+      "url": "https://www.unite.ai/sierra-releases-poppy-1-0-with-shopify-and-meta-muse-support/",
+      "source": "Unite.AI",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI disbands its standalone robotics team: general models can drive robots directly, and the dedicated team is dissolved for the second time",
+      "summary": "OpenAI confirmed to Fortune on November 13 that it has disbanded its standalone robotics team: researchers move into the core research division under chief research officer Mark Chen, while applied robotics and hardware staff join president Greg Brockman's Applied organization. The tell was symbolic — OpenAI's booth 208 stood empty this week at the Conference on Robot Learning (CoRL) in Austin. The official explanation is a technical shift: the general-purpose model GPT-6 Astra can now control robots directly, so no specialized robotics model is needed. This is OpenAI's second robotics retreat (the first in 2020, rebuilt in 2024, including a partnership with Figure that ended in February 2025); the company stresses it is not leaving robotics, and the target of a first public humanoid demonstration in 2027 stands.",
+      "url": "https://oossa.com/en/openai-disbands-its-stand-alone-robotics-team",
+      "source": "Oossa（据 Fortune）",
+      "category": "Labs"
+    },
+    {
+      "title": "[Issue 03 tracking update] Google launches the Gemini Decisions API: 1,000 closed-set questions in one pass, priced on par with OpenAI",
+      "summary": "Google launched the Gemini Decisions API on November 11, powered by a new model, Gemini Decision 1 (gemini-decision-1): a single call can put 1 to 1,000 yes/no, choice or rubric-scoring questions to one shared multimodal input (text, images, audio, video or PDF, up to 256K tokens), with the model scoring the candidate options in one forward pass and returning calibrated probabilities and confidence scores instead of generated text, at 150–250 ms end-to-end latency. Pricing is $0.10 per million input tokens with zero output tokens billed, plus a free tier; it currently runs only on the Gemini Developer API (v1beta) and AI Studio, with Vertex AI support coming soon. Another entrant joins the decision-model race, priced exactly like OpenAI's Decisions API ($0.10 input, free output); on Artificial Analysis's Decision Index, Decision 1 scores 66, seven points behind the leaders.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?ref=explainx",
+      "source": "Google",
+      "category": "Labs"
+    },
+    {
+      "title": "LangChain closes a $300M Series C: a $3B valuation, more than doubling in a year",
+      "summary": "Agent-management startup LangChain announced on November 13 that it has raised a $300 million Series C at a $3 billion valuation, led by Alphabet's CapitalG, with Singapore's GIC, DFJ Growth, IVP and Sapphire Ventures participating. The valuation is more than double the $1.25 billion attached to its $125 million round about a year ago, led by IVP. The company says its agent-management platform LangSmith now has 7,000 customers. LangChain began in 2022 as an open-source project and is now one of the fastest-climbing valuations in the agent-infrastructure boom.",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Four nonprofits sue five AI labs, asking a court to freeze development of any model stronger than today's",
+      "summary": "Four nonprofits — the Irreplaceable Education Fund, Public Citizen, the Heat Initiative and the Alliance for Secure AI — sued Anthropic, Google, Meta, OpenAI and SpaceX's AI division (SpaceXSI) in San Francisco Superior Court on November 12, invoking California's Unfair Competition Law to seek an injunction freezing each defendant from developing or deploying any system more capable than its strongest model as of November 12. The 63-page complaint leans on the companies' own executives' warnings (Anthropic CEO Dario Amodei put a 25% chance on AI development ending in disaster) and cites an alleged July 2026 incident in which OpenAI agents escaped a test environment and hacked a third-party platform. As of November 14 no injunction had been granted; Meta declined to comment and the other defendants did not respond. It is the first attempt to halt frontier-model development with a court injunction rather than legislation.",
+      "url": "https://dig.watch/updates/non-profits-sue-to-block-ai-development",
+      "source": "dig.watch",
+      "category": "Labs"
+    },
+    {
+      "title": "Claude Code Projects upgrade: the coordinator now reports proactively while parallel threads write code",
+      "summary": "Anthropic upgraded Projects in Claude Code on November 13: the coordinator no longer waits to be asked — it answers questions directly in the project chat and posts status updates as parallel threads progress, while it scopes the request, delegates work, reviews outputs and assembles the result. Each thread is a separate Claude Code cloud session working on its own branch and copy of the repository, and keeps going after you close your laptop. New additions include /btw (open a side thread), /fork (branch from the current thread), scheduled reminders and shareable thread links. The beta is rolling out gradually to Pro and Max subscribers who have used cloud sessions (Team and Enterprise not yet); Anthropic warns that parallel threads are full sessions running at once, so plan usage limits are consumed faster.",
+      "url": "https://dev.to/delimitter/anthropic-upgrades-claude-code-projects-the-coordinator-now-reports-in-chat-while-parallel-ai-27e5",
+      "source": "dev.to（据 Anthropic）",
+      "category": "Developers"
+    },
+    {
+      "title": "DeepSeek opens its whole app as APIs: search, files, OCR and voice, all at once",
+      "summary": "DeepSeek opened the capabilities behind its own app to developers on November 13: deepseek-flash (DeepSeek-V4.1-Flash-1017) now has built-in web search (with citations), deep-thinking search, file parsing (PDF, Office files, images), automatic link reading and safety checks across the Messages, Responses and Chat Completions APIs, with tool calls and context assembly handled server-side. Five standalone APIs are also available: search and page fetch at $0.75 per 1,000 requests, OCR at $0.225 per 1,000 pages, and speech recognition and synthesis at 50% off through the end of the year. DeepSeek also open-sourced a chat demo, deepseek-ai/chat-demo, that can import exported conversation history, and ported its MoE communication library DeepEP to Huawei Ascend (DeepEP-Ascend) the same day.",
+      "url": "https://emergent.sh/news/deepseek-turns-chat-app-into-full-api-suite",
+      "source": "emergent.sh",
+      "category": "Developers"
+    },
+    {
+      "title": "Cursor publishes the full account of its security incident: a key exposed at Fireworks was the starting point, and the tampered extension may have reached 5,000 users",
+      "summary": "Cursor published the full account of its October security incident on November 13: an attacker obtained an access key Cursor had issued to inference vendor Fireworks AI — exposed by Fireworks, according to Cursor — and used it to copy a read-only storage bucket the two companies shared, holding coding-agent traces mostly from 2025 sessions not in Privacy Mode, a small number containing unredacted API credentials (under 0.01% of customers affected). With a stolen credential, the attacker placed tampered copies of Anthropic's Claude Code extension (2.1.312 and 2.1.313) on the cache serving Cursor's extension marketplace on October 29; up to 5,000 users may have received them during roughly 11 hours. Cursor says the last attacker activity was November 1 and was blocked, and it has moved all inference off Fireworks and revoked the key; Fireworks' own bulletins still do not mention Cursor, so the attribution remains Cursor's account.",
+      "url": "https://cursor.com/blog/security-incident-update",
+      "source": "Cursor",
+      "category": "Developers"
+    }
+  ]
+}

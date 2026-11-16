@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-16",
+  "edition": 33,
+  "items": [
+    {
+      "title": "Meituan open-sources LongCat-2.5: a 1.6-trillion-parameter agent model trained without a single Nvidia GPU",
+      "summary": "Meituan open-sourced the weights for LongCat-2.5 on November 15: a 1.6-trillion-parameter mixture-of-experts model (about 48 billion active per token) built for long-horizon autonomous agent tasks, especially coding, under the MIT license for commercial use. Meituan claims 88.4 on Terminal-Bench 2.1, close to Claude Opus 5's 89.1 — both vendor-measured, with no independent reproduction yet. The real headline is the hardware: it was trained entirely on Chinese accelerators, and the official self-hosting guide covers only a 194-chip Huawei Ascend Atlas A2 deployment, with no guidance for Nvidia GPUs. Promotional API pricing is roughly €0.27 per million input tokens and €1.07 per million output tokens.",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "source": "The Decoder",
+      "category": "Labs"
+    },
+    {
+      "title": "[Catch-up] Microsoft 365 global outage: 74 countries and territories offline for nearly a day, Copilot down too",
+      "summary": "From November 12, Microsoft's Outlook, Teams, Copilot, OneDrive and other services went down across 74 countries and territories within about an hour — Outlook complaints in the US alone peaked near 130,000 — and took nearly 24 hours to largely recover. Britain's NHS, Euronext and India's IndiGo were among those affected. Microsoft blamed a technical fault introduced during an earlier network capacity upgrade that surfaced after a recent network change, ruled out a cyberattack or AI involvement, and apologized; a full post-incident report has not been published.",
+      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+      "source": "The Hindu",
+      "category": "Developers"
+    },
+    {
+      "title": "Anthropic publishes a new Opus 5.5 prompting guide: stop saying 'think hard', start at Medium effort",
+      "summary": "Anthropic published a knowledge-work guide for Opus 5.5 on November 12: the model is now the default on Pro, Max, Ultra and Team, reasons always-on, and scales its own reasoning depth to the task. It advises dropping legacy habits like 'think hard' or 'think carefully' — in internal tests, responses without them started faster with no measurable drop in quality. Start at the default Medium effort, which Anthropic says matched Opus 5 on High, and raise it only when needed; higher settings cost more and don't always help. It also recommends stating the goal, format and when to check back in a single message, and attaching charts instead of transcribing their numbers.",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "source": "The Decoder",
+      "category": "Labs"
+    },
+    {
+      "title": "[Catch-up] DeepMind's AlphaProof Code: AI writes 6.5M lines of Lean proofs to verify Signal's encryption code down to machine code",
+      "summary": "DeepMind introduced AlphaProof Code on November 10: teams of AI agents wrote about 6.5 million lines of Lean proofs in four weeks, machine-checked by the Lean kernel, verifying key security properties of Signal's libsignal cryptography library down to its compiled AArch64 machine code — forward secrecy, authentication, recovery after a device is briefly compromised — rather than only verifying the protocol design. The proof artifacts are open-sourced. To check the system can tell right from wrong, the team reintroduced two real, previously fixed bugs, and it produced machine-checked proofs that the buggy versions were insecure.",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "category": "Research"
+    },
+    {
+      "title": "[Catch-up] Gemini Robotics 2.5: humanoids sort parts on a real Mercedes production line at 96% success",
+      "summary": "DeepMind released Gemini Robotics 2.5 on November 10, its most capable vision-language-action model: success rates 30%–100% higher and 20%–30% faster than the previous generation across more than 200 tasks, from serving food with tongs to tying a bow on a gift box and pipetting liquid. With Apptronik and Mercedes-Benz, Apollo 2 humanoids autonomously kitted automotive parts on live production lines in Hungary and Germany at 96% success. The ASIMOV-Jailbreak benchmark for robotics jailbreaks is open-sourced. The model itself is partner-only, with no public API or pricing.",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "category": "Labs"
+    },
+    {
+      "title": "Anthropic's Supported Regions Policy takes effect Nov 12: China-controlled subsidiaries abroad lose Claude too",
+      "summary": "Anthropic's Supported Regions Policy took effect on November 12: Claude is barred not only for people physically in unsupported regions (mainland China, Hong Kong, Macau, Russia) but also for companies incorporated in supported countries yet majority-owned or controlled, directly or indirectly, from those regions — and all their staff, wherever they sit. It covers Claude.ai, Claude Code, Cowork, the API and Claude models sold through cloud platforms and authorized resellers; accounts failing identity checks (ID plus selfie) may be banned. The ownership rule dates to September 2025; this round clarifies and tightens enforcement, while the country list itself is unchanged from the May version.",
+      "url": "https://www.aichatdaily.com/ai-security/anthropic-claude-region-rules-take-effect-barring-china-controlled",
+      "source": "AI Chat Daily",
+      "category": "Labs"
+    },
+    {
+      "title": "Australia's central bank: AI is hitting young workers first, with hiring drops sharpest in software and customer service",
+      "summary": "A Reserve Bank of Australia analysis published November 9 finds the first labour-market pressure from AI landing on the young: since ChatGPT's launch, job ads have fallen most in highly AI-exposed occupations (software development, clerical work, customer service), and 15–24-year-olds show weaker employment outcomes than older workers — employment fell for the young in the most exposed group while rising for older workers. The bank stresses these are tentative signals: the measure captures theoretical exposure, not proven displacement, and cyclical factors could also explain the gap. A Stanford study of US payroll records found a similar pattern, with employment among 22–25-year-olds in AI-exposed occupations down 13% in relative terms.",
+      "url": "https://oossa.com/en/rba-sees-weaker-job-prospects-for-young-workers-in-ai-exposed-fields",
+      "source": "Oossa",
+      "category": "Research"
+    },
+    {
+      "title": "Claude Fable 5.2 doesn't generate images, it paints them: 700,000 simulated brushstrokes for a photorealistic parking garage",
+      "summary": "Anthropic researchers showed Fable 5.2 'painting' without any image model: it writes 1,000–2,000 lines of Python driving a simulated paint engine, placing every brushstroke itself — about 700,000 simulated strokes for a photorealistic shopping cart in a parking garage, with brushwork visible on zoom. In another experiment it painted a bird at sunrise in 111 strokes with no undo, computing each stroke's colour, width and path, and painting over its own mistakes like a real painter. These are staff experiments shared on X, not an official feature; the same spatial reasoning was also tested on real robot arms painting.",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "source": "The Decoder",
+      "category": "Labs"
+    },
+    {
+      "title": "GitHub Copilot retires three models today: Opus 4.8, Opus 5 and GPT-5.6 Terra",
+      "summary": "Per GitHub's October 15 notice, Claude Opus 4.8, Claude Opus 5 and GPT-5.6 Terra leave every GitHub Copilot surface today (November 16) — chat, inline edits, agent mode and completions — with Opus 5.5 or GPT-6.1 Sol/Luna as the suggested replacements (annual individual subscribers keep Opus 4.8). A second round on December 14 drops six more, including Fable 5 and Haiku 4.5; November 30 also brings Sonnet 4.5's API retirement and OpenAI shutting Agent Builder, making November the densest month yet for model retirements.",
+      "url": "https://enjoy.dev/blog/ai-models-shutting-down-november-2026/",
+      "source": "Enjoy.dev（据 GitHub 公告）",
+      "category": "Developers"
+    }
+  ]
+}

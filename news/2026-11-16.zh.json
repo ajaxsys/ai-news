@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-16",
+  "edition": 33,
+  "items": [
+    {
+      "title": "美团 LongCat-2.5 开源权重：1.6 万亿参数智能体模型，全程没用一块英伟达 GPU",
+      "summary": "美团 11 月 15 日开源 LongCat-2.5 权重：1.6 万亿参数的混合专家模型（每 token 激活约 480 亿），面向长程自主智能体任务、尤其擅长写代码，MIT 协议允许商用。美团自称 Terminal-Bench 2.1 得 88.4 分，接近 Claude Opus 5 的 89.1 分（均为厂商自测，尚无独立复现）。真正出圈的是硬件故事：全程在中国产加速器上训练，官方自托管指南只写了 194 块华为昇腾 Atlas A2 的部署方案，没有给英伟达 GPU 的指引；API 促销价约每百万输入 token 0.27 欧元、输出 1.07 欧元。",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "source": "The Decoder",
+      "category": "实验室"
+    },
+    {
+      "title": "微软 365 全球大宕机：74 个国家和地区断网近一天，Copilot 也跟着停摆",
+      "summary": "11 月 12 日起，微软 Outlook、Teams、Copilot、OneDrive 等服务在约 1 小时内波及 74 个国家和地区，美国单 Outlook 的故障投诉峰值约 13 万起，近 24 小时后才基本恢复；英国 NHS、欧洲交易所 Euronext、印度 IndiGo 等均受波及。微软称系早前一次网络扩容埋下的技术问题、在最近一次网络变更后暴露，与网络攻击或 AI 无关，并为此道歉；完整事后报告尚未公布。",
+      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+      "source": "The Hindu",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic 发 Opus 5.5 提示词新指南：别再说“好好想想”，从 Medium 档起步",
+      "summary": "Anthropic 11 月 12 日发布 Opus 5.5 知识工作指南：该模型现为 Pro、Max、Ultra、Team 的默认模型，推理常开且会按任务自适应调整深度。建议删掉“think hard / think carefully”等沿用自旧推理模型时代的套路——内部测试称去掉后回复启动更快、质量无可测下降；默认 Medium 档起步，称 Medium 已追平上代 Opus 5 的 High，不够再升 High，高档位更贵且未必更好。还建议一次说清目标、格式与“何时停下来问我”，图表直接贴附件而非手抄数字。",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "source": "The Decoder",
+      "category": "实验室"
+    },
+    {
+      "title": "DeepMind AlphaProof Code：AI 用 650 万行 Lean 证明，把 Signal 加密代码验到机器码一级",
+      "summary": "DeepMind 11 月 10 日发布 AlphaProof Code：多模型智能体团队在 4 周内写出约 650 万行经 Lean 内核检验的证明，验证 Signal 密码库 libsignal 编译后 AArch64 机器码的关键安全属性（前向保密、认证、设备短暂被攻陷后的恢复等），而非只验协议设计；证明产物已开源。为验证系统能分辨对错，团队故意植回两个已修复的真实漏洞，系统均出具了“该版本不安全”的机器检验证明。",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "category": "研究"
+    },
+    {
+      "title": "Gemini Robotics 2.5：人形机器人在奔驰真产线上分拣零件，成功率 96%",
+      "summary": "DeepMind 11 月 10 日发布最强的视觉-语言-动作模型 Gemini Robotics 2.5：200 多项任务上成功率比上代高 30%–100%、速度快 20%–30%，涵盖用钳子夹菜、给礼盒系蝴蝶结、移液等精细操作。与 Apptronik、奔驰合作，Apollo 2 人形机器人在匈牙利与德国的真产线上自主完成汽车零件分拣，成功率 96%。同时开源机器人越狱测试基准 ASIMOV-Jailbreak。模型仅向合作伙伴开放，无公开 API 与定价。",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic 区域政策 11/12 生效：中资控股的境外子公司也用不了 Claude",
+      "summary": "Anthropic 的 Supported Regions Policy 于 11 月 12 日生效：不仅身处中国内地、香港、澳门、俄罗斯等不支持地区的人不能用 Claude，在支持地区注册、但由上述地区实体直接或间接控股或实际控制的公司及其员工同样被禁，无论员工身在何处；覆盖 Claude.ai、Claude Code、Cowork、API 与云平台及授权经销商转售。未通过身份核验（证件+自拍）的账号可能被封。规则主体源自 2025 年 9 月的所有权限制，此次是执行口径的明确与收紧；国家名单本身与 5 月版本相比没有变化。",
+      "url": "https://www.aichatdaily.com/ai-security/anthropic-claude-region-rules-take-effect-barring-china-controlled",
+      "source": "AI Chat Daily",
+      "category": "实验室"
+    },
+    {
+      "title": "澳联储报告：AI 先冲击年轻人就业，软件与客服岗位招聘下滑最明显",
+      "summary": "澳洲联储 11 月 9 日发布的劳动力市场监测分析称：自 ChatGPT 问世以来，AI 高暴露职业（软件开发、文员、客服等）的招聘广告降幅最大，15–24 岁年轻人的就业表现明显弱于年长者——高暴露组里年轻人就业下降、年长者就业上升。但报告强调这只是“初步信号”：衡量的是理论暴露度而非实际替代，不能证明 AI 造成了下滑，经济周期等因素也可能解释；与之呼应，美国斯坦福研究发现 AI 暴露职业中 22–25 岁年轻人就业相对下降 13%。",
+      "url": "https://oossa.com/en/rba-sees-weaker-job-prospects-for-young-workers-in-ai-exposed-fields",
+      "source": "Oossa",
+      "category": "研究"
+    },
+    {
+      "title": "Claude Fable 5.2 不用图像模型也能“画画”：70 万笔模拟笔触画出以假乱真的停车场",
+      "summary": "Anthropic 研究员展示：Fable 5.2 不调用任何图像模型，而是写 1000–2000 行 Python 驱动模拟画笔引擎，一笔一笔“画”出画作——停车场里购物车的写实场景用了约 70 万笔模拟笔触，放大可见笔触细节；另一实验里模型无撤销、111 笔画完一只日出小鸟，每笔都要自己算颜色、宽度与落点，画错了只能像真画家一样盖掉重画。都是员工在 X 上的实验演示，非官方产品功能；空间推理能力也被拿去做了真机械臂画画测试。",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "source": "The Decoder",
+      "category": "实验室"
+    },
+    {
+      "title": "今天起 GitHub Copilot 下线三款旧模型：Opus 4.8、Opus 5 与 GPT-5.6 Terra",
+      "summary": "按 GitHub 10 月 15 日的公告，Claude Opus 4.8、Claude Opus 5、GPT-5.6 Terra 今天（11/16）起从 Copilot 聊天、行内编辑、Agent 模式与代码补全等全部入口下线，官方建议换成 Opus 5.5 或 GPT-6.1 Sol/Luna（年付个人订阅者仍可保留 Opus 4.8）。下一轮 12 月 14 日还将下线 Fable 5、Haiku 4.5、Gemini 3.8 Flash 等六款；11 月 30 日另有 Claude Sonnet 4.5 退出 API、OpenAI 关闭 Agent Builder 等多项到期，11 月是模型退役最密集的一个月。",
+      "url": "https://enjoy.dev/blog/ai-models-shutting-down-november-2026/",
+      "source": "Enjoy.dev（据 GitHub 公告）",
+      "category": "开发者"
+    }
+  ]
+}

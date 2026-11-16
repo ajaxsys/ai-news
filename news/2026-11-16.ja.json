@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-16",
+  "edition": 33,
+  "items": [
+    {
+      "title": "Meituan、LongCat-2.5の重みを公開 1.6兆パラメータのエージェントモデル、NVIDIA GPUを1枚も使わず学習",
+      "summary": "Meituanは11月15日、LongCat-2.5の重みを公開した。1.6兆パラメータの混合専門家（MoE）モデル（トークンあたり約480億が活性化）で、長期の自律エージェントタスク、とりわけコーディング向け。MITライセンスで商用利用が可能。Meituanの自称ではTerminal-Bench 2.1で88.4点と、Claude Opus 5の89.1点に迫る（いずれもベンダー測定で、独立した再現はまだない）。本当に注目されたのはハードウェアの話で、学習はすべて中国製アクセラレータで行われ、公式のセルフホストガイドはHuawei Ascend Atlas A2を194基使う構成のみで、NVIDIA GPU向けの案内はない。APIのプロモ価格は100万入力トークンあたり約0.27ユーロ、出力約1.07ユーロ。",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "source": "The Decoder",
+      "category": "ラボ"
+    },
+    {
+      "title": "Microsoft 365が世界規模で障害 74の国と地域で約1日停止、Copilotもダウン",
+      "summary": "11月12日から、MicrosoftのOutlook、Teams、Copilot、OneDriveなどが約1時間で74の国と地域に波及。米国ではOutlookの障害報告が約13万件に達し、ほぼ復旧まで約24時間を要した。英国NHS、欧州取引所Euronext、インドのIndiGoなども影響を受けた。Microsoftは、以前のネットワーク容量増強時に混入した技術的問題が最近のネットワーク変更後に顕在化したもので、サイバー攻撃やAIとは無関係と説明し謝罪。詳細な事後報告書はまだ公開されていない。",
+      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+      "source": "The Hindu",
+      "category": "開発者"
+    },
+    {
+      "title": "Anthropic、Opus 5.5のプロンプト新ガイドを発表 「よく考えて」は不要、Mediumから始める",
+      "summary": "Anthropicは11月12日、Opus 5.5の知識労働向けガイドを公開した。同モデルはPro、Max、Ultra、Teamのデフォルトとなり、推論は常時オンでタスクに応じて深さを自ら調整する。「think hard / think carefully」といった旧来の推論モデル時代の言い回しは外すよう助言。社内テストでは外した方が回答開始が速くなり、品質に測定可能な低下はなかったという。デフォルトのMediumから始めれば、前世代Opus 5のHighに匹敵したとして、不足時のみHighへ上げる。高い設定は高くつき、常に良い結果になるとは限らない。目的・形式・「いつ確認するか」を一度のメッセージで示し、図表は数値を手で書き写すのではなく添付するのがよいとしている。",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "source": "The Decoder",
+      "category": "ラボ"
+    },
+    {
+      "title": "DeepMindのAlphaProof Code AIが650万行のLean証明でSignalの暗号コードをマシンコードレベルまで検証",
+      "summary": "DeepMindは11月10日、AlphaProof Codeを発表した。AIエージェントのチームが4週間で約650万行のLean証明を作成し、Leanカーネルが検証。Signalの暗号ライブラリlibsignalについて、プロトコル設計だけでなくコンパイル後のAArch64マシンコードレベルで、前方秘匿性・認証・デバイスの一時的な侵害からの回復といった主要な安全性を証明した。証明成果物は公開されている。システムが正誤を判別できるか確かめるため、既知の脆弱性2件を意図的に戻したところ、いずれも「安全でない」ことを機械検証済みの証明で示した。",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "category": "研究"
+    },
+    {
+      "title": "Gemini Robotics 2.5 ヒューマノイドがMercedesの実際の生産ラインで部品仕分け、成功率96%",
+      "summary": "DeepMindは11月10日、最強の視覚・言語・行動モデルGemini Robotics 2.5を発表した。200以上のタスクで成功率は前世代比30〜100%向上、速度は20〜30%向上。トングで料理をよそう、ギフトボックスにリボンを結ぶ、ピペットで液体を移すといった繊細な操作も含む。ApptronikとMercedes-Benzとの連携で、Apollo 2ヒューマノイドがハンガリーとドイツの実際の生産ラインで自動車部品のキッティングを自律的に行い、成功率96%。ロボット向け脱獄ベンチマークASIMOV-Jailbreakも公開された。モデル自体はパートナー限定で、公開APIや価格はない。",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "category": "ラボ"
+    },
+    {
+      "title": "Anthropicの対応地域ポリシーが11/12施行 中国資本に支配される海外子会社もClaudeを利用不可に",
+      "summary": "AnthropicのSupported Regions Policyが11月12日に施行された。中国本土・香港・マカオ・ロシアなど非対応地域にいる人だけでなく、対応地域に登記しながらこれらの地域の事業体に直接・間接に過半所有または実質支配される企業とその従業員も、所在地を問わずClaudeを利用できない。Claude.ai、Claude Code、Cowork、API、クラウドや認定再販業者経由の提供も対象で、本人確認（身分証＋自撮り）に通らないアカウントは停止される場合がある。所有権ルール自体は2025年9月からのもので、今回は執行の明確化と引き締め。国のリスト自体は5月版から変わっていない。",
+      "url": "https://www.aichatdaily.com/ai-security/anthropic-claude-region-rules-take-effect-barring-china-controlled",
+      "source": "AI Chat Daily",
+      "category": "ラボ"
+    },
+    {
+      "title": "豪州中銀の報告 AIの影響は若年層に先行、ソフトウェアと客服の求人減少が最も顕著",
+      "summary": "豪州準備銀行が11月9日に公表した労働市場モニタリング分析によると、ChatGPT登場以降、AIへの露出が高い職種（ソフトウェア開発・事務・カスタマーサービス等）で求人広告の減少が最も大きく、15〜24歳の若年層の雇用は年長層より弱い。露出が最も高いグループでは若年層の雇用が減少する一方、年長層は増加した。ただし銀行は「暫定的な兆候」と強調。測っているのは理論上の露出度であり、AIによる代替を証明するものではなく、景気循環要因も考えられる。米スタンフォード大学の給与記録の研究でも同様のパターンが見られ、AI露出職種の22〜25歳の雇用は相対的に13%減少していた。",
+      "url": "https://oossa.com/en/rba-sees-weaker-job-prospects-for-young-workers-in-ai-exposed-fields",
+      "source": "Oossa",
+      "category": "研究"
+    },
+    {
+      "title": "Claude Fable 5.2は画像モデルを使わず「描く」 約70万筆の模擬筆触で写真と見まがう駐車場を描画",
+      "summary": "Anthropicの研究員が披露したところによると、Fable 5.2は画像モデルを一切使わず、1000〜2000行のPythonで模擬絵筆エンジンを駆動し、一筆ずつ「描く」。駐車場のショッピングカートの写実的な場面は約70万筆の模擬筆触で描かれ、拡大すると筆致が見える。別の実験では取り消しなしで111筆で日の出の小鳥を描き、色・幅・軌跡をすべて自ら計算し、間違えれば本物の画家のように上から塗り直した。いずれも社員がXで共有した実験で、公式機能ではない。同じ空間推論は実際のロボットアームによる絵画でも試されている。",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "source": "The Decoder",
+      "category": "ラボ"
+    },
+    {
+      "title": "本日からGitHub Copilotが3モデルを廃止 Opus 4.8、Opus 5、GPT-5.6 Terra",
+      "summary": "GitHubの10月15日の告知通り、Claude Opus 4.8、Claude Opus 5、GPT-5.6 Terraは本日（11/16）からCopilotのチャット・インライン編集・エージェントモード・補完など全入口で廃止される。推奨される代替はOpus 5.5またはGPT-6.1 Sol/Luna（年額の個人契約者はOpus 4.8を維持可）。12月14日にはFable 5やHaiku 4.5などさらに6モデルが廃止される。11月30日にはClaude Sonnet 4.5のAPI廃止やOpenAIのAgent Builder終了も控え、11月はモデル廃止が最も集中する月となっている。",
+      "url": "https://enjoy.dev/blog/ai-models-shutting-down-november-2026/",
+      "source": "Enjoy.dev（据 GitHub 公告）",
+      "category": "開発者"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-17",
+  "edition": 34,
+  "items": [
+    {
+      "title": "Alibaba launches flagship Qwen4-Max: 2.4 trillion parameters, claims coding benchmarks ahead of Claude Fable 5.1",
+      "summary": "Alibaba launched Qwen4-Max on November 16, the first flagship of the Qwen4 family: a 2.4-trillion-parameter mixture-of-experts model with native vision and a one-million-token context window. Singapore API pricing is $1.50 per million input tokens and $4.50 per million output tokens. Alibaba says it ranks sixth on the Code Arena coding leaderboard, ahead of Claude Fable 5.1 and Kimi K3.1 Pro — all vendor-measured, with no independent verification yet. The company claims complex-task costs are about 60% lower than Qwen3.8-Max. The flagship itself is closed-weight; smaller versions will be open-sourced in due course.",
+      "url": "https://www.businesstimes.com.sg/companies-markets/alibaba-unveils-new-flagship-ai-model-challenge-us-rivals?ref=pulse",
+      "source": "The Business Times",
+      "category": "Labs"
+    },
+    {
+      "title": "Tencent launches Hy4 flash: just $0.07 per million input tokens, 1M context",
+      "summary": "Tencent launched Hy4 flash on November 16, the lower-cost tier of the Hy4 model introduced on November 4: $0.07 per million input tokens, $0.281 per million output tokens and $0.003 per million cached input tokens, with a one-million-token context window (960,000 maximum input, 64,000 maximum output). It supports image understanding and tool calling and is compatible with the OpenAI Chat Completions / Responses and Anthropic Messages protocols. Hy4 preview is approaching retirement.",
+      "url": "https://casrai.org/news/tencent-hy4-flash-lower-cost-ai-model-launch-2026",
+      "source": "CASRAI",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI releases a CSAM image classifier and adds 24-hour ChatGPT suspensions",
+      "summary": "OpenAI released an image classifier on November 16 that detects suspected child sexual abuse material, including AI-generated images. Built with the US National Center for Missing and Exploited Children (NCMEC), it looks for visual signs of abuse in images not present in hash databases, and is offered free through the API to vetted organizations. In early partner tests it flagged 48% fewer images while catching the same amount of abuse. ChatGPT users who try to find such material will see a warning, be directed to specialist support, and have access paused for 24 hours; repeat violations can lead to a permanent ban. OpenAI also published CSAM guidance for developers and investigation tools for law enforcement.",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Microsoft data: Claude usage inside Microsoft 365 is under one-tenth of Copilot's — and the gap is widening",
+      "summary": "Microsoft data cited by The Information shows Claude for Microsoft 365 is used less than one-tenth as much as Copilot, and the gap is widening. Anthropic only brought its Claude office suite — Sheets, whiteboards and a meeting assistant — to the Microsoft ecosystem in October, taking on Office head-on, but penetration against the Copilot bundled into Office remains weak. It also frames why Anthropic is pushing hard on workplace features while pricing its IPO on November 18.",
+      "url": "https://m.economictimes.com/tech/artificial-intelligence/microsoft-data-shows-claude-is-stalling-against-copilot-in-office-the-information/amp_articleshow/135895409.cms",
+      "source": "The Economic Times（据 The Information）",
+      "category": "Labs"
+    },
+    {
+      "title": "Samsung's LittleBit squeezes a 13B model under 1 GB at just 0.1 bits per weight",
+      "summary": "Samsung Research's LittleBit quantization method is circulating in the community again: low-rank latent matrix factorization plus binarization compresses Llama2-13B from 26 GB in FP16 to about 0.84 GB — roughly 31× — at as little as 0.1 bits per weight, and a 70B model fits under 2 GB. The costs are real: perplexity at the 0.1-bit setting rises from 4.9 to about 15, it needs quantization-aware training, and it depends on custom kernels for speed. The code is research-only, not for commercial use, and this is a NeurIPS 2025 paper, not a new product launch.",
+      "url": "https://theindependentai.com/news/2026-11-16/samsung-littlebit-13b-model-under-1gb",
+      "source": "The Independent AI",
+      "category": "Research"
+    },
+    {
+      "title": "Scan of 13,500 arXiv papers: 38% of new papers read as AI-written",
+      "summary": "A scan of 13,500 papers on arXiv found that 38% of those sampled from August to October 2026 read as machine-written, against a threshold calibrated so only 0.4% of pre-ChatGPT papers were flagged. Computer science was highest at 62% and maths lowest at 3.7%. The author cautions that the detector measures writing style, not authorship: it cannot tell a fully generated paper from one an AI only edited — and the tool's author also sells an AI 'humaniser', so this is one vendor's estimate rather than an independent study.",
+      "url": "https://theindependentai.com/news/2026-11-16",
+      "source": "The Independent AI",
+      "category": "Research"
+    },
+    {
+      "title": "ModHarness-RL: the agent harness itself can keep learning while training",
+      "summary": "ModHarness-RL, submitted to arXiv on November 13, stops treating the agent harness as a fixed program frozen before training: it learns the harness as two updatable programs that evolve alongside the weights. On CodeSearch, overall F1 rose 14–24% over a fixed harness (Qwen3-8B moved from 0.333 to 0.412 with history capped at 1,024 tokens). The score is the mean of three F1 numbers — file, module and entity — not a SWE-bench task-resolution rate. The paper does not yet link a code repository.",
+      "url": "https://www.aiagentsinfo.com/research/modharness-rl-learned-agent-harness",
+      "source": "AI Agents Info",
+      "category": "Research"
+    }
+  ]
+}

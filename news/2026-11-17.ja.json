@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-17",
+  "edition": 34,
+  "items": [
+    {
+      "title": "Alibaba、旗艦モデルQwen4-Maxを発表 2.4兆パラメータ、コーディングベンチマークでClaude Fable 5.1超えを主張",
+      "summary": "Alibabaは11月16日、Qwen4シリーズ初の旗艦モデルQwen4-Maxを発表した。2.4兆パラメータのMoEアーキテクチャで、ネイティブの視覚能力と100万トークンのコンテキストを持つ。シンガポールのAPI価格は100万入力トークンあたり1.50ドル、出力4.50ドル。公式の自称ではCode Arenaのコーディングランキングで6位となり、Claude Fable 5.1とKimi K3.1 Proを上回る（いずれもベンダー測定で、独立した検証はまだない）。前世代のQwen3.8-Maxと比べ、複雑なタスクのコストは約60%下がったという。旗艦モデル自体はクローズドウェイトで、小型版は順次オープンウェイト化される。",
+      "url": "https://www.businesstimes.com.sg/companies-markets/alibaba-unveils-new-flagship-ai-model-challenge-us-rivals?ref=pulse",
+      "source": "The Business Times",
+      "category": "ラボ"
+    },
+    {
+      "title": "テンセント、Hy4 flashを発表 100万入力トークンあたりわずか0.07ドル、コンテキスト100万",
+      "summary": "テンセントは11月16日、Hy4 flashを発表した。11月4日のHy4の低価格版で、100万入力トークンあたり0.07ドル、出力0.281ドル、キャッシュ入力0.003ドル。コンテキストは100万トークン（最大入力96万、最大出力6.4万）で、画像理解とツール呼び出しに対応し、OpenAI Chat Completions / ResponsesおよびAnthropic Messagesプロトコルと互換性がある。Hy4 previewはまもなく廃止される。",
+      "url": "https://casrai.org/news/tencent-hy4-flash-lower-cost-ai-model-launch-2026",
+      "source": "CASRAI",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、CSAM画像分類器を発表しChatGPTに24時間の利用停止警告を追加",
+      "summary": "OpenAIは11月16日、児童性的虐待コンテンツ（AI生成画像を含む）を検出する画像分類器を発表した。米国の全米行方不明・被搾取児童センター（NCMEC）と共同で開発したもので、ハッシュデータベースにない新しい画像も視覚的な兆候から検出でき、審査済み機関にはAPI経由で無償提供される。初期パートナーのテストでは、検出量を維持したまま誤検出を48%削減した。ChatGPTでこうしたコンテンツを求めようとしたユーザーには警告が表示され、専門の支援機関へ案内された上で24時間の利用停止となる。繰り返し違反すれば永久停止の可能性もある。開発者向けのCSAM防止ガイドと法執行機関向けの調査ツールも同時に公開された。",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "Microsoftの内部データ Microsoft 365内でのClaudeの利用量はCopilotの10分の1未満、差は拡大中",
+      "summary": "The Informationが引用したMicrosoftのデータによると、Microsoft 365内でのClaudeの利用量はCopilotの10分の1未満で、差は広がっている。AnthropicがClaudeのオフィススイート（Sheets、ホワイトボード、会議アシスタント）をMicrosoftエコシステムに投入したのは10月のことで、Officeに正面から挑んだ形だが、Officeに組み込まれたCopilotに対する浸透は依然として弱い。11月18日のIPO価格決定を控え、Anthropicが職場向け機能に力を入れる背景もここにある。",
+      "url": "https://m.economictimes.com/tech/artificial-intelligence/microsoft-data-shows-claude-is-stalling-against-copilot-in-office-the-information/amp_articleshow/135895409.cms",
+      "source": "The Economic Times（据 The Information）",
+      "category": "ラボ"
+    },
+    {
+      "title": "サムスンのLittleBit 13Bモデルを1GB未満に圧縮、重みあたりわずか0.1ビット",
+      "summary": "サムスンリサーチのLittleBit量子化手法が再びコミュニティで話題になっている。低ランク潜在行列分解と二値化により、Llama2-13BをFP16の26GBから約0.84GB（約31倍）に圧縮し、重みあたり0.1ビットまで落とす。70Bモデルも2GB未満に収まる。ただし代償も大きく、0.1ビット設定では困惑度が4.9から約15に悪化し、量子化対応学習が必要で、高速化には専用カーネルが要る。コードは研究用途で商用不可。これはNeurIPS 2025の論文であり、新製品の発表ではない。",
+      "url": "https://theindependentai.com/news/2026-11-16/samsung-littlebit-13b-model-under-1gb",
+      "source": "The Independent AI",
+      "category": "研究"
+    },
+    {
+      "title": "arXiv論文1.35万件を調査 新規論文の38%がAI執筆のように読める",
+      "summary": "arXivの論文1.35万件の調査によると、2026年8〜10月の新規論文の38%が機械執筆のように読めるという。検出のしきい値はChatGPT以前の論文の誤検出率が0.4%になるよう調整されており、コンピュータ科学が62%で最も高く、数学は3.7%で最も低かった。著者は、検出器は文体しか測れず、全文生成かAIによる推敲かの区別はできないと注意を促している。また検出ツールの著者自身がAIの「人間化」ツールを販売しているため、独立した研究というより一社の推定として受け止めるべきだ。",
+      "url": "https://theindependentai.com/news/2026-11-16",
+      "source": "The Independent AI",
+      "category": "研究"
+    },
+    {
+      "title": "ModHarness-RL エージェントのハーネス自体も学習しながら訓練できる",
+      "summary": "11月13日にarXivへ提出されたModHarness-RLは、エージェントのハーネスを訓練前に固定するプログラムとして扱うのをやめ、重みとともに進化する2つの更新可能なプログラムとして学習する。CodeSearchでは固定ハーネスと比べ全体のF1が14〜24%向上した（Qwen3-8Bは履歴を1024トークンに制限した場合、0.333から0.412へ）。このスコアはファイル・モジュール・エンティティの3つのF1の平均であり、SWE-benchのタスク解決率ではない。論文にはまだコードリポジトリへのリンクがない。",
+      "url": "https://www.aiagentsinfo.com/research/modharness-rl-learned-agent-harness",
+      "source": "AI Agents Info",
+      "category": "研究"
+    }
+  ]
+}

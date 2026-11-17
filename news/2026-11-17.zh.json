@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-17",
+  "edition": 34,
+  "items": [
+    {
+      "title": "阿里巴巴发布旗舰模型 Qwen4-Max：2.4 万亿参数，编码基准自称超越 Claude Fable 5.1",
+      "summary": "阿里巴巴 11 月 16 日发布 Qwen4 系列首款旗舰模型 Qwen4-Max：2.4 万亿参数 MoE 架构，原生视觉能力，100 万 token 上下文。新加坡 API 定价每百万 token 输入 1.5 美元、输出 4.5 美元；官方自测称 Code Arena 编码榜暂列第 6，优于 Claude Fable 5.1 与 Kimi K3.1 Pro（均为厂商自测，尚未独立验证）。与上代 Qwen3.8-Max 相比，官方称复杂任务成本降低约 60%。旗舰本身闭源，小尺寸版本将陆续开源。",
+      "url": "https://www.businesstimes.com.sg/companies-markets/alibaba-unveils-new-flagship-ai-model-challenge-us-rivals?ref=pulse",
+      "source": "The Business Times",
+      "category": "实验室"
+    },
+    {
+      "title": "腾讯发布 Hy4 flash：每百万输入 token 仅 0.07 美元，上下文 100 万",
+      "summary": "腾讯 11 月 16 日推出 Hy4 flash，是 11 月 4 日 Hy4 的低价档：每百万 token 输入 0.07 美元、输出 0.281 美元，缓存输入 0.003 美元，上下文 100 万 token（最大输入 96 万、输出 6.4 万），支持图像理解与工具调用，兼容 OpenAI Chat Completions / Responses 与 Anthropic Messages 协议。同期 Hy4 preview 接近退役。",
+      "url": "https://casrai.org/news/tencent-hy4-flash-lower-cost-ai-model-launch-2026",
+      "source": "CASRAI",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 发布 CSAM 图像分类器并给 ChatGPT 加 24 小时封禁警告",
+      "summary": "OpenAI 11 月 16 日发布可识别疑似儿童性虐待内容（含 AI 生成图）的图像分类器：与美国失踪与受虐儿童中心（NCMEC）合作开发，能发现哈希库里没有的新图，通过 API 免费提供给审核机构；早期合作方测试中，检出量不变的情况下误报量减少 48%。ChatGPT 内尝试索取此类内容的用户将看到警告、被引导至专门支持资源并暂停访问 24 小时，屡犯可永久封号；同时发布了面向开发者的 CSAM 防范指南与面向执法部门的调查工具。",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "微软内部数据：Claude 在 Microsoft 365 内的用量不到 Copilot 的十分之一，且差距在拉大",
+      "summary": "据 The Information 援引微软数据，Claude for Microsoft 365 的使用量不到 Copilot 的十分之一，而且差距还在扩大。Anthropic 10 月才把 Claude 办公套件（Sheets、白板、会议助手）推向微软生态，正面叫板 Office，但面对预装在 Office 里的 Copilot，渗透仍显吃力；这也解释了为何 Anthropic 一边冲刺办公场景、一边把 IPO 定价日定在 11 月 18 日。",
+      "url": "https://m.economictimes.com/tech/artificial-intelligence/microsoft-data-shows-claude-is-stalling-against-copilot-in-office-the-information/amp_articleshow/135895409.cms",
+      "source": "The Economic Times（据 The Information）",
+      "category": "实验室"
+    },
+    {
+      "title": "三星 LittleBit：把 13B 模型压到 1GB 以下，每权重仅 0.1 比特",
+      "summary": "三星研究院的 LittleBit 量化方法近日在社区走红：通过低秩潜在矩阵分解加二值化，把 Llama2-13B 从 FP16 的 26GB 压到约 0.84GB（约 31 倍），每权重低至 0.1 比特；70B 模型也可压到 2GB 以下。但代价不小：0.1 比特档的困惑度从 4.9 升至约 15，且须经量化感知训练、依赖专用推理内核才能跑出速度；代码为研究用途、不可商用，属 NeurIPS 2025 论文、非新发布产品。",
+      "url": "https://theindependentai.com/news/2026-11-16/samsung-littlebit-13b-model-under-1gb",
+      "source": "The Independent AI",
+      "category": "研究"
+    },
+    {
+      "title": "扫描 1.35 万篇 arXiv 论文：38% 的新论文读起来像 AI 写的",
+      "summary": "一项针对 arXiv 的扫描发现，2026 年 8 月至 10 月的新论文中有 38% 读起来像机器所写——检测阈值按仅 0.4% 的 ChatGPT 前论文被误判来校准；计算机科学最高达 62%，数学最低 3.7%。作者提醒：检测器只能判断行文风格，无法区分全文生成还是仅 AI 润色，且工具作者本人也在售卖 AI“去痕”产品，结果应视作一家之言的估计而非独立研究。",
+      "url": "https://theindependentai.com/news/2026-11-16",
+      "source": "The Independent AI",
+      "category": "研究"
+    },
+    {
+      "title": "ModHarness-RL：智能体的脚手架本身也能边训边学",
+      "summary": "11 月 13 日提交 arXiv 的 ModHarness-RL 不再把智能体脚手架当成训练前冻结的固定程序，而是把它学成两个可更新的程序，随权重一起演进。在 CodeSearch 上，整体 F1 比固定脚手架提升 14% 至 24%（Qwen3-8B 在历史截断 1024 token 时从 0.333 升至 0.412）；分数取文件、模块、实体三项 F1 的均值，并非 SWE-bench 的任务解决率。论文尚未附开源代码库链接。",
+      "url": "https://www.aiagentsinfo.com/research/modharness-rl-learned-agent-harness",
+      "source": "AI Agents Info",
+      "category": "研究"
+    }
+  ]
+}

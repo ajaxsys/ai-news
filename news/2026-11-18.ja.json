@@ -17,7 +17,7 @@
       "category": "ラボ"
     },
     {
-      "title": "Microsoft Decision 1.1が正式GAに 意思決定指数68でJevを逆転、入力は100万トークンあたり0.042ドル",
+      "title": "【Issue 03 追跡更新】Microsoft Decision 1.1が正式GAに 意思決定指数68でJevを逆転、入力は100万トークンあたり0.042ドル",
       "summary": "Microsoftの意思決定モデルMicrosoft-Decision-1.1がIgniteで正式GAとなり、Foundry、OpenRouter、Vercelで提供開始された。Gemmaベースで、ルーティング、分類、優先順位付け、検証などの構造化された意思決定向けに作られ、画像入力にも対応し、前世代の2倍以上の速度になった。Artificial Analysisの意思決定指数v2.1では68点（前世代は62点）で、Jev 1.14、GoogleのGemini Decision 1、OpenAIのGPT-6 Luna（Decisions）を上回った。MicrosoftによるとGPT-6.1 Solと比べ50倍速く79倍安い。Foundryの価格はグローバル標準で入力100万トークンあたり0.042ドル、出力は無料。11月15日に本欄で報じたGoogleのGemini Decisions APIに続く動きで、Microsoftは価格競争に加えてベンチマークでも首位に立った。",
       "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
       "source": "Microsoft",

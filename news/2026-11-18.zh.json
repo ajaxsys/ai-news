@@ -17,7 +17,7 @@
       "category": "实验室"
     },
     {
-      "title": "微软 Decision 1.1 正式 GA：决策指数 68 分反超 Jev，输入每百万 token 仅 0.042 美元",
+      "title": "【Issue 03 追踪更新】微软 Decision 1.1 正式 GA：决策指数 68 分反超 Jev，输入每百万 token 仅 0.042 美元",
       "summary": "微软决策模型 Microsoft-Decision-1.1 在 Ignite 上正式 GA，上线 Foundry、OpenRouter 与 Vercel。它基于 Gemma 构建，面向路由、分类、排序与校验等结构化决策，新增图像输入，速度比上一代快一倍以上。Artificial Analysis 决策指数 v2.1 达 68 分（上一代 62 分），超过 Jev 1.14、谷歌 Gemini Decision 1 与 OpenAI GPT-6 Luna（Decisions）；微软称其比 GPT-6.1 Sol 快 50 倍、便宜 79 倍。定价：Foundry 全球标准输入每百万 token 0.042 美元、输出免费。这是本栏目 11 月 15 日报谷歌 Gemini Decisions API 之后的又一次决策模型升级，微软已从价格战打到了基准榜首。",
       "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
       "source": "Microsoft",

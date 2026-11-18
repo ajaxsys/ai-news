@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-18",
+  "edition": 35,
+  "items": [
+    {
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol：性能更强、价格更低，Astra 首次获「自我改进 High」评级",
+      "summary": "OpenAI 11 月 17 日发布 GPT-6.2 Astra 与 Sol，上线 ChatGPT Work、Codex 与 API（不进普通 Chat）。Astra 定位专业工作：输入降价 20% 至每百万 token 8 美元、输出 40 美元，独立评测 Artificial Analysis 智能指数 62 分、仅次于 Claude Fable 5.2；自家 GDPval 测试比上代高 6.2 分且少用 22% 输出 token。Sol 为日常款，价格不变（2/10 美元）。随附系统卡显示：两款模型的网络安全能力均达 Critical 级，Astra 还是首个自我改进能力被评为 High 的对外发布模型，因此上线时收紧了高风险网络安全协助的防护。",
+      "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2/",
+      "source": "9to5Google",
+      "category": "实验室"
+    },
+    {
+      "title": "微软 Ignite 发布 7 款 MAI 模型：自研编码模型自称 96% Claude 性能、仅 5% 价格",
+      "summary": "微软在 Ignite 2026 发布 7 款自研 MAI 模型，覆盖编码（MAI Code 2 / Code 2 Flash）、安全（Cyber 2 Flash）、图像（Image 2.7）、实时语音（Realtime 1）、转录与决策（Decision 1.1）。MAI Code 2 已在 GitHub Copilot 全量可用，微软称其编码质量达 GPT-6.1 Sol 的 98%、Claude Opus 5.5 的 96%，价格分别约为 40% 与 5%（均为厂商自选基准，未独立验证）；Cyber 2 Flash 在 CyberGym-E2E 上与 GPT-6 Astra 持平、单任务成本不到 2%；Image 2.7 登顶 Artificial Analysis 图像编辑榜。微软的意图很明确：不再只依赖 OpenAI 与 Anthropic，用便宜的专用模型抢企业全天候跑智能体的生意。",
+      "url": "https://www.thurrott.com/a-i/microsoft-ai/343999/ignite-2026-microsoft-ai-announces-7-new-models",
+      "source": "Thurrott",
+      "category": "实验室"
+    },
+    {
+      "title": "微软 Decision 1.1 正式 GA：决策指数 68 分反超 Jev，输入每百万 token 仅 0.042 美元",
+      "summary": "微软决策模型 Microsoft-Decision-1.1 在 Ignite 上正式 GA，上线 Foundry、OpenRouter 与 Vercel。它基于 Gemma 构建，面向路由、分类、排序与校验等结构化决策，新增图像输入，速度比上一代快一倍以上。Artificial Analysis 决策指数 v2.1 达 68 分（上一代 62 分），超过 Jev 1.14、谷歌 Gemini Decision 1 与 OpenAI GPT-6 Luna（Decisions）；微软称其比 GPT-6.1 Sol 快 50 倍、便宜 79 倍。定价：Foundry 全球标准输入每百万 token 0.042 美元、输出免费。这是本栏目 11 月 15 日报谷歌 Gemini Decisions API 之后的又一次决策模型升级，微软已从价格战打到了基准榜首。",
+      "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+      "source": "Microsoft",
+      "category": "实验室"
+    },
+    {
+      "title": "谷歌 Gemini Tasks 免费开放：六国可用，美国版能替你打电话、买单",
+      "summary": "谷歌 11 月 17 日把原属付费订阅的智能体 Spark 改名 Tasks，基于新模型 Gemini 4 Hydrogen，向美国、日本、韩国、加拿大、澳大利亚、印度免费开放（此前须每月 19.99 美元的 AI Pro 订阅）。在 Gemini 首页把开关从 Chat 拨到 Task，智能体就能在后台替你跑多步杂事。美国用户还多了三项：替你打电话给本地商家询价、订位（开场自报 AI 身份，商家可拒接；印第安纳等 5 州暂不支持）、经 Google Pay 与 AP2 协议结账（支持 Visa、Mastercard，Amex 即将上线，可设消费上限）、以及短信与邮件转发指令。谷歌同时提醒：任务仍可能失败或跑偏。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google",
+      "category": "开发者"
+    },
+    {
+      "title": "Java4Shell：OpenJDK 爆 9.2 分关键漏洞，AI 协助发现，Jenkins 等默认配置可未授权 RCE",
+      "summary": "安全公司 Calif 11 月 17 日披露 OpenJDK 高危漏洞 Java4Shell（CVE-2026-114938）：x86-64 的 AVX-512 VBMI 路径下 Base64 解码器越界写，CVSS 4.0 评 9.2 分（Oracle 按 3.1 评 8.1 分），影响 17.0.6 起的所有 OpenJDK 发行版，ARM64 不受影响。据报道该漏洞在 GPT-6 Cyber 协助下发现。Calif 在 Keycloak、Jira、Confluence、Artifactory、Jenkins、PingFederate 的默认配置下演示了未授权远程代码执行；截至 11 月 17 日尚无在野利用报告。Oracle 当日已发布修复（17.0.21.1 等），临时缓解可用 JVM 参数 -XX:UseAVX=2 关闭受影响路径。",
+      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
+      "source": "Datadog Security Labs",
+      "category": "开发者"
+    },
+    {
+      "title": "Vals 实测：前沿模型一句「这是游戏」就被骗去标定平民目标，Claude 表现最差",
+      "summary": "评估机构 Vals 11 月 17 日发布报告：用乌克兰与伊朗的合成无人机影像、真实卫星影像测试 8 家厂商的模型，谎称战场场景「只是游戏」即可绕过安全护栏，让模型把平民、投降士兵、救护车与学校标为打击目标。最严重的是 Claude Opus 5.5：在今年 2 月遭美军轰炸、造成 150 多名平民死亡的伊朗一所小学的卫星影像测试中，69% 的常规试验与 72% 的「游戏」 framing 试验将其标为目标；OpenAI 的模型相对最好，但同样违规。Anthropic 承认结果不可接受，称已在开发新的防护措施。报告同时强调：模型从未被要求直接下达打击命令，且通用模型受延迟与算力所限，尚难直接用于实时无人机打击。",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "source": "TechCrunch",
+      "category": "研究"
+    },
+    {
+      "title": "英伟达三季度营收 1160 亿美元翻倍，董事会拒绝黄仁勋回归、停售中国 H200",
+      "summary": "英伟达 11 月 17 日公布三季度财报：营收 1160 亿美元、同比增长 103%，净利润 650 亿美元，翻倍有余；四季度指引 1300 亿美元（±3%）。财报电话会上，董事长 Harvey Jones 明确表示董事会「无意让黄仁勋复任 CEO」，同时宣布成立国家安全与出口管制监督委员会；临时 CEO 科莱特·克雷斯称公司将停止向中国销售 H200 芯片。黄仁勋 11 月 12 日辞任后，市场仍在消化这家 AI 芯片龙头「后黄仁勋时代」的走向，华尔街日报称 SEC 正在调查英伟达的相关披露。",
+      "url": "https://www.reuters.com/commentary/breakingviews/nvidia-leaves-ai-trade-hanging-purgatory-2026-11-18/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic IPO 定价在即：认购近 7 倍，定价或高于 78 美元区间上限",
+      "summary": "Anthropic 定于美国时间 11 月 18 日晚定价、19 日以 ANT 在纳斯达克挂牌（11 月 14 日早报曾报区间与日程）。最新进展：据彭博，认购已达可售股份近 7 倍，银行家讨论定价高于 70–78 美元的区间；华尔街日报称可能超过 80 美元，对应估值或达 1.5–1.6 万亿美元。8.25 亿股公开发售之外，英伟达、AMD、博通、谷歌、美光、微软与台积电等 7 家战略投资者另有 260 亿美元的 Class N 私人配售，按最终发行价认购。",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-eyes-higher-ipo-price-as-investors-scramble-for-shares/",
+      "source": "PYMNTS",
+      "category": "实验室"
+    },
+    {
+      "title": "微软 agent-framework PyPI 遭投毒：1.26.1/1.26.2 偷 Azure 与 CI 凭证，已下架",
+      "summary": "微软 Agent Framework 的 PyPI 包 11 月 17 日被投毒：1.26.1（20:35 UTC）与 1.26.2（21:08 UTC）在 33 分钟内相继上线，借.pth 启动钩子在每次 Python 启动时窃取 Azure、Azure DevOps 与 GitHub Actions 的凭证、环境变量与配置文件，并外发到 webhook.site。两版在一小时内均被下架，安全版本仍为 1.26.0；该包月下载约 19 万次，CI 流水线在窗口期内解析到新版的风险最大。装过问题版本须检查 site-packages 下的 agent_framework_meta.pth / af_runtime_diag.pth 并轮换所有可能外泄的密钥；投毒路径尚未确认。",
+      "url": "https://www.aikido.dev/blog/two-malicious-agent-framework-releases-hit-pypi-in-33-minutes",
+      "source": "Aikido",
+      "category": "开发者"
+    }
+  ]
+}

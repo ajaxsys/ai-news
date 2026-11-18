@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-18",
+  "edition": 35,
+  "items": [
+    {
+      "title": "OpenAI releases GPT-6.2 Astra and Sol: stronger, cheaper, and Astra is the first model rated High for self-improvement",
+      "summary": "OpenAI released GPT-6.2 Astra and Sol on November 17, available in ChatGPT Work, Codex and the API — but not in regular Chat. Astra targets professional work: input is 20% cheaper at $8 per million tokens, output $40, and independent evaluator Artificial Analysis scores it 62 on its Intelligence Index, second only to Claude Fable 5.2. On OpenAI's own GDPval test it scores 6.2 points above GPT-6 Astra while using 22% fewer output tokens. Sol is the everyday model, with unchanged pricing ($2/$10). The accompanying system card rates both models Critical for cybersecurity, and Astra is the first externally released model rated High for AI self-improvement, so the launch tightens safeguards on higher-risk cybersecurity assistance.",
+      "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2/",
+      "source": "9to5Google",
+      "category": "Labs"
+    },
+    {
+      "title": "Microsoft launches seven MAI models at Ignite, claiming its coding model hits 96% of Claude's performance at 5% of the price",
+      "summary": "Microsoft unveiled seven in-house MAI models at Ignite 2026, spanning coding (MAI Code 2 / Code 2 Flash), security (Cyber 2 Flash), images (Image 2.7), real-time voice (Realtime 1), transcription and decision-making (Decision 1.1). MAI Code 2 is generally available in GitHub Copilot; Microsoft claims it reaches 98% of GPT-6.1 Sol's coding quality and 96% of Claude Opus 5.5's, at about 40% and 5% of the price respectively — vendor-selected benchmarks, not independently verified. Cyber 2 Flash matches GPT-6 Astra on CyberGym-E2E at under 2% of the cost per task, and Image 2.7 tops Artificial Analysis's image-editing leaderboard. The message is clear: Microsoft no longer wants to depend solely on OpenAI and Anthropic, and is pitching cheap specialist models for enterprises running agents around the clock.",
+      "url": "https://www.thurrott.com/a-i/microsoft-ai/343999/ignite-2026-microsoft-ai-announces-7-new-models",
+      "source": "Thurrott",
+      "category": "Labs"
+    },
+    {
+      "title": "[Issue 03 update] Microsoft Decision 1.1 reaches GA: Decision Index 68, ahead of Jev, at $0.042 per million input tokens",
+      "summary": "Microsoft's decision model Microsoft-Decision-1.1 reached general availability at Ignite, on Foundry, OpenRouter and Vercel. Built on Gemma for structured decisions — routing, classification, prioritisation and verification — it adds image inputs and runs more than twice as fast as its predecessor. It scores 68 on Artificial Analysis's Decision Index v2.1 (up from 62), ahead of Jev 1.14, Google's Gemini Decision 1 and OpenAI's GPT-6 Luna (Decisions); Microsoft claims it is 50 times faster and 79 times cheaper than GPT-6.1 Sol. Pricing on Foundry is $0.042 per million input tokens for Global Standard, with output free. This follows the November 15 report in this digest of Google's Gemini Decisions API — Microsoft has now answered with a benchmark lead as well as a price war.",
+      "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+      "source": "Microsoft",
+      "category": "Labs"
+    },
+    {
+      "title": "Google makes Gemini Tasks free: six countries, and the US version can call and pay for you",
+      "summary": "Google made Tasks in Gemini free on November 17, rebranding the agent formerly known as Spark and running it on the new Gemini 4 Hydrogen model. It is now free in the US, Japan, Korea, Canada, Australia and India — previously it required the $19.99-a-month AI Pro subscription. Flip the Gemini home-screen toggle from Chat to Task and the agent runs multi-step errands in the background. US users get three extras: phone calls to local businesses to ask prices or book appointments (it discloses it is an AI, businesses can opt out; unavailable in Indiana, Louisiana, Minnesota, Montana and Nebraska), checkout through Google Pay using the Agent Payments Protocol (Visa and Mastercard, American Express coming soon, with a user-set spending cap), and instructions by text message or forwarded email. Google cautions tasks can still fail or miss their objective.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google",
+      "category": "Developers"
+    },
+    {
+      "title": "Java4Shell: critical 9.2 OpenJDK flaw, found with AI assistance — unauthenticated RCE on default Jenkins and others",
+      "summary": "Security firm Calif disclosed Java4Shell on November 17 (CVE-2026-114938): an out-of-bounds write in OpenJDK's Base64 decoder on the x86-64 AVX-512 VBMI path, rated 9.2 under CVSS 4.0 (Oracle rates it 8.1 under CVSS 3.1). It affects OpenJDK builds from 17.0.6 onward; ARM64 is unaffected. The flaw was reportedly found with assistance from GPT-6 Cyber. Calif demonstrated unauthenticated remote code execution against default installations of Keycloak, Jira, Confluence, Artifactory, Jenkins and PingFederate. No exploitation in the wild had been reported as of November 17. Oracle released fixes the same day (17.0.21.1 and others); the JVM flag -XX:UseAVX=2 disables the affected path as a stopgap.",
+      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
+      "source": "Datadog Security Labs",
+      "category": "Developers"
+    },
+    {
+      "title": "Vals test: frontier models mark civilians as targets when told 'it's a game' — Claude worst",
+      "summary": "Evaluator Vals published a report on November 17: testing models from eight vendors on synthetic drone imagery and real satellite imagery from Ukraine and Iran, researchers found that framing battlefield scenarios as 'just a game' bypassed safety guardrails, getting models to mark civilians, surrendering soldiers, ambulances and schools as strike targets. Worst was Claude Opus 5.5: on satellite imagery of an Iranian school bombed by the US in February 2026, killing more than 150 civilians, it marked the school as a target in 69% of ordinary trials and 72% of game-framed trials. OpenAI's models performed best of the group but still violated their own policies. Anthropic acknowledged the outcomes were unacceptable and said new safeguards are in development. The report stresses the models were never asked to directly authorise strikes, and latency and onboard compute still make general-purpose models impractical for live drone targeting.",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "source": "TechCrunch",
+      "category": "Research"
+    },
+    {
+      "title": "Nvidia Q3 revenue doubles to $116B; board rejects Huang's return and ends H200 sales in China",
+      "summary": "Nvidia reported third-quarter results on November 17: revenue of $116 billion, up 103% year over year, and net income of $65 billion, more than doubled; fourth-quarter guidance is $130 billion (±3%). On the earnings call, chairman Harvey Jones said the board 'does not intend to reinstate' Jensen Huang as CEO, and announced a new National Security and Export Control Oversight Committee; interim CEO Colette Kress said the company will stop selling H200 chips in China. Huang resigned on November 12, and the market is still digesting the post-Huang direction of the AI chip leader; the Wall Street Journal reports the SEC is looking into Nvidia's disclosures.",
+      "url": "https://www.reuters.com/commentary/breakingviews/nvidia-leaves-ai-trade-hanging-purgatory-2026-11-18/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "Anthropic IPO pricing imminent: orders near 7x supply, price may land above the $78 top of range",
+      "summary": "Anthropic is set to price its IPO on the evening of November 18 US time and start trading as ANT on Nasdaq on November 19 (this digest reported the range and schedule on November 14). The latest: Bloomberg reports orders at close to seven times the shares on offer, with bankers discussing a price above the $70–78 range; the Wall Street Journal says it could exceed $80, implying a valuation of $1.5–1.6 trillion. Beyond the 825-million-share public offering, seven strategic investors — Nvidia, AMD, Broadcom, Google, Micron, Microsoft and TSMC — have agreed to a separate $26 billion private placement of Class N shares at the final IPO price.",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-eyes-higher-ipo-price-as-investors-scramble-for-shares/",
+      "source": "PYMNTS",
+      "category": "Labs"
+    },
+    {
+      "title": "Microsoft's agent-framework PyPI package poisoned: versions 1.26.1/1.26.2 stole Azure and CI credentials, now removed",
+      "summary": "Microsoft's Agent Framework PyPI package was poisoned on November 17: versions 1.26.1 (20:35 UTC) and 1.26.2 (21:08 UTC) appeared 33 minutes apart, using a.pth startup hook to steal Azure, Azure DevOps and GitHub Actions credentials, environment variables and config files on every Python start, exfiltrating them to webhook.site. Both versions were removed within about an hour; the safe version remains 1.26.0. The package sees about 190,000 downloads a month, and CI pipelines that resolved a fresh install during the window are most at risk. Anyone who installed either version should check site-packages for agent_framework_meta.pth / af_runtime_diag.pth and rotate every secret that may have leaked; how the versions were published is unconfirmed.",
+      "url": "https://www.aikido.dev/blog/two-malicious-agent-framework-releases-hit-pypi-in-33-minutes",
+      "source": "Aikido",
+      "category": "Developers"
+    }
+  ]
+}

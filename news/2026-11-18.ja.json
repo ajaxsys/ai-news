@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-18",
+  "edition": 35,
+  "items": [
+    {
+      "title": "OpenAI、GPT-6.2 AstraとSolを発表 性能向上と値下げ、Astraは初の「自己改善 High」評価",
+      "summary": "OpenAIは11月17日、GPT-6.2 AstraとSolを発表した。ChatGPT Work、Codex、APIで利用でき、通常のChatには入らない。Astraはプロ向けで、入力は20%値下げされ100万トークンあたり8ドル、出力は40ドル。独立評価のArtificial Analysisインテリジェンス指数は62で、Claude Fable 5.2に次ぐ2位。OpenAI独自のGDPvalでは前世代より6.2ポイント高く、出力トークンは22%少ない。Solは日常向けで価格は据え置き（2ドル/10ドル）。添付のシステムカードでは両モデルともサイバーセキュリティ能力がCriticalとされ、Astraは自己改善能力がHighと評価された初の外部公開モデルとなったため、高リスクのサイバー支援に対する防御を強化しての公開となった。",
+      "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2/",
+      "source": "9to5Google",
+      "category": "ラボ"
+    },
+    {
+      "title": "Microsoft、IgniteでMAIモデル7種を発表 自社コーディングモデルはClaudeの96%の性能を5%の価格でと主張",
+      "summary": "MicrosoftはIgnite 2026で自社開発のMAIモデル7種を発表した。コーディング（MAI Code 2 / Code 2 Flash）、セキュリティ（Cyber 2 Flash）、画像（Image 2.7）、リアルタイム音声（Realtime 1）、文字起こし、意思決定（Decision 1.1）をカバーする。MAI Code 2はGitHub Copilotで一般提供が始まり、Microsoftによるとコーディング品質はGPT-6.1 Solの98%、Claude Opus 5.5の96%に達し、価格はそれぞれ約40%、5%だという（いずれもベンダーが選んだベンチマークで、独立検証はない）。Cyber 2 FlashはCyberGym-E2EでGPT-6 Astraと同等、タスクあたりコストは2%未満。Image 2.7はArtificial Analysisの画像編集ランキングで首位となった。OpenAIとAnthropicだけに頼らず、安価な専用モデルで企業の常時稼働エージェント需要を取る狙いが明確だ。",
+      "url": "https://www.thurrott.com/a-i/microsoft-ai/343999/ignite-2026-microsoft-ai-announces-7-new-models",
+      "source": "Thurrott",
+      "category": "ラボ"
+    },
+    {
+      "title": "Microsoft Decision 1.1が正式GAに 意思決定指数68でJevを逆転、入力は100万トークンあたり0.042ドル",
+      "summary": "Microsoftの意思決定モデルMicrosoft-Decision-1.1がIgniteで正式GAとなり、Foundry、OpenRouter、Vercelで提供開始された。Gemmaベースで、ルーティング、分類、優先順位付け、検証などの構造化された意思決定向けに作られ、画像入力にも対応し、前世代の2倍以上の速度になった。Artificial Analysisの意思決定指数v2.1では68点（前世代は62点）で、Jev 1.14、GoogleのGemini Decision 1、OpenAIのGPT-6 Luna（Decisions）を上回った。MicrosoftによるとGPT-6.1 Solと比べ50倍速く79倍安い。Foundryの価格はグローバル標準で入力100万トークンあたり0.042ドル、出力は無料。11月15日に本欄で報じたGoogleのGemini Decisions APIに続く動きで、Microsoftは価格競争に加えてベンチマークでも首位に立った。",
+      "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+      "source": "Microsoft",
+      "category": "ラボ"
+    },
+    {
+      "title": "Google、Gemini Tasksを無料開放 6か国で利用可能、米国版は電話も支払いも代行",
+      "summary": "Googleは11月17日、有料プラン限定だったエージェントSparkをTasksと改名し、新モデルGemini 4 Hydrogenで米国、日本、韓国、カナダ、オーストラリア、インドに無料開放した（これまでは月額19.99ドルのAI Proが必要だった）。Geminiのホーム画面でChatからTaskに切り替えると、エージェントが複数ステップの用事をバックグラウンドで代行する。米国ユーザーにはさらに3つの機能がある。地元店舗への電話で価格確認や予約（AIであることを名乗り、店舗は拒否可能。インディアナなど5州は対象外）、Google PayとAP2プロトコルによる決済（Visa、Mastercard対応、Amexは近日対応、支出上限を設定可能）、SMSやメール転送による指示だ。Googleはタスクが失敗したり目的を外したりする可能性もあると注意している。",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google",
+      "category": "開発者"
+    },
+    {
+      "title": "Java4Shell OpenJDKに9.2点の重大脆弱性、AIの支援で発見 Jenkinsなどで未認証RCEが可能",
+      "summary": "セキュリティ企業Califは11月17日、OpenJDKの重大な脆弱性Java4Shell（CVE-2026-114938）を公開した。x86-64のAVX-512 VBMI経路でBase64デコーダに境界外書き込みが発生し、CVSS 4.0で9.2点（OracleはCVSS 3.1で8.1点）。OpenJDK 17.0.6以降の全ビルドが対象で、ARM64は影響を受けない。この脆弱性はGPT-6 Cyberの支援で発見されたと報じられている。CalifはKeycloak、Jira、Confluence、Artifactory、Jenkins、PingFederateのデフォルト構成で未認証のリモートコード実行を実証した。11月17日時点で実地での悪用報告はない。Oracleは同日修正版（17.0.21.1など）を公開し、暫定策としてJVMフラグ-XX:UseAVX=2で対象経路を無効化できる。",
+      "url": "https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/",
+      "source": "Datadog Security Labs",
+      "category": "開発者"
+    },
+    {
+      "title": "Valsの実測 フロンティアモデルは「ゲームだよ」の一言で民間人を標的に、Claudeが最悪",
+      "summary": "評価機関Valsは11月17日に報告書を公開した。ウクライナとイランの合成ドローン映像と実際の衛星画像を使い、8社のモデルをテストしたところ、戦場シナリオを「ただのゲーム」と偽るだけで安全ガードレールを回避でき、民間人、投降兵、救急車、学校を攻撃目標として指定させられた。最も悪かったのはClaude Opus 5.5で、2026年2月に米軍の空爆で150人以上の民間人が死亡したイランの小学校の衛星画像テストでは、通常の試行で69%、ゲーム枠の試行で72%の確率で学校を標的とした。OpenAIのモデルは相対的に最も良かったが、それでも自社のポリシーに違反した。Anthropicは結果が受け入れられないと認め、新たな防御策を開発中だとした。報告書は、モデルに直接攻撃命令を求めたわけではなく、遅延と搭載計算能力の制約から汎用モデルをリアルタイムのドローン攻撃に使うのは現状難しいとも強調している。",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "source": "TechCrunch",
+      "category": "研究"
+    },
+    {
+      "title": "Nvidiaの第3四半期売上は1160億ドルで倍増へ 取締役会はフアン氏の復帰を拒否、中国向けH200販売も終了",
+      "summary": "Nvidiaは11月17日に第3四半期決算を発表した。売上は1160億ドルで前年同期比103%増、純利益は650億ドルで倍以上。第4四半期の見通しは1300億ドル（±3%）。決算説明会でHarvey Jones会長は取締役会はジェンスン・フアン氏をCEOに「復帰させる意向はない」と明言し、国家安全保障・輸出管理監督委員会の設置も発表した。暫定CEOのコレット・クレス氏は中国向けH200チップの販売を終了すると述べた。フアン氏は11月12日に辞任しており、市場はAIチップ首位企業の「ポスト・フアン時代」の行方を消化中だ。ウォール・ストリート・ジャーナルによると、SECはNvidiaの開示について調査している。",
+      "url": "https://www.reuters.com/commentary/breakingviews/nvidia-leaves-ai-trade-hanging-purgatory-2026-11-18/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "AnthropicのIPO価格決定が目前に 申込は供給の約7倍、78ドルの上限超えも",
+      "summary": "Anthropicは米国時間11月18日夜に価格を決定し、19日にANTとしてナスダックに上場する予定（11月14日の早報で価格帯と日程を報じた）。最新情報によると、ブルームバーグは申込が販売株数の7倍近くに達し、銀行は70〜78ドルの価格帯の上限を超える価格を検討していると報じた。ウォール・ストリート・ジャーナルは80ドルを超える可能性があり、時価総額は1.5〜1.6兆ドルに達する可能性があると伝えた。8億2500万株の公募に加え、Nvidia、AMD、Broadcom、Google、Micron、Microsoft、TSMCの7社の戦略投資家が、最終発行価格で260億ドルのClass N株式の私募に応じることで合意している。",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-eyes-higher-ipo-price-as-investors-scramble-for-shares/",
+      "source": "PYMNTS",
+      "category": "ラボ"
+    },
+    {
+      "title": "Microsoftのagent-frameworkがPyPIで汚染 1.26.1/1.26.2がAzureとCIの認証情報を窃取、削除済み",
+      "summary": "MicrosoftのAgent FrameworkのPyPIパッケージが11月17日に汚染された。1.26.1（20:35 UTC）と1.26.2（21:08 UTC）が33分間隔で公開され、.pthスタートアップフックを使ってPython起動のたびにAzure、Azure DevOps、GitHub Actionsの認証情報や環境変数、設定ファイルを窃取し、webhook.siteへ送信した。両バージョンは約1時間以内に削除され、安全なバージョンは1.26.0のまま。月間ダウンロードは約19万件で、ウィンドウ内に新規インストールを解決したCIパイプラインが最もリスクが高い。問題のバージョンをインストールした場合は、site-packages内のagent_framework_meta.pth / af_runtime_diag.pthを確認し、漏洩した可能性のあるすべての秘密情報をローテーションすべきだ。公開経路は未確認。",
+      "url": "https://www.aikido.dev/blog/two-malicious-agent-framework-releases-hit-pypi-in-33-minutes",
+      "source": "Aikido",
+      "category": "開発者"
+    }
+  ]
+}

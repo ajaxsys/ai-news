@@ -31,8 +31,12 @@ Layout:
   (standalone shell), `ai-trend/manifest.json`, and
   `ai-trend/<date>.<lang>.json` in three languages with shape
   `{"date","items":[{"rank","name","repo","summary","stars_week","stars_total","category","url","source"}]}`.
-  Weekly gains are star events counted by OSS Insight; totals are measured
-  through the GitHub API at publication time. Jailbreak collections and
+  Weekly gains are the past seven days' new stars as counted on GitHub's
+  official Trending pages; totals are measured through the GitHub API at
+  publication time. (Until 2026-11-02 the gains came from OSS Insight;
+  that feed broke in November 2026 and the column switched to GitHub's
+  own source on 2026-11-19, so numbers across the switch are not directly
+  comparable.) Jailbreak collections and
   paid-access circumvention projects are excluded.
 
 The homepage shell fetches `manifest.json` first, then loads only the

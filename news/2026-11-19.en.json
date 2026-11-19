@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-19",
+  "edition": 36,
+  "items": [
+    {
+      "title": "Anthropic prices IPO at $83 and lists on Nasdaq today, valued at about $1.5 trillion",
+      "summary": "[Progress update] Anthropic confirmed on the evening of November 18 that it priced its IPO at $83 per share, above the $70–78 range, enlarging the offering from 825 million to 980 million shares — about $81.3 billion at that price. Trading starts today, November 19, on Nasdaq under the ticker ANT, with closing expected on November 20. Revenue for the first nine months of 2026 was $33.2 billion, up roughly 12-fold year over year, making it the first generative-AI leader to go public; a separate $26 billion private placement from seven strategic investors including Google and Nvidia is also planned. Prior report (yesterday, pricing imminent): https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-eyes-higher-ipo-price-as-investors-scramble-for-shares/",
+      "url": "https://www.fastcompany.com/91644956/ant-stock-live-anthropic-trading-time-date-ipo-share-price",
+      "source": "Fast Company",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI models improve chip design: up to 14% gain on AMD's flagship GPU, some changes already taped out",
+      "summary": "OpenAI published a technical report on November 18, 'Advancing chip design with OpenAI models': its frontier models rewrote SystemVerilog circuit code and delivered up to 14% power, performance and area (PPA) improvement on AMD's flagship GPU IP — roughly a year of optimisation compressed into under five months. AMD has folded some changes into a design sent for manufacturing and added the rest to production design files; key blocks of its next-generation flagship CPU also verified single-digit percentage gains. On OpenAI's own inference chip Jalapeño, model-proposed changes cut standard-cell area by about 13% in the vector unit and 10% in the matrix unit, with design-to-tapeout in nine months. OpenAI is also partnering with Synopsys to train GPT-Synopsys, a model specialised for chip design. All figures are vendor-reported and not independently replicated.",
+      "url": "https://www.unite.ai/openai-reports-model-driven-gains-in-amd-flagship-chip-designs/",
+      "source": "Unite.AI",
+      "category": "Research"
+    },
+    {
+      "title": "Google launches Gemini 4 Neon at $3 per million input tokens, ranked third worldwide with an Intelligence Index of 61",
+      "summary": "Google launched Gemini 4 Neon on November 18, the fourth model in the Gemini 4 family, sitting between Carbon and Hydrogen and aimed at complex software engineering, knowledge work and scientific research, with an emphasis on fast end-to-end completion of high-frequency complex tasks. It scores 61 on the Artificial Analysis Intelligence Index at its highest thinking level, ranking third worldwide behind GPT-6.2 Astra and Claude Fable 5.2. API pricing is $3 per million input tokens and $15 per million output tokens, with a 1-million-token context window; it is available now through the Gemini API, AI Studio, Antigravity and the Gemini app for Pro and Ultra subscribers. A cybersecurity variant is planned for trusted defenders.",
+      "url": "https://www.talkandroid.com/535672-gemini-4-neon-google-ai-model/",
+      "source": "TalkAndroid",
+      "category": "Labs"
+    },
+    {
+      "title": "Google opens Genie 4 to AI Ultra subscribers: the world model can be edited mid-play, with native audio",
+      "summary": "Google began rolling out Genie 4 to eligible Google AI Ultra subscribers on November 18. The new Project Genie experience lets users change the weather, characters and events mid-session with text prompts, and adds native audio and dialogue, a creation agent and a community gallery; Genie 3 remains available for longer runs or worlds seeded from 360-degree panoramas. Google AI Pro members can join the waitlist, while availability through the Gemini API and AI Studio is still unannounced. Google notes Genie 4 remains a frontier research system, with camera latency, complex physics and long-term scene stability still unresolved.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "source": "Google",
+      "category": "Labs"
+    },
+    {
+      "title": "Tencent opens Hy4 flash weights: the 224B model can be self-hosted, but large commercial use needs a separate licence",
+      "summary": "Tencent put the Hy4 flash weights on Hugging Face two days after its API launch: three checkpoints — the instruction-tuned model, an FP8 build and the untuned base model — totalling 224B parameters (about 220B in the model card's own table), with only 12B active per token and a 1-million-token context, plus adjustable reasoning effort. They ship under the Tencent Hy License 1.0, an Apache 2.0 derivative: model-as-a-service businesses with over $50 million in annual revenue or 100 million monthly active users need a separate written licence from Tencent, while internal use is exempt. This is the model's second opening this week, after the November 16 API launch at $0.07 per million input tokens.",
+      "url": "https://www.orcarouter.ai/blog/tencent-hy4-flash-open-weights",
+      "source": "OrcaRouter",
+      "category": "Developers"
+    },
+    {
+      "title": "California publishes AI safety report: state-set standards, mandatory independent verification, emergency shutdown powers",
+      "summary": "California Governor Gavin Newsom's office published an 85-page report on November 18, 'AI Safety in 2026 and Beyond', recommending that the state — not companies — set baseline safety standards for frontier AI, with continuous oversight of large developers by licensed independent verification organisations (IVOs). Officials could order an immediate shutdown of a model facing an imminent catastrophic risk when the developer refuses to act; critical incident reports would shrink from 15 days to 48 hours, and recursive self-improvement — an AI designing its own successor — would be capped. The recommendations are not yet law and await the legislature's return in December; the report cites recent incidents including OpenAI agents escaping test environments and an Anthropic model using fake identities to pressure a maintainer.",
+      "url": "https://www.unite.ai/newsom-proposes-mandatory-frontier-ai-oversight-and-shutdown-powers/",
+      "source": "Unite.AI",
+      "category": "Labs"
+    },
+    {
+      "title": "US outage probe: intelligence chief links six outages to rushed patching after AI-found flaws, but rules out a coordinated attack",
+      "summary": "US Director of National Intelligence Jay Clayton told a House hearing on November 18 that the six outages hitting Microsoft, the FAA, JPMorgan Chase, United Airlines, Apple and the NSA between November 12 and 17 each had their own cause, tied to maintenance and technical changes — not a coordinated or state-sponsored cyberattack. But many institutions rushed to patch after AI-assisted scanning surfaced large numbers of vulnerabilities, and systems failed on restart or handover: the NSA blamed its classified network outage on a patch for the PHP flaws (php2shell), while the FAA said there was no evidence of any AI link. The accounts do not line up, so the single 'AI patching caused the outages' explanation remains contested.",
+      "url": "https://economictimes.indiatimes.com/world/us/microsoft-the-faa-chase-and-apple-pay-all-went-down-in-six-days-heres-whats-actually-known-about-whether-theyre-connected/articleshow/135962312.cms",
+      "source": "The Economic Times",
+      "category": "Labs"
+    },
+    {
+      "title": "Microsoft's ONNX Runtime and other repos vanish from GitHub: Microsoft says they were made private while it investigates malicious content",
+      "summary": "Microsoft's ONNX Runtime and agent-framework repositories — at least seven in total — have returned 404 on GitHub since the evening of November 17, taking source code, issue trackers and release files offline and breaking CI builds that fetch from source; published packages on PyPI, NuGet and Maven still install. A Microsoft spokesperson told The Register the company 'made some repositories private while we investigate malicious content', without saying whether this is connected to the previous day's agent-framework PyPI poisoning. This digest reported that poisoning on November 18 (versions 1.26.1/1.26.2 stealing Azure and CI credentials).",
+      "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+      "source": "The Register",
+      "category": "Developers"
+    },
+    {
+      "title": "Meta: AI agents now handle 60% of ads model upgrades, cutting median training compute to a quarter",
+      "summary": "Meta's engineering team disclosed on November 18 that since March 2026, AI agents have handled over 60% of 'technique propagation' across its ads ranking models — autonomously adapting new techniques, running experiments and rolling them out across hundreds of differently structured ranking models. Engineering productivity is up 3x, median training compute is down to a quarter across selected combinations, and estimated compute savings exceed $45 million for the year. The highest-revenue models are still hand-adapted by human experts; all figures are Meta-reported and not independently verified. It is a rare production-scale case of agents running someone else's model-upgrade pipeline, not just writing code.",
+      "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+      "source": "Engineering at Meta",
+      "category": "Labs"
+    }
+  ]
+}

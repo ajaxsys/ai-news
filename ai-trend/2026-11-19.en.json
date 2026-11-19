@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-19",
+ "items": [
+  {
+   "rank": 1,
+   "name": "Modern Web Guidance",
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "summary": "A knowledge base maintained by the Chrome team that keeps coding agents up to date with the latest web best practices.",
+   "stars_week": 7257,
+   "stars_total": 9020,
+   "category": "Agent Tools",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "source": "GitHub"
+  },
+  {
+   "rank": 2,
+   "name": "ECC",
+   "repo": "affaan-m/ECC",
+   "summary": "An agent harness performance optimization system: skills, memory and security tuned to make coding agents run better.",
+   "stars_week": 5411,
+   "stars_total": 306972,
+   "category": "Agent Tools",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "GitHub"
+  },
+  {
+   "rank": 3,
+   "name": "Claude-BugHunter",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "summary": "A Claude Code skill bundle for bug hunting and external red-team work: 82 skills with commands covering the hunt workflow.",
+   "stars_week": 5077,
+   "stars_total": 11850,
+   "category": "Security Audit",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "source": "GitHub"
+  },
+  {
+   "rank": 4,
+   "name": "Open Code Review",
+   "repo": "alibaba/open-code-review",
+   "summary": "Alibaba's open-source code review tool: a hybrid of deterministic pipelines and an LLM agent producing precise line-level comments, battle-tested at Alibaba's scale.",
+   "stars_week": 4383,
+   "stars_total": 54316,
+   "category": "Code Review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "source": "GitHub"
+  },
+  {
+   "rank": 5,
+   "name": "Anthropic Skills",
+   "repo": "anthropics/skills",
+   "summary": "Anthropic's public repository for Agent Skills: skills built on the open Agent Skills standard, ready for Claude and other agents to load.",
+   "stars_week": 4381,
+   "stars_total": 197541,
+   "category": "Agent Tools",
+   "url": "https://github.com/anthropics/skills",
+   "source": "GitHub"
+  },
+  {
+   "rank": 6,
+   "name": "OpenMausBot",
+   "repo": "milind-soni/OpenMausBot",
+   "summary": "An open-source alternative to Grok Bot: gives bots a virtual machine they can operate to carry out computer tasks.",
+   "stars_week": 4246,
+   "stars_total": 25655,
+   "category": "Computer Use",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "source": "GitHub"
+  },
+  {
+   "rank": 7,
+   "name": "LoopForge",
+   "repo": "Tencent/LoopForge",
+   "summary": "Tencent's self-hosted workflow orchestration for coding-agent delivery: coordinates CodeBuddy, Codex and Claude Code with scripts and human approval gates.",
+   "stars_week": 3568,
+   "stars_total": 4008,
+   "category": "Multi-Agent",
+   "url": "https://github.com/Tencent/LoopForge",
+   "source": "GitHub"
+  },
+  {
+   "rank": 8,
+   "name": "Daily Stock Analysis",
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "summary": "An LLM-powered multi-market stock analysis system: multi-source quotes, real-time news, a decision dashboard and automatic push, runnable on a zero-cost schedule.",
+   "stars_week": 3566,
+   "stars_total": 73459,
+   "category": "AI Apps",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "source": "GitHub"
+  },
+  {
+   "rank": 9,
+   "name": "Agent Skills",
+   "repo": "addyosmani/agent-skills",
+   "summary": "Production-grade engineering skills for AI coding agents: senior-engineering workflows packaged as skills agents can call directly.",
+   "stars_week": 3331,
+   "stars_total": 119088,
+   "category": "Agent Tools",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "source": "GitHub"
+  },
+  {
+   "rank": 10,
+   "name": "Plannotator",
+   "repo": "backnotprop/plannotator",
+   "summary": "A workspace for staying in the loop with your agents: shape, decide, plan, annotate and review code, then send all feedback back to the agent in one click.",
+   "stars_week": 3290,
+   "stars_total": 13585,
+   "category": "Agent Tools",
+   "url": "https://github.com/backnotprop/plannotator",
+   "source": "GitHub"
+  }
+ ]
+}

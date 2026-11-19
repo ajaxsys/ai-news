@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-19",
+ "items": [
+  {
+   "rank": 1,
+   "name": "Modern Web Guidance",
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "summary": "Chrome 团队维护的编码 Agent 知识库：让编程 Agent 随时跟上最新的 Web 最佳实践。",
+   "stars_week": 7257,
+   "stars_total": 9020,
+   "category": "Agent 工具",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "source": "GitHub"
+  },
+  {
+   "rank": 2,
+   "name": "ECC",
+   "repo": "affaan-m/ECC",
+   "summary": "Agent Harness 性能优化系统：围绕技能、记忆与安全，把编程 Agent 的运行框架调到更高效的状态。",
+   "stars_week": 5411,
+   "stars_total": 306972,
+   "category": "Agent 工具",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "GitHub"
+  },
+  {
+   "rank": 3,
+   "name": "Claude-BugHunter",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "summary": "给 Claude Code 的漏洞挖掘技能包：82 个技能加配套命令，覆盖漏洞猎杀与外部红队流程。",
+   "stars_week": 5077,
+   "stars_total": 11850,
+   "category": "安全审计",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "source": "GitHub"
+  },
+  {
+   "rank": 4,
+   "name": "Open Code Review",
+   "repo": "alibaba/open-code-review",
+   "summary": "阿里开源的代码审查工具：确定性流水线 + LLM Agent 的混合架构，产出行级审查意见，主打安全与阿里规模的实战验证。",
+   "stars_week": 4383,
+   "stars_total": 54316,
+   "category": "代码审查",
+   "url": "https://github.com/alibaba/open-code-review",
+   "source": "GitHub"
+  },
+  {
+   "rank": 5,
+   "name": "Anthropic Skills",
+   "repo": "anthropics/skills",
+   "summary": "Anthropic 官方的 Agent Skills 公开仓库：按开放标准编写的技能集，供 Claude 等 Agent 直接加载使用。",
+   "stars_week": 4381,
+   "stars_total": 197541,
+   "category": "Agent 工具",
+   "url": "https://github.com/anthropics/skills",
+   "source": "GitHub"
+  },
+  {
+   "rank": 6,
+   "name": "OpenMausBot",
+   "repo": "milind-soni/OpenMausBot",
+   "summary": "开源的 Grok Bot 替代品：给机器人配一台能操作的虚拟机，让 Agent 在里面完成电脑任务。",
+   "stars_week": 4246,
+   "stars_total": 25655,
+   "category": "电脑操作",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "source": "GitHub"
+  },
+  {
+   "rank": 7,
+   "name": "LoopForge",
+   "repo": "Tencent/LoopForge",
+   "summary": "腾讯开源的编程 Agent 交付工作流：自托管编排 CodeBuddy、Codex 与 Claude Code，带脚本与人工审批关卡。",
+   "stars_week": 3568,
+   "stars_total": 4008,
+   "category": "多 Agent",
+   "url": "https://github.com/Tencent/LoopForge",
+   "source": "GitHub"
+  },
+  {
+   "rank": 8,
+   "name": "Daily Stock Analysis",
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。",
+   "stars_week": 3566,
+   "stars_total": 73459,
+   "category": "AI 应用",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "source": "GitHub"
+  },
+  {
+   "rank": 9,
+   "name": "Agent Skills",
+   "repo": "addyosmani/agent-skills",
+   "summary": "面向 AI 编程 Agent 的生产级工程技能集：把资深工程师的工作方法沉淀成 Agent 可直接调用的技能。",
+   "stars_week": 3331,
+   "stars_total": 119088,
+   "category": "Agent 工具",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "source": "GitHub"
+  },
+  {
+   "rank": 10,
+   "name": "Plannotator",
+   "repo": "backnotprop/plannotator",
+   "summary": "盯住 Agent 干活的工作台：规划、标注、审查代码，再把全部反馈一键发回给 Agent，让人保持在环路之中。",
+   "stars_week": 3290,
+   "stars_total": 13585,
+   "category": "Agent 工具",
+   "url": "https://github.com/backnotprop/plannotator",
+   "source": "GitHub"
+  }
+ ]
+}

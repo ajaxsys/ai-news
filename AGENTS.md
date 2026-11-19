@@ -43,7 +43,7 @@
 ## AI 开源周榜专栏（ai-trend/，2026-11-01 开设）
 
 - 定位：每周一期，追踪全网 AI 相关开源仓库的真实涨星：按过去 7 天新增 Star 排名，前十名上榜，逐周留档。背景与目的写在专栏页的「关于这个专栏」一节（三语）。
-- 数据口径（铁律）：本周新增 Star = OSS Insight（api.ossinsight.io/q/trending-repos?period=past_week）的 Star 事件数；累计 Star = 发榜日经 GitHub API 实测的 stargazers_count。**绝不编造或沿用第三方榜单的旧数字**；发榜前逐仓用 GitHub API 复核仓库存在与累计 Star。
+- 数据口径（铁律）：本周新增 Star = GitHub 官方 Trending 周榜页（github.com/trending?since=weekly 及各语言子页）统计的过去 7 天增星；累计 Star = 发榜日经 GitHub 官方 API 实测的 stargazers_count。**绝不编造或沿用第三方榜单的旧数字**；发榜前逐仓用 GitHub API 复核仓库存在与累计 Star。采集脚本在沙盒 `~/workspace/ai-trend-column/collect_trending.py`。数据源沿革：2026-11-01、11-02 两期用 OSS Insight 的 Star 事件数；该接口 2026-11-09 起持续 503、11-09 与 11-16 两期跳过；2026-11-19 经用户指示改用 GitHub 官方源（Trending 页 + API），两代口径不同、跨期数字不可直接横比。
 - 数据格式：`ai-trend/<date>.<lang>.json` 顶层 `{"date":"YYYY-MM-DD","items":[...]}`；每条含 `rank`、`name`、`repo`（owner/name）、`summary`、`stars_week`、`stars_total`、`category`（按文件语言取值）、`url`（仓库地址）、`source`（固定 `GitHub`）。`ai-trend/manifest.json` 为唯一可信日期列表（latest、updated_at、dates 新到旧）。期号日期 = 发榜日（周一）。
 - 收录范围：AI 相关仓库——Agent 工具与框架、本地模型与推理、AI 应用、语音与多模态、安全与审计、本地算力等。**排除**：越狱/破甲提示词类、绕过付费获取模型类、洗稿/作弊类，以及与 AI 无关的仓库（即使涨星更高也不收）。
 - 更新规则：由每周任务（周一约 10:00 JST）同步——新增当期三语文件并更新 manifest，同时把主页外壳 feature4 卡的日期更新为当期日期。历史文件不删。

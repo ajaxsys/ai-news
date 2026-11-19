@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-19",
+ "items": [
+  {
+   "rank": 1,
+   "name": "Modern Web Guidance",
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "summary": "Chromeチームが維持するコーディングエージェント向け知識ベース。エージェントを最新のWebベストプラクティスに追随させる。",
+   "stars_week": 7257,
+   "stars_total": 9020,
+   "category": "エージェントツール",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "source": "GitHub"
+  },
+  {
+   "rank": 2,
+   "name": "ECC",
+   "repo": "affaan-m/ECC",
+   "summary": "エージェントハーネスの性能最適化システム。スキル、記憶、セキュリティを軸に、コーディングエージェントの実行基盤を磨き上げる。",
+   "stars_week": 5411,
+   "stars_total": 306972,
+   "category": "エージェントツール",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "GitHub"
+  },
+  {
+   "rank": 3,
+   "name": "Claude-BugHunter",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "summary": "Claude Code向けの脆弱性探索スキル集。82のスキルとコマンドで、バグハンティングと外部レッドチームの流れをカバーする。",
+   "stars_week": 5077,
+   "stars_total": 11850,
+   "category": "セキュリティ監査",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "source": "GitHub"
+  },
+  {
+   "rank": 4,
+   "name": "Open Code Review",
+   "repo": "alibaba/open-code-review",
+   "summary": "Alibabaが公開したコードレビューツール。決定的なパイプラインとLLMエージェントのハイブリッドで、行単位の精密なコメントを返す。大規模環境での実績をうたう。",
+   "stars_week": 4383,
+   "stars_total": 54316,
+   "category": "コードレビュー",
+   "url": "https://github.com/alibaba/open-code-review",
+   "source": "GitHub"
+  },
+  {
+   "rank": 5,
+   "name": "Anthropic Skills",
+   "repo": "anthropics/skills",
+   "summary": "Anthropic公式のAgent Skills公開リポジトリ。オープンなAgent Skills標準に沿ったスキル集で、Claudeなどのエージェントが読み込んで使える。",
+   "stars_week": 4381,
+   "stars_total": 197541,
+   "category": "エージェントツール",
+   "url": "https://github.com/anthropics/skills",
+   "source": "GitHub"
+  },
+  {
+   "rank": 6,
+   "name": "OpenMausBot",
+   "repo": "milind-soni/OpenMausBot",
+   "summary": "Grok Botのオープンソース代替。ボットが操作できる仮想マシンを備え、エージェントがコンピュータ上のタスクを実行する。",
+   "stars_week": 4246,
+   "stars_total": 25655,
+   "category": "コンピュータ操作",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "source": "GitHub"
+  },
+  {
+   "rank": 7,
+   "name": "LoopForge",
+   "repo": "Tencent/LoopForge",
+   "summary": "Tencentのコーディングエージェント向けワークフロー基盤。CodeBuddy、Codex、Claude Codeをスクリプトと人間の承認ゲートで編成し、自前で運用できる。",
+   "stars_week": 3568,
+   "stars_total": 4008,
+   "category": "マルチエージェント",
+   "url": "https://github.com/Tencent/LoopForge",
+   "source": "GitHub"
+  },
+  {
+   "rank": 8,
+   "name": "Daily Stock Analysis",
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "summary": "LLM駆動の株式分析システム。複数ソースの相場、リアルタイムニュース、意思決定ダッシュボードと自動配信を備え、無料枠の定期実行にも対応する。",
+   "stars_week": 3566,
+   "stars_total": 73459,
+   "category": "AIアプリ",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "source": "GitHub"
+  },
+  {
+   "rank": 9,
+   "name": "Agent Skills",
+   "repo": "addyosmani/agent-skills",
+   "summary": "AIコーディングエージェント向けの実務級エンジニアリングスキル集。熟練エンジニアの仕事の進め方を、エージェントが直接呼べるスキルとしてまとめた。",
+   "stars_week": 3331,
+   "stars_total": 119088,
+   "category": "エージェントツール",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "source": "GitHub"
+  },
+  {
+   "rank": 10,
+   "name": "Plannotator",
+   "repo": "backnotprop/plannotator",
+   "summary": "エージェントの作業を見守るワークスペース。計画、注釈、コードレビューを行い、フィードバックをワンクリックでエージェントへ送り返せる。",
+   "stars_week": 3290,
+   "stars_total": 13585,
+   "category": "エージェントツール",
+   "url": "https://github.com/backnotprop/plannotator",
+   "source": "GitHub"
+  }
+ ]
+}

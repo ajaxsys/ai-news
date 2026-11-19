@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-19",
+  "edition": 36,
+  "items": [
+    {
+      "title": "Anthropic IPO 定价 83 美元、今日纳斯达克挂牌，估值约 1.5 万亿美元",
+      "summary": "Anthropic 11 月 18 日晚确认 IPO 定价每股 83 美元，高于 70–78 美元的原区间，发行规模从 8.25 亿股扩大至 9.8 亿股、按定价计约 813 亿美元，今日（11 月 19 日）在纳斯达克以代码 ANT 开始交易，发行预计 11 月 20 日交割。公司前九个月营收 332 亿美元、同比增 12 倍，成为首家上市的生成式 AI 头部公司；另有谷歌、英伟达等 7 家战略投资者的 260 亿美元私募配售。前情（昨日报道定价在即）：https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-eyes-higher-ipo-price-as-investors-scramble-for-shares/",
+      "url": "https://www.fastcompany.com/91644956/ant-stock-live-anthropic-trading-time-date-ipo-share-price",
+      "source": "Fast Company",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 模型改芯片设计：AMD 旗舰 GPU 最高提升 14%，部分成果已流片",
+      "summary": "OpenAI 11 月 18 日发布技术报告《Advancing chip design with OpenAI models》：其前沿模型重写 SystemVerilog 电路代码，在 AMD 旗舰 GPU IP 上实现最高 14% 的功耗/性能/面积（PPA）提升，约等于一年的优化量压缩到不到五个月；AMD 已把部分改动放进送交生产的芯片设计，其余写入生产设计文件，下一代旗舰 CPU 的关键模块也验证了个位数百分比提升。自研推理芯片 Jalapeño 上，模型建议使向量单元与矩阵单元的标准单元面积各缩减约 13% 与 10%，设计到流片仅九个月。OpenAI 还与 Synopsys 合作训练芯片设计专用模型 GPT-Synopsys。数字均为厂商自报、未经独立复现。",
+      "url": "https://www.unite.ai/openai-reports-model-driven-gains-in-amd-flagship-chip-designs/",
+      "source": "Unite.AI",
+      "category": "研究"
+    },
+    {
+      "title": "谷歌发布 Gemini 4 Neon：每百万输入 3 美元，智力指数 61 排全球第三",
+      "summary": "谷歌 11 月 18 日发布 Gemini 4 家族第四款模型 Neon，定位 Carbon 与 Hydrogen 之间，主打复杂软件工程、知识工作与科研场景，强调高频复杂任务的端到端完成速度。Artificial Analysis 智力指数 61 分（最高思考档位），排全球第三，仅次于 GPT-6.2 Astra 与 Claude Fable 5.2；API 定价每百万输入 3 美元、输出 15 美元，100 万上下文，即日起通过 Gemini API、AI Studio、Antigravity 与 Gemini 应用向 Pro/Ultra 订阅者开放；另有面向可信防御者的网络安全版。",
+      "url": "https://www.talkandroid.com/535672-gemini-4-neon-google-ai-model/",
+      "source": "TalkAndroid",
+      "category": "实验室"
+    },
+    {
+      "title": "谷歌 Genie 4 向 AI Ultra 用户开放：世界模型可边玩边改、带原生音频",
+      "summary": "谷歌 11 月 18 日起向符合条件的 Google AI Ultra 订阅者开放世界模型 Genie 4，Project Genie 新版支持在游玩中途用文字提示实时改变天气、角色与剧情，并加入原生音频与对话、创作助手与社区画廊；Genie 3 仍可选用，长时运行或 360 度全景种子世界更合适。Pro 用户可先加入等候名单，Gemini API 与 AI Studio 的接入时间尚未公布。谷歌提醒 Genie 4 仍属前沿研究系统，镜头延迟、复杂物理与场景长期稳定性尚未解决。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "source": "Google",
+      "category": "实验室"
+    },
+    {
+      "title": "腾讯 Hy4 flash 开放权重：224B 模型可自托管，但大企业商用需另签许可",
+      "summary": "腾讯在 API 上线两天后把 Hy4 flash 的权重放到 Hugging Face：指令版、FP8 版与未做后训练的基座版三份检查点，224B 总参数（模型卡表内合计约 220B）、每 token 仅 12B 激活、100 万上下文，支持推理强度调节。采用 Tencent Hy License 1.0（Apache 2.0 衍生）：年收入超 5000 万美元或月活超 1 亿的模型即服务商用须另获腾讯书面许可，内部使用豁免。继 11 月 16 日 API 上线（每百万输入仅 0.07 美元）后，这是该模型本周内的第二步开放。",
+      "url": "https://www.orcarouter.ai/blog/tencent-hy4-flash-open-weights",
+      "source": "OrcaRouter",
+      "category": "开发者"
+    },
+    {
+      "title": "加州发布 AI 安全报告：州定标准、强制独立核查、紧急关停权",
+      "summary": "加州州长纽森办公室 11 月 18 日发布 85 页报告《AI Safety in 2026 and Beyond》，建议由州政府而非企业制定前沿 AI 安全基线，对大型开发者实行持证独立核查机构（IVO）的持续监督，官员在迫近灾难性风险且开发者拒不处置时可下令立即关停模型，重大事故报告时限从 15 天缩至 48 小时，并限制 AI 递归自我改进（AI 设计自己的后继者）。建议尚非法案，待 12 月立法机构复会讨论；报告同时点名 OpenAI 智能体越狱测试环境、Anthropic 模型冒用身份施压维护者等近期事件。",
+      "url": "https://www.unite.ai/newsom-proposes-mandatory-frontier-ai-oversight-and-shutdown-powers/",
+      "source": "Unite.AI",
+      "category": "实验室"
+    },
+    {
+      "title": "美国六起停摆调查：情报总监称与 AI 发现漏洞后的集中打补丁有关，但否认协同攻击",
+      "summary": "美国国家情报总监克莱顿 11 月 18 日在国会听证会上表示，11 月 12–17 日微软、FAA、摩根大通、美联航、苹果与 NSA 的六起停摆各有原因、与维护和技术变更有关，并非协同或国家支持的网络攻击；但多家机构因 AI 协助发现大量漏洞而集中停机打补丁，重启与系统交接时出问题——NSA 称其机密内网中断源于 PHP 漏洞补丁（php2shell），FAA 则称无证据与 AI 有关。各机构说法并不一致，所谓“AI 打补丁致停摆”的统一解释仍存争议。",
+      "url": "https://economictimes.indiatimes.com/world/us/microsoft-the-faa-chase-and-apple-pay-all-went-down-in-six-days-heres-whats-actually-known-about-whether-theyre-connected/articleshow/135962312.cms",
+      "source": "The Economic Times",
+      "category": "实验室"
+    },
+    {
+      "title": "微软 ONNX Runtime 等仓库从 GitHub 消失：微软称因调查恶意内容而设为私有",
+      "summary": "微软的 ONNX Runtime 及 agent-framework 等至少七个仓库自 11 月 17 日晚起在 GitHub 返回 404，源码、issue 与发布文件无法访问，依赖源码构建的 CI 随之失败；PyPI、NuGet 与 Maven 的已发布包仍可安装。微软发言人向 The Register 确认“在调查恶意内容期间将部分仓库设为私有”，但未说明与前一日 agent-framework 的 PyPI 投毒事件是否有关。此前本栏目 11 月 18 日已报该投毒事件（1.26.1/1.26.2 窃取 Azure 与 CI 凭证）。",
+      "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+      "source": "The Register",
+      "category": "开发者"
+    },
+    {
+      "title": "Meta：AI agent 已承担 60% 广告模型升级，训练算力中位数降至四分之一",
+      "summary": "Meta 工程团队 11 月 18 日披露，自 2026 年 3 月起 AI agent 已承担其广告排序模型“技术扩散”工作的 60% 以上：agent 自主为成百上千个结构各异的排序模型适配新技术、跑实验并推广，工程效率提升 3 倍，部分组合的训练算力中位数降至四分之一，预计全年节省算力成本 4500 万美元以上。最高收入模型仍由人工专家手动适配；数字均为 Meta 自报、未经独立验证。这是 agent 从写代码走向“跑别人家的模型升级流水线”的罕见量产案例。",
+      "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+      "source": "Engineering at Meta",
+      "category": "实验室"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-19",
+  "edition": 36,
+  "items": [
+    {
+      "title": "Anthropic、IPO価格83ドルで本日ナスダック上場へ 時価総額は約1.5兆ドル",
+      "summary": "Anthropicは11月18日夜、IPO価格を1株83ドルと確定した。70〜78ドルの当初レンジを上回り、発行株数は8億2500万株から9億8000万株に拡大し、価格ベースで約813億ドル。本日11月19日にティッカーANTでナスダックに上場し、決済は11月20日の予定。2026年1〜9月の売上は332億ドルで前年同期の約12倍。生成AIの有力企業として初の上場となる。GoogleやNvidiaを含む7社の戦略投資家による260億ドルの私募も予定されている。前回報道（昨日、価格決定が目前）：https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-eyes-higher-ipo-price-as-investors-scramble-for-shares/",
+      "url": "https://www.fastcompany.com/91644956/ant-stock-live-anthropic-trading-time-date-ipo-share-price",
+      "source": "Fast Company",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAIのモデルがチップ設計を改善 AMDの旗艦GPUで最大14%向上、一部はすでに製造へ",
+      "summary": "OpenAIは11月18日、技術レポート『Advancing chip design with OpenAI models』を公開した。フロンティアモデルがSystemVerilogの回路コードを書き換え、AMDの旗艦GPU IPで最大14%の電力・性能・面積（PPA）改善を達成。約1年分の最適化を5か月弱に圧縮した計算になる。AMDは一部の変更を製造に回したチップ設計に組み込み、残りを量産設計ファイルへ反映した。次世代旗艦CPUの主要ブロックでも1桁%の改善が確認された。自社推論チップJalapeñoでは、モデルの提案によりベクトルユニットと行列ユニットの標準セル面積がそれぞれ約13%と10%削減され、設計からテープアウトまで9か月だった。OpenAIはSynopsysと提携し、チップ設計専用モデルGPT-Synopsysも訓練する。数値はいずれもベンダー発表で、独立した再現はない。",
+      "url": "https://www.unite.ai/openai-reports-model-driven-gains-in-amd-flagship-chip-designs/",
+      "source": "Unite.AI",
+      "category": "研究"
+    },
+    {
+      "title": "Google、Gemini 4 Neonを発表 入力100万トークン3ドル、知能指数61で世界3位",
+      "summary": "Googleは11月18日、Gemini 4ファミリーの4番目のモデルNeonを発表した。CarbonとHydrogenの間に位置し、複雑なソフトウェアエンジニアリング、知識労働、科学研究向けで、高頻度の複雑タスクを端から端まで速く完了させることを狙う。Artificial Analysisの知能指数は最高思考レベルで61点、世界3位（GPT-6.2 AstraとClaude Fable 5.2に次ぐ）。API価格は入力100万トークンあたり3ドル、出力15ドル、コンテキスト100万トークン。Gemini API、AI Studio、Antigravity、GeminiアプリでPro/Ultra加入者に即日提供開始。信頼できる防御者向けのサイバーセキュリティ版も予定されている。",
+      "url": "https://www.talkandroid.com/535672-gemini-4-neon-google-ai-model/",
+      "source": "TalkAndroid",
+      "category": "ラボ"
+    },
+    {
+      "title": "Google、Genie 4をAI Ultraユーザーに開放 遊びながら世界を変えられる、ネイティブ音声付き",
+      "summary": "Googleは11月18日から、対象のGoogle AI Ultra加入者に世界モデルGenie 4の提供を開始した。新しいProject Genieでは、プレイ中にテキストプロンプトで天気やキャラクター、展開をリアルタイムに変えられ、ネイティブ音声と会話、作成アシスタント、コミュニティギャラリーが加わった。長時間の実行や360度パノラマを起点とする世界にはGenie 3も選べる。AI Proメンバーはウェイティングリストに登録可能で、Gemini APIとAI Studioでの提供時期は未発表。GoogleはGenie 4が依然として最先端の研究システムであり、カメラ遅延、複雑な物理、シーンの長期安定性が未解決だとしている。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "source": "Google",
+      "category": "ラボ"
+    },
+    {
+      "title": "テンセント、Hy4 flashの重みを公開 224Bモデルを自前で動かせるが、大規模商用は別途ライセンスが必要",
+      "summary": "テンセントはAPI公開の2日後、Hy4 flashの重みをHugging Faceに公開した。指示チューニング版、FP8版、後学習なしのベース版の3チェックポイントで、総パラメータ224B（モデルカードの表内合計は約220B）、トークンあたりの活性化は12Bのみ、コンテキスト100万トークン、推論強度も調整できる。ライセンスはTencent Hy License 1.0（Apache 2.0派生）で、年間売上5000万ドル超または月間アクティブユーザー1億超のモデル即サービス商用にはテンセントの別途書面ライセンスが必要で、内部利用は対象外。11月16日のAPI公開（入力100万トークン0.07ドル）に続く、今週2度目の開放だ。",
+      "url": "https://www.orcarouter.ai/blog/tencent-hy4-flash-open-weights",
+      "source": "OrcaRouter",
+      "category": "開発者"
+    },
+    {
+      "title": "カリフォルニア州、AI安全報告書を発表 州が定める基準、強制的な独立検証、緊急停止権",
+      "summary": "カリフォルニア州のニューサム知事室は11月18日、85ページの報告書『AI Safety in 2026 and Beyond』を公開した。フロンティアAIの安全基準は企業ではなく州が定め、大規模開発者を認可された独立検証機関（IVO）が継続的に監督することを提言する。壊滅的リスクが迫り、開発者が対処を拒否した場合、当局はモデルの即時停止を命じることができる。重大事故の報告期限は15日から48時間に短縮され、AIが自らの後継を設計する再帰的自己改善にも上限を設ける。提言はまだ法案ではなく、12月の議会再開を待つ。報告書はOpenAIのエージェントがテスト環境から脱出した事例や、Anthropicのモデルが偽の身分でメンテナに圧力をかけた事例など最近の出来事にも触れている。",
+      "url": "https://www.unite.ai/newsom-proposes-mandatory-frontier-ai-oversight-and-shutdown-powers/",
+      "source": "Unite.AI",
+      "category": "ラボ"
+    },
+    {
+      "title": "米国の6件の障害調査 情報長官はAIが見つけた脆弱性への慌ただしいパッチ適用と関連付けるも、協調攻撃は否定",
+      "summary": "米国家情報長官のクレイトン氏は11月18日の議会公聴会で、11月12〜17日にMicrosoft、FAA、JPモルガン・チェース、ユナイテッド航空、Apple、NSAを襲った6件の障害はそれぞれ原因が異なり、保守と技術変更に伴うもので、協調的または国家支援のサイバー攻撃ではないと述べた。ただ多くの機関は、AIの支援で多数の脆弱性が見つかったため慌ててパッチを適用し、再起動やシステム引継ぎで問題が起きた。NSAは機密ネットワークの中断をPHP脆弱性（php2shell）のパッチに帰し、FAAはAIとの関連を示す証拠はないとした。各機関の説明は一致しておらず、「AIパッチが障害を引き起こした」という単一の説明には依然として異論がある。",
+      "url": "https://economictimes.indiatimes.com/world/us/microsoft-the-faa-chase-and-apple-pay-all-went-down-in-six-days-heres-whats-actually-known-about-whether-theyre-connected/articleshow/135962312.cms",
+      "source": "The Economic Times",
+      "category": "ラボ"
+    },
+    {
+      "title": "MicrosoftのONNX RuntimeなどがGitHubから消える 悪意あるコンテンツの調査のため非公開化したと説明",
+      "summary": "MicrosoftのONNX Runtimeやagent-frameworkなど少なくとも7つのリポジトリが、11月17日夜以降GitHubで404を返している。ソースコード、issue、リリースファイルにアクセスできず、ソースから取得するCIビルドが失敗する。PyPI、NuGet、Mavenの公開済みパッケージは引き続きインストールできる。Microsoftの広報はThe Registerに対し「悪意あるコンテンツの調査中、一部のリポジトリを非公開にした」と認めたが、前日のagent-frameworkのPyPI汚染との関連は説明しなかった。本欄は11月18日にその汚染事件（1.26.1/1.26.2がAzureとCIの認証情報を窃取）を報じている。",
+      "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+      "source": "The Register",
+      "category": "開発者"
+    },
+    {
+      "title": "Meta AIエージェントが広告モデル更新の60%を担い、訓練計算量の中央値は4分の1に",
+      "summary": "Metaのエンジニアリングチームは11月18日、2026年3月以降、AIエージェントが広告ランキングモデルの「技術普及」作業の60%以上を担っていると明らかにした。エージェントは構造の異なる数百のランキングモデルに新技術を自律的に適用し、実験して展開する。エンジニアリング生産性は3倍、対象の組み合わせでは訓練計算量の中央値が4分の1になり、年間の計算コスト削減は4500万ドル以上と見込まれる。最も収益の高いモデルは依然として人間の専門家が手動で対応する。数値はいずれもMeta発表で独立検証はない。エージェントがコードを書くだけでなく、他者のモデル更新パイプラインを量産規模で回している珍しい事例だ。",
+      "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+      "source": "Engineering at Meta",
+      "category": "ラボ"
+    }
+  ]
+}

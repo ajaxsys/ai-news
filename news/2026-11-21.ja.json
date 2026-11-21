@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-21",
+  "edition": 38,
+  "items": [
+    {
+      "title": "Anthropicの数学者、Claudeとともにリーマン予想を証明したと発表 Lean形式化を公開も未検証",
+      "summary": "Anthropicの数学者Levent Alpögeは11月20日、自身のサイトでClaudeとともにリーマン予想の証明を発見したと発表し、同じ手法で一般化リーマン予想も解決すると述べた。証明のLean形式化もあわせて公開した。完全な記述は25万ページを超えるとされ、まだ書かれておらず、主張は独立に検証されていない。同日、スタンフォードからは純粋に人間が書いた一般化リーマン予想の証明草稿も公開され、数学界は両方の主張の検証を始めたばかりだ。Alpögeは発表前にCEOのダリオ・アモデイに相談したとし、IPO翌日というタイミングが意図的だという見方を否定した。",
+      "url": "https://www.nature.com/articles/d41586-026-03812-7",
+      "source": "Nature",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic、上場2日目に8.5%安 初日の上昇の大半を吐き出す NvidiaはSECの会計調査報道で14%急落",
+      "summary": "Anthropicは11月20日、上場2日目に8.5%安の88.91ドルで終えた。場中には83.05ドルまで下落し、公開価格83ドルまであと5セントに迫り、初日の17%の上昇の大半を吐き出した。同日、Nvidiaは14%急落し、2025年1月以来の最悪の1日となった。ロイターはSECが同社の会計慣行を審査していると報じ、カリフォルニア州司法長官もチップが中国に流れたかどうかをめぐり同社に召喚状を出した。ナスダックは当日5.3%安、S&P500は3.7%安で調整局面入りし、ナスダックは2020年以来の最悪の週間となった。前回報道（昨日、初日終値）：https://invezz.com/news/2026/11/19/anthropic-stock-first-day-close-2026-11-19/",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-20/nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "Thinking Machines、Inkling 2 Miniをオープンウェイトで公開 26.4Bのループ型Transformer、ノートPCで動作",
+      "summary": "Thinking Machines Labは11月20日、Inkling 2 Miniを発表した。総パラメータ26.4B、トークンあたりの活性化は3.4BのみのスパースMoEで、24層のうち中間の12層をトークンごとに3回実行し、計48回の層訪問で小さなモデルに深い推論を持たせる。Apache 2.0でオープンウェイト公開され、約20GBで32GBメモリのMacBookでもローカル実行でき、コンテキストは100万トークン。DeepSWE v1.1（48.2%）などエージェント型コーディングのベンチマークで同級のオープンウェイトモデルを上回る。vLLM、SGLang、Ollamaがすでに対応している。",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source": "Thinking Machines",
+      "category": "開発者"
+    },
+    {
+      "title": "Mac版Geminiがコンピューター操作に対応 バックグラウンドでクリックやフォーム入力を代行",
+      "summary": "Googleは11月19日、Mac版GeminiアプリにComputer Useを追加した。独立したバックグラウンドウィンドウで画面を見てクリック、入力、スクロールし、ローカルファイルやデスクトップアプリ、ウェブをまたぐ複数ステップの繰り返し作業を代行する。中古品の一括出品、PDFフォームへの入力、スクリーンショットや数値のスライド化などが例に挙げられている。アプリごとに権限を付与でき、リアルタイムで監視して随時一時停止でき、重要な操作は事前に承認が必要。現時点では米国の有料プラン（Google AI Plus/Pro/Ultra）限定で、Appleシリコン搭載MacとmacOS Sequoia以降が必要。",
+      "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
+      "source": "Engadget",
+      "category": "開発者"
+    },
+    {
+      "title": "MetaのエージェントMuseが会話を取り違えか 他人の銀行残高やSignalメッセージを従業員に送信と報道",
+      "summary": "ロイターがMetaの社内投稿を調べたところ、AIエージェントMuseが従業員に、自分のものではない託児依頼やキャリア相談、注文、銀行残高を繰り返し送信していたことが判明した。ある従業員の釣り天気のチャットには他人の銀行残高が突然表示され、別の従業員はSignalをMuseに接続したことがないのに、姉からのSignalメッセージへの返信を促された。ロイターがSignalおよびAI Now Instituteと行った検証では、MuseはAndroidでは通知権限、Macではアクセシビリティとスクリーンショット権限を通じてSignalのメッセージ内容を読み取れた。iPhoneではブロックされた。Metaは孤立した事例で、一部はすでに修正済みの幻覚だとしている。",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "欧州委員会、AI支援のサイバー攻撃を確認 人事・医療費精算システムが10日以上停止",
+      "summary": "欧州委員会は11月19日、AIが生成したサイバー攻撃を受けたことを確認した。10月22日に検知され、26日に攻撃と確認されたもので、Sysper人事システム（給与明細、勤怠、休暇）とMyPMO医療費精算システムが10日以上停止し、翻訳サービスにも影響が出たが、給与は期日通り支払われた。CERT-EUによると、攻撃者はAIペネトレーションテスト用フレームワークARTEXを使用した疑いがある。ARTEXは外部の大規模言語モデルで複数のエージェントを指揮して実際のハッキングツールを使わせるもので、FBIは11月13日に警告を出し、開発者は10月にリポジトリを削除している。委員会は従業員データの大規模な漏洩の証拠は見つかっていないとし、調査は継続中だ。",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+      "source": "The Register",
+      "category": "ラボ"
+    },
+    {
+      "title": "Google、宇宙コンピューティングでBlue Originを選定 2029年にNew GlennでTPU衛星を打ち上げへ",
+      "summary": "GoogleはBlue Originと打ち上げサービス契約を結び、2029年第1四半期にNew Glenn大型ロケットでProject SuncatcherのTPU搭載衛星複数機を太陽同期軌道に打ち上げる。各衛星は地上データセンターのラック1台分に相当する計算能力を持ち、ほぼ途切れない日照で高負荷のAI計算をまかなえるかを検証する。Suncatcherとして初の大型打ち上げ予約で、10月1日に打ち上げられた試作衛星は軌道上でGemma 4の推論をすでに実行している。放熱や放射線、衛星間ネットワークなどの課題は残り、当面は研究プロジェクトだ。",
+      "url": "https://www.channelnewsasia.com/business/google-picks-bezos-blue-origin-launch-ai-computing-satellites-in-2029-6566241",
+      "source": "CNA",
+      "category": "ラボ"
+    },
+    {
+      "title": "27Bモデルが勾配なしで自らの重みを書き換え 8回の自己編集で精度が上がり続ける",
+      "summary": "arXivの新論文「Language Models Can Rewrite Their Own Weights」は「自己書き換え」を示した。オープンな27Bモデルが自らの推論で失敗を診断し、勾配も学習もなしに重みを直接編集し、未見の490問で正答率が6.6ポイント向上、8回連続のセッションで精度は上がり続けた。意図的に損傷させたモデルのコピーも修復でき、未見の画像タスクで正答率が7%から70%に回復した。この能力は規模とともに現れる。同系列の2Bモデルは編集できず、4Bと9Bは編集でむしろ悪化し、成功したのは27Bのみだった。著者らはこれを再帰的自己改善への必要な一歩と位置づけている。",
+      "url": "https://arxiv.org/abs/2611.21885v1",
+      "source": "arXiv",
+      "category": "研究"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-21",
+  "edition": 38,
+  "items": [
+    {
+      "title": "Anthropic 数学家称与 Claude 合作证明黎曼猜想，附 Lean 形式化但尚未验证",
+      "summary": "Anthropic 数学家 Levent Alpöge 11 月 20 日在个人网站发文称，与 Claude 合作发现了黎曼猜想的证明，并称同一方法同样解决广义黎曼猜想，随文发布了 Lean 形式化代码；完整书面论证据称超过 25 万页、尚未写出，证明未经同行验证。同一天斯坦福还出现了一份纯人工的广义黎曼猜想证明草稿，数学界刚开始核查两份主张。Alpöge 称已事先征询 CEO 阿莫代的意见，并否认选在 IPO 次日公布是刻意安排。",
+      "url": "https://www.nature.com/articles/d41586-026-03812-7",
+      "source": "Nature",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic 上市次日跌 8.5% 回吐大半涨幅，英伟达遭 SEC 会计调查暴跌 14%",
+      "summary": "Anthropic 11 月 20 日上市次日收跌 8.5% 至 88.91 美元，盘中一度跌至 83.05 美元、距 83 美元发行价仅 5 美分，几乎回吐首日 17% 的涨幅。英伟达同日暴跌 14%，创 2025 年 1 月以来最差单日：路透社披露 SEC 正审查其会计问题，加州总检察长也已就芯片是否流入中国对其发出传票。纳指单日跌 5.3%、标普跌 3.7% 进入技术性回调，纳指创 2020 年以来最差一周。前情（昨日报道首日收盘）：https://invezz.com/news/2026/11/19/anthropic-stock-first-day-close-2026-11-19/",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-20/nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "Thinking Machines 开源 Inkling 2 Mini：26.4B 循环 Transformer，笔记本就能跑",
+      "summary": "Thinking Machines Lab 11 月 20 日发布 Inkling 2 Mini：26.4B 总参数、每 token 仅激活 3.4B 的稀疏 MoE，24 层中的中间 12 层每 token 重复跑三遍，以 48 次层访问换取小模型的大推理深度。Apache 2.0 开源权重，约 20GB，可在 32GB 内存的 MacBook 上本地运行，上下文 100 万 token；在 DeepSWE v1.1（48.2%）等 agent 编程基准上领先同级开源模型。vLLM、SGLang、Ollama 均已支持。",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source": "Thinking Machines",
+      "category": "开发者"
+    },
+    {
+      "title": "Gemini for Mac 获得电脑操作能力：后台替你点鼠标、填表单",
+      "summary": "谷歌 11 月 19 日给 Mac 版 Gemini 应用加上 Computer Use：可在独立后台窗口里看屏幕、点击、输入、滚动，替用户完成跨本地文件、桌面应用与网页的多步重复任务，如批量上架二手物品、填 PDF 表格、把截图与数据汇总成演示文稿。用户可逐项授权可用应用、实时监看并随时暂停，关键步骤须先请示；目前限美国付费订阅用户（Google AI Plus/Pro/Ultra），需 Apple Silicon 与 macOS Sequoia 以上。",
+      "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
+      "source": "Engadget",
+      "category": "开发者"
+    },
+    {
+      "title": "Meta 智能体 Muse 被曝串号：把别人的银行余额、Signal 消息发给员工",
+      "summary": "路透社查阅 Meta 内部帖子发现，智能体 Muse 多次把不属于用户的托儿请求、职业建议、订单与银行余额发给员工；一名员工的钓鱼天气对话里突然多了一句他人的银行余额，另一名员工则收到了提醒回复姐姐 Signal 消息的通知，尽管她从未把 Signal 接入 Muse。路透社与 Signal、AI Now Institute 复测发现，Muse 在安卓上经通知权限、在 Mac 上经无障碍与截屏权限即可读取 Signal 消息内容，iPhone 上则被挡住。Meta 称属孤立事件、部分为幻觉且已修复。",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "欧盟委员会确认遭 AI 辅助网络攻击：人事与医疗报销系统停摆十余天",
+      "summary": "欧盟委员会 11 月 19 日确认遭一场 AI 生成的网络攻击：10 月 22 日发现、26 日确认为攻击，Sysper 人事系统（工资单、考勤、休假）与 MyPMO 医疗报销系统停摆十余天，翻译服务亦受影响，工资仍按时发放。CERT-EU 指出攻击者疑似使用 AI 渗透测试框架 ARTEX——它用外部大模型指挥多个 agent 执行真实黑客工具，FBI 11 月 13 日已就该工具发出警告，开发者 10 月已下架仓库。委员会称未发现员工数据大面积泄露的证据，调查仍在进行。",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+      "source": "The Register",
+      "category": "实验室"
+    },
+    {
+      "title": "谷歌太空算力选定 Blue Origin：2029 年用 New Glenn 发射 TPU 卫星",
+      "summary": "谷歌与 Blue Origin 签署发射服务协议，2029 年第一季度用 New Glenn 重型火箭把 Project Suncatcher 的多颗 TPU 卫星送入太阳同步轨道，每颗算力约相当于一个地面数据中心机架，验证近乎不间断的日照能否支撑高强度 AI 计算。这是 Suncatcher 首次预订重型运力，此前原型卫星已于 10 月 1 日升空并在轨跑通 Gemma 4 推理。太空数据中心还须解决散热、辐射与组网难题，短期内仍是研究项目。",
+      "url": "https://www.channelnewsasia.com/business/google-picks-bezos-blue-origin-launch-ai-computing-satellites-in-2029-6566241",
+      "source": "CNA",
+      "category": "实验室"
+    },
+    {
+      "title": "27B 模型不靠梯度改写自身权重：八轮自我编辑越改越好",
+      "summary": "arXiv 新论文《Language Models Can Rewrite Their Own Weights》展示「自我改写」：一个 27B 开源模型仅凭自身推理诊断失败、直接改写权重，无梯度、无训练，在 490 道未见过的题目上准确率提升 6.6 个百分点，连续八轮只升不降；它甚至能修复一份被故意损坏的模型副本，在未见过的图像任务上从 7% 恢复到 70%。能力随规模出现：同系列 2B 模型无法改写，4B 与 9B 改完反而变差，只有 27B 成功。作者称这是走向递归自我改进的必要一步。",
+      "url": "https://arxiv.org/abs/2611.21885v1",
+      "source": "arXiv",
+      "category": "研究"
+    }
+  ]
+}

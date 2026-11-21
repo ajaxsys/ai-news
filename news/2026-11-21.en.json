@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-21",
+  "edition": 38,
+  "items": [
+    {
+      "title": "Anthropic mathematician says he proved the Riemann hypothesis with Claude; Lean formalisation released, verification pending",
+      "summary": "Anthropic mathematician Levent Alpöge wrote on his personal website on November 20 that, working with Claude, he had discovered a proof of the Riemann hypothesis, and that the same method also settles the generalised Riemann hypothesis; he released a Lean formalisation of the proof alongside the note. The full written argument would run to more than 250,000 pages and has not been written up, and the claim has not been independently verified. On the same day Stanford circulated a separate, entirely human-written draft proof of the generalised Riemann hypothesis, and mathematicians have only just begun checking both claims. Alpöge says he consulted Anthropic CEO Dario Amodei before publishing and denies the timing — the day after the company's IPO — was deliberate.",
+      "url": "https://www.nature.com/articles/d41586-026-03812-7",
+      "source": "Nature",
+      "category": "Research"
+    },
+    {
+      "title": "[Progress update] Anthropic falls 8.5% on its second day, giving back most of its debut gain, as Nvidia plunges 14% on an SEC accounting probe",
+      "summary": "[Progress update] Anthropic fell 8.5% to $88.91 on its second trading day, November 20, after dropping as low as $83.05 intraday — five cents above its $83 IPO price — giving back most of its 17% first-day gain. Nvidia plunged 14% the same day, its worst session since January 2025: Reuters reported that the SEC is reviewing its accounting practices, and California's attorney general has subpoenaed the company over whether its chips reached China. The Nasdaq fell 5.3% on the day and the S&P 500 dropped 3.7% into correction territory, with the Nasdaq posting its worst week since 2020. Prior report (yesterday, first-day close): https://invezz.com/news/2026/11/19/anthropic-stock-first-day-close-2026-11-19/",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-20/nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "Thinking Machines open-sources Inkling 2 Mini: a 26.4B looped transformer that runs on a laptop",
+      "summary": "Thinking Machines Lab released Inkling 2 Mini on November 20: a sparse mixture-of-experts model with 26.4B total parameters and only 3.4B active per token, whose middle 12 of 24 layers run three times per token — 48 layer visits in total — trading extra compute for deeper reasoning in a small model. The weights are open under Apache 2.0, about 20GB, and it runs locally on a MacBook with 32GB of memory, with a 1M-token context window. It leads comparable open-weight models on agentic coding benchmarks such as DeepSWE v1.1 (48.2%). vLLM, SGLang and Ollama already support it.",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source": "Thinking Machines",
+      "category": "Developers"
+    },
+    {
+      "title": "Gemini for Mac gains computer use: it clicks and fills in forms for you in the background",
+      "summary": "Google added Computer Use to the Gemini app for Mac on November 19: working in an isolated background window, it can see the screen, click, type and scroll to complete multi-step repetitive tasks across local files, desktop apps and the web — such as listing second-hand items in bulk, filling in PDF forms, or turning screenshots and figures into a slide deck. Users grant access app by app, can watch live and pause at any time, and key actions need approval first. It is currently limited to paid subscribers (Google AI Plus, Pro or Ultra) in the US, on Apple silicon Macs running macOS Sequoia or later.",
+      "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
+      "source": "Engadget",
+      "category": "Developers"
+    },
+    {
+      "title": "Meta's agent Muse reportedly mixes up conversations, sending other people's bank balances and Signal messages to staff",
+      "summary": "Reuters reviewed internal Meta posts and found the company's AI agent Muse repeatedly sent staff childcare requests, career advice, orders and bank balances that were not theirs; one employee's fishing-weather chat suddenly included someone else's bank balances, and another was reminded to reply to her sister's Signal message although she had never connected Signal to Muse. Tests by Reuters with Signal and the AI Now Institute found Muse could read Signal message content on Android via notification permissions and on Mac via accessibility and screenshot permissions; the same attempts were blocked on iPhone. Meta calls the cases isolated incidents, saying some were hallucinations that have been fixed.",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "European Commission confirms an AI-assisted cyberattack: HR and medical reimbursement systems down for over ten days",
+      "summary": "The European Commission confirmed on November 19 that it was hit by an AI-generated cyber campaign: detected on October 22 and confirmed as an attack on October 26, it knocked the Sysper HR platform (payslips, timesheets, leave) and the MyPMO medical reimbursement system offline for more than ten days, with translation services also affected, though salaries were still paid on time. CERT-EU says the attackers appear to have used ARTEX, an AI penetration-testing framework that directs multiple agents with an external large language model to run real hacking tools; the FBI warned about the tool on November 13, and its developer took the repository down in October. The Commission says it has found no evidence of a staff-wide data breach, and the investigation continues.",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+      "source": "The Register",
+      "category": "Labs"
+    },
+    {
+      "title": "Google picks Blue Origin for space compute: TPU satellites to launch on New Glenn in 2029",
+      "summary": "Google has signed a launch services agreement with Blue Origin to fly several Project Suncatcher satellites on the New Glenn heavy-lift rocket in the first quarter of 2029, into a sun-synchronous orbit. Each satellite carries Google's Tensor Processing Units with compute roughly equal to a rack of servers in a conventional data centre, testing whether near-continuous sunlight can power intensive AI workloads. It is Suncatcher's first heavy-lift booking; a prototype satellite launched on October 1 already ran Gemma 4 inference in orbit. Cooling, radiation and networking still need solving, and the project remains research for now.",
+      "url": "https://www.channelnewsasia.com/business/google-picks-bezos-blue-origin-launch-ai-computing-satellites-in-2029-6566241",
+      "source": "CNA",
+      "category": "Labs"
+    },
+    {
+      "title": "A 27B model rewrites its own weights without gradients: eight rounds of self-editing, each better than the last",
+      "summary": "A new arXiv paper, 'Language Models Can Rewrite Their Own Weights', demonstrates 'self-rewriting': an open 27B model diagnoses its own failures by its own reasoning and edits its weights directly — no gradients, no training — gaining 6.6 points of accuracy on 490 unseen problems, with accuracy only rising across eight consecutive sessions. It can even repair a deliberately damaged copy of itself, lifting it from 7% to 70% accuracy on unseen image tasks. The ability emerges with scale: the 2B model in the same family makes no edit, and the 4B and 9B models damage themselves; only the 27B succeeds. The authors call it a necessary step toward recursive self-improvement.",
+      "url": "https://arxiv.org/abs/2611.21885v1",
+      "source": "arXiv",
+      "category": "Research"
+    }
+  ]
+}

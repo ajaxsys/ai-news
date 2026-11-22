@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-22",
+  "edition": 39,
+  "items": [
+    {
+      "title": "OpenRouter 警告：经 MiniMax 模型的提示词可能已被第三方读取",
+      "summary": "安全研究员 HD Moore 在 7–10 月发往 MiniMax 模型的提示词中埋入 200 万个一次性测试链接，第三方在 40–130 小时后打开了其中大量链接，说明提示词在推理完成后仍被留存并读取。OpenRouter 11 月 21 日向受影响用户发邮件警告，并已摘除相关端点的“零数据留存”标签。",
+      "url": "https://www.privacyaffairs.com/openrouter-minimax-prompts/",
+      "source": "Privacy Affairs",
+      "category": "开发者"
+    },
+    {
+      "title": "亚马逊接近以约 75 亿美元收购 AI 创业公司 Decart",
+      "summary": "《金融时报》11 月 21 日报道，亚马逊收购以色列 AI 创业公司 Decart 的谈判进入最后阶段，交易总价约 75 亿美元，最早下周宣布。Decart 的软件可让 AI 工作负载跨芯片运行，另有实时视频世界模型 Lucy 与 Oasis；三位创始人已承诺留任五年。",
+      "url": "https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+      "source": "Calcalist",
+      "category": "实验室"
+    },
+    {
+      "title": "谷歌 Duplex 接入 Gemini Tasks：能替你打电话办事",
+      "summary": "谷歌 11 月 20 日宣布，Duplex 自动电话系统已接入 Gemini 应用内的 Tasks，可在没有在线预约渠道时直接致电商家处理现实琐事，由 Gemini 4 Hydrogen 与 Neon 驱动。通话开头会声明是谷歌的自动系统，商家可选择退出。",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "source": "Google",
+      "category": "实验室"
+    },
+    {
+      "title": "Signal 默认拦截系统级 AI 助手读取聊天内容",
+      "summary": "Signal 11 月 20 日宣布，移动端默认阻止 iOS 27 与 Android 上内置的 AI 助手通过截屏读取 Signal 聊天内容，矛头直指 Gemini Intelligence 与 Siri 的屏幕感知功能。Signal 承认防护并不完整，macOS 暂无对应手段。",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source": "Signal",
+      "category": "实验室"
+    },
+    {
+      "title": "俄勒冈州起诉 OpenAI 索赔至少 20.35 亿美元，指其误导家长、危害儿童",
+      "summary": "俄勒冈州总检察长 11 月 17 日起诉 OpenAI，指控其明知 ChatGPT 缺乏有效防护仍向未成年人营销、“ChatGPT for Teens”的家长提醒多次失灵，涉嫌违反该州《非法贸易行为法》，索赔至少 20.35 亿美元并要求法院禁令。这是 10 月以来第九个州对 OpenAI 提起的同类诉讼。",
+      "url": "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-files-2b-lawsuit-against-open-ai-launches-keeping-kids-safe-initiative/",
+      "source": "Oregon Department of Justice",
+      "category": "实验室"
+    },
+    {
+      "title": "无外力纳维-斯托克斯爆破证明出炉：同一作者同日连发两项千禧难题进展",
+      "summary": "11 月 20 日，纽约大学 Tristan Buckmaster 与 Anthropic 的 Levent Alpöge 发布 79 页论文，声称在没有任何外力的情况下三维纳维-斯托克斯方程可在有限时间内爆破，补上了 OpenAI 九月证明留下的关键缺口。论文附 60 万行 Lean 形式化，但关键数值证书尚未公开，正确性仍待验证。",
+      "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/",
+      "source": "Scientific American",
+      "category": "研究"
+    },
+    {
+      "title": "Tufa Labs 用单一 Transformer 把 1GB 维基百科无损压到 105MB",
+      "summary": "Tufa Labs 的开源压缩器 tufazip 用一个 1.63 亿参数的 12 层 Transformer 做唯一预测器，把基准文件 enwik9 从 10 亿字节压到 105,388,353 字节（含解码器与权重），成为该榜单上纯神经网络方案的最佳成绩。代价是双向各需两块 B200 跑约 7.5 天。",
+      "url": "https://tufalabs.ai/research/tufazip/",
+      "source": "Tufa Labs",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAI 发布 MedChemBench：GPT-6.2 Astra 药物化学推理拿 84.5%",
+      "summary": "OpenAI 11 月 20 日发布药物化学推理基准 MedChemBench，99 道题取自 117 篇论文与专利、覆盖 761 个分子结构。GPT-6.2 Astra 在 xhigh 推理档位拿下 84.5% 的分数，分子结构重建高达 95.4%，但在选化合物与预测数值性质上仅约一半分数。OpenAI 强调这不等于能发现新药。",
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "source": "OpenAI",
+      "category": "研究"
+    }
+  ]
+}

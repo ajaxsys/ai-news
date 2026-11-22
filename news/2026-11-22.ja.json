@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-22",
+  "edition": 39,
+  "items": [
+    {
+      "title": "OpenRouterが警告：MiniMax経由のプロンプトが第三者に読まれた可能性",
+      "summary": "セキュリティ研究者HD Mooreが7〜10月にMiniMaxモデルへ送ったプロンプトに200万件の使い捨てテストリンクを埋め込んだところ、第三者が40〜130時間後に大量のリンクを開いた。推論完了後もプロンプトが保存・閲覧されていたことを示す。OpenRouterは11月21日に対象ユーザーへメールで警告し、該当エンドポイントの「ゼロデータ保持」表示を外した。",
+      "url": "https://www.privacyaffairs.com/openrouter-minimax-prompts/",
+      "source": "Privacy Affairs",
+      "category": "開発者"
+    },
+    {
+      "title": "アマゾン、AIスタートアップDecartを約75億ドルで買収へ最終段階",
+      "summary": "フィナンシャル・タイムズが11月21日に報じたところによると、アマゾンによるイスラエルのAIスタートアップDecart買収交渉が最終段階に入り、総額は約75億ドル、早ければ来週にも発表される。DecartのソフトはAIワークロードをチップ横断で動かし、リアルタイム動画のワールドモデルLucyとOasisも持つ。創業者3人は5年間の残留に合意した。",
+      "url": "https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+      "source": "Calcalist",
+      "category": "ラボ"
+    },
+    {
+      "title": "グーグルのDuplexがGemini Tasksに統合、電話で用事を代行",
+      "summary": "グーグルは11月20日、自動電話システムDuplexをGeminiアプリ内のTasksに組み込んだと発表した。オンライン予約の手段がない場合に店舗へ直接電話して用事を済ませ、Gemini 4 HydrogenとNeonが駆動する。通話の冒頭でグーグルの自動システムであることを明示し、店舗側は拒否できる。",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "source": "Google",
+      "category": "ラボ"
+    },
+    {
+      "title": "Signal、OS内蔵AIアシスタントによるチャット読み取りを既定で遮断",
+      "summary": "Signalは11月20日、iOS 27とAndroidに組み込まれたAIアシスタントがスクリーンショット経由でSignalのチャットを読むのをモバイル版で既定で防ぐと発表した。対象はGemini IntelligenceとSiriの画面認識機能。Signalはこの対策が不完全であることも認めており、macOSには当面対応手段がない。",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source": "Signal",
+      "category": "ラボ"
+    },
+    {
+      "title": "オレゴン州がOpenAIを提訴、少なくとも20億3,500万ドルを請求",
+      "summary": "オレゴン州司法長官は11月17日、ChatGPTの有効な保護策がないことを知りながら未成年者へ販売し、「ChatGPT for Teens」の保護者通知が繰り返し機能しなかったとしてOpenAIを提訴した。同州の不正取引慣行法違反を問い、少なくとも20億3,500万ドルの賠償と差し止めを求めている。10月以降、同種の提訴は9州目。",
+      "url": "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-files-2b-lawsuit-against-open-ai-launches-keeping-kids-safe-initiative/",
+      "source": "Oregon Department of Justice",
+      "category": "ラボ"
+    },
+    {
+      "title": "外力なしのナビエ–ストークス爆発証明を主張、同著者が同日に2つのミレニアム問題で前進",
+      "summary": "11月20日、NYUのTristan BuckmasterとAnthropicのLevent Alpögeが79ページの論文を公開し、外力を一切かけずに三次元ナビエ–ストークス方程式が有限時間で爆発しうると主張した。OpenAIの9月の証明に残された重要な抜け穴を埋めるものだが、60万行のLean形式化が付く一方で鍵となる数値証明書は未公開で、正確性は未検証。",
+      "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/",
+      "source": "Scientific American",
+      "category": "研究"
+    },
+    {
+      "title": "Tufa Labs、単一Transformerで1GBのウィキペディアを105MBに可逆圧縮",
+      "summary": "Tufa Labsのオープンソース圧縮器tufazipは、1億6,300万パラメータの12層Transformerを唯一の予測器として使い、ベンチマークファイルenwik9を10億バイトから105,388,353バイト（デコーダと重み込み）まで可逆圧縮した。純粋なニューラル方式として同ベンチマーク最速の記録。ただし圧縮・展開ともB200 2基で約7.5日かかる。",
+      "url": "https://tufalabs.ai/research/tufazip/",
+      "source": "Tufa Labs",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAIがMedChemBenchを公開、GPT-6.2 Astraは医薬品化学の推論で84.5%",
+      "summary": "OpenAIは11月20日、医薬品化学の推論ベンチマークMedChemBenchを公開した。117本の論文・特許から作られた99問で、761の分子構造をカバーする。GPT-6.2 Astraはxhigh推論設定で84.5%を獲得し、分子構造の再構築は95.4%に達したが、化合物の選択と数値特性の予測は約半分にとどまった。OpenAIは、これが新薬の発見能力を示すものではないと強調している。",
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "source": "OpenAI",
+      "category": "研究"
+    }
+  ]
+}

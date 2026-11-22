@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-22",
+  "edition": 39,
+  "items": [
+    {
+      "title": "OpenRouter warns prompts routed via MiniMax may have been read by third parties",
+      "summary": "Security researcher HD Moore planted two million single-use test links in prompts sent to MiniMax models between July and October; third parties opened many of them 40–130 hours later, showing prompts were retained and read after inference finished. OpenRouter emailed affected users on November 21 and removed the “zero data retention” label from the affected endpoints.",
+      "url": "https://www.privacyaffairs.com/openrouter-minimax-prompts/",
+      "source": "Privacy Affairs",
+      "category": "Developers"
+    },
+    {
+      "title": "Amazon nears roughly $7.5B acquisition of AI startup Decart",
+      "summary": "The Financial Times reported on November 21 that Amazon’s talks to acquire Israeli AI startup Decart are in their final stages, at about $7.5 billion, with an announcement possible as early as next week. Decart’s software lets AI workloads run across chips, and it also builds the real-time video world models Lucy and Oasis; its three founders have agreed to stay for five years.",
+      "url": "https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+      "source": "Calcalist",
+      "category": "Labs"
+    },
+    {
+      "title": "Google’s Duplex joins Gemini Tasks to make phone calls on your behalf",
+      "summary": "Google announced on November 20 that its Duplex automated phone system is now built into Tasks in the Gemini app, able to call businesses directly to handle real-world errands when no online booking channel exists, powered by Gemini 4 Hydrogen and Neon. Each call opens by identifying itself as an automated Google system, and merchants can opt out.",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "source": "Google",
+      "category": "Labs"
+    },
+    {
+      "title": "Signal blocks OS-level AI assistants from reading chats by default",
+      "summary": "Signal announced on November 20 that its mobile apps now block, by default, AI assistants built into iOS 27 and Android from reading Signal chats via screenshots, targeting Gemini Intelligence and Siri’s onscreen awareness. Signal concedes the protection is incomplete, and there is no equivalent on macOS yet.",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source": "Signal",
+      "category": "Labs"
+    },
+    {
+      "title": "Oregon sues OpenAI for at least $2.035B over child safety claims",
+      "summary": "Oregon’s attorney general sued OpenAI on November 17, alleging it marketed ChatGPT to minors despite knowing it lacked effective safeguards, and that parental alerts in “ChatGPT for Teens” repeatedly failed, violating the state’s Unlawful Trade Practices Act. The state seeks at least $2.035 billion and an injunction — the ninth such state suit since October.",
+      "url": "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-files-2b-lawsuit-against-open-ai-launches-keeping-kids-safe-initiative/",
+      "source": "Oregon Department of Justice",
+      "category": "Labs"
+    },
+    {
+      "title": "Unforced Navier–Stokes blowup proof claimed, same author advances two Millennium problems in one day",
+      "summary": "On November 20, NYU’s Tristan Buckmaster and Anthropic’s Levent Alpöge published a 79-page paper claiming the three-dimensional Navier–Stokes equations can blow up in finite time with no external force, closing the key loophole left by OpenAI’s September proof. It comes with a 600,000-line Lean formalization, but the crucial numerical certificate has not been released and correctness is unverified.",
+      "url": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/",
+      "source": "Scientific American",
+      "category": "Research"
+    },
+    {
+      "title": "Tufa Labs squeezes 1GB of Wikipedia to 105MB losslessly with a single Transformer",
+      "summary": "Tufa Labs’ open-source compressor tufazip uses a 163M-parameter, 12-layer Transformer as its sole predictor to compress the benchmark file enwik9 from one billion bytes to 105,388,353 bytes, decoder and weights included — the best result on that benchmark from a purely neural approach. The cost is about 7.5 days on two B200 GPUs in each direction.",
+      "url": "https://tufalabs.ai/research/tufazip/",
+      "source": "Tufa Labs",
+      "category": "Research"
+    },
+    {
+      "title": "OpenAI releases MedChemBench: GPT-6.2 Astra scores 84.5% on medicinal chemistry reasoning",
+      "summary": "OpenAI released the medicinal chemistry reasoning benchmark MedChemBench on November 20: 99 problems drawn from 117 papers and patents, covering 761 molecular structures. GPT-6.2 Astra scored 84.5% at the xhigh reasoning setting, hitting 95.4% on molecular structure reconstruction but only about half credit on compound selection and numerical property prediction. OpenAI stresses this does not show models can discover new drugs.",
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "source": "OpenAI",
+      "category": "Research"
+    }
+  ]
+}

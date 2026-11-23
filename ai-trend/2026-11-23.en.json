@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-23",
+ "items": [
+  {
+   "rank": 1,
+   "name": "Claude-BugHunter",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "summary": "A Claude Code skill bundle for bug hunting and external red-team work: 82 skills and 15 commands covering 24 vulnerability classes.",
+   "stars_week": 11269,
+   "stars_total": 17900,
+   "category": "Security Audit",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "source": "GitHub"
+  },
+  {
+   "rank": 2,
+   "name": "Univer",
+   "repo": "dream-num/univer",
+   "summary": "An open-source office SDK that brings document editing, spreadsheets and collaboration into your own product — an AI office for people and AI agents.",
+   "stars_week": 6436,
+   "stars_total": 31281,
+   "category": "AI Apps",
+   "url": "https://github.com/dream-num/univer",
+   "source": "GitHub"
+  },
+  {
+   "rank": 3,
+   "name": "ECC",
+   "repo": "affaan-m/ECC",
+   "summary": "An agent harness performance optimization system: skills, memory and security tuned to make coding agents run better.",
+   "stars_week": 5444,
+   "stars_total": 309048,
+   "category": "Agent Tools",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "GitHub"
+  },
+  {
+   "rank": 4,
+   "name": "Last 30 Days Skill",
+   "repo": "mvanhorn/last30days-skill",
+   "summary": "An AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket and the web, then synthesizes a grounded summary.",
+   "stars_week": 4731,
+   "stars_total": 72761,
+   "category": "Agent Tools",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "source": "GitHub"
+  },
+  {
+   "rank": 5,
+   "name": "LoopForge",
+   "repo": "Tencent/LoopForge",
+   "summary": "Tencent's self-hosted workflow orchestration for coding-agent delivery: coordinates CodeBuddy, Codex and Claude Code with scripts and human approval gates.",
+   "stars_week": 4316,
+   "stars_total": 5679,
+   "category": "Multi-Agent",
+   "url": "https://github.com/Tencent/LoopForge",
+   "source": "GitHub"
+  },
+  {
+   "rank": 6,
+   "name": "Anthropic Skills",
+   "repo": "anthropics/skills",
+   "summary": "Anthropic's public repository for Agent Skills: skills built on the open Agent Skills standard, ready for Claude and other agents to load.",
+   "stars_week": 3864,
+   "stars_total": 199028,
+   "category": "Agent Tools",
+   "url": "https://github.com/anthropics/skills",
+   "source": "GitHub"
+  },
+  {
+   "rank": 7,
+   "name": "FFmpeg Skill",
+   "repo": "kajisho5/ffmpeg-skill",
+   "summary": "A local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server — cut, captions, reframe, loudness and platform exports, with no cloud and no API keys.",
+   "stars_week": 3748,
+   "stars_total": 9754,
+   "category": "Agent Tools",
+   "url": "https://github.com/kajisho5/ffmpeg-skill",
+   "source": "GitHub"
+  },
+  {
+   "rank": 8,
+   "name": "OpenMausBot",
+   "repo": "milind-soni/OpenMausBot",
+   "summary": "An open-source alternative to Grok Bot: gives bots a virtual machine they can operate to carry out computer tasks.",
+   "stars_week": 3728,
+   "stars_total": 26863,
+   "category": "Computer Use",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "source": "GitHub"
+  },
+  {
+   "rank": 9,
+   "name": "Open Code Review",
+   "repo": "alibaba/open-code-review",
+   "summary": "Alibaba's open-source code review tool: a hybrid of deterministic pipelines and an LLM agent producing precise line-level comments, battle-tested at Alibaba's scale.",
+   "stars_week": 3700,
+   "stars_total": 55430,
+   "category": "Code Review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "source": "GitHub"
+  },
+  {
+   "rank": 10,
+   "name": "AG-UI",
+   "repo": "ag-ui-protocol/ag-ui",
+   "summary": "The Agent-User Interaction Protocol: bring agents into frontend applications so apps can surface what agents are doing in real time.",
+   "stars_week": 3620,
+   "stars_total": 21204,
+   "category": "Agent Tools",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "source": "GitHub"
+  }
+ ]
+}

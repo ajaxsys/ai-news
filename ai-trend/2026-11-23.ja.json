@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-23",
+ "items": [
+  {
+   "rank": 1,
+   "name": "Claude-BugHunter",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "summary": "Claude Code 向けの脆弱性探索スキル集。82 のスキルと 15 のコマンドで、24 種の脆弱性クラスと外部レッドチームの流れをカバーする。",
+   "stars_week": 11269,
+   "stars_total": 17900,
+   "category": "セキュリティ監査",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "source": "GitHub"
+  },
+  {
+   "rank": 2,
+   "name": "Univer",
+   "repo": "dream-num/univer",
+   "summary": "オープンソースのオフィス SDK。文書編集・表計算・コラボレーションを自社プロダクトに組み込む、人と AI エージェントのための AI オフィス。",
+   "stars_week": 6436,
+   "stars_total": 31281,
+   "category": "AIアプリ",
+   "url": "https://github.com/dream-num/univer",
+   "source": "GitHub"
+  },
+  {
+   "rank": 3,
+   "name": "ECC",
+   "repo": "affaan-m/ECC",
+   "summary": "エージェントハーネスの性能最適化システム。スキル、記憶、セキュリティを軸に、コーディングエージェントの実行基盤を磨き上げる。",
+   "stars_week": 5444,
+   "stars_total": 309048,
+   "category": "エージェントツール",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "GitHub"
+  },
+  {
+   "rank": 4,
+   "name": "Last 30 Days Skill",
+   "repo": "mvanhorn/last30days-skill",
+   "summary": "Reddit、X、YouTube、HN、Polymarket、Web を横断してテーマを調査し、根拠のある要約にまとめる AI エージェント用スキル。",
+   "stars_week": 4731,
+   "stars_total": 72761,
+   "category": "エージェントツール",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "source": "GitHub"
+  },
+  {
+   "rank": 5,
+   "name": "LoopForge",
+   "repo": "Tencent/LoopForge",
+   "summary": "Tencent のコーディングエージェント向けワークフロー基盤。CodeBuddy、Codex、Claude Code をスクリプトと人間の承認ゲートで編成し、自前で運用できる。",
+   "stars_week": 4316,
+   "stars_total": 5679,
+   "category": "マルチエージェント",
+   "url": "https://github.com/Tencent/LoopForge",
+   "source": "GitHub"
+  },
+  {
+   "rank": 6,
+   "name": "Anthropic Skills",
+   "repo": "anthropics/skills",
+   "summary": "Anthropic 公式の Agent Skills 公開リポジトリ。オープンな Agent Skills 標準に沿ったスキル集で、Claude などのエージェントが読み込んで使える。",
+   "stars_week": 3864,
+   "stars_total": 199028,
+   "category": "エージェントツール",
+   "url": "https://github.com/anthropics/skills",
+   "source": "GitHub"
+  },
+  {
+   "rank": 7,
+   "name": "FFmpeg Skill",
+   "repo": "kajisho5/ffmpeg-skill",
+   "summary": "コーディングエージェント向けのローカル動画編集。42 の FFmpeg ツールと MCP サーバーでカット・字幕・リフレーム・ラウドネス・各プラットフォーム向け書き出しに対応し、クラウドも API キーも不要。",
+   "stars_week": 3748,
+   "stars_total": 9754,
+   "category": "エージェントツール",
+   "url": "https://github.com/kajisho5/ffmpeg-skill",
+   "source": "GitHub"
+  },
+  {
+   "rank": 8,
+   "name": "OpenMausBot",
+   "repo": "milind-soni/OpenMausBot",
+   "summary": "Grok Bot のオープンソース代替。ボットが操作できる仮想マシンを備え、エージェントがコンピュータ上のタスクを実行する。",
+   "stars_week": 3728,
+   "stars_total": 26863,
+   "category": "コンピュータ操作",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "source": "GitHub"
+  },
+  {
+   "rank": 9,
+   "name": "Open Code Review",
+   "repo": "alibaba/open-code-review",
+   "summary": "Alibabaが公開したコードレビューツール。決定的なパイプラインとLLMエージェントのハイブリッドで、行単位の精密なコメントを返す。大規模環境での実績をうたう。",
+   "stars_week": 3700,
+   "stars_total": 55430,
+   "category": "コードレビュー",
+   "url": "https://github.com/alibaba/open-code-review",
+   "source": "GitHub"
+  },
+  {
+   "rank": 10,
+   "name": "AG-UI",
+   "repo": "ag-ui-protocol/ag-ui",
+   "summary": "エージェントとユーザーインターフェースの連携プロトコル。エージェントをフロントエンドアプリに組み込み、その動きをリアルタイムに表示する。",
+   "stars_week": 3620,
+   "stars_total": 21204,
+   "category": "エージェントツール",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "source": "GitHub"
+  }
+ ]
+}

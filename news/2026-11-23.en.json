@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-23",
+  "edition": 40,
+  "items": [
+    {
+      "title": "OpenAI chief scientist proposes perplexity as a shared industry safety yardstick",
+      "summary": "OpenAI chief scientist Jakub Pachocki published “Perplexity and Intelligence” on November 22, disclosing OpenAI’s internal pretraining perplexity curve for the first time: GPT-3.5 at about 0.99, GPT-4 at about 0.91, current models below 0.8, and a model at about 0.76 that began solving open mathematics problems. He proposes frontier labs adopt perplexity as a shared yardstick and agree on development limits not to be crossed until monitoring ability catches up, predicting new capability leaps in the 0.68–0.70 window; Altman called it OpenAI’s most important publication in a while.",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "OpenAI",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenRouter off-boards three inference providers, strips 125 endpoints of zero-data-retention status",
+      "summary": "Following its November 21 warning that prompts routed via MiniMax may have been read by third parties, OpenRouter announced enforcement results on November 22: three inference providers off-boarded, 125 endpoints stripped of Zero Data Retention eligibility, and all potentially affected customers notified. Dragos’s canary-token research showed attackers stealing prompts inside three providers for months, including requests marked zero-retention, and using stolen AWS keys for tens of thousands of API calls; OpenRouter says it was not itself breached and will run similar checks on an ongoing basis. Prior coverage: https://www.privacyaffairs.com/openrouter-minimax-prompts/",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "source": "OpenRouter",
+      "category": "Developers"
+    },
+    {
+      "title": "Tencent releases full Hy4 flagship weights: 770B multimodal MoE, with a separate license for large commercial use",
+      "summary": "Tencent published the full weights of its flagship Hy4 on November 20: 770B total parameters, 49B active per token, natively multimodal with a 1M-token context, plus FP8 and pre-trained base variants and an 82-page system card. The license is the catch: the Hy License derives from Apache 2.0, but MaaS operators above $50M annual revenue or 100M monthly active users need a separate written license — unlike the August preview’s plain Apache 2.0.",
+      "url": "https://www.deai.org/news/tencent-hy4-full-open-weights-system-card",
+      "source": "DeAI",
+      "category": "Labs"
+    },
+    {
+      "title": "Ant quietly open-sources LingSante-3.1-flash: a 560B medical reasoning model under MIT",
+      "summary": "Ant’s inclusionAI put LingSante-3.1-flash on Hugging Face on November 19 with no official announcement: a medical reasoning model built on Ling-3.1-flash, 560B total parameters with about 25B active per token, 1M context, under the MIT license. Ant claims it is the strongest open model on complex medical reasoning and second only to GPT-6 Astra on medical professional-behavior benchmarks. A quantized MXFP4 build followed on November 22.",
+      "url": "https://ant-ling.medium.com/lingsante-3-1-flash-bridging-medical-reasoning-and-real-world-workflows-fdc95f262f64",
+      "source": "Ant Ling",
+      "category": "Labs"
+    },
+    {
+      "title": "GPT-6.2 Astra and Sol answer shorter and more directly, but score far lower on admitting uncertainty",
+      "summary": "Artificial Analysis’s personality benchmark finds GPT-6.2 Astra and Sol answer much more briefly than their predecessors — Astra from 352 to 210 words on average, Sol from 337 to 223 — leading with the answer and dropping headings; but their relative ranking on “admits uncertainty” fell from 96 to 24 (Astra) and 98 to 51 (Sol), and their Transparency Index scores of 41 and 57 trail Claude’s 81–90. The test used 900 English questions with no system prompt and measures communication style, not factual accuracy.",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "source": "The Decoder",
+      "category": "Labs"
+    },
+    {
+      "title": "Binding of Isaac caught shipping undisclosed Suno-generated music, pulls it after review-bombing",
+      "summary": "Players found Suno metadata in 14 audio files in the GTA-themed daily run added to The Binding of Isaac: Repentance+ on November 19 — undisclosed AI-generated music; recent Steam reviews fell to 8% positive. Creator Edmund McMillen said he had no idea it was there; publisher Nicalis pushed a patch removing the files on November 21 and submitted console builds for certification, without explaining how the music got in.",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge",
+      "category": "Developers"
+    }
+  ]
+}

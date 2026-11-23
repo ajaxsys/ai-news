@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-23",
+  "edition": 40,
+  "items": [
+    {
+      "title": "OpenAI首席科学者、パープレキシティを業界共通の安全指標に提案",
+      "summary": "OpenAIの首席科学者Jakub Pachockiは11月22日、「Perplexity and Intelligence」を発表し、OpenAIの内部プリトレーニング・パープレキシティ曲線を初めて公開した。GPT-3.5は約0.99、GPT-4は約0.91、現行モデルは0.8を下回り、約0.76のモデルが未解決の数学問題を解き始めたという。フロンティア各社がパープレキシティを共通指標として開発上限に合意し、監視能力が追いつくまで超えないよう提案。0.68〜0.70の領域では新たな能力の跳躍を予測。Altmanは「OpenAIが最近出した中で最も重要なもの」と評した。",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "OpenAI",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenRouter、推論プロバイダ3社を排除、125エンドポイントのゼロデータ保持を剥奪",
+      "summary": "MiniMax経由のプロンプトが第三者に読まれた可能性を11月21日に警告したのに続き、OpenRouterは11月22日に処置結果を公表した。推論プロバイダ3社を排除し、125エンドポイントの「ゼロデータ保持」資格を剥奪、影響の可能性がある全ユーザーに通知した。Dragosのカナリアトークン調査では、攻撃者が数か月にわたり3社の内部でプロンプトを窃取し、ゼロ保持と表示されたリクエストも含まれ、盗んだAWSキーが数万回のAPI呼び出しに使われていた。OpenRouterは自社が侵害されたわけではないとし、同様の検査を常態化する。前回：https://www.privacyaffairs.com/openrouter-minimax-prompts/",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "source": "OpenRouter",
+      "category": "開発者"
+    },
+    {
+      "title": "テンセント、Hy4フラッグシップの完全な重みを公開：770BマルチモーダルMoE、ただし大企業の商用利用は別ライセンス",
+      "summary": "テンセントは11月20日、フラッグシップモデルHy4の完全な重みを公開した。770B総パラメータ、トークンあたり49Bが活性化、ネイティブマルチモーダルで100万トークンのコンテキスト。FP8版と事前学習ベース版、82ページのシステムカードも付く。鍵はライセンスで、Hy LicenseはApache 2.0由来だが、年収5,000万ドル超または月間アクティブユーザー1億超のMaaS事業者は別途書面ライセンスが必要。8月のプレビュー版の純粋なApache 2.0とは異なる。",
+      "url": "https://www.deai.org/news/tencent-hy4-full-open-weights-system-card",
+      "source": "DeAI",
+      "category": "ラボ"
+    },
+    {
+      "title": "アント、LingSante-3.1-flashをひっそりオープンソース化：560Bの医療推論モデル、MITライセンス",
+      "summary": "アントのinclusionAIは11月19日、LingSante-3.1-flashを公式発表なしにHugging Faceへ公開した。Ling-3.1-flashを基にした医療推論モデルで、総パラメータ560B、トークンあたり約25Bが活性化、100万コンテキスト、MITライセンス。複雑な医療推論ではオープン最強、医療の職業行動ベンチマークではGPT-6 Astraに次ぐとしている。量子化版MXFP4は11月22日に追加された。",
+      "url": "https://ant-ling.medium.com/lingsante-3-1-flash-bridging-medical-reasoning-and-real-world-workflows-fdc95f262f64",
+      "source": "Ant Ling",
+      "category": "ラボ"
+    },
+    {
+      "title": "GPT-6.2 AstraとSolは短く直接的に答えるが、「不確かさを認める」評価は大幅に低下",
+      "summary": "Artificial Analysisのパーソナリティ評価によると、GPT-6.2 AstraとSolは前世代より大幅に短く回答する。Astraは平均352語から210語へ、Solは337語から223語へ。結論を先に述べ、見出しも使わなくなった。ただし「不確かさを認める」の相対順位は96から24（Astra）、98から51（Sol）へ下落し、透明性総合指数はAstra 41、Sol 57と、Claudeの81〜90を大きく下回る。900問の英語問題をシステムプロンプトなしで実施したもので、事実の正確さではなく表現スタイルの測定だ。",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "source": "The Decoder",
+      "category": "ラボ"
+    },
+    {
+      "title": "『アイザックの伝説』にSuno生成音楽の混入が発覚、低評価の嵐を受け緊急削除",
+      "summary": "『アイザックの伝説：Repentance+』の11月19日のアップデートで追加されたGTAテーマのデイリーランに、Sunoのメタデータを持つ音声ファイル14件が含まれていたことが判明した。未開示のAI生成音楽で、Steamの直近レビュー好評率は一時8%まで落ちた。原作者Edmund McMillenは関与を知らなかったと述べ、パブリッシャーのNicalisは11月21日に削除パッチを配信し、コンソール版も審査に提出したが、混入の経緯は説明していない。",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge",
+      "category": "開発者"
+    }
+  ]
+}

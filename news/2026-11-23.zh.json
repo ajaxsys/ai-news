@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-23",
+  "edition": 40,
+  "items": [
+    {
+      "title": "OpenAI 首席科学家提议以困惑度为行业共同安全标尺",
+      "summary": "OpenAI 首席科学家 Jakub Pachocki 11 月 22 日发表《Perplexity and Intelligence》，首次公开 OpenAI 内部预训练困惑度曲线：GPT-3.5 约 0.99、GPT-4 约 0.91，当前模型已低于 0.8，约 0.76 的模型开始攻克公开数学难题。他提议各前沿实验室以困惑度为共同度量、约定在监测能力达标前不跨越的开发上限，并预测 0.68–0.70 区间可能出现新的能力跃升；Altman 称这是 OpenAI 近期最重要的发布。",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "OpenAI",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenRouter 下架三家推理服务商、125 个端点摘除零数据留存标签",
+      "summary": "继 11 月 21 日警告 MiniMax 路由提示词可能被第三方读取后，OpenRouter 11 月 22 日公布处置结果：下架三家推理服务商，125 个端点摘除「零数据留存」资格并通知全部可能受影响用户。Dragos 的金丝雀实验显示，攻击者数月来在三家服务商内部窃取提示词（含标记零留存的请求），被窃的 AWS 密钥还被用于数万次 API 调用；OpenRouter 称自身未被攻破，将把同类检测常态化。前情：https://www.privacyaffairs.com/openrouter-minimax-prompts/",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "source": "OpenRouter",
+      "category": "开发者"
+    },
+    {
+      "title": "腾讯放出 Hy4 旗舰完整权重：770B 多模态 MoE，但大企业商用需另签许可",
+      "summary": "腾讯 11 月 20 日放出旗舰模型 Hy4 的完整权重：770B 总参数、每 token 激活 49B，原生多模态、100 万 token 上下文，另有 FP8 与预训练基座版本及 82 页系统卡。许可证是关键：Hy License 源自 Apache 2.0，但年收入超 5000 万美元或月活超 1 亿的 MaaS 运营商须另签书面许可，与 8 月预览版的纯 Apache 2.0 不同。",
+      "url": "https://www.deai.org/news/tencent-hy4-full-open-weights-system-card",
+      "source": "DeAI",
+      "category": "实验室"
+    },
+    {
+      "title": "蚂蚁 LingSante-3.1-flash 静默开源：560B 医疗推理模型，MIT 协议",
+      "summary": "蚂蚁 inclusionAI 11 月 19 日在 Hugging Face 上架 LingSante-3.1-flash，未做官方发布：基于 Ling-3.1-flash 的医疗推理模型，560B 总参数、每 token 激活约 25B，100 万上下文，MIT 协议；官方称其在复杂医疗推理上为开源最强，在医疗职业行为基准上仅次于 GPT-6 Astra。量化版 MXFP4 随后于 11 月 22 日上架。",
+      "url": "https://ant-ling.medium.com/lingsante-3-1-flash-bridging-medical-reasoning-and-real-world-workflows-fdc95f262f64",
+      "source": "Ant Ling",
+      "category": "实验室"
+    },
+    {
+      "title": "GPT-6.2 Astra 与 Sol 回答更短更直接，但「承认不确定」的评分大跌",
+      "summary": "Artificial Analysis 的个性评测显示，GPT-6.2 Astra 与 Sol 比前代回答大幅缩短：Astra 平均 352 词降至 210 词、Sol 从 337 词降至 223 词，先给答案、不再堆标题；但「承认不确定」这一项的相对排名从 96 降至 24（Astra）、98 降至 51（Sol），透明度综合指数 Astra 41、Sol 57，明显低于 Claude 的 81–90。评测基于 900 道英文题、无系统提示，反映的是表达风格而非事实准确率。",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "source": "The Decoder",
+      "category": "实验室"
+    },
+    {
+      "title": "《以撒的结合》被曝混入 Suno 生成音乐，遭差评轰炸后紧急撤下",
+      "summary": "玩家在《以撒的结合：忏悔+》11 月 19 日更新的 GTA 主题每日挑战中发现 14 个音频文件带有 Suno 元数据，属未披露的 AI 生成音乐；Steam 近期好评率一度跌至 8%。创作者 Edmund McMillen 称对此不知情，发行商 Nicalis 11 月 21 日推送补丁撤下相关文件，主机版已提交审核，但未解释音乐如何混入。",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge",
+      "category": "开发者"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-24",
+  "edition": 41,
+  "items": [
+    {
+      "title": "Jensen Huang reinstated as Nvidia CEO: board votes unanimously to bring him back 11 days after resignation, shares surge over 30%",
+      "summary": "Nvidia's board announced on November 23 that it had voted unanimously to reinstate Jensen Huang as CEO, president and director with immediate effect, just 11 days after he resigned on November 12 over an extramarital-affairs scandal. The board said that after input from senior levels of the US government it was confident his return poses no national security risk; President Trump had personally called the board to press for his return. Nvidia shares surged more than 30% on the news. An independent investigation continues. Prior coverage: https://www.malaymail.com/news/money/2026/11/13/jensen-huang-resigns-as-nvidia-ceo-after-affair-revelations-ending-33-years-at-helm/243032",
+      "url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-ceo?cid=external-feeds_iluminar_meta",
+      "source": "CNN",
+      "category": "Labs"
+    },
+    {
+      "title": "Anthropic launches Claude Ship: AI reviews PRs, fixes code, and approves merges under team policy",
+      "summary": "Anthropic launched Claude Ship in beta on November 23: three agents — Code Review, PR Steward and Claude Approvals — review pull requests, fix failing CI checks and merge conflicts, and automatically approve routine changes under an approval policy the team writes into the repository. It is available for GitHub repositories on Claude Team and Enterprise plans; individual developers can try it with the new /ship command in Claude Code. Anthropic recommends running approvals in observe-only mode first.",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch",
+      "category": "Developers"
+    },
+    {
+      "title": "Google Search AI Mode connects Wallet and Drive: spending records and documents become search context",
+      "summary": "Google announced on November 23 that Personal Intelligence in Search's AI Mode is adding connections for Google Wallet, Drive and the Gemini app: AI Mode can read spending records to help plan expenses and optimize credit-card rewards, and draw on documents and spreadsheets for personalized answers. Wallet rolls out starting today, with Drive and Gemini to follow in the coming weeks; all connections are opt-in and can be switched off at any time, and Wallet access is read-only — it cannot move money.",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google",
+      "category": "Labs"
+    },
+    {
+      "title": "Walmart's Agent Gateway goes live: Meta's Muse can shop Black Friday deals for you",
+      "summary": "Walmart switched on a live version of its Agent Gateway on November 23, with Meta's Muse as the first agent on board: Muse can find Black Friday deals, build a basket and check out in the conversation using a card saved in the shopper's Walmart account, at the same prices as Walmart.com and under the same return policy. Purchases run through an Agent Profile inside the account, where shoppers can set spending limits and approve purchases; the open approach contrasts with Amazon and eBay, which block AI agents. Prior coverage: https://www.thehindubusinessline.com/news/world/walmart-launches-ai-tools-to-let-agents-shop-and-complete-purchases/article71609558.ece",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "source": "The Verge",
+      "category": "Developers"
+    },
+    {
+      "title": "Riemann hypothesis proof formally certified by Lean and Mathlib, with more independent checks passing",
+      "summary": "On November 21, the Lean Focused Research Organization and the Mathlib Initiative jointly certified that the Lean formalization of the Riemann hypothesis produced by Anthropic mathematician Levent Alpöge working with Claude is correct in both statement and proof: dozens of people compiled it independently without errors, and Lean's kernel plus independent checkers including con-leche accepted the proof. More checks passed on MIT mathematician Andrew Sutherland's verification page on November 23. A human-readable account of the ideas is still to come, and mathematicians do not yet truly understand the proof. Prior coverage: https://www.nature.com/articles/d41586-026-03812-7",
+      "url": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai",
+      "source": "Science News",
+      "category": "Research"
+    },
+    {
+      "title": "Amazon confirms $7.5B acquisition of Decart as Trainium chips head for external sale",
+      "summary": "Amazon confirmed on November 23 that it will acquire Israeli AI startup Decart's optimization technology and founding team for about $7.5 billion: Decart is known for its real-time world model Oasis and AI video-generation tools, and its optimization stack helps models run efficiently on Nvidia, Amazon and Google hardware. Amazon also said its Trainium chips will start being sold to outside customers, taking on Nvidia directly. Prior coverage: https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Virginia and Oregon sue SpaceX: Grok accused of generating child sexual abuse deepfakes at scale",
+      "summary": "Virginia and Oregon filed separate lawsuits on November 23 against Elon Musk's SpaceX Super Intelligence, alleging Grok's \"spicy mode\" can turn an ordinary photograph into a sexual or nude image or video, while the company promoted the product as safe without adequate safeguards. The complaints cite Center for Countering Digital Hate research estimating that between late December 2025 and early January 2026, Grok generated and posted about 3 million sexualized images on X, around 23,000 of them apparently depicting children. The states seek damages, penalties and court orders.",
+      "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "DeepMind: Gemini agent teams find faster quantum algorithms, verified in Lean and open-sourced",
+      "summary": "Google DeepMind wrote on November 23 that teams of Gemini 4 agents worked together to improve well-known quantum algorithms, verifying each result's correctness and cost with Lean formal proofs: fusion-simulation cost down 11.8×, photochemistry simulation 8× cheaper, drug-metabolism enzyme simulation 2.5× cheaper, and a 290× speedup for an arcsin routine. The Lean library, problem specifications and verified solutions are open-sourced.",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "DeepMind",
+      "category": "Research"
+    },
+    {
+      "title": "Cisco and OpenAI open-source Shirudo: AI agents shield running Linux systems",
+      "summary": "Cisco and OpenAI jointly launched the open-source project Shirudo (\"shield\" in Japanese) on November 23: built on eBPF, it lets AI agents write cryptographically signed, temporary mitigations for running Linux systems, blocking attacks in the window between a vulnerability being exploited and the official patch arriving — with no reboot. In a demo, a Codex-generated shield blocked a Java4Shell-style exploit; the project is pre-release, and production use still needs a specific kernel and TPM 2.0.",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html",
+      "source": "Cisco",
+      "category": "Developers"
+    }
+  ]
+}

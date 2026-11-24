@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-24",
+  "edition": 41,
+  "items": [
+    {
+      "title": "ジェンスン・フアン、エヌビディアCEOに復帰：辞任から11日で取締役会が全会一致で復職を決定、株価は30％超急騰",
+      "summary": "エヌビディアの取締役会は11月23日、全会一致でジェンスン・フアンをCEO、社長兼取締役に即日復職させると発表した。不倫スキャンダルで辞任した11月12日からわずか11日後のことだ。取締役会は米政府高官の意見を聞いた上で、復職が国家安全保障上のリスクにならないと確信していると説明。トランプ大統領は取締役会に直接電話し復職を働きかけていた。発表を受け株価は1日で30％超急騰した。独立調査は継続中。前回：https://www.malaymail.com/news/money/2026/11/13/jensen-huang-resigns-as-nvidia-ceo-after-affair-revelations-ending-33-years-at-helm/243032",
+      "url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-ceo?cid=external-feeds_iluminar_meta",
+      "source": "CNN",
+      "category": "ラボ"
+    },
+    {
+      "title": "Anthropic、Claude Shipを発表：AIがPRをレビューし、コードを修正し、チームのポリシーに沿って承認",
+      "summary": "Anthropicは11月23日、Claude Ship（ベータ）を発表した。Code Review、PR Steward、Claude Approvalsの3つのエージェントで構成され、PRのレビュー、CI失敗やマージ競合の修正、チームがリポジトリに記した承認ポリシーに基づく定型変更の自動承認を行う。Claude TeamおよびEnterpriseプランのGitHubリポジトリが対象で、個人開発者はClaude Codeの新コマンド「/ship」で試せる。公式は承認機能をまずオブザーブ専用モードで運用するよう推奨している。",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch",
+      "category": "開発者"
+    },
+    {
+      "title": "Google検索のAIモード、WalletとDriveに接続：支出記録や文書が検索のコンテキストに",
+      "summary": "Googleは11月23日、検索のAIモードにおけるPersonal Intelligenceに、Google Wallet、Drive、Geminiアプリとの接続を追加すると発表した。AIモードは支出記録を読み取って家計の見直しやクレジットカードの特典最適化を助け、文書や表計算からもパーソナライズされた回答を作れる。Walletは本日から提供開始、DriveとGeminiは数週間以内に続く。いずれも任意接続でいつでもオフにでき、Wallet接続は読み取り専用で資金を動かすことはできない。",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google",
+      "category": "ラボ"
+    },
+    {
+      "title": "ウォルマートのAgent Gatewayが稼働開始：MetaのMuseがブラックフライデーの買い物を代行",
+      "summary": "ウォルマートは11月23日、Agent Gatewayのライブ版を稼働させ、MetaのMuseが最初の対応エージェントとなった。Museは会話の中でブラックフライデーのセール品を探し、カートを作り、ウォルマートアカウントに保存されたカードで決済できる。価格はWalmart.comと同じで返品ポリシーも変わらない。買い物はアカウント内のAgent Profileを通じて行われ、支出上限の設定や購入ごとの承認が可能。AIエージェントを締め出すアマゾンやeBayとは対照的な開放路線だ。前回：https://www.thehindubusinessline.com/news/world/walmart-launches-ai-tools-to-let-agents-shop-and-complete-purchases/article71609558.ece",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "source": "The Verge",
+      "category": "開発者"
+    },
+    {
+      "title": "リーマン予想の証明、LeanとMathlibが正式に認証、独立検証も次々通過",
+      "summary": "11月21日、Lean Focused Research OrganizationとMathlib Initiativeは共同声明で、Anthropicの数学者Levent AlpögeがClaudeとともに完成させたリーマン予想のLeanによる形式的証明について「主張も証明も正しい」と認証した。数十人が独立にコンパイルしてエラーはなく、Leanのカーネルやcon-lecheなど複数の独立チェッカーが証明を受け入れた。11月23日にはMITのAndrew Sutherlandの検証ページでもさらに複数のチェックが通過した。ただし人間が読める形での証明の整理はこれからで、数学界はまだこの証明を真に理解していない。前回：https://www.nature.com/articles/d41586-026-03812-7",
+      "url": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai",
+      "source": "Science News",
+      "category": "研究"
+    },
+    {
+      "title": "アマゾン、Decartの75億ドル買収を確認、Trainiumチップの外販へ",
+      "summary": "アマゾンは11月23日、イスラエルのAIスタートアップDecartの最適化技術と創業チームを約75億ドルで買収すると確認した。DecartはリアルタイムのワールドモデルOasisやAI動画生成ツールで知られ、その最適化スタックはエヌビディア、アマゾン、Googleのハードウェア上でモデルを効率的に動かす。アマゾンはTrainiumチップの外部販売も開始すると明らかにし、エヌビディアに正面から挑む構えだ。前回：https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "バージニアとオレゴンがSpaceXを提訴：Grokによる児童性的虐待ディープフェイクの大量生成を指摘",
+      "summary": "米バージニア州とオレゴン州は11月23日、イーロン・マスク氏傘下のSpaceX Super Intelligenceをそれぞれ提訴した。Grokの「スパイシーモード」が普通の写真を性的またはヌードの画像・動画に変えられるとし、製品の安全性をうたいながら十分な対策を講じなかったと指摘。訴状は反デジタルヘイトセンターの調査を引用し、2025年12月末から2026年1月初にかけてGrokがX上に約300万枚の性的画像を生成・投稿し、そのうち約2万3,000枚が児童を描いたものとみられるとしている。両州は賠償、罰金、差し止めを求めている。",
+      "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "DeepMind：Geminiエージェントチームがより高速な量子アルゴリズムを発見、Leanで検証しオープンソース化",
+      "summary": "Google DeepMindは11月23日、複数のGemini 4エージェントチームが連携して古典的な量子アルゴリズムを改良したと発表した。各結果の正しさとコストはLeanによる形式的検証で確認された。核融合シミュレーションのコストは11.8倍、光化学シミュレーションは8倍、薬物代謝酵素のシミュレーションは2.5倍安くなり、arcsinルーチンは290倍高速化した。関連するLeanライブラリ、問題仕様、検証済みの解法はオープンソース化された。",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "DeepMind",
+      "category": "研究"
+    },
+    {
+      "title": "シスコとOpenAI、Shirudoをオープンソース化：AIエージェントが稼働中のLinuxを守る",
+      "summary": "シスコとOpenAIは11月23日、オープンソースプロジェクトShirudo（日本語の「盾」）を共同発表した。eBPFを基盤とし、AIエージェントが稼働中のLinuxシステム向けに暗号署名付きの一時的な緩和策を書き、脆弱性の悪用から公式パッチの到着までの空白期間に攻撃を防ぐ。再起動は不要だ。デモではCodexが生成したシールドがJava4Shell型の脆弱性への攻撃を防いだ。プロジェクトはプレリリース段階で、本番利用には特定のカーネルとTPM 2.0がなお必要だ。",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html",
+      "source": "Cisco",
+      "category": "開発者"
+    }
+  ]
+}

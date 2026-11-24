@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-24",
+  "edition": 41,
+  "items": [
+    {
+      "title": "黄仁勋复任英伟达 CEO：辞职 11 天后董事会全票召回，股价暴涨逾 30%",
+      "summary": "英伟达董事会 11 月 23 日宣布全票通过，黄仁勋即刻复任 CEO、总裁兼董事，距其 11 月 12 日因婚外情丑闻辞职仅 11 天。董事会称在听取美国政府高层意见后确认其复任不构成国家安全风险，特朗普曾直接致电董事会施压；消息公布后英伟达股价单日暴涨逾 30%。独立调查仍在继续。前情：https://www.malaymail.com/news/money/2026/11/13/jensen-huang-resigns-as-nvidia-ceo-after-affair-revelations-ending-33-years-at-helm/243032",
+      "url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-ceo?cid=external-feeds_iluminar_meta",
+      "source": "CNN",
+      "category": "实验室"
+    },
+    {
+      "title": "Anthropic 发布 Claude Ship：AI 审 PR、修代码、还能按团队政策批合并",
+      "summary": "Anthropic 11 月 23 日推出 Claude Ship（beta），由 Code Review、PR Steward 与 Claude Approvals 三个智能体组成：审 PR、修 CI 失败与合并冲突、按团队写入仓库的审批政策自动批准常规改动。面向 Claude Team 与 Enterprise 的 GitHub 仓库，个人开发者可用 Claude Code 新命令 /ship 试用；官方建议先以仅观察模式运行审批。",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch",
+      "category": "开发者"
+    },
+    {
+      "title": "谷歌搜索 AI Mode 接入 Wallet 与 Drive：消费记录和文档都成搜索上下文",
+      "summary": "谷歌 11 月 23 日宣布搜索 AI Mode 的 Personal Intelligence 新增 Wallet、Drive 与 Gemini 应用连接：AI Mode 可读取消费记录帮你规划开支、优化信用卡返现，也能结合文档、表格做个性化回答。Wallet 即日起上线，Drive 与 Gemini 在未来几周内跟进；均为自愿接入、可随时关闭，钱包连接只读、不能动钱。",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google",
+      "category": "实验室"
+    },
+    {
+      "title": "沃尔玛 Agent Gateway 上线：Meta Muse 可代买黑五商品",
+      "summary": "沃尔玛 11 月 23 日上线 Agent Gateway 的实时版本，Meta 的 Muse 成为首个接入的智能体：可在对话里帮用户找黑五折扣、组购物车并用沃尔玛账户保存的卡结账，价格与官网一致、退货政策不变。购物通过账户内的 Agent Profile 进行，可设消费上限、逐笔审批；与亚马逊、eBay 封堵 AI agent 的做法相反。前情：https://www.thehindubusinessline.com/news/world/walmart-launches-ai-tools-to-let-agents-shop-and-complete-purchases/article71609558.ece",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "source": "The Verge",
+      "category": "开发者"
+    },
+    {
+      "title": "黎曼猜想证明获 Lean 与 Mathlib 正式认证，更多独立校验相继通过",
+      "summary": "11 月 21 日，Lean FRO 与 Mathlib Initiative 联合声明认证 Anthropic 数学家 Levent Alpöge 与 Claude 合作完成的黎曼猜想 Lean 形式化证明“陈述与证明均正确”：数十人独立编译无误，Lean 内核及 con-leche 等多个独立校验器接受该证明。11 月 23 日 MIT 的 Andrew Sutherland 验证页又新增多项通过记录；但人类可读的证明思路仍待整理，数学界尚未真正理解该证明。前情：https://www.nature.com/articles/d41586-026-03812-7",
+      "url": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai",
+      "source": "Science News",
+      "category": "研究"
+    },
+    {
+      "title": "亚马逊确认 75 亿美元收购 Decart，Trainium 芯片准备对外开卖",
+      "summary": "亚马逊 11 月 23 日确认以约 75 亿美元收购以色列 AI 创业公司 Decart 的优化技术及创始团队：Decart 以实时世界模型 Oasis 与 AI 视频生成工具闻名，其优化栈能让模型在英伟达、亚马逊与谷歌硬件上高效运行。亚马逊同时透露 Trainium 芯片将开始对外销售，直接叫板英伟达。前情：https://www.calcalistech.com/ctechnews/article/uckadwd7r",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "弗吉尼亚与俄勒冈起诉 SpaceX：Grok 涉批量生成儿童性虐待 deepfake",
+      "summary": "美国弗吉尼亚与俄勒冈州 11 月 23 日分别起诉马斯克旗下 SpaceX Super Intelligence，指控 Grok 的“spicy mode”可把一张普通照片变成色情或裸体图片、视频，公司在宣传产品安全的同时未设足够防护。诉状引用反数字仇恨中心研究：2025 年 12 月底至 2026 年 1 月初，Grok 在 X 上生成并发布约 300 万张性化图片，其中约 2.3 万张疑似涉及儿童。两州要求赔偿、罚款与禁令。",
+      "url": "https://www.reuters.com/legal/government/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-child-sexual-abuse-2026-11-23/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "DeepMind：Gemini 智能体团队找到更快量子算法，Lean 证明正确并开源",
+      "summary": "谷歌 DeepMind 11 月 23 日发文：多个 Gemini 4 智能体团队协作改进经典量子算法，用 Lean 形式化验证每个结果的正确性与成本——聚变模拟成本降 11.8 倍、光化学模拟降 8 倍、药物代谢酶模拟降 2.5 倍，arcsin 例程提速 290 倍。相关 Lean 库、问题规格与已验证解法已开源。",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "DeepMind",
+      "category": "研究"
+    },
+    {
+      "title": "Cisco 与 OpenAI 开源 Shirudo：AI 智能体给运行中的 Linux 打“盾”",
+      "summary": "思科与 OpenAI 11 月 23 日联合发布开源项目 Shirudo（日语“盾”）：基于 eBPF，让 AI 智能体为正在运行的 Linux 系统编写带密码学签名的临时缓解措施，在漏洞被利用与官方补丁到位之间的空窗期挡住攻击，无需重启。演示中 Codex 生成的 shield 挡住了针对 Java4Shell 风格漏洞的攻击；项目为预发布状态，生产使用尚需特定内核与 TPM 2.0。",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html",
+      "source": "Cisco",
+      "category": "开发者"
+    }
+  ]
+}

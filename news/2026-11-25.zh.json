@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-25",
+  "edition": 42,
+  "items": [
+    {
+      "title": "Anthropic 与 OpenAI 同日贴出 VP≠VNP 证明：AI 写的 70 页论文，尚无人验证",
+      "summary": "Anthropic 与 OpenAI 11 月 23–24 日先后在 GitHub 贴出 AI 写的论文与 Lean 4 形式化，声称证明了 1979 年 Valiant 提出的代数复杂性猜想 VP≠VNP（P≠NP 的代数版）。Anthropic 的 70 页论文署名仅 Claude，称内部研究模型独立发现证明；OpenAI 约 5 小时后跟进。两家都明确写着：尚无人类数学家核查过证明，Lean 只验证形式化推导、不验证形式化陈述与原猜想是否一致；该结果也不解决 P vs NP。",
+      "url": "https://www.notebookcheck.net/Anthropic-and-OpenAI-claim-breakthroughs-on-a-47-year-old-fundamental-math-problem.1459160.0.html",
+      "source": "Notebookcheck",
+      "category": "研究"
+    },
+    {
+      "title": "CrowdStrike 439 亿美元全股票收购 Zscaler，网络安全史上最大交易",
+      "summary": "CrowdStrike 11 月 23 日宣布以约 439 亿美元全股票收购云安全公司 Zscaler：Zscaler 股东每股换 1.135 股 CrowdStrike 股票，溢价约 34%，预计 2028 财年下半年完成交割。这是网络安全史上最大交易，超过 Alphabet 收购 Wiz；合并后年经常性收入超 100 亿美元，CrowdStrike 称将把 Zscaler 的零信任网络能力接入 Falcon 平台，为智能体 AI 提供“最后一公里”安全。消息公布后 CrowdStrike 股价跌约 9%。",
+      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "智谱发布 GLM-5.4：750B 循环 Transformer，28 层每 token 跑两遍",
+      "summary": "智谱 Z.ai 11 月 23 日发布 GLM-5.4：约 750B 参数的旗舰模型，首次采用 Loop Transformer——把 GLM-5 的 28 层共享层块每 token 跑两遍，以不增加参数的方式加深网络，官方称智能水平可比 2T–3T 参数模型。上下文 1M token，峰值约 200 token/秒。现仅向 GLM Coding Plan 订阅用户开放（ZCode 与 Z.ai Chat），API 与开源权重均待安全评估后推出，且未公布任何基准成绩，宣称有待独立验证。",
+      "url": "https://dealroom.co/news/175167-z-ai-s-glm-5-4-loops-layers-to-rival-2-3t-models-at-750b-parameters/",
+      "source": "Dealroom",
+      "category": "实验室"
+    },
+    {
+      "title": "蚂蚁 inclusionAI 静默开源 Ling-3.2-air：124B 多模态 MoE，MIT 协议",
+      "summary": "蚂蚁集团 inclusionAI 11 月 23 日在 Hugging Face 静默上架 Ling-3.2-air：124B 参数混合专家模型，每 token 仅激活 5.5B，512 个路由专家，原生多模态（文本、图像、视频），MIT 协议。架构为混合线性 MoE（35 层 Kimi Delta Attention 加 7 层门控 MLA），原生上下文 256K、可扩至 1M；首日即有 SGLang 与 vLLM 支持。官方称面向工作流自动化与专业文档推理，AutomationBench-AA 较上代从 15.7% 升至 61%。",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "source": "Hugging Face",
+      "category": "实验室"
+    },
+    {
+      "title": "谷歌 DeepCrossAttention：把残差连接改成动态路由，Transformer 训练提速 3 倍",
+      "summary": "谷歌研究博客 11 月 24 日介绍 DeepCrossAttention（DCA）：把 Transformer 固定的残差相加改成可学习的动态路由，让每层按需从前面所有层的输出中挑选信息，并引入跨层注意力。在 LM1B 与 C4 上，DCA 以最多 5 倍少的训练步数达到基线质量；要达到困惑度低于 14，标准 Transformer 需 42 层，DCA 只需 30 层，参数仅增加不到 0.2%。DCA 还可直接加到已训练好的模型上继续微调。这是一篇 ICML 2025 论文的方法，谷歌称动态残差路由正成为研究热点。",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "source": "Google Research",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic 访谈 58 家企业：AI 很少直接裁员，但三分之二放缓招聘",
+      "summary": "Anthropic 11 月 23 日发布《Working with AI》：经济学团队对 58 家美国企业客户做了 66 场面对面访谈。结论是 AI 很少直接导致裁员——仅 2 家表示 AI 彻底消灭了某个岗位；但三分之二的企业表示因 AI 减少了招聘，9 家削减了外包商（多为离岸）。约 300 个 AI 应用中，多数价值来自产出增加而非降本；代码审查成为新瓶颈。报告提醒样本为 Anthropic 客户、非随机抽样，结论属定性。",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "source": "Anthropic",
+      "category": "实验室"
+    },
+    {
+      "title": "WebSec 评测：8 个搜索 API 全给 coding agent 喂过恶意内容",
+      "summary": "AIR 安全实验室 11 月 23 日发布 WebSec Benchmark：用 4,719 条真实 coding agent 查询测了 8 个主流搜索 API（Firecrawl、Tavily、Perplexity、Parallel、Exa、Nimble、Brave、You.com），检查 28.2 万多条返回结果。8 家无一干净：agent 共 1,026 次收到已知恶意或高风险内容，命中率 0.8%–2.2%（每 45–125 次搜索一次）。WebSec 安全指数 Firecrawl 最高（21.59）、You.com 最低（5.02）。攻击手法包括提示词注入、域名仿冒、过期域名劫持等，提醒别让 agent 不经检查就执行搜索结果。",
+      "url": "https://thehackernews.com/expert-insights/2026/11/ai-coding-agents-are-getting-malicious.html",
+      "source": "The Hacker News",
+      "category": "开发者"
+    },
+    {
+      "title": "Meta 智能体 Muse 登陆英国：圣诞购物、比价、订旅行都能代办",
+      "summary": "Meta 11 月 24 日把 AI 智能体 Muse 带到英国：18 岁以上用户可在 iOS、Android 与 WhatsApp 上使用，可代办圣诞购物、比价、订旅行、查账单等。首批合作 14 家英国品牌，包括 M&S、Sainsbury's、Currys、ASOS、Argos、easyJet 等；Muse 可在用户授权下浏览网站、比价、组购物车并结账，购买与发邮件前须用户确认。这是 Muse 9 月美国上线后的又一次扩张，Meta 称其在美下载量已达数百万。",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/everything-you-need-to-know-about-metas-agentic-muse-launch/",
+      "source": "Retail Gazette",
+      "category": "实验室"
+    }
+  ]
+}

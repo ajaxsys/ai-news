@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-25",
+  "edition": 42,
+  "items": [
+    {
+      "title": "Anthropic and OpenAI post VP ≠ VNP proofs on the same day: 70-page papers written by AI, still unverified",
+      "summary": "Anthropic and OpenAI posted AI-written papers and Lean 4 formalizations on GitHub on November 23–24, claiming to prove VP ≠ VNP, the algebraic complexity conjecture Leslie Valiant posed in 1979 (the algebraic analogue of P ≠ NP). Anthropic's 70-page paper is credited solely to Claude, which it says discovered the proof independently; OpenAI followed about five hours later. Both state plainly that no human mathematician has checked the proofs, that Lean verifies the formal derivation but not whether the formal statement matches the conjecture, and that the result does not settle P vs NP.",
+      "url": "https://www.notebookcheck.net/Anthropic-and-OpenAI-claim-breakthroughs-on-a-47-year-old-fundamental-math-problem.1459160.0.html",
+      "source": "Notebookcheck",
+      "category": "Research"
+    },
+    {
+      "title": "CrowdStrike to buy Zscaler for $43.9B in an all-stock deal, the largest cybersecurity acquisition ever",
+      "summary": "CrowdStrike announced on November 23 that it will acquire cloud-security company Zscaler in an all-stock deal worth about $43.9 billion: Zscaler shareholders receive 1.135 CrowdStrike shares per share, a premium of about 34%, with the deal expected to close in the second half of fiscal 2028. It is the largest cybersecurity acquisition ever, surpassing Alphabet's purchase of Wiz; the combined company would top $10 billion in annual recurring revenue, and CrowdStrike says it will bring Zscaler's zero-trust networking into the Falcon platform to secure the \"last mile\" of agentic AI. CrowdStrike shares fell about 9% on the news.",
+      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Z.ai releases GLM-5.4: 750B loop transformer that runs 28 layers twice per token",
+      "summary": "Z.ai released GLM-5.4 on November 23: a roughly 750B-parameter flagship and its first Loop Transformer, which runs a shared block of 28 GLM-5 layers twice per token to deepen the network without adding parameters. The company claims intelligence comparable to 2T–3T-parameter models. Context is 1M tokens, with peak speed of about 200 tokens per second. It is available only to GLM Coding Plan subscribers (ZCode and Z.ai Chat) for now; the API and open weights will follow a safety evaluation, and no benchmark scores have been published, so the claims await independent verification.",
+      "url": "https://dealroom.co/news/175167-z-ai-s-glm-5-4-loops-layers-to-rival-2-3t-models-at-750b-parameters/",
+      "source": "Dealroom",
+      "category": "Labs"
+    },
+    {
+      "title": "Ant's inclusionAI quietly open-sources Ling-3.2-air: 124B multimodal MoE under MIT",
+      "summary": "Ant Group's inclusionAI quietly put Ling-3.2-air on Hugging Face on November 23: a 124B-parameter mixture-of-experts model that activates only 5.5B parameters per token, with 512 routed experts and native multimodality (text, images, video), under the MIT license. The hybrid-linear MoE architecture combines 35 Kimi Delta Attention layers with 7 gated MLA layers; native context is 256K tokens, extendable to 1M, and SGLang and vLLM support arrived on day one. Ant positions it for workflow automation and professional document reasoning, with AutomationBench-AA rising from 15.7% to 61% over the previous generation.",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "source": "Hugging Face",
+      "category": "Labs"
+    },
+    {
+      "title": "Google's DeepCrossAttention: dynamic routing replaces residual adds, transformers train up to 3x faster",
+      "summary": "Google's research blog introduced DeepCrossAttention (DCA) on November 24: it replaces the transformer's fixed residual addition with learnable dynamic routing, letting each layer pick the information it needs from all previous layers' outputs, plus cross-attention across layers. On LM1B and C4, DCA reached baseline quality with up to five times fewer training steps; to reach perplexity below 14, a standard transformer needed 42 layers while DCA needed only 30, adding under 0.2% more parameters. DCA can also be retrofitted onto an already trained model and fine-tuned. The method comes from an ICML 2025 paper, and Google says dynamic residual routing is becoming a research hotspot.",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "source": "Google Research",
+      "category": "Research"
+    },
+    {
+      "title": "Anthropic interviews 58 firms: AI rarely causes layoffs outright, but two-thirds slowed hiring",
+      "summary": "Anthropic published \"Working with AI\" on November 23: its economics team conducted 66 face-to-face interviews across 58 US enterprise customers. The headline finding is that AI rarely causes layoffs directly — only two firms said AI had fully eliminated a role — but two-thirds said they now hire less because of AI, and nine cut contractors, mostly offshore. Across roughly 300 AI applications, most of the value came from increased output rather than cost-cutting, and code review emerged as a new bottleneck. The report notes the sample is Anthropic customers, not randomly selected, and the findings are qualitative.",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "source": "Anthropic",
+      "category": "Labs"
+    },
+    {
+      "title": "WebSec benchmark: all 8 search APIs served malicious content to coding agents",
+      "summary": "AIR Security Lab published the WebSec Benchmark on November 23: it ran 4,719 real coding-agent queries through eight leading search APIs (Firecrawl, Tavily, Perplexity, Parallel, Exa, Nimble, Brave and You.com) and checked more than 282,000 returned results. None of the eight came back clean: agents were served known-malicious or risky content 1,026 times, at hit rates of 0.8%–2.2% (once every 45–125 searches). On the WebSec safety index, Firecrawl scored highest (21.59) and You.com lowest (5.02). Attack techniques include prompt injection, lookalike domains and expired-domain hijacking — a reminder not to let an agent act on search results unchecked.",
+      "url": "https://thehackernews.com/expert-insights/2026/11/ai-coding-agents-are-getting-malicious.html",
+      "source": "The Hacker News",
+      "category": "Developers"
+    },
+    {
+      "title": "Meta's AI agent Muse launches in the UK: Christmas shopping, price checks and travel on your behalf",
+      "summary": "Meta brought its AI agent Muse to the UK on November 24: users aged 18 and over can use it on iOS, Android and WhatsApp to delegate Christmas shopping, price comparisons, travel bookings, bill checks and more. Fourteen UK brands signed on at launch, including M&S, Sainsbury's, Currys, ASOS, Argos and easyJet; with user permission, Muse can browse sites, compare prices, build baskets and check out, and must get confirmation before purchases or emails. It follows Muse's US launch in September, and Meta says US downloads already number in the millions.",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/everything-you-need-to-know-about-metas-agentic-muse-launch/",
+      "source": "Retail Gazette",
+      "category": "Labs"
+    }
+  ]
+}

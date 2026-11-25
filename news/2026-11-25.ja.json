@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-25",
+  "edition": 42,
+  "items": [
+    {
+      "title": "AnthropicとOpenAI、同日にVP≠VNPの証明を公開：AIが書いた70ページの論文、未検証のまま",
+      "summary": "AnthropicとOpenAIは11月23〜24日、AIが書いた論文とLean 4による形式化をGitHubに相次いで公開し、1979年にValiantが提起した代数的計算複雑性予想VP≠VNP（P≠NPの代数版）を証明したと主張した。Anthropicの70ページの論文の著者はClaudeのみで、社内の研究モデルが独自に証明を発見したとされる。OpenAIは約5時間後に続いた。両社とも明記している。人間の数学者はまだ証明を検証しておらず、Leanは形式的な導出を検証するだけで、形式化された主張が元の予想と一致するかは検証しない。またこの結果はP対NP問題を解決するものではない。",
+      "url": "https://www.notebookcheck.net/Anthropic-and-OpenAI-claim-breakthroughs-on-a-47-year-old-fundamental-math-problem.1459160.0.html",
+      "source": "Notebookcheck",
+      "category": "研究"
+    },
+    {
+      "title": "CrowdStrike、Zscalerを439億ドルで全株式買収へ、サイバーセキュリティ史上最大の取引",
+      "summary": "CrowdStrikeは11月23日、クラウドセキュリティ企業のZscalerを約439億ドルの全株式交換で買収すると発表した。Zscaler株主は1株あたりCrowdStrike株1.135株を受け取り、プレミアムは約34％、2028会計年度下半期の完了を見込む。AlphabetによるWiz買収を上回るサイバーセキュリティ史上最大の取引で、統合後の年間経常収益は100億ドル超。CrowdStrikeはZscalerのゼロトラスト・ネットワーク機能をFalconプラットフォームに統合し、エージェント型AIの「ラストマイル」を守るとしている。発表を受けCrowdStrike株は約9％下落した。",
+      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "Z.ai、GLM-5.4を発表：750BのループTransformer、28層をトークンごとに2回実行",
+      "summary": "Z.aiは11月23日、GLM-5.4を発表した。約750Bパラメータのフラッグシップで、初のループTransformerを採用。GLM-5の28層の共有ブロックをトークンごとに2回実行し、パラメータを増やさずにネットワークを深くする。同社は2T〜3Tパラメータ級のモデルに匹敵する知能をうたう。コンテキストは100万トークン、ピーク速度は約200トークン/秒。現在はGLM Coding Planの加入者（ZCodeとZ.ai Chat）のみが利用でき、APIとオープンウェイトは安全評価の後に提供される予定。ベンチマークスコアは未公開で、主張は独立検証待ちだ。",
+      "url": "https://dealroom.co/news/175167-z-ai-s-glm-5-4-loops-layers-to-rival-2-3t-models-at-750b-parameters/",
+      "source": "Dealroom",
+      "category": "ラボ"
+    },
+    {
+      "title": "アントのinclusionAI、Ling-3.2-airを静かにオープンソース化：124BマルチモーダルMoE、MITライセンス",
+      "summary": "アントグループのinclusionAIは11月23日、Ling-3.2-airをHugging Faceに静かに公開した。124Bパラメータの混合エキスパート（MoE）モデルで、トークンごとに活性化するのは5.5B、512のルーティングエキスパートを持ち、テキスト・画像・動画のネイティブなマルチモーダル対応でMITライセンス。アーキテクチャはハイブリッド線形MoE（35層のKimi Delta Attentionと7層のゲート付きMLA）、ネイティブコンテキストは256Kトークンで100万まで拡張可能。初日からSGLangとvLLMに対応する。ワークフロー自動化と専門文書の推論向けで、AutomationBench-AAは前世代の15.7％から61％に向上したという。",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "source": "Hugging Face",
+      "category": "ラボ"
+    },
+    {
+      "title": "GoogleのDeepCrossAttention：残差接続を動的ルーティングに、Transformerの学習が最大3倍高速に",
+      "summary": "Googleのリサーチブログは11月24日、DeepCrossAttention（DCA）を紹介した。Transformerの固定された残差加算を学習可能な動的ルーティングに置き換え、各層が必要な情報をそれ以前のすべての層の出力から選び取り、層をまたぐアテンションも導入する。LM1BとC4では、DCAは最大5分の1の学習ステップでベースラインと同等の品質に到達。困惑度14未満を達成するのに標準Transformerは42層を要するのに対し、DCAは30層で済み、パラメータ増加は0.2％未満。DCAは学習済みモデルに後付けして微調整することもできる。ICML 2025の論文による手法で、Googleは動的残差ルーティングが研究のホットスポットになりつつあるとしている。",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "source": "Google Research",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic、58社を取材：AIによる直接の解雇はまれ、しかし3分の2が採用を減速",
+      "summary": "Anthropicは11月23日、「Working with AI」を発表した。経済学チームが米国の企業顧客58社で66件の対面インタビューを実施した。AIが直接の解雇につながることはまれで、AIが職務を完全に消滅させたとしたのは2社のみ。しかし3分の2の企業がAIのために採用を減らしたと回答し、9社が外注（多くはオフショア）を削減した。約300件のAI活用事例では、価値の多くはコスト削減ではなく生産量の増加から生まれ、コードレビューが新たなボトルネックになった。サンプルはAnthropicの顧客で無作為抽出ではなく、結論は定性的なものだと報告書は注意している。",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "source": "Anthropic",
+      "category": "ラボ"
+    },
+    {
+      "title": "WebSecベンチマーク：8つの検索APIすべてがコーディングエージェントに悪意あるコンテンツを返していた",
+      "summary": "AIRセキュリティ研究所は11月23日、WebSec Benchmarkを発表した。実際のcoding agentのクエリ4,719件を主要な検索API 8社（Firecrawl、Tavily、Perplexity、Parallel、Exa、Nimble、Brave、You.com）に通し、28万2,000件超の返却結果を検査した。8社すべてが無傷ではなかった。エージェントは既知の悪意あるコンテンツや高リスクなコンテンツを計1,026回受け取り、ヒット率は0.8％〜2.2％（45〜125回の検索に1回）。WebSec安全指数ではFirecrawlが最高（21.59）、You.comが最低（5.02）。攻撃手法にはプロンプトインジェクション、類似ドメイン、期限切れドメインの乗っ取りなどがあり、エージェントに検索結果を無検証で実行させないよう注意を促している。",
+      "url": "https://thehackernews.com/expert-insights/2026/11/ai-coding-agents-are-getting-malicious.html",
+      "source": "The Hacker News",
+      "category": "開発者"
+    },
+    {
+      "title": "MetaのAIエージェントMuse、英国で開始：クリスマスの買い物や旅行手配を代行",
+      "summary": "Metaは11月24日、AIエージェントMuseを英国に展開した。18歳以上のユーザーはiOS、Android、WhatsAppで利用でき、クリスマスの買い物、価格比較、旅行予約、請求書の確認などを代行できる。M&S、Sainsbury's、Currys、ASOS、Argos、easyJetなど14の英国ブランドが開始時に参加。ユーザーの許可のもと、Museはサイトを閲覧し、価格を比較し、カートを作って決済でき、購入やメール送信の前には確認が必要だ。9月の米国展開に続くもので、Metaによれば米国でのダウンロード数はすでに数百万件に上る。",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/everything-you-need-to-know-about-metas-agentic-muse-launch/",
+      "source": "Retail Gazette",
+      "category": "ラボ"
+    }
+  ]
+}

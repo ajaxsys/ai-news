@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-26",
+  "edition": 43,
+  "items": [
+    {
+      "title": "GPT-6がタンパク質を設計できるように：推論とコードだけで、実験室で5標的すべてに結合を確認",
+      "summary": "OpenAIによると、GPT-6シリーズは専門の生物学モデルを呼ばず、推論と汎用コードツールだけで新しいタンパク質の立体構造とアミノ酸配列を設計できる。Onavaとの実験室テストでは、合成した322個のミニバインダーのうち35個が標的に結合し、5つの標的すべてで少なくとも1件のヒットがあった。未公開の社内研究モデルは14のタンパク質タスクの大半で専門モデルと同等かそれ以上だったが、完全な構造予測は依然として弱点。",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "source": "OpenAI",
+      "category": "研究"
+    },
+    {
+      "title": "Claudeのアーティファクトがワンクリックでデスクトップアプリに：MacとWindowsで独立ウィンドウ、3段階の権限管理",
+      "summary": "Anthropicは「Install as app」をベータで開始した。チャットで作ったアーティファクトを独立したデスクトップアプリとしてインストールでき、独自のアイコンとウィンドウを持ち、通知を送ったりClaudeやコネクタを使ったりできる。アーティファクトを編集すればアプリも自動更新される。既定ではブラウザ並みの権限のみで、最上位ではプログラムの実行やファイルの読み書きが可能。Anthropicは事前にアプリを審査せず、フルアクセスは信頼できるアプリにのみ与えるよう推奨している。",
+      "url": "https://claude.com/resources/articles/install-as-app?ref=testingcatalog.com",
+      "source": "Anthropic",
+      "category": "開発者"
+    },
+    {
+      "title": "Anthropic、Messages APIをPythonからRustへ移行：Claudeが書き換えの主力を担い、CPUは7割減",
+      "summary": "AnthropicはClaudeエージェントを使い、中核のMessages APIをPythonからRustへ書き換えた。本番サービス自体を検証器としてシャドートラフィックで比較し、差分をエージェントが自動修正した。リクエストあたりのCPUは約70％減、メモリは80％超減、初回トークンまでの中央値レイテンシは約20％改善し、ダウンタイムなし、機能開発の凍結もなし。チームによれば難しかったのは生成ではなく検証で、Claudeは中核パスの初版を約1週間で書いたが、照合には数か月を要した。",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "Anthropic",
+      "category": "開発者"
+    },
+    {
+      "title": "DeepMind、Antigravityに質量分析スキルを追加：スペクトルから分子を特定、軽量モデルも約97％の精度",
+      "summary": "Google DeepMindはAntigravity向けMass Spec Skillsを公開した。エージェントが実績のある質量分析ツールと公開化学データベースを呼び、タンデム質量スペクトルから分子構造を推定し、化学者が確認できる証拠チェーンを提示する。3モデルとも識別精度は約97％で、軽量版Gemini 3.8 Flashがフラッグシップモデルに並び、試行あたりの生成トークンは約4分の1に減った。",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "category": "研究"
+    },
+    {
+      "title": "xAIがコンピュートの大家へ転身：Anthropicが月31億ドルでGPUを借り、収益の半分超を占める",
+      "summary": "ニューヨーク・タイムズによると、AnthropicはxAIの最大顧客となり、月約31億ドルでGPUコンピュートを借りている。Googleも月約8億ドルを支払う。両契約とも90日前の通知で解約可能で、全容量は12月に引き渡し予定。xAIは上場後、コンピュートの貸し出しを主業とし、収益の大半が外部リースから得られている一方、自社のGrok Imagineチームは解散され、コーディングツールへ注力している。",
+      "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+      "source": "The Decoder",
+      "category": "ラボ"
+    },
+    {
+      "title": "ShellBench：最強のAIエージェントでも日常タスクの正答率は6割、安全性の失敗は正しい結果の中に潜む",
+      "summary": "OpenClaw財団はShellBenchを公開した。実際のユーザー要請に基づく100の日常タスクで12モデル×5ハーネスを53,100回実行して評価した。GPT-6 Astraが62.5％で首位、Claude Fable 5.2とGPT-6.1 Solは1.1ポイント差に迫ったが、Solの試行コストは約0.19ドルでAstraの約6分の1。警告もある。完全に正しい実行の約1割が安全ルールに違反していた。",
+      "url": "https://arxiv.org/html/2611.32946",
+      "source": "OpenClaw",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic株が83ドルの公開価格を割り込む：上場4日で上昇分をすべて吐き出す",
+      "summary": "Anthropic株は11月24日に81.91ドルで引け、83ドルの公開価格を初めて割り込んだ。初日の始値111.50ドルから約3割の下落で、翌日も公開価格を下回ったままだった。史上最大のIPOが上場から1週間で公開価格割れとなり、AI関連株のバリュエーションに圧力がかかっている。前回報道：Anthropicは初日97.17ドルで引けた（11月20日報道）。",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "アント、医療モデルLingSante 3.1をオープンソース化：560Bの推論モデルと124Bマルチモーダル、MITライセンス",
+      "summary": "アントグループはLingSante 3.1シリーズをオープンソース化した。560Bパラメータの臨床推論モデルと、124Bパラメータのマルチモーダル医療モデルで、X線を読んで画像レポートを作成し、皮膚疾患や食事を評価し、医療アプリを操作して予約まで行える。アントは自社評価でGPT-6やClaudeを上回るとし、両モデルとも研究用であり医療機器ではないと明記している。",
+      "url": "https://technode.global/2026/11/24/ant-group-open-weight-lingsante-medical-ai-models/",
+      "source": "TechNode",
+      "category": "ラボ"
+    }
+  ]
+}

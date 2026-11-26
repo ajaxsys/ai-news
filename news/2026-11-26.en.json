@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-26",
+  "edition": 43,
+  "items": [
+    {
+      "title": "GPT-6 can design proteins: reasoning and code alone, lab-validated binding on all five targets",
+      "summary": "OpenAI says the GPT-6 family can design new protein structures and amino-acid sequences using only reasoning and general-purpose coding tools, without calling specialized biology models. In lab tests with Onava, 35 of 322 synthesized minibinders bound their targets, with at least one hit on each of five targets. An unpublished internal research model matched or beat specialized models on most of 14 protein tasks, though full structure prediction remains a weakness.",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "source": "OpenAI",
+      "category": "Research"
+    },
+    {
+      "title": "Claude artifacts become desktop apps in one click: standalone windows on Mac and Windows, three permission levels",
+      "summary": "Anthropic has launched \"Install as app\" in beta: artifacts built in chat can be installed as standalone desktop apps with their own icon and window, able to send notifications and use Claude and connectors; editing the artifact updates the app automatically. By default apps have browser-level permissions only, while the top tier can run programs and read or change files. Anthropic does not review apps before installation and advises granting full access only to apps you trust.",
+      "url": "https://claude.com/resources/articles/install-as-app?ref=testingcatalog.com",
+      "source": "Anthropic",
+      "category": "Developers"
+    },
+    {
+      "title": "Anthropic migrates its Messages API from Python to Rust: Claude did most of the rewrite, CPU down 70%",
+      "summary": "Anthropic used Claude agents to rewrite its core Messages API from Python to Rust, turning the production service itself into a verifier that compared the new version against shadowed live traffic and dispatched agents to fix differences. CPU per request fell about 70%, memory over 80%, and median time to first token about 20%, with no downtime and no feature freeze. The team says verification, not generation, was the hard part: Claude wrote a first version of the core path in about a week, but checking it took months.",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "Anthropic",
+      "category": "Developers"
+    },
+    {
+      "title": "DeepMind adds Mass Spec Skills to Antigravity: read spectra, identify molecules, lightweight model hits ~97%",
+      "summary": "Google DeepMind has released Mass Spec Skills for Antigravity, letting the agent call established mass spectrometry tools and public chemical databases to infer molecular structures from tandem mass spectra, with an evidence trail for chemists to review. Across three models, identification accuracy was around 97% in tests; the lightweight Gemini 3.8 Flash matched the frontier models, while generated tokens per attempt fell nearly fourfold.",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "category": "Research"
+    },
+    {
+      "title": "xAI turns compute landlord: Anthropic pays $3.1B a month for rented GPUs, over half its revenue",
+      "summary": "According to The New York Times, Anthropic has become xAI's largest customer, paying roughly $3.1 billion a month for GPU compute, while Google pays about $800 million a month; either contract can be cancelled on 90 days' notice, with full capacity due in December. Since going public, xAI has made renting out compute its main business, with most revenue from external leases, while its Grok Imagine team has been disbanded to refocus on coding tools.",
+      "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+      "source": "The Decoder",
+      "category": "Labs"
+    },
+    {
+      "title": "ShellBench: top AI agents complete only six in ten everyday tasks, and safety failures hide inside correct work",
+      "summary": "OpenClaw Foundation has published ShellBench, testing 12 models across 5 harnesses on 100 everyday tasks drawn from real user requests, for 53,100 graded runs. GPT-6 Astra led at 62.5%, with Claude Fable 5.2 and GPT-6.1 Sol within 1.1 points — but Sol cost only about $0.19 per attempt, roughly a sixth of Astra's. A warning too: about one in ten fully correct runs still broke a safety rule.",
+      "url": "https://arxiv.org/html/2611.32946",
+      "source": "OpenClaw",
+      "category": "Research"
+    },
+    {
+      "title": "Anthropic shares fall below their $83 IPO price, giving up all gains in four days",
+      "summary": "Anthropic shares closed at $81.91 on November 24, falling below the $83 IPO price for the first time — down nearly 30% from the $111.50 first-day open — and stayed below it the next day. The largest IPO on record broke below its offer price within a week of listing, as AI valuations come under pressure. Prior coverage: Anthropic closed its first day at $97.17 (reported November 20).",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Ant open-sources LingSante 3.1 medical models: 560B reasoning model plus 124B multimodal, MIT license",
+      "summary": "Ant Group has open-sourced the LingSante 3.1 family: a 560B-parameter clinical reasoning model and a 124B-parameter multimodal medical model that reads X-rays, drafts imaging reports, assesses skin conditions and meals, and can operate health apps to book appointments. Ant says its own evaluations beat GPT-6 and Claude, and labels both models research-only, not medical devices.",
+      "url": "https://technode.global/2026/11/24/ant-group-open-weight-lingsante-medical-ai-models/",
+      "source": "TechNode",
+      "category": "Labs"
+    }
+  ]
+}

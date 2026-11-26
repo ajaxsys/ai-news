@@ -52,10 +52,10 @@
       "category": "Labs"
     },
     {
-      "title": "Ant open-sources LingSante 3.1 medical models: 560B reasoning model plus 124B multimodal, MIT license",
-      "summary": "Ant Group has open-sourced the LingSante 3.1 family: a 560B-parameter clinical reasoning model and a 124B-parameter multimodal medical model that reads X-rays, drafts imaging reports, assesses skin conditions and meals, and can operate health apps to book appointments. Ant says its own evaluations beat GPT-6 and Claude, and labels both models research-only, not medical devices.",
-      "url": "https://technode.global/2026/11/24/ant-group-open-weight-lingsante-medical-ai-models/",
-      "source": "TechNode",
+      "title": "Ant open-sources its first multimodal medical model, LingSante-3.1-air-VL: 124B, reads X-rays, drafts reports, operates health apps",
+      "summary": "Ant Group has open-sourced LingSante-3.1-air-VL, a 124B-parameter natively multimodal medical model that activates 5.5B parameters per token, with a 256K-token context window under the MIT license. It reads chest X-rays and drafts structured Findings and Impression reports, covers 120+ skin conditions, diet and lab-report interpretation, and can operate health apps to book appointments; it is labelled research-only, not a medical device. Its sibling, the 560B reasoning model LingSante-3.1-flash, was covered in this digest on November 23 (quiet Hugging Face release).",
+      "url": "https://developer.ant-ling.com/en/blogs/lingsante-3.1-air-vl",
+      "source": "Ant Ling",
       "category": "Labs"
     }
   ]

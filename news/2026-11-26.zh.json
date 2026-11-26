@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-26",
+  "edition": 43,
+  "items": [
+    {
+      "title": "GPT-6 会设计蛋白质了：仅靠推理加代码，实验室验证 5 个靶点均结合成功",
+      "summary": "OpenAI 称 GPT-6 系列无需调用专业生物模型，仅凭推理和通用代码工具就能设计新蛋白质的三维结构与氨基酸序列；与 Onava 合作的实验室测试中，322 个合成小蛋白里 35 个结合上目标，5 个靶点各至少命中一个。未公开的内部研究模型在 14 项蛋白质任务中多数达到或超过专业模型水平，但完整结构预测仍是短板。",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "source": "OpenAI",
+      "category": "研究"
+    },
+    {
+      "title": "Claude artifact 一键变桌面应用：Mac 与 Windows 独立窗口，三档权限可控",
+      "summary": "Anthropic 上线「Install as app」测试版，聊天里生成的 artifact 可装成独立桌面应用，自带图标与窗口、可发通知、可用 Claude 与连接器；改动 artifact 后应用自动更新。默认仅浏览器级权限，最高档可运行程序、读写文件，Anthropic 事先不审核应用，仅建议只给信任的应用开完全访问。",
+      "url": "https://claude.com/resources/articles/install-as-app?ref=testingcatalog.com",
+      "source": "Anthropic",
+      "category": "开发者"
+    },
+    {
+      "title": "Anthropic 把 Messages API 从 Python 迁到 Rust：Claude 主力重写，CPU 降七成",
+      "summary": "Anthropic 用 Claude 智能体把核心 Messages API 从 Python 重写为 Rust，拿生产服务本身当校验器做影子流量比对、自动派智能体修差异；每请求 CPU 降约 70%、内存降逾 80%、首 token 中位延迟降约 20%，全程零停机、功能开发未冻结。团队坦言最难的是校验而非生成：Claude 一周写出核心路径初版，核对却花了数月。",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "Anthropic",
+      "category": "开发者"
+    },
+    {
+      "title": "DeepMind 给 Antigravity 加质谱技能：读谱识分子，轻量模型也能到约 97% 准确率",
+      "summary": "Google DeepMind 发布 Mass Spec Skills，让 Antigravity 智能体调用成熟质谱工具与公开化学数据库，从串联质谱数据推断分子结构并附证据链供化学家复核；测试中三种模型识别准确率均约 97%，轻量版 Gemini 3.8 Flash 追平旗舰模型，且每尝试生成 token 减少近四倍。",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "category": "研究"
+    },
+    {
+      "title": "xAI 转型算力房东：Anthropic 每月付 31 亿美元租算力，占其收入过半",
+      "summary": "据《纽约时报》报道，Anthropic 已成 xAI 最大客户，每月约 31 亿美元租用其 GPU 算力，谷歌每月另付约 8 亿美元；两份合同均可提前 90 天解约，全部容量预计 12 月交付。xAI 上市后以出租算力为主业，收入大半来自外部租赁，自家 Grok Imagine 团队已被裁撤、重心转向编码工具。",
+      "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+      "source": "The Decoder",
+      "category": "实验室"
+    },
+    {
+      "title": "ShellBench：顶级 AI 智能体日常任务也只能做对六成，安全翻车藏在正确结果里",
+      "summary": "OpenClaw 基金会发布 ShellBench，用 100 个源自真实用户请求的日常任务、53,100 次运行测 12 个模型 5 个框架；GPT-6 Astra 以 62.5% 居首，Claude Fable 5.2 与 GPT-6.1 Sol 仅差 1.1 个百分点，但后者每次成本仅约 0.19 美元、为前者的六分之一。另有警示：约一成完全正确的运行仍违反安全规则。",
+      "url": "https://arxiv.org/html/2611.32946",
+      "source": "OpenClaw",
+      "category": "研究"
+    },
+    {
+      "title": "Anthropic 股价跌破 83 美元发行价：上市 4 天回吐全部涨幅",
+      "summary": "Anthropic 股价 11 月 24 日收于 81.91 美元，首次跌破 83 美元发行价，较首日开盘价 111.50 美元回落近三成；次日仍收于发行价下方。史上最大 IPO 上市一周即破发，AI 概念股估值承压。前情（11 月 20 日报道首日收盘 97.17 美元）：https://invezz.com/news/2026/11/19/anthropic-stock-first-day-close-2026-11-19/",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "蚂蚁开源医疗模型 LingSante 3.1：560B 推理模型加 124B 多模态，MIT 协议",
+      "summary": "蚂蚁集团开源 LingSante 3.1 系列：560B 参数的临床推理模型与 124B 参数的多模态医疗模型，可读 X 光、写影像报告、做皮肤与膳食评估，还能操作医疗 App 预约挂号；蚂蚁称自测成绩胜过 GPT-6 与 Claude，明确标注仅供研究、非医疗器械。",
+      "url": "https://technode.global/2026/11/24/ant-group-open-weight-lingsante-medical-ai-models/",
+      "source": "TechNode",
+      "category": "实验室"
+    }
+  ]
+}

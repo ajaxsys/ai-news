@@ -52,10 +52,10 @@
       "category": "ラボ"
     },
     {
-      "title": "アント、医療モデルLingSante 3.1をオープンソース化：560Bの推論モデルと124Bマルチモーダル、MITライセンス",
-      "summary": "アントグループはLingSante 3.1シリーズをオープンソース化した。560Bパラメータの臨床推論モデルと、124Bパラメータのマルチモーダル医療モデルで、X線を読んで画像レポートを作成し、皮膚疾患や食事を評価し、医療アプリを操作して予約まで行える。アントは自社評価でGPT-6やClaudeを上回るとし、両モデルとも研究用であり医療機器ではないと明記している。",
-      "url": "https://technode.global/2026/11/24/ant-group-open-weight-lingsante-medical-ai-models/",
-      "source": "TechNode",
+      "title": "アント、初のマルチモーダル医療モデルLingSante-3.1-air-VLをオープンソース化：124B、X線を読みレポート作成、医療アプリも操作",
+      "summary": "アントグループはLingSante-3.1-air-VLをオープンソース化した。124Bパラメータのネイティブマルチモーダル医療モデルで、トークンごとに5.5Bが活性化し、コンテキストは256Kトークン、MITライセンス。胸部X線を読み、放射線科形式のFindingsとImpressionのレポートを作成し、120種以上の皮膚疾患、食事・栄養、検査結果の解釈に対応し、医療アプリを操作して予約も行える。研究用であり医療機器ではないと明記されている。同シリーズの560B推論モデルLingSante-3.1-flashは11月23日の本ダイジェストで既報（静かなHugging Face公開）。",
+      "url": "https://developer.ant-ling.com/en/blogs/lingsante-3.1-air-vl",
+      "source": "Ant Ling",
       "category": "ラボ"
     }
   ]

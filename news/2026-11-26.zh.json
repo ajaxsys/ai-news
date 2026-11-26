@@ -52,10 +52,10 @@
       "category": "实验室"
     },
     {
-      "title": "蚂蚁开源医疗模型 LingSante 3.1：560B 推理模型加 124B 多模态，MIT 协议",
-      "summary": "蚂蚁集团开源 LingSante 3.1 系列：560B 参数的临床推理模型与 124B 参数的多模态医疗模型，可读 X 光、写影像报告、做皮肤与膳食评估，还能操作医疗 App 预约挂号；蚂蚁称自测成绩胜过 GPT-6 与 Claude，明确标注仅供研究、非医疗器械。",
-      "url": "https://technode.global/2026/11/24/ant-group-open-weight-lingsante-medical-ai-models/",
-      "source": "TechNode",
+      "title": "蚂蚁开源首个多模态医疗模型 LingSante-3.1-air-VL：124B 读 X 光、写报告、能操作医疗 App",
+      "summary": "蚂蚁集团开源 LingSante-3.1-air-VL：124B 参数、每 token 激活 5.5B 的原生多模态医疗模型，256K 上下文，MIT 协议，可读 X 光并按放射科格式写 Findings 与 Impression 报告，覆盖 120 多种皮肤病、膳食营养与化验单解读，还能操作医疗 App 预约挂号；明确标注仅供研究、非医疗器械。同系列 560B 推理模型 LingSante-3.1-flash 已于 11 月 23 日本报覆盖（静默上架）。",
+      "url": "https://developer.ant-ling.com/en/blogs/lingsante-3.1-air-vl",
+      "source": "Ant Ling",
       "category": "实验室"
     }
   ]

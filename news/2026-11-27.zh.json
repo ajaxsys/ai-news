@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-27",
+  "edition": 44,
+  "items": [
+    {
+      "title": "谷歌 Cogentic 一天发 6 篇数学论文：无条件因数分解 L_N[1/3,105]，常数 105 不威胁 RSA",
+      "summary": "Google Research 11 月 25 日在 GitHub 贴出 6 篇由 Cogentic 智能体（基于 Gemini 4）从单个提示生成的数学论文，领衔成果是无条件、零误差的整数因数分解算法，期望时间 L_N[1/3,105]——把 1992 年 Lenstra–Pomerance 的 L_N[1/2] 证明界推进到与数域筛同级的 1/3 指数，但常数 105 远大于实用的 1.92，短期内动不了 RSA；另含确定性因数分解、离散对数等 5 篇，Lean 形式化证明承诺随后发布，均未同行评审。",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "source": "Google Research",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAI 称矩阵乘法指数恰为 9/4：下界补齐，ω=2 的猜想被排除（若成立）",
+      "summary": "OpenAI 11 月 24 日在 openai/math 仓库新增 9 篇手稿，核心是《矩阵乘法指数是 9/4》：在形式算术电路模型下证明 n×n 矩阵乘法的指数 ω 恰为 9/4（2.25），补上 10 月已知的上界，等于宣判了 ω=2 的多年猜想不成立；同批还证伪了多项式 Hirsch 猜想、解出 Smale 第 9 问题。注意：Lean 机检目前只覆盖无除法电路部分，全文尚未经同行评审。",
+      "url": "https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound.pdf",
+      "source": "OpenAI",
+      "category": "研究"
+    },
+    {
+      "title": "对手实测指认 Jev 底座：大概率是 Qwen3.5-35B-A3B，TypeSafe 未回应",
+      "summary": "竞争对手 Modaic 11 月 24 日发文称，对 Jev 1.14 计时 9,984 次请求后，延迟曲线、分词器相关性（Qwen 分词器与延迟的 Spearman 相关系数 0.805，高于 Jev 自报 token 数的 0.719）与吞吐量曲线都指向开源模型 Qwen3.5-35B-A3B（35B 总参数、每 token 仅激活 3B 的稀疏 MoE）；自认测试中 Jev 被问“想说自己是什么模型”时 74% 选 Qwen。作者自承这是指纹而非铁证——Qwen 与 Gemma 的分词器相关性几乎打平、且无法排除同构的 Qwen3.6；TypeSafe 至今未披露 Jev 底座，也未回应。",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "source": "Modaic",
+      "category": "实验室"
+    },
+    {
+      "title": "DeepL 发布 Aure v2：语音直译语音，延迟再砍一半",
+      "summary": "DeepL 11 月 26 日在东京首届 Unmute Summit 发布语音翻译模型 Aure v2：端到端架构把“听→翻→说”三步并成一步直接语音到语音，中位翻译延迟比 11 月 11 日才发布的前代 Aure 再降 50%，准确率与表现力同步提升；首发支持英、德、法、西、日、韩 6 语，已面向 DeepL Voice 客户上线。数字均出自 DeepL 自家内部测试，尚无独立验证。",
+      "url": "https://www.deepl.com/en/press-release/aure-v2",
+      "source": "DeepL",
+      "category": "实验室"
+    },
+    {
+      "title": "商汤开源机器人模型 RoboRSI-27B：纯仿真训练，RoboDojo 超 GPT-6 Astra",
+      "summary": "商汤 11 月 25 日发布 SenseNova-RoboRSI-27B 正式版：27B 开源视觉语言模型，只在仿真里训练、同一权重直接上真机机械臂；RoboDojo 机器人基准平均 34.7 分，比 10 月预览版的 10.0 分翻 3 倍多，超过 GPT-6 Astra 的 27.6 分（仍低于 Opus 5.5 的 40.7 分）。模型能自主决定用 VLA 轨迹还是直接写代码控臂（三轮“模型+执行框架协同自进化”所致），Apache 2.0 开源；但真机抓取 10 次仅成 6 次，可靠性仍有限。",
+      "url": "https://www.sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138",
+      "source": "SenseTime",
+      "category": "实验室"
+    },
+    {
+      "title": "戴尔单季 AI 服务器卖出 220 亿美元：营收翻倍，积压订单 1323 亿美元",
+      "summary": "戴尔 2027 财年 Q3（截至 10 月 30 日）营收 549 亿美元、同比翻倍，AI 优化服务器销售额 220 亿美元、同比暴涨 291%，新接 AI 订单 602 亿美元、积压达创纪录的 1323 亿美元；全年营收指引上调至 2020 亿美元。不过指引隐含 Q4 的 AI 服务器销售额环比仅增约 6%，增速已在放缓。",
+      "url": "https://siliconangle.com/2026/11/24/dell-and-hp-beat-expectations-but-their-fortunes-are-diverging-as-ai-dynamics-crush-the-pc-market/",
+      "source": "SiliconANGLE",
+      "category": "实验室"
+    },
+    {
+      "title": "FCC 放行 SpaceX 百万颗轨道数据中心卫星：首颗须 2033 年前上天",
+      "summary": "美国 FCC 11 月 25 日有条件批准 SpaceX 的 Starmind 计划：在 500–1002 公里轨道内部署最多 100 万颗“轨道计算模块”卫星组成太空数据中心，利用阳光供电、为地面 AI 算力服务，称其为美国史上首个太空数据中心星座授权；但 600 公里以上须先补交轨道碎片方案，里程碑为 2033 年前至少 1 颗、2040 年前全部署完，逾期授权作废。天文学界与竞争对手曾要求否决。",
+      "url": "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/",
+      "source": "GeekWire",
+      "category": "实验室"
+    },
+    {
+      "title": "Perplexity 发布 Time Machine：让智能体搜“过去的网页”，专治事后诸葛亮式评测",
+      "summary": "Perplexity 11 月 25 日上线 Time Machine：Search API 与 Context API 新增 snapshot_as_of 参数，可把搜索与全文读取限定在指定时间点之前存档的网页快照，最远回溯 365 天；目标是解决智能体评测的“剧透”问题——用过去的问题考模型时，实时网络早已写好答案。价格与普通调用相同（搜索每千次 5 美元），不另收费。",
+      "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine",
+      "source": "Perplexity",
+      "category": "开发者"
+    },
+    {
+      "title": "OpenAI 试点 Private Inference：企业提问连 OpenAI 自己也看不见",
+      "summary": "OpenAI CEO Altman 11 月 25 日称，Private Inference 已开始首批企业客户试点：企业提问在隔离硬件上运行、经机密计算处理，OpenAI 自身也无法读取内容，且硬件安全性可独立验证；配套的 Private Safety Processing 可在不存原始内容的前提下做滥用筛查。这是 9 月 DevDay 预告的 Private Intelligence 套件的落地一步，谷歌也在做类似的 Private AI Compute；定价、支持模型与全面上线时间均未公布。",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+      "source": "The Decoder",
+      "category": "开发者"
+    }
+  ]
+}

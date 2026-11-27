@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-27",
+  "edition": 44,
+  "items": [
+    {
+      "title": "Google's Cogentic posts six maths papers in a day: unconditional factoring in L_N[1/3,105], constant 105 no threat to RSA",
+      "summary": "Google Research posted six maths papers to GitHub on November 25, all produced by its Cogentic agent (built on Gemini 4) from a single prompt each. The lead result is an unconditional, zero-error integer-factoring algorithm in expected time L_N[1/3,105] — improving the proven bound from Lenstra–Pomerance's L_N[1/2] (1992) to the same 1/3 exponent class as the number field sieve, though its constant 105 dwarfs the practical 1.92, so RSA is safe for now. Five more papers cover deterministic factoring, discrete logarithms and more; Lean formalizations are promised later, and none is peer-reviewed.",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "source": "Google Research",
+      "category": "Research"
+    },
+    {
+      "title": "OpenAI says the matrix multiplication exponent is exactly 9/4: lower bound closes the case, ruling out ω=2 (if it holds)",
+      "summary": "OpenAI added nine manuscripts to its openai/math repository on November 24, headlined by 'The matrix multiplication exponent is nine fourths': in the formal arithmetic-circuit model, the exponent ω of n×n matrix multiplication is exactly 9/4 (2.25), supplying the lower bound to match the upper bound known since October — which, if it holds, kills the long-standing hope that ω=2. The same batch also disproves the polynomial Hirsch conjecture and solves Smale's 9th problem. Caveat: the Lean machine-check so far covers only division-free circuits, and the papers are unreviewed.",
+      "url": "https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound.pdf",
+      "source": "OpenAI",
+      "category": "Research"
+    },
+    {
+      "title": "Rival's tests point to Jev's backbone: most likely Qwen3.5-35B-A3B, TypeSafe silent",
+      "summary": "Competitor Modaic reported on November 24 that timing 9,984 requests to Jev 1.14 points to the open model Qwen3.5-35B-A3B (35B total parameters, ~3B active per token in a sparse MoE): the Qwen tokenizer predicts Jev's latency better than Jev's own reported token counts (Spearman ρ 0.805 vs 0.719), and when asked which model it would like to say it is, Jev picked Qwen 74% of the time. The authors call it a fingerprint, not proof — Qwen and Gemma tokenizers nearly tie, and the near-identical Qwen3.6 cannot be ruled out. TypeSafe has never disclosed Jev's base model and has not responded.",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "source": "Modaic",
+      "category": "Labs"
+    },
+    {
+      "title": "DeepL launches Aure v2: speech-to-speech translation, delay cut in half again",
+      "summary": "DeepL launched its voice-translation model Aure v2 on November 26 at its first Unmute Summit in Tokyo: an end-to-end design collapses the old listen-translate-speak pipeline into a single step, translating speech directly into speech, with median translation delay 50% lower than the first Aure — itself only released on November 11 — while accuracy and expressiveness also improve. Six languages at launch (English, German, French, Spanish, Japanese, Korean), live now for DeepL Voice customers. All figures come from DeepL's own internal tests, with no independent verification yet.",
+      "url": "https://www.deepl.com/en/press-release/aure-v2",
+      "source": "DeepL",
+      "category": "Labs"
+    },
+    {
+      "title": "SenseTime open-sources robotics model RoboRSI-27B: trained only in simulation, beats GPT-6 Astra on RoboDojo",
+      "summary": "SenseTime released the full version of SenseNova-RoboRSI-27B on November 25: a 27B open-weight vision-language model trained only in simulation, with the same weights moved straight onto physical robot arms. It averaged 34.7 on the RoboDojo robotics benchmark, up from 10.0 for the October preview — more than triple, ahead of GPT-6 Astra's 27.6 (though still behind Opus 5.5's 40.7). The model chooses for itself between a VLA trajectory and writing code to drive the arm, the product of three rounds of model-and-harness co-evolution; Apache 2.0. But physical pick-and-place succeeded only 6 times in 10 trials, so reliability remains limited.",
+      "url": "https://www.sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138",
+      "source": "SenseTime",
+      "category": "Labs"
+    },
+    {
+      "title": "Dell sold $22 billion of AI servers in one quarter: revenue doubled, backlog hits $132.3 billion",
+      "summary": "Dell reported fiscal Q3 2027 (to October 30): revenue of $54.9 billion, double a year earlier; AI-optimized server sales of $22.0 billion, up 291% year on year; $60.2 billion in new AI orders and a record $132.3 billion backlog. Full-year revenue guidance was raised to $202 billion. The guidance implies Q4 AI server sales grow only about 6% sequentially, so the pace is already slowing.",
+      "url": "https://siliconangle.com/2026/11/24/dell-and-hp-beat-expectations-but-their-fortunes-are-diverging-as-ai-dynamics-crush-the-pc-market/",
+      "source": "SiliconANGLE",
+      "category": "Labs"
+    },
+    {
+      "title": "FCC clears SpaceX's million-satellite orbital data centers: first satellite due by 2033",
+      "summary": "The US FCC on November 25 conditionally approved SpaceX's Starmind plan: up to one million 'orbital compute module' satellites in 500–1,002 km orbits forming data centers in space, solar-powered to serve AI compute on the ground — billed as the first US authorization of a space data-center constellation. Above 600 km, SpaceX must first file a debris-mitigation plan; milestones require at least one satellite by 2033 and full deployment by 2040, or the license lapses. Astronomers and rivals had urged rejection.",
+      "url": "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/",
+      "source": "GeekWire",
+      "category": "Labs"
+    },
+    {
+      "title": "Perplexity launches Time Machine: let agents search 'the web as it was', fixing hindsight-tainted evaluations",
+      "summary": "Perplexity launched Time Machine on November 25: a new snapshot_as_of parameter for its Search and Context APIs limits search and full-page reading to archived copies of pages saved at or before a chosen timestamp, reaching back up to 365 days. The point is to fix a flaw in agent evaluation — when a model is tested on a past question, the live web already knows how the story ended. Same price as a normal call ($5 per 1,000 searches), no surcharge.",
+      "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine",
+      "source": "Perplexity",
+      "category": "Developers"
+    },
+    {
+      "title": "OpenAI pilots Private Inference: enterprise questions even OpenAI itself cannot see",
+      "summary": "OpenAI CEO Sam Altman said on November 25 that Private Inference is now being piloted with the first enterprise customers: queries run on isolated hardware under confidential computing, so OpenAI itself cannot read what is sent, and the hardware security can be independently verified. A companion system, Private Safety Processing, screens for abuse without storing the raw content. It is the first delivery from the Private Intelligence suite previewed at DevDay in September; Google is building a similar Private AI Compute. Pricing, supported models and a general-availability date are undisclosed.",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+      "source": "The Decoder",
+      "category": "Developers"
+    }
+  ]
+}

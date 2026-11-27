@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-27",
+  "edition": 44,
+  "items": [
+    {
+      "title": "GoogleのCogentic、1日で数学論文6本：無条件因数分解L_N[1/3,105]、定数105でRSAの脅威にはならず",
+      "summary": "Google Researchは11月25日、Cogenticエージェント（Gemini 4ベース）が単一プロンプトから生成した数学論文6本をGitHubに公開した。目玉は無条件・誤りゼロの整数因数分解アルゴリズムで、期待時間はL_N[1/3,105]。1992年のLenstra–PomeranceによるL_N[1/2]の証明済みboundを、数体ふるいと同じ1/3指数クラスへ引き上げたが、定数105は実用上の1.92をはるかに上回るため、RSAへの脅威は当面ない。ほか5本は決定的因数分解や離散対数など。Leanによる形式化は後日公開予定で、いずれも査読前。",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "source": "Google Research",
+      "category": "研究"
+    },
+    {
+      "title": "OpenAI、行列乗算の指数はちょうど9/4と主張：下界を補い、ω=2の予想を否定（成立すれば）",
+      "summary": "OpenAIは11月24日、openai/mathリポジトリに9本の手稿を追加した。中心は『行列乗算の指数は9/4』で、形式的算術回路モデルにおいてn×n行列乗算の指数ωがちょうど9/4（2.25）であることを示す。10月から知られていた上界に下界を補うもので、成立すればω=2という長年の期待は否定される。同バッチは多項式Hirsch予想の反証やSmaleの第9問題の解決も含む。注意点：Leanによる機械検証は現時点で除算なし回路のみをカバーし、論文はいずれも査読前。",
+      "url": "https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound.pdf",
+      "source": "OpenAI",
+      "category": "研究"
+    },
+    {
+      "title": "ライバルの実測がJevの基盤を指摘：Qwen3.5-35B-A3Bの可能性が最も高く、TypeSafeは沈黙",
+      "summary": "競合のModaicは11月24日、Jev 1.14への9,984回のリクエスト計測から、基盤はオープンなQwen3.5-35B-A3B（総パラメータ35B、トークンごとに約3Bが活性化する疎なMoE）である可能性が最も高いと報告した。QwenのトークナイザはJev自身が報告するトークン数よりJevのレイテンシをよく予測し（Spearmanのρは0.805対0.719）、「自分が何のモデルと言いたいか」と問うとJevは74％でQwenを選んだ。著者らはこれを証明ではなく指紋と呼ぶ。QwenとGemmaのトークナイザの相関はほぼ同点で、ほぼ同型のQwen3.6も排除できない。TypeSafeはJevの基盤モデルを公表したことがなく、回答もしていない。",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "source": "Modaic",
+      "category": "ラボ"
+    },
+    {
+      "title": "DeepL、Aure v2を発表：音声を直接別言語の音声へ、遅延をさらに半減",
+      "summary": "DeepLは11月26日、東京で開催した初のUnmute Summitで音声翻訳モデルAure v2を発表した。エンドツーエンド設計により「聞く→訳す→話す」の3段階を1ステップに統合し、音声を直接別言語の音声へ翻訳する。翻訳遅延の中央値は、11月11日に出たばかりの初代Aureからさらに50％減で、精度と表現力も向上した。対応言語は英語・ドイツ語・フランス語・スペイン語・日本語・韓国語の6言語で、DeepL Voiceの顧客向けに提供開始。数値はいずれもDeepL社内の内部テストによるもので、独立検証はまだない。",
+      "url": "https://www.deepl.com/en/press-release/aure-v2",
+      "source": "DeepL",
+      "category": "ラボ"
+    },
+    {
+      "title": "商湯、ロボットモデルRoboRSI-27Bをオープンソース化：シミュレーションのみで訓練、RoboDojoでGPT-6 Astra超え",
+      "summary": "商湯は11月25日、SenseNova-RoboRSI-27Bの正式版を公開した。27Bのオープンウェイト視覚言語モデルで、シミュレーションのみで訓練し、同じ重みをそのまま実機のロボットアームに載せた。RoboDojoロボットベンチマークの平均は34.7で、10月のプレビュー版の10.0から3倍以上に伸び、GPT-6 Astraの27.6を上回った（Opus 5.5の40.7には及ばない）。VLAの軌道を使うか、コードを書いてアームを直接制御するかをモデル自身が判断する。これは「モデルと実行フレームワークの協調自己進化」を3ラウンド回した成果で、Apache 2.0で公開。ただし実機でのピックアンドプレースは10回中6回の成功にとどまり、信頼性はまだ限定的。",
+      "url": "https://www.sensetime.com/en/news/sensenova-roborsi-27b-full-release-20261126-1138",
+      "source": "SenseTime",
+      "category": "ラボ"
+    },
+    {
+      "title": "Dell、1四半期でAIサーバー220億ドルを販売：売上は倍増、受注残は1,323億ドルに",
+      "summary": "Dellは2027年度第3四半期（10月30日締め）を発表。売上は549億ドルで前年同期の2倍、AI最適化サーバーは220億ドルで前年比291％増、新規AI受注は602億ドル、受注残は過去最高の1,323億ドルに達した。通期売上見通しは2,020億ドルへ引き上げられた。ただし見通しが示す第4四半期のAIサーバー売上は前期比約6％増にとどまり、伸びはすでに鈍化している。",
+      "url": "https://siliconangle.com/2026/11/24/dell-and-hp-beat-expectations-but-their-fortunes-are-diverging-as-ai-dynamics-crush-the-pc-market/",
+      "source": "SiliconANGLE",
+      "category": "ラボ"
+    },
+    {
+      "title": "FCC、SpaceXの100万基の軌道データセンター衛星を承認：初号機は2033年までに",
+      "summary": "米FCCは11月25日、SpaceXのStarmind計画を条件付きで承認した。500～1,002kmの軌道に最大100万基の「軌道計算モジュール」衛星を配置し、太陽光で動く宇宙データセンターとして地上のAIコンピュートを支えるもので、米国初の宇宙データセンター星座の認可とされる。600km以上は軌道デブリ対策案の提出が先決で、2033年までに最低1基、2040年までに全基の展開が求められ、遅れれば認可は失効する。天文学界や競合は却下を求めていた。",
+      "url": "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/",
+      "source": "GeekWire",
+      "category": "ラボ"
+    },
+    {
+      "title": "Perplexity、Time Machineを発表：エージェントに「過去のウェブ」を検索させ、後知恵まみれの評価を修正",
+      "summary": "Perplexityは11月25日、Time Machineを発表した。Search APIとContext APIにsnapshot_as_ofパラメータを追加し、検索と全文読み取りを指定した時点以前に保存されたページのスナップショットに限定する。最長365日前まで遡れる。狙いはエージェント評価の欠陥の修正で、過去の問いをモデルに解かせる際、ライブのウェブはすでに結末を知っているためだ。価格は通常の呼び出しと同じ（検索は1,000回あたり5ドル）で追加料金なし。",
+      "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine",
+      "source": "Perplexity",
+      "category": "開発者"
+    },
+    {
+      "title": "OpenAI、Private Inferenceを試験開始：企業の質問はOpenAI自身にも見えない",
+      "summary": "OpenAIのSam Altman CEOは11月25日、Private Inferenceを初の企業顧客向けに試験開始したと発表した。質問は隔離されたハードウェア上でコンフィデンシャルコンピューティングにより処理され、OpenAI自身も内容を読めず、ハードウェアの安全性は独立に検証できる。併せてPrivate Safety Processingにより、生の内容を保存せずに不正利用を審査する。9月のDevDayで予告されたPrivate Intelligenceスイートの初の具体化で、Googleも同様のPrivate AI Computeを進めている。価格、対応モデル、一般提供の時期は未公表。",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+      "source": "The Decoder",
+      "category": "開発者"
+    }
+  ]
+}

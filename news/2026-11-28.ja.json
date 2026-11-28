@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-28",
+  "edition": 45,
+  "items": [
+    {
+      "title": "OpenAI、Appleを反訴：営業秘密の窃取とサプライヤーへの圧力を主張",
+      "summary": "OpenAIは11月27日、カリフォルニア連邦地裁に反訴を提起した。OpenAIに6カ月在籍した後にAppleへ戻った元社員を通じて、AIハードウェアの試作品や製品ロードマップの営業秘密をAppleが盗んだと主張し、さらに共有サプライヤーに圧力をかけてコネクテッドデバイス市場への参入を妨げているとした。Appleの雇用慣行が従業員の競合他社への転職を阻む「罠」になっているとも指摘した。Appleは反訴を目くらましだと反論した。発端はAppleが7月にOpenAIを従業員引き抜きによる秘密窃取で訴えた訴訟で、公判は2027年7月19日に予定されている。",
+      "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
+      "source": "Reuters",
+      "category": "ラボ"
+    },
+    {
+      "title": "NVIDIA、東南アジア4カ国へのAIサーバー出荷を停止：中国企業による迂回利用の抜け穴を塞ぐ",
+      "summary": "NVIDIAはDellやSupermicroなどの製造パートナーに対し、マレーシア、シンガポール、タイ、インドネシア向けの先端AIチップ搭載サーバーの出荷を一時停止するよう通知した。期間は未定で、米国の新規則の詳細を待つ間という。Financial Timesが11月26日に報じた。背景は米商務省が11月19日に施行した暫定最終規則で、上記4カ国とブラジルへの先端チップ輸出に許可が必要となり、東南アジアのデータセンター経由で中国企業が米製チップを遠隔利用する抜け穴を塞ぐ狙いがある。シンガポールでは4億8,000万ドルのGPU購入ローンがすでに保留された。",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "category": "ラボ"
+    },
+    {
+      "title": "Issue 03 追跡更新：Liquid AI、d1.3-ultraを発表、決定指数76.4で首位に",
+      "summary": "Liquid AIは11月27日、決定モデルd1.3-ultraを発表した。Artificial Analysisの決定指数v2.1で76.4を記録し、追跡対象27モデルで首位に立った（BasetenのBison 31Bとは四捨五入で同点、未丸めでは76.4対75.9で上回る）。100万タスクあたり133ドルで、Bisonの345ドルより約6割安い。新機能はランキング、画像・音声からの数値・日付の抽出、音声内の時間帯の特定の3つ。入力は100万トークンあたり0.042ドルで、Liquidコンソールで提供中。同週にはAmazonのStrands Decider v2（11月23日、Gemma 4ベースのオープンな決定モデル5種、Apache 2.0）も公開され、決定モデルは急速にコモディティ化している。",
+      "url": "https://cryptobriefing.com/liquid-ai-d1-3-ultra-ties-bison-31b/",
+      "source": "Liquid AI",
+      "category": "ラボ"
+    },
+    {
+      "title": "OpenAI、GPT-6.2の課金ミスを認める：修正後は利用枠の消費が最大4割速く",
+      "summary": "OpenAIは11月26日、GPT-6.2の提供開始時の課金ミスで、多くのユーザーのAstraとSolの利用量が少なく計上されていたと認めた。修正により、同じ作業量でも利用枠の上限に達するまでの速度が、Astraは先週比で40％、Solは25％速くなった。遡って請求はせず、Go、Plus、Pro、Businessのユーザーには補償として利用枠リセットを1回ずつ付与する。12月からは会話とエージェントの利用枠が1つに統合される。",
+      "url": "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse",
+      "source": "Decrypt",
+      "category": "ラボ"
+    },
+    {
+      "title": "スイス、初のAIエージェントによるサイバー攻撃を確認：5件中4件が侵入、重要インフラも被害",
+      "summary": "スイス国家サイバーセキュリティセンター（NCSC）は11月24日、AIエージェントによる同国初のサイバー攻撃を確認したと発表した。5件のうち4件で攻撃者が被害者のシステムへの侵入に成功し、うち3件は重要インフラ事業者（電力、水道、通信など少なくとも2業種）を狙い、2件が成功した。攻撃者はARTEXやCyberStrikeAIといった「攻撃型エージェントフレームワーク」を使い、脆弱性を自力で探してツールを選択し侵入を実行した。ネット上で入手できるこうしたエージェントの数は10月以来ほぼ倍増した。英国NCSCも同週、9月以降AI支援型攻撃が顕著に増えたと報告した。",
+      "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+      "source": "Swiss NCSC",
+      "category": "ラボ"
+    },
+    {
+      "title": "ロシアSber、GigaChat 4をオープンソース化：708Bパラメータ、MITライセンス、SWE-bench自称80.89",
+      "summary": "ロシア最大の銀行Sberは11月26日、モスクワのAI JourneyカンファレンスでGigaChat 4を発表した。総パラメータ708B、トークンあたり41Bが活性化するハイブリッドMoE（Gated DeltaNet線形注意層48層＋DeepSeek疎注意層16層）で、コンテキストは100万トークン。旗艦モデルの重みはMITライセンスでHugging Faceに公開された。SWE-bench Verifiedの推論モードで80.89を自称するが、独立検証はなく、FP8での運用には8枚のH100を積んだノードが2台必要。37Bの小モデルは非商用ライセンス。注意：Sberは米国の制裁対象で、ダウンロード前にコンプライアンスを確認する必要がある。",
+      "url": "https://af.net/realtime/sber-releases-open-weight-708b-gigachat-4-under-mit-license/",
+      "source": "Sber",
+      "category": "ラボ"
+    },
+    {
+      "title": "DeepMind、AIエージェントにGemini実験の計算資源配分を委譲：思考の連鎖は報酬を与えず監査用に残す",
+      "summary": "DeepMindの研究担当副社長Koray Kavukcuoglu氏は11月25日の社内ポッドキャストで、同研究所が計算資源予算の一部をAIエージェントに委ね、次世代Geminiの実験をエージェントが自ら選んで実行していると明かした。監査可能性を保つため、訓練ではエージェントの内部の思考の連鎖に報酬を与えず、意図を未加工のまま平易な言葉で読めるようにしている。完全な再帰的自己改善は「まだ遠い」と強調し、エージェントが握る計算資源の割合は明かさなかった。",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "source": "The Decoder",
+      "category": "ラボ"
+    },
+    {
+      "title": "スタンフォードの物理学者がGPT-6 Astraで量子重力に挑む：83ページのプレプリントがアインシュタイン方程式の再現を主張",
+      "summary": "スタンフォード大学の物理学者Venkatesa Chandrasekaran氏は11月25日、arXivにプレプリント『An algebraic quantization of gravity from the null cone』を投稿した。光錐上の重力データから出発し、真空一般相対性理論の背景独立な量子化を提案。有限の重力子対生成振幅を与え、ベッケンシュタイン-ホーキングのブラックホールエントロピーとその対数補正を再現し、低エネルギー極限で半古典的アインシュタイン方程式を導いたとしている。謝辞によれば、GPT-6 Astraとの数カ月にわたる往復で複数の計算と証明が生まれ、約4億トークンを使った。論文は査読前で、真空の場合のみを扱い、物質場は含まれない。",
+      "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+      "source": "The Quantum Insider",
+      "category": "研究"
+    },
+    {
+      "title": "アントのMing-Image-0.2-Designがひっそりオープンソース化：6Bのデザイン画像モデルがオープン勢で首位",
+      "summary": "アント・グループのinclusionAIは文生画像モデルMing-Image-0.2-Designを11月25日にひっそりHugging Faceへ公開し、26日に発表した。60億パラメータの拡散Transformerで、ECのヒーロー画像やUI草案、空間レンダリングに特化し、MITライセンスでオープンソース化された。Artificial AnalysisのAA-Image-T2I v2.1では1,095 Eloで、オープンウェイト勢で1位、総合24位（4,936票、まだ暫定値）。キャラクターを35の編集可能なサブレイヤーに分解する付属のレイヤーモデルは来週公開される。",
+      "url": "https://www.orcarouter.ai/blog/ming-image-0-2-design-open-weights-leader",
+      "source": "Ant Group",
+      "category": "ラボ"
+    }
+  ]
+}

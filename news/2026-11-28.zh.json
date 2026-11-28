@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-28",
+  "edition": 45,
+  "items": [
+    {
+      "title": "OpenAI 反诉苹果：指其窃取商业机密、威胁供应商",
+      "summary": "OpenAI 11 月 27 日向加州联邦法院提起反诉，指控苹果通过一名在 OpenAI 工作六个月后回流苹果的前员工窃取其 AI 硬件原型与产品路线图信息，并向共享供应商施压以阻挠其进入联网设备市场；还指苹果以留人陷阱式雇佣政策阻止员工跳槽。苹果回应称反诉是为转移视线。本案源于苹果 7 月起诉 OpenAI 挖人窃密，庭审定于 2027 年 7 月 19 日。",
+      "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
+      "source": "Reuters",
+      "category": "实验室"
+    },
+    {
+      "title": "英伟达叫停东南亚四国 AI 服务器发货：堵中国企业远程用芯的后门",
+      "summary": "据《金融时报》11 月 26 日报道，英伟达已通知戴尔、超微等制造伙伴暂停向马来西亚、新加坡、泰国、印度尼西亚发运搭载先进 AI 芯片的服务器，期限未定，等待美方新规细则。背景是美国商务部 11 月 19 日生效的中期最终规则：向上述四国及巴西出口先进芯片须持许可证，以堵住中国企业经东南亚数据中心远程使用美国芯片的漏洞；新加坡一笔 4.8 亿美元的 GPU 采购贷款已因此搁置。",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "category": "实验室"
+    },
+    {
+      "title": "Issue 03 追踪更新：Liquid AI 发布 d1.3-ultra，决策指数 76.4 登顶",
+      "summary": "Liquid AI 11 月 27 日发布决策模型 d1.3-ultra：Artificial Analysis 决策指数 v2.1 得 76.4，在追踪的 27 个决策模型中居首（与 Baseten Bison 31B 四舍五入后并列、未取整后领先 76.4 对 75.9），每百万任务成本 133 美元、比 Bison 的 345 美元低约六成；新增排序、从图片与音频中提取数值与日期、在音频中定位时间段三项能力，输入价每百万 token 0.042 美元，已在 Liquid 控制台上线。同周亚马逊的 Strands Decider v2（11 月 23 日，5 个 Gemma 4 开源决策模型、Apache 2.0）亦已发布，决策模型品类正快速商品化。",
+      "url": "https://cryptobriefing.com/liquid-ai-d1-3-ultra-ties-bison-31b/",
+      "source": "Liquid AI",
+      "category": "实验室"
+    },
+    {
+      "title": "OpenAI 承认 GPT-6.2 计费出错：修好后用户额度消耗快四成",
+      "summary": "OpenAI 11 月 26 日承认，GPT-6.2 发布时的计费错误让多数用户少算了 Astra 与 Sol 的用量，现已修正：同样的工作量下，Astra 用户触及套餐上限的速度比上周快 40%，Sol 快 25%。公司称不会追收差额，并给 Go、Plus、Pro 与 Business 用户各补一次额度重置作为补偿；12 月起对话与 agent 用量将并入同一额度池。",
+      "url": "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse",
+      "source": "Decrypt",
+      "category": "实验室"
+    },
+    {
+      "title": "瑞士确认首批 AI agent 网络攻击：五起中四起得手，关键基础设施中招",
+      "summary": "瑞士国家网络安全中心 11 月 24 日发布通告：已确认该国首批由 AI agent 实施的网络攻击，5 起中 4 起成功入侵受害方系统，其中 3 起针对关键基础设施运营商（电力、供水、电信等至少两个行业）、2 起得手。攻击者使用所谓攻击性 agent 框架（如 ARTEX、CyberStrikeAI）自主找漏洞、选工具并执行入侵；网上可得的此类 agent 数量自 10 月以来几近翻倍。英国 NCSC 同周亦称 9 月以来 AI 辅助攻击显著上升。",
+      "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+      "source": "Swiss NCSC",
+      "category": "实验室"
+    },
+    {
+      "title": "俄罗斯 Sber 开源 GigaChat 4：708B 参数、MIT 协议，SWE-bench 自报 80.89",
+      "summary": "俄罗斯最大银行 Sber 11 月 26 日在莫斯科 AI Journey 大会上发布 GigaChat 4：708B 总参数、每 token 激活 41B 的混合 MoE（48 层 Gated DeltaNet 线性注意力加 16 层 DeepSeek 稀疏注意力），上下文 100 万 token，旗舰权重以 MIT 协议在 Hugging Face 开源；自报 SWE-bench Verified 推理模式 80.89 分，但未经独立验证，且 FP8 部署需 2 台 8 卡 H100。另有 37B 小模型（非商业许可）。注意：Sber 受美国制裁，下载前须核查合规要求。",
+      "url": "https://af.net/realtime/sber-releases-open-weight-708b-gigachat-4-under-mit-license/",
+      "source": "Sber",
+      "category": "实验室"
+    },
+    {
+      "title": "DeepMind 让 AI agent 自己分配算力跑 Gemini 实验：思维链刻意不奖励、留待审计",
+      "summary": "DeepMind 研究副总裁 Koray Kavukcuoglu 11 月 25 日在公司播客披露：实验室已把一部分算力预算交给 AI agent 自主支配，由其为下一代 Gemini 挑选并运行实验、无须逐项人工批准；为保可审计性，训练时不奖励 agent 的内部思维链，使其意图保持未过滤、可供人阅读。但他强调，完全的递归自我改进还很遥远，且未透露 agent 掌控的算力占比。",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "source": "The Decoder",
+      "category": "实验室"
+    },
+    {
+      "title": "斯坦福物理学家用 GPT-6 Astra 攻量子引力：83 页预印本称复现爱因斯坦方程",
+      "summary": "斯坦福物理学家 Venkatesa Chandrasekaran 11 月 25 日在 arXiv 发布预印本《An algebraic quantization of gravity from the null cone》：以光锥上的引力数据为出发点，提出真空广义相对论的背景无关量子化，给出有限的引力子对产生振幅，复现贝肯斯坦-霍金黑洞熵及其对数修正，并在低能极限下导出半经典爱因斯坦方程。致谢称数月间与 GPT-6 Astra 往复打磨出多项计算与证明、耗用约 4 亿 token；论文未经同行评审，且只覆盖真空情形、不含物质场。",
+      "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+      "source": "The Quantum Insider",
+      "category": "研究"
+    },
+    {
+      "title": "蚂蚁 Ming-Image-0.2-Design 静默开源：6B 设计生图登顶开源榜首",
+      "summary": "蚂蚁 inclusionAI 的文生图模型 Ming-Image-0.2-Design 于 11 月 25 日悄然上架 Hugging Face、26 日官宣：60 亿参数扩散 Transformer，专攻电商主图、UI 草稿与空间渲染，MIT 协议开源；在 Artificial Analysis 文生图榜 AA-Image-T2I v2.1 上以 1,095 Elo 位列开源模型第一、总榜第 24（4,936 票，仍属初步结果）；配套的图层拆解模型可把角色拆成 35 个可编辑子图层，权重下周发布。",
+      "url": "https://www.orcarouter.ai/blog/ming-image-0-2-design-open-weights-leader",
+      "source": "Ant Group",
+      "category": "实验室"
+    }
+  ]
+}

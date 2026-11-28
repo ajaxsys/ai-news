@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-28",
+  "edition": 45,
+  "items": [
+    {
+      "title": "OpenAI countersues Apple, accusing it of stealing trade secrets and threatening suppliers",
+      "summary": "OpenAI filed counterclaims in California federal court on November 27, accusing Apple of stealing trade secrets for its AI hardware prototypes and product roadmap through a former employee who worked at OpenAI for six months before returning to Apple, and of pressuring shared suppliers to hamper its entry into connected devices. It also accused Apple of 'trap'-style employment practices that stop staff leaving for rivals. Apple called the countersuit a distraction. The case stems from Apple's July suit accusing OpenAI of poaching staff to steal secrets; trial is set for July 19, 2027.",
+      "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
+      "source": "Reuters",
+      "category": "Labs"
+    },
+    {
+      "title": "Nvidia halts AI server shipments to four Southeast Asian nations, closing a back door for Chinese chip access",
+      "summary": "Nvidia has told manufacturing partners including Dell and Supermicro to pause shipments of servers carrying advanced AI chips to Malaysia, Singapore, Thailand and Indonesia, for an unspecified period pending US rule details, the Financial Times reported on November 26. The backdrop is a US Commerce Department interim final rule effective November 19 requiring licences for advanced chip exports to those four countries plus Brazil, aimed at Chinese firms remotely using American chips via Southeast Asian data centers; a $480 million GPU purchase loan in Singapore has already been put on hold.",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch",
+      "category": "Labs"
+    },
+    {
+      "title": "Issue 03 tracker: Liquid AI releases d1.3-ultra, topping the Decision Index at 76.4",
+      "summary": "Liquid AI released its d1.3-ultra decision model on November 27: it scored 76.4 on Artificial Analysis's Decision Index v2.1, first among the 27 decision models tracked (tied with Baseten's Bison 31B on rounded scores, ahead 76.4 to 75.9 unrounded), at $133 per million tasks — about 60% below Bison's $345. New capabilities include rankings, extracting numbers and dates from images and audio, and locating time spans in audio; input costs $0.042 per million tokens and it is live in the Liquid console. Amazon's Strands Decider v2 (November 23, five open Gemma 4 decision models, Apache 2.0) shipped the same week, as decision models rapidly commoditize.",
+      "url": "https://cryptobriefing.com/liquid-ai-d1-3-ultra-ties-bison-31b/",
+      "source": "Liquid AI",
+      "category": "Labs"
+    },
+    {
+      "title": "OpenAI admits GPT-6.2 billing error: fixed metering burns allowances up to 40% faster",
+      "summary": "OpenAI admitted on November 26 that a launch-day billing error undercounted GPT-6.2 Astra and Sol usage for most users; with the fix, the same workload now reaches plan limits 40% faster on Astra and 25% faster on Sol than last week. The company said it will not charge retroactively and will give Go, Plus, Pro and Business subscribers one banked usage reset each as compensation; from December, conversational and agent usage will draw on a single shared allowance.",
+      "url": "https://decrypt.co/384053/openai-fixes-chatgpt-billing-error-promises-to-make-it-40-worse",
+      "source": "Decrypt",
+      "category": "Labs"
+    },
+    {
+      "title": "Switzerland confirms first AI-agent cyberattacks: four of five breached, critical infrastructure hit",
+      "summary": "Switzerland's National Cyber Security Centre said on November 24 that it has confirmed the country's first cyberattacks carried out with AI agents: in four of five cases the attackers successfully compromised victims' systems, including three attacks on critical infrastructure operators (electricity, water, telecoms and other sectors), two of which succeeded. The attackers used 'agentic offensive frameworks' such as ARTEX and CyberStrikeAI that find vulnerabilities, pick tools and run intrusions on their own; the number of such agents reachable online has nearly doubled since October. Britain's NCSC reported the same week that AI-assisted attacks have risen markedly since September.",
+      "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+      "source": "Swiss NCSC",
+      "category": "Labs"
+    },
+    {
+      "title": "Russia's Sber open-sources GigaChat 4: 708B parameters under MIT, self-reported 80.89 on SWE-bench",
+      "summary": "Sber, Russia's largest bank, released GigaChat 4 on November 26 at its AI Journey conference in Moscow: a 708B-total-parameter hybrid MoE with 41B active per token (48 Gated DeltaNet linear-attention layers plus 16 DeepSeek sparse-attention layers), a 1M-token context, and flagship weights open-sourced on Hugging Face under the MIT licence. It self-reports 80.89 on SWE-bench Verified in reasoning mode, unverified by independent evaluators, and FP8 serving needs two 8×H100 nodes. A 37B sibling uses a noncommercial licence. Note: Sber is under US sanctions, so check compliance before downloading.",
+      "url": "https://af.net/realtime/sber-releases-open-weight-708b-gigachat-4-under-mit-license/",
+      "source": "Sber",
+      "category": "Labs"
+    },
+    {
+      "title": "DeepMind lets AI agents allocate their own compute for Gemini experiments — with chains of thought left unrewarded for audit",
+      "summary": "DeepMind VP of Research Koray Kavukcuoglu disclosed on a company podcast on November 25 that the lab now hands part of its compute budget to AI agents, which choose and run experiments for the next Gemini generation without per-step human approval. To keep them auditable, training does not reward the agents' internal chains of thought, leaving their intentions unfiltered and readable in plain language. He stressed that full recursive self-improvement remains 'far off' and did not say what share of compute the agents control.",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "source": "The Decoder",
+      "category": "Labs"
+    },
+    {
+      "title": "Stanford physicist takes on quantum gravity with GPT-6 Astra: 83-page preprint claims Einstein's equations recovered",
+      "summary": "Stanford physicist Venkatesa Chandrasekaran posted a preprint on arXiv on November 25, 'An algebraic quantization of gravity from the null cone': starting from gravitational data on light cones, it proposes a background-independent quantization of vacuum general relativity, gives a finite graviton pair-creation amplitude, reproduces Bekenstein–Hawking black-hole entropy with its logarithmic correction, and recovers the semiclassical Einstein equations at low energies. The acknowledgements say months of back-and-forth with GPT-6 Astra produced several calculations and proofs, using about 400 million tokens. The paper is unreviewed and covers only the vacuum case, with no matter fields.",
+      "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+      "source": "The Quantum Insider",
+      "category": "Research"
+    },
+    {
+      "title": "Ant's Ming-Image-0.2-Design quietly open-sourced: 6B design image model tops the open-weight board",
+      "summary": "Ant Group's inclusionAI quietly put its Ming-Image-0.2-Design text-to-image model on Hugging Face on November 25 and announced it on the 26th: a 6B-parameter diffusion transformer for e-commerce hero images, UI drafts and spatial renders, open-sourced under the MIT licence. On Artificial Analysis's AA-Image-T2I v2.1 board it scored 1,095 Elo, first among open-weight models and 24th overall (4,936 votes, still preliminary). A companion layer model that splits a character into 35 editable sublayers follows next week.",
+      "url": "https://www.orcarouter.ai/blog/ming-image-0-2-design-open-weights-leader",
+      "source": "Ant Group",
+      "category": "Labs"
+    }
+  ]
+}
